@@ -1,0 +1,14 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kernel_fig/peak: sbatch --wait, 1 cores, 2G, 30 min
+[hopper_run] job 1243773 on hop048.orc.gmu.edu
+d=0.6854 eta=0.1000  |Phi(i eta)|=0.980498  max=0.980498 at x=0.000000  ((1/2)log 2=0.346574)  grid max of the figure 0.980498 at x=+0.00
+d=0.3927 eta=0.3927  |Phi(i eta)|=3.24183  max=3.24183 at x=0.000000  ((1/2)log 2=0.346574)  grid max of the figure 3.24183 at x=+0.00
+d=0.1    eta=0.6854  |Phi(i eta)|=20.0862  max=76.497 at x=0.126040  ((1/2)log 2=0.346574)  grid max of the figure 76.3999 at x=-0.13
+d=0.02   eta=0.7654  |Phi(i eta)|=0.0121869  max=3942.36 at x=0.346574  ((1/2)log 2=0.346574)  grid max of the figure 3802.33 at x=-0.35
+d=0.01   eta=0.7754  |Phi(i eta)|=8.8965e-10  max=22298.6 at x=0.346574  ((1/2)log 2=0.346574)  grid max of the figure 19409.4 at x=-0.35
+[hopper_run] job 1243809 on hop048.orc.gmu.edu
+d=0.6854 eta=0.1000  |Phi(i eta)|=0.980498  max=0.980498 at x=0.000000  ((1/2)log 2=0.346574)  grid max of the figure 0.980498 at x=+0.00  max on the grid of step 0.002: 0.980498 at x=0.000
+d=0.3927 eta=0.3927  |Phi(i eta)|=3.24183  max=3.24183 at x=0.000000  ((1/2)log 2=0.346574)  grid max of the figure 3.24183 at x=+0.00  max on the grid of step 0.002: 3.24183 at x=0.000
+d=0.1    eta=0.6854  |Phi(i eta)|=20.0862  max=76.497 at x=0.126040  ((1/2)log 2=0.346574)  grid max of the figure 76.3999 at x=-0.13  max on the grid of step 0.002: 76.497 at x=0.126
+d=0.02   eta=0.7654  |Phi(i eta)|=0.0121869  max=3942.36 at x=0.346574  ((1/2)log 2=0.346574)  grid max of the figure 3802.33 at x=-0.35  max on the grid of step 0.002: 3938.31 at x=0.346
+d=0.01   eta=0.7754  |Phi(i eta)|=8.8965e-10  max=22298.6 at x=0.346574  ((1/2)log 2=0.346574)  grid max of the figure 19409.4 at x=-0.35  max on the grid of step 0.002: 22207.2 at x=0.346
+exit 0

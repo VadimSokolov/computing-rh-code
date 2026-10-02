@@ -1,0 +1,22 @@
+[hopper_run] job 1243029 on hop051.orc.gmu.edu
+[0, 200] with 24 nodes per panel: 807 panels, 0.7 s, largest Arb radius of v_1 2.6e-37
+[0, 200] with 12 nodes per panel: 807 panels, 0.3 s, largest Arb radius of v_1 2.6e-37
+extension to 2000: 6.8 s
+authors grid: 1.5 s; max |r(mp.diff) - r(Arb)| = 0.00e+00
+k=1  1/zeta(2k)=0.6079271  table=0.6079108  truncated=0.6079289  err table -2.6811e-05 = weyl +2.9886e-06 (/w 2.9886e-06) + quad -2.9799e-05  | GGC trunc 0.9772440 exact 0.9772411  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -1.4825e-09, trapezoid_0.025_60 +2.9774e-05, trapezoid_60_200 +2.7094e-08, weyl_tail_quad -7.2040e-16; extension rel err/w at 500, 1000, 2000: +9.721e-07, -1.511e-08, -1.606e-08
+k=2  1/zeta(2k)=0.9239384  table=0.9239355  truncated=0.9239633  err table -3.1179e-06 = weyl +2.6895e-05 (/w 2.9883e-06) + quad -3.0012e-05  | GGC trunc 0.8144496 exact 0.8144277  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -1.8874e-09, trapezoid_0.025_60 +2.9771e-05, trapezoid_60_200 +2.4356e-07, weyl_tail_quad -1.6825e-15; extension rel err/w at 500, 1000, 2000: +9.721e-07, -1.511e-08, -1.606e-08
+k=3  1/zeta(2k)=0.9829526  table=0.9829961  truncated=0.9830260  err table +4.4289e-05 = weyl +7.4696e-05 (/w 2.9878e-06) + quad -3.0404e-05  | GGC trunc 0.5701841 exact 0.5701415  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -2.0757e-09, trapezoid_0.025_60 +2.9732e-05, trapezoid_60_200 +6.7497e-07, weyl_tail_quad -2.0566e-15; extension rel err/w at 500, 1000, 2000: +9.720e-07, -1.511e-08, -1.606e-08
+k=4  1/zeta(2k)=0.9959392  table=0.9960541  truncated=0.9960850  err table +1.1537e-04 = weyl +1.4637e-04 (/w 2.9871e-06) + quad -3.0988e-05  | GGC trunc 0.3394447 exact 0.3393950  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -2.1997e-09, trapezoid_0.025_60 +2.9672e-05, trapezoid_60_200 +1.3183e-06, weyl_tail_quad -3.2989e-15; extension rel err/w at 500, 1000, 2000: +9.720e-07, -1.511e-08, -1.606e-08
+k=5  1/zeta(2k)=0.9990064  table=0.9992163  truncated=0.9992480  err table +2.1010e-04 = weyl +2.4187e-04 (/w 2.9861e-06) + quad -3.1759e-05  | GGC trunc 0.1742778 exact 0.1742356  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -2.2923e-09, trapezoid_0.025_60 +2.9593e-05, trapezoid_60_200 +2.1692e-06, weyl_tail_quad -3.8944e-15; extension rel err/w at 500, 1000, 2000: +9.720e-07, -1.510e-08, -1.606e-08
+k=6  1/zeta(2k)=0.9997540  table=1.0000823  truncated=1.0001150  err table +3.2843e-04 = weyl +3.6116e-04 (/w 2.9848e-06) + quad -3.2714e-05  | GGC trunc 0.0782578 exact 0.0782296  | rerun vs json +0.0e+00
+      quadrature error in I by piece: origin_0_0.025 -2.3663e-09, trapezoid_0.025_60 +2.9495e-05, trapezoid_60_200 +3.2219e-06, weyl_tail_quad -7.9955e-15; extension rel err/w at 500, 1000, 2000: +9.719e-07, -1.510e-08, -1.606e-08
+cutoff 200: arg zeta(1 + i200) = -0.385221, predicted rel err/w +3.0776e-06, observed (k=1) +2.9886e-06
+cutoff 500: arg zeta(1 + i500) = -0.763763, predicted rel err/w +9.7323e-07, observed (k=1) +9.7207e-07
+cutoff 1000: arg zeta(1 + i1000) = +0.048029, predicted rel err/w -1.5191e-08, observed (k=1) -1.5106e-08
+cutoff 2000: arg zeta(1 + i2000) = +0.202631, predicted rel err/w -1.6113e-08, observed (k=1) -1.6058e-08
+origin prediction 2h(1 - log(2pi)/2) b_1/pi = 2.97965e-05; GL 24 vs 12 max diff 2.6e-23; extension 12 vs 24 on [1900, 2000] 2.3e-27; total 12 s

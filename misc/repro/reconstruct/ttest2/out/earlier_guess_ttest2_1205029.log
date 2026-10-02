@@ -1,0 +1,10 @@
+delta=0.10 prec=200 h=0.004 xmax=4 (2001 nodes)
+nodes 2001
+200 err 1.64e-45 relrad 2.63e-52 sec 0.008
+500 err 9.83e-42 relrad 5.71e-39 sec 0.007
+1000 err 1.79e-20 relrad 1.27e-17 sec 0.007
+delta=0.02 prec=220 h=0.001 xmax=4.2 (8401 nodes)
+nodes 8401
+1000 err 5.14e-45 relrad 7.94e-56 sec 0.03
+2000 err 3.71e-45 relrad 7.15e-48 sec 0.031
+5000 err 2.89e-25 relrad 3.53e-22 sec 0.03

@@ -1,0 +1,151 @@
+job 1242889 on hop069.orc.gmu.edu start Sat Sep 26 21:19:54 EDT 2026
+Model name:          Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+3.11.4 numpy 2.4.6 scipy 1.17.1 mpmath 1.3.0 flint 0.9.0 matplotlib 3.11.2
+md5 of the archived scripts used:
+334929720cca457a5edbc870da2ba3c3  /scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/code/plots.py
+16993744bac599a121ad2ccb620c9145  /scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/code/polya_flint.py
+2c40eb7bdb1eeb9c9c97615144a31f5e  /scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/code/primeside.py
+flint 240 bits: 0.1s
+flint 420 bits: 0.0s
+mpmath dps 30: 0.6s
+mpmath dps 50: 0.7s
+candidate                            book_polya                  extra_polya                   book_exact
+flint_240_ball        3/18 eq, max rel 9.07e-16   18/18 eq, max rel 0.00e+00   18/18 eq, max rel 0.00e+00
+flint_240_pyc         2/18 eq, max rel 7.25e-16   11/18 eq, max rel 4.29e-16   11/18 eq, max rel 4.29e-16
+flint_240_np          4/18 eq, max rel 7.33e-16    8/18 eq, max rel 4.29e-16    8/18 eq, max rel 4.29e-16
+flint_420_ball        3/18 eq, max rel 9.07e-16   18/18 eq, max rel 0.00e+00   18/18 eq, max rel 0.00e+00
+flint_420_pyc         2/18 eq, max rel 7.25e-16   11/18 eq, max rel 4.29e-16   11/18 eq, max rel 4.29e-16
+flint_420_np          4/18 eq, max rel 7.33e-16    8/18 eq, max rel 4.29e-16    8/18 eq, max rel 4.29e-16
+mp_30_mp              3/18 eq, max rel 9.07e-16   18/18 eq, max rel 0.00e+00   18/18 eq, max rel 0.00e+00
+mp_30_np              4/18 eq, max rel 7.33e-16    8/18 eq, max rel 4.29e-16    8/18 eq, max rel 4.29e-16
+mp_50_mp              3/18 eq, max rel 9.07e-16   18/18 eq, max rel 0.00e+00   18/18 eq, max rel 0.00e+00
+mp_50_np              4/18 eq, max rel 7.33e-16    8/18 eq, max rel 4.29e-16    8/18 eq, max rel 4.29e-16
+
+ulps of each candidate against the archived polya column (rows in file order):
+flint_240_ball     -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+flint_240_pyc      -2 +1 +0 -1 -1 +0 -1 -3 +2 -2 -3 -4 -4 -1 +1 -3 -4 +1
+flint_240_np       -3 +1 +0 +0 -1 +0 -1 -4 +2 -2 -3 -4 -3 +0 +1 -4 -4 +1
+flint_420_ball     -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+flint_420_pyc      -2 +1 +0 -1 -1 +0 -1 -3 +2 -2 -3 -4 -4 -1 +1 -3 -4 +1
+flint_420_np       -3 +1 +0 +0 -1 +0 -1 -4 +2 -2 -3 -4 -3 +0 +1 -4 -4 +1
+mp_30_mp           -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+mp_30_np           -3 +1 +0 +0 -1 +0 -1 -4 +2 -2 -3 -4 -3 +0 +1 -4 -4 +1
+mp_50_mp           -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+mp_50_np           -3 +1 +0 +0 -1 +0 -1 -4 +2 -2 -3 -4 -3 +0 +1 -4 -4 +1
+extra.json polya   -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+book exact         -3 -1 +0 -1 +0 +1 -1 -3 +2 -2 -3 -5 -4 +1 +0 -3 -4 +1
+shim_variants rc=0 2s
+primeside rc=0 3s
+3.0 2.0 0.11649945643698131 0.11649945643711004 0.11649945643711004 -1.287303597052869e-13 0.0
+3.0 5.0 0.12939969120268652 0.12939969120281594 0.1293996912028159 -1.2936873794444637e-13 5.551115123125783e-17
+3.0 14.134725 0.5614472387886602 0.561447238788771 0.561447238788771 -1.1080025785759062e-13 0.0
+3.0 20.0 0.6082460311777326 0.6082460311771555 0.6082460311771554 5.772049505026189e-13 1.1102230246251565e-16
+3.0 35.0 0.7673415075280724 0.7673415073813922 0.7673415073813923 1.4668011250051904e-10 -1.1102230246251565e-16
+3.0 50.0 1.1209670147400683 1.120967015288831 1.1209670152888311 -5.487628129685618e-10 -2.220446049250313e-16
+2.0 2.0 0.07039890102967017 0.07039933934523906 0.07039933934523906 -4.383155688958418e-07 0.0
+2.0 5.0 0.07867160909155158 0.07867210031026466 0.07867210031026467 -4.912187130945433e-07 -1.3877787807814457e-17
+2.0 14.134725 0.7663986947274366 0.7663991696065204 0.7663991696065204 -4.748790838338124e-07 0.0
+2.0 20.0 0.6264706789414867 0.6264712009702827 0.6264712009702827 -5.220287960794323e-07 0.0
+2.0 35.0 0.615633350871215 0.6156338378850152 0.6156338378850152 -4.870138002877056e-07 0.0
+2.0 50.0 1.2244757140578133 1.2244762169084338 1.2244762169084336 -5.02850620254236e-07 2.220446049250313e-16
+1.5 2.0 0.045789237345489564 0.047039559308561026 0.04703955930856102 -0.0012503219630714546 6.938893903907228e-18
+1.5 5.0 0.05128594266403619 0.052673932533803765 0.05267393253380377 -0.0013879898697675835 -6.938893903907228e-18
+1.5 14.134725 1.065762504227727 1.0671400806659013 1.067140080665901 -0.001377576438174044 2.220446049250313e-16
+1.5 20.0 0.6046679253318765 0.6061136416602566 0.6061136416602567 -0.0014457163283801977 -1.1102230246251565e-16
+1.5 35.0 0.46756937295894807 0.4689653613701483 0.4689653613701483 -0.0013959884112002552 0.0
+1.5 50.0 1.3852882144579595 1.386706213218173 1.386706213218173 -0.0014179987602134236 0.0
+plots rc=0 5s
+/scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/run/plots.py:61: RuntimeWarning: invalid value encountered in divide
+  P=lambda a,x: a/(np.pi*(a*a+x*x))
+-1.2506879156776307 0.39810632809078905
+/scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/run:
+total 1431
+drwxr-sr-x 2 vsokolov scratch    4096 Sep 26 21:20 .
+drwxr-sr-x 2 vsokolov scratch    4096 Sep 26 21:19 ..
+-rw-r--r-- 1 vsokolov scratch    4086 Sep 26 21:19 analysis.json
+-rw-r--r-- 1 vsokolov scratch    4819 Sep 26 21:20 extra.json
+drwxr-sr-x 2 vsokolov scratch    4096 Sep 26 21:20 fig
+-rw-r--r-- 1 vsokolov scratch    8223 Sep 26 21:19 hcm.json
+-rw-r--r-- 1 vsokolov scratch 1418856 Sep 26 21:19 plotcurves.npz
+-rw-r--r-- 1 vsokolov scratch     206 Sep 26 21:20 plots.out
+-rw-r--r-- 1 vsokolov scratch    6679 Sep 26 21:19 plots.py
+-rw-r--r-- 1 vsokolov scratch    1299 Sep 26 21:19 polya_flint.py
+-rw-r--r-- 1 vsokolov scratch    1777 Sep 26 21:19 polya.py
+-rw-r--r-- 1 vsokolov scratch    1884 Sep 26 21:20 primeside.out
+-rw-r--r-- 1 vsokolov scratch    1396 Sep 26 21:19 primeside.py
+drwxr-sr-x 2 vsokolov scratch    4096 Sep 26 21:20 __pycache__
+-rw-r--r-- 1 vsokolov scratch    4539 Sep 26 21:20 results_prime.json
+-rw-r--r-- 1 vsokolov scratch    7751 Sep 26 21:20 sens2.json
+
+/scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/run/fig:
+total 209
+drwxr-sr-x 2 vsokolov scratch  4096 Sep 26 21:20 .
+drwxr-sr-x 2 vsokolov scratch  4096 Sep 26 21:20 ..
+-rw-r--r-- 1 vsokolov scratch 32161 Sep 26 21:20 cumulative.pdf
+-rw-r--r-- 1 vsokolov scratch 34228 Sep 26 21:20 density.pdf
+-rw-r--r-- 1 vsokolov scratch 26276 Sep 26 21:20 hcm.pdf
+-rw-r--r-- 1 vsokolov scratch 23242 Sep 26 21:20 matched.pdf
+-rw-r--r-- 1 vsokolov scratch 21429 Sep 26 21:20 rates.pdf
+-rw-r--r-- 1 vsokolov scratch 21013 Sep 26 21:20 sensitivity.pdf
+-rw-r--r-- 1 vsokolov scratch 22962 Sep 26 21:20 weaklimit.pdf
+-rw-r--r-- 1 vsokolov scratch 31208 Sep 26 21:20 zdensity.pdf
+== results_prime.json
+   162 numbers: 148 bitwise equal, 162 within rel 1e-9, 0 beyond; max rel diff 7.33e-16; structural differences: 0
+   [15]/polya: book 0.606113641660257 | rerun 0.6061136416602566 (rel 7.33e-16, -4 ulp)
+   [11]/polya: book 1.2244762169084347 | rerun 1.2244762169084338 (rel 7.25e-16, -4 ulp)
+   [7]/polya: book 0.07867210031026471 | rerun 0.07867210031026466 (rel 7.06e-16, -4 ulp)
+   [10]/polya: book 0.6156338378850156 | rerun 0.6156338378850152 (rel 5.41e-16, -3 ulp)
+   [16]/polya: book 0.46896536137014855 | rerun 0.4689653613701483 (rel 4.73e-16, -4 ulp)
+   [12]/polya: book 0.047039559308561046 | rerun 0.047039559308561026 (rel 4.43e-16, -3 ulp)
+   [0]/polya: book 0.11649945643711009 | rerun 0.11649945643711004 (rel 3.57e-16, -3 ulp)
+   [9]/polya: book 0.626471200970283 | rerun 0.6264712009702827 (rel 3.54e-16, -2 ulp)
+   field alpha       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field b           :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field c           :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field gamma       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field pole        :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field primes      :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field bracket     :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field polya       :   18 numbers,    4 bitwise equal, max rel 7.327e-16, max 4 ulp
+   field exact       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+== extra.json
+   164 numbers: 164 bitwise equal, 164 within rel 1e-9, 0 beyond; max rel diff 0.0; structural differences: 0
+   field XipXi200    :    1 numbers,    1 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field pred_coeff  :    1 numbers,    1 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field alpha       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field b           :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field c           :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field gamma       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field pole        :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field primes      :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field bracket     :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field polya       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field exact       :   18 numbers,   18 bitwise equal, max rel 0.000e+00, max 0 ulp
+== sens2.json
+   480 numbers: 480 bitwise equal, 480 within rel 1e-9, 0 beyond; max rel diff 0.0; structural differences: 0
+   field r           :  120 numbers,  120 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field tvd         :  120 numbers,  120 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field tvo         :  120 numbers,  120 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field neg         :  120 numbers,  120 bitwise equal, max rel 0.000e+00, max 0 ulp
+== results_main.json
+   not produced by this run (no script in the run writes it)
+alpha          b      gamma closed form  scipy - closed (book) scipy - closed (rerun)  book bracket - exact  bracket_cf - exact
+  3.0   2.000000  0.0533100849494029042             -2.782e-17             -2.782e-17            -1.287e-13          -1.287e-13
+  3.0   5.000000   0.229827256941975919             -1.086e-16             -1.086e-16            -1.294e-13          -1.293e-13
+  3.0  14.134725   0.645095566136589276              2.526e-15              2.526e-15            -1.108e-13          -1.134e-13
+  3.0  20.000000    0.80933425522577025              7.128e-13              7.128e-13             5.772e-13          -1.356e-13
+  3.0  35.000000    1.08270083299095998              1.468e-10              1.468e-10             1.467e-10          -1.181e-13
+  3.0  50.000000    1.25942178499711355             -5.486e-10             -5.486e-10            -5.488e-10          -1.266e-13
+  2.0   2.000000  0.0859329927620049189             -1.561e-17             -1.561e-17            -4.383e-07          -4.383e-07
+  2.0   5.000000   0.322502269062535024             -9.457e-17             -9.457e-17            -4.912e-07          -4.912e-07
+  2.0  14.134725   0.777001406358503677             -5.550e-16             -5.550e-16            -4.749e-07          -4.749e-07
+  2.0  20.000000   0.945267959335977648              3.752e-15              3.752e-15            -5.220e-07          -5.220e-07
+  2.0  35.000000    1.22147171113276355             -2.177e-14             -2.177e-14            -4.870e-07          -4.870e-07
+  2.0  50.000000    1.39891114427106925             -7.130e-12             -7.130e-12            -5.029e-07          -5.028e-07
+  1.5   2.000000   0.113716894575138246             -3.252e-17             -3.252e-17            -1.250e-03          -1.250e-03
+  1.5   5.000000   0.388615952031543784             -1.406e-16             -1.406e-16            -1.388e-03          -1.388e-03
+  1.5  14.134725   0.861327339152547403             -2.194e-14             -2.194e-14            -1.378e-03          -1.378e-03
+  1.5  20.000000    1.03123323781234386              2.356e-13              2.356e-13            -1.446e-03          -1.446e-03
+  1.5  35.000000    1.30856944931437896             -3.478e-13             -3.478e-13            -1.396e-03          -1.396e-03
+  1.5  50.000000    1.48629281222944305             -1.564e-10             -1.564e-10            -1.418e-03          -1.418e-03
+end Sat Sep 26 21:20:07 EDT 2026

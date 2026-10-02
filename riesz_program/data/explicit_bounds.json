@@ -1,0 +1,55 @@
+{
+ "python_flint": "0.9.0",
+ "prec_bits": 128,
+ "zeros": {
+  "count": 1800,
+  "gamma_1": "[14.13472514173469379045725 +/- 1.99e-24]",
+  "gamma_1800": "[2304.3051386703745336 +/- 2.89e-18]",
+  "largest_gap": "[6.887314497036861202171228 +/- 3.90e-25]",
+  "largest_gap_between": [
+   "[14.1347251417347 +/- 6.22e-15]",
+   "[21.0220396387716 +/- 4.51e-14]"
+  ]
+ },
+ "window": {
+  "H": 14,
+  "n_2000": "[17.798097567751036009 +/- 3.72e-20]",
+  "derivative_factor_at_2000": "[4.15925626794721 +/- 3.16e-15]"
+ },
+ "Sigma0": {
+  "main_term": "[1.47970363091240e-12 +/- 4.25e-27]",
+  "error_bound": "[1.487031631e-24 +/- 4.55e-35]",
+  "two_times_1.48e-12_over_pi": "[9.42197263104020e-13 +/- 3.88e-28]"
+ },
+ "part3_lower_bound_at_6e-10": "[9.54736540017872e-13 +/- 1.52e-28]",
+ "threshold_9.43e-13_pi_gamma1_sq": "[5.91883592324739e-10 +/- 6.45e-26]",
+ "strip": {
+  "seven_eighths_plus_E_at_gamma_1": "[3.96658091823 +/- 3.35e-12]",
+  "rhs_at_gamma_1": "[6.38412053101 +/- 3.65e-12]",
+  "lhs_slope_bound": "[0.01534941362 +/- 4.70e-12]",
+  "rhs_slope": "[0.4516621630 +/- 6.18e-12]",
+  "C4_bound_T0_3e12_u_le_1": "[7.661235575e-11 +/- 4.42e-21]"
+ },
+ "checks": {
+  "all_real_parts_exactly_one_half": true,
+  "gaps_positive": true,
+  "gamma_1800_gt_2000": true,
+  "every_gap_lt_6.8874": true,
+  "half_of_6.8874_lt_gamma_1": true,
+  "H_lt_gamma_1": true,
+  "n_2000_gt_17": true,
+  "derivative_factor_at_2000_positive": true,
+  "E_increasing_beyond_2000_minus_H": true,
+  "T0_over_2_plus_H_lt_T0": true,
+  "Sigma0_main_term_matches_1.4797e-12": true,
+  "Sigma0_error_lt_2e-24": true,
+  "Sigma0_lt_1.48e-12": true,
+  "two_times_1.48e-12_over_pi_lt_9.43e-13": true,
+  "lower_bound_at_6e-10_gt_9.5e-13": true,
+  "strip_N_bound_at_gamma_1": true,
+  "strip_slopes": true,
+  "strip_constant_T0_ge_2": true
+ },
+ "all_checks_true": true,
+ "elapsed_s": 8.8
+}

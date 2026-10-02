@@ -1,0 +1,8 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/plots_extra: sbatch --wait, 1 cores, 4G, 20 min
+[hopper_run] job 1243767 on hop047.orc.gmu.edu
+-1.2506879156776307 0.39810632809078905 5.436650959450781
+keys archived: ['XipXi200', 'pred_coeff', 'prime']; keys patched: ['XipXi200', 'pred_coeff', 'kappa_cell', 'cell_leaks', 'prime']
+archived keys with identical values: 3 of 3 (XipXi200, pred_coeff, prime)
+kappa_cell patched 5.436650959450781; Arb at the exact cells [5.43665095945071355706096042488607789094969652 +/- 2.30e-45] (difference 6.75e-14, from the float64 cells)
+cell_leaks: 79 values, max |patched - Arb| = 1.03e-13, sum 0.3981063280907891, min -0.224273 (cell 72), max 0.251279 (cell 79)
+exit 0 (attempt 1)

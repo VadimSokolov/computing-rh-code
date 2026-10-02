@@ -1,0 +1,132 @@
+# Reproducibility comparison: book data/*.json against a fresh run on Hopper
+
+## Script runs
+
+- analyse: {'rc': 0, 'seconds': 6.7}
+- arith: {'rc': 0, 'seconds': 15.8}
+- bosch_v7: {'rc': 1, 'seconds': 387.5}
+- clockgrid: {'rc': 0, 'seconds': 47.4}
+- dbn: {'rc': 0, 'seconds': 12.1}
+- deconv: {'rc': 0, 'seconds': 41.5}
+- deconvplot: {'rc': 0, 'seconds': 8.2}
+- enclosures: {'rc': 0, 'seconds': 11.1}
+- hazard_spec: {'rc': 0, 'seconds': 4.9}
+- hcm: {'rc': 0, 'seconds': 1.9}
+- hitting: {'rc': 0, 'seconds': 1609.3}
+- hitting2: {'rc': 0, 'seconds': 411.5}
+- kenttail: {'rc': 0, 'seconds': 9.8}
+- kenttail2: {'rc': 0, 'seconds': 97.3}
+- kmono: {'rc': 0, 'seconds': 5.5}
+- lchi12: {'rc': 0, 'seconds': 106.5}
+- lehmer: {'rc': 0, 'seconds': 15.1}
+- lehmer_dbn: {'rc': 0, 'seconds': 41.4}
+- lehmerflowplot: {'rc': 0, 'seconds': 74.9}
+- lfun: {'rc': 0, 'seconds': 53.9}
+- li: {'rc': 0, 'seconds': 4.7}
+- lplots: {'rc': 0, 'seconds': 82.9}
+- lsin2: {'rc': 0, 'seconds': 32.1}
+- mc: {'rc': 0, 'seconds': 17.1}
+- mc2: {'rc': 0, 'seconds': 19.9}
+- part1: {'rc': 0, 'seconds': 38.8}
+- part2_0.005: {'rc': 0, 'seconds': 180.7}
+- part2_0.01: {'rc': 0, 'seconds': 177.8}
+- part2_0.02: {'rc': 0, 'seconds': 99.2}
+- part2_0.05: {'rc': 0, 'seconds': 41.6}
+- part2_0.1: {'rc': 0, 'seconds': 26.5}
+- part2_0.25: {'rc': 0, 'seconds': 8.3}
+- part2_0.5: {'rc': 0, 'seconds': 4.7}
+- part2_1.0: {'rc': 0, 'seconds': 3.5}
+- plots: {'rc': None, 'skipped': 'dependency primeside failed'}
+- plots2: {'rc': 0, 'seconds': 2.1}
+- plots4: {'rc': 0, 'seconds': 3.0}
+- primeside: {'rc': 1, 'seconds': 17.2}
+- rsboundary: {'rc': 0, 'seconds': 32.5}
+- selberg: {'rc': 0, 'seconds': 19.7}
+- sensitivity: {'rc': 0, 'seconds': 1.5}
+- spot_checks: {'rc': 0, 'seconds': 522.4}
+- tilted: {'rc': 0, 'seconds': 1.1}
+- ttest: {'rc': 1, 'seconds': 1.3}
+- ttest2: {'rc': 1, 'seconds': 0.8}
+- turing1000: {'rc': 0, 'seconds': 110.8}
+- turing_ig: {'rc': 0, 'seconds': 31.9}
+- volterra: {'rc': 0, 'seconds': 48.4}
+- williams_mc: {'rc': 0, 'seconds': 67.5}
+- zeros: {'rc': 0, 'seconds': 94.0}
+
+## Output comparison (relative tolerance 1e-9)
+
+- analysis.json: agrees (131 numbers, max rel diff 7.12e-10)
+- arith.json: agrees (63 numbers, max rel diff 0.0)
+- clockgrid.json: agrees (441 numbers, max rel diff 0.0)
+- dbn.json: agrees (35 numbers, max rel diff 0.0)
+- deconv.json: 6 differences beyond 1e-9 among 66 numbers (max rel 0.209); first ones:
+    - /0.0/sec: book 5.13663625717163 | rerun 6.27016162872314  (rel 0.181)
+    - /0.005/sec: book 5.23865127563477 | rerun 6.10379767417908  (rel 0.142)
+    - /0.01/sec: book 4.78681468963623 | rerun 5.69225764274597  (rel 0.159)
+    - /0.02/sec: book 5.01646780967712 | rerun 5.54724931716919  (rel 0.0957)
+    - /0.05/sec: book 3.71217322349548 | rerun 4.69566130638123  (rel 0.209)
+    - /0.1/sec: book 6.40021586418152 | rerun 6.34578227996826  (rel 0.0085)
+- extra.json: agrees (164 numbers, max rel diff 0.0)
+- hankel.json: NOT REGENERATED
+- hazard_spec.json: agrees (3284 numbers, max rel diff 0.0)
+- hcm.json: agrees (324 numbers, max rel diff 0.0)
+- kenttail.json: agrees (80 numbers, max rel diff 0.0)
+- kenttail2.json: agrees (146 numbers, max rel diff 0.0)
+- kmono.json: agrees (6 numbers, max rel diff 0.0)
+- lchi12.json: agrees (16089 numbers, max rel diff 0.0)
+- lehmer.json: agrees (261 numbers, max rel diff 0.0)
+- lehmer_dbn.json: agrees (3 numbers, max rel diff 0.0)
+- lfun.json: 6 differences beyond 1e-9 among 82 numbers (max rel 0.566); first ones:
+    - /zeta/node_time: book 0.0396513938903809 | rerun 0.0449061393737793  (rel 0.117)
+    - /zeta/per_point: book 0.00952935965374263 | rerun 0.0121556566219137  (rel 0.216)
+    - /chi12/node_time: book 0.0877945423126221 | rerun 0.202188014984131  (rel 0.566)
+    - /chi12/per_point: book 0.0127614218779285 | rerun 0.0166801934290414  (rel 0.235)
+    - /Delta/node_time: book 0.0509815216064453 | rerun 0.103292465209961  (rel 0.506)
+    - /Delta/per_point: book 0.0106720218754778 | rerun 0.0137600325574779  (rel 0.224)
+- li.json: agrees (100 numbers, max rel diff 0.0)
+- lrho.json: agrees (1580 numbers, max rel diff 0.0)
+- lsin2.json: agrees (3405 numbers, max rel diff 0.0)
+- mc.json: agrees (1203 numbers, max rel diff 0.0)
+- mc2.json: agrees (1609 numbers, max rel diff 9.31e-13)
+- part1.json: agrees (167 numbers, max rel diff 0.0)
+- results_main.json: NOT REGENERATED
+- results_prime.json: agrees (162 numbers, max rel diff 0.0)
+- results_sens.json: agrees (104 numbers, max rel diff 0.0)
+- rsboundary.json: agrees (10174 numbers, max rel diff 5.15e-14)
+- selberg.json: 31 differences beyond 1e-9 among 4020 numbers (max rel 2.05e-8); first ones:
+    - /curvez_300[25]: book 5.88075714097469e-8 | rerun 5.88075715207692e-8  (rel 1.89e-9)
+    - /curvez_300[45]: book 4.51288129088567e-8 | rerun 4.51288124647675e-8  (rel 9.84e-9)
+    - /curvez_300[66]: book 1.07263930376744e-7 | rerun 1.07263930265722e-7  (rel 1.04e-9)
+    - /curvez_300[180]: book 4.37855654650265e-8 | rerun 4.37855652429819e-8  (rel 5.07e-9)
+    - /curvez_300[191]: book 4.19709442756044e-8 | rerun 4.19709440535598e-8  (rel 5.29e-9)
+    - /curvez_300[199]: book 1.23278586228182e-8 | rerun 1.23278587338405e-8  (rel 9.01e-9)
+    - /curvez_300[225]: book 1.01345704273115e-7 | rerun 1.0134570405107e-7  (rel 2.19e-9)
+    - /curvez_300[386]: book 2.93531997597185e-8 | rerun 2.93531995376739e-8  (rel 7.56e-9)
+    - /curvez_300[439]: book 1.07613933097994e-7 | rerun 1.07613933209016e-7  (rel 1.03e-9)
+    - /curvez_3000[2]: book 7.12320344098405e-8 | rerun 7.12320341877959e-8  (rel 3.12e-9)
+    - /curvez_3000[13]: book 4.8081634715369e-8 | rerun 4.80816349374136e-8  (rel 4.62e-9)
+    - /curvez_3000[18]: book 6.86055517395978e-8 | rerun 6.86055516285755e-8  (rel 1.62e-9)
+- sens2.json: agrees (480 numbers, max rel diff 0.0)
+- sinh_bench.json: NOT REGENERATED
+- spacing.json: NOT REGENERATED
+- turing1000.json: 2 differences beyond 1e-9 among 7 numbers (max rel 0.294); first ones:
+    - /sec: book 77.5163261890411 | rerun 109.746022224426  (rel 0.294)
+    - /mp_sec: book 0.0169193744659424 | rerun 0.0197391510009766  (rel 0.143)
+- turing_ig.json: agrees (55 numbers, max rel diff 0.0)
+- volterra.json: agrees (5805 numbers, max rel diff 2.25e-13)
+- williams_mc.json: agrees (40 numbers, max rel diff 0.0)
+- verif/enclosures_report.md: identical to the archived report
+- verif/spot_checks_report.md: not produced
+- logs/bosch_v7.out: DIFFERS from the archived report (see diff)
+
+## Note of 28 September 2026: changes since this run
+
+This report records the run of 25 September. The changes of 26 and 27 September, patched and reconstructed scripts, are recorded in misc/repro/archive-changes.md. The GPT review round and its follow ups (misc/gpt-review/fixes/) then corrected three of the scripts run here, the labels of a fourth and the enclosure program, and added four programs; each changed or added program was run on Hopper after the change.
+
+- verification_reciprocal_zeta/enclosures.py adds the tails of E3 and E5 and compares every bound with the number the text uses. The enclosures_report.md compared above has been replaced by its output (48 checks, all certified; job 1313087, reproduced by job 1313898).
+- code/dbn.py, lehmer_dbn.py and lsin2.py were corrected (dbn.json by jobs 1313074 and 1313084, lehmer_dbn.json by 1313072, lsin2.json by 1313073).
+- code/plots.py: the axis label and title of fig/matched.pdf were corrected, and the figure redrawn by running only its block "# Fig 5" (job 1313103; misc/gpt-review/fixes/main-session.md).
+- Added: code/hcm_arb.py (rerun as job 1323299 from data/hcm.json: hcm_arb.json identical), code/saddle.py (job 1318699: saddle.json, 24 of 24 checks true), verification_reciprocal_zeta/certify_k9_k2.py (rerun as job 1313900: certify_k9_k2.json identical), and, for item 133 of the authors' report, code/dbnplot.py (job 1323845: fig/dbn.pdf from data/dbn.json).
+- In the Riesz package, run_riesz.py now also runs riesz_program/code/v1min.py, rewritten, and explicit_bounds.py, added; see the note in compare_riesz_report.md.
+- The programs of verification_reciprocal_zeta/torus/ run as Slurm arrays by the steps of torus/README.md; the checks of their enclosures are in misc/gpt-review/triage/numerics/N3.md and its addendum.
+- The whole driver was run again on 28 September, after all of these changes, in an empty folder (job 1324655): compare_report_0928.md, where every run ends without error and the outputs agree as above, apart from recorded running times and one host name.

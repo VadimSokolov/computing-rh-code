@@ -1,0 +1,24 @@
+[hopper_run] job 1242657 on hop064.orc.gmu.edu
+k 1 G(1+k)^2/G(1+2k) = 1 = 1.0  mpmath 1.0  Arb 1.000000000000000000000000000000000000000000000000000000000000000000000000000
+k 2 G(1+k)^2/G(1+2k) = 1/12 = 0.08333333333333333  mpmath 0.08333333333333333  Arb [0.08333333333333333333333333333333333333333333333333333333333333333333333333333 +/- 3.70e-78]
+k 3 G(1+k)^2/G(1+2k) = 1/8640 = 0.00011574074074074075  mpmath 0.00011574074074074075  Arb [0.0001157407407407407407407407407407407407407407407407407407407407407407407407407 +/- 4.17e-80]
+k 1 mismatches with the closed form for N <= 10000: product 0, beta decomposition 0, Toeplitz 0
+N     10 k 1  E|Z_N|^{2k} = 11  ratio 1.1  (killing2 formula 1.1, Arb 1.10000000000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.000000
+N     20 k 1  E|Z_N|^{2k} = 21  ratio 1.05  (killing2 formula 1.05, Arb 1.05000000000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.000000
+N    100 k 1  E|Z_N|^{2k} = 101  ratio 1.01  (killing2 formula 1.01, Arb 1.01000000000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.000000
+N   1000 k 1  E|Z_N|^{2k} = 1001  ratio 1.001  (killing2 formula 1.001, Arb 1.00100000000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.000000
+N  10000 k 1  E|Z_N|^{2k} = 10001  ratio 1.0001  (killing2 formula 1.0001, Arb 1.00010000000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.000000
+k 2 mismatches with the closed form for N <= 10000: product 0, beta decomposition 0, Toeplitz 0
+N     10 k 2  E|Z_N|^{2k} = 1716  ratio 0.1716  (killing2 formula 0.1716, Arb 0.171600000000)  quoted 0.1716 ok True  (ratio/Barnes-1)N/k^3 1.324000
+N     20 k 2  E|Z_N|^{2k} = 19481  ratio 0.12175625  (killing2 formula 0.12175625, Arb 0.121756250000)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.152688
+N    100 k 2  E|Z_N|^{2k} = 9019401  ratio 0.09019401  (killing2 formula 0.09019401, Arb 0.0901940100000)  quoted 0.0902 ok True  (ratio/Barnes-1)N/k^3 1.029101
+N   1000 k 2  E|Z_N|^{2k} = 84001919001  ratio 0.084001919001  (killing2 formula 0.084001919001, Arb 0.0840019190010)  quoted 0.0840 ok True  (ratio/Barnes-1)N/k^3 1.002879
+N  10000 k 2  E|Z_N|^{2k} = 834000191690001  ratio 0.083400019169  (killing2 formula 0.083400019169, Arb 0.0834000191690)  quoted 0.0834 ok True  (ratio/Barnes-1)N/k^3 1.000288
+k 3 mismatches with the closed form for N <= 10000: product 0, beta decomposition 0, Toeplitz 0
+N     10 k 3  E|Z_N|^{2k} = 1184183  ratio 0.001184183  (killing2 formula 0.001184183, Arb 0.00118418300000)  quoted 1.18e-3 ok True  (ratio/Barnes-1)N/k^3 3.419015
+N     20 k 3  E|Z_N|^{2k} = 206108980  ratio 0.000402556601562  (killing2 formula 0.000402556601562, Arb 0.000402556601562)  quoted None ok None  (ratio/Barnes-1)N/k^3 1.835622
+N    100 k 3  E|Z_N|^{2k} = 150930018962996  ratio 0.000150930018963  (killing2 formula 0.000150930018963, Arb 0.000150930018963)  quoted 1.51e-4 ok True  (ratio/Barnes-1)N/k^3 1.126057
+N   1000 k 3  E|Z_N|^{2k} = 118902795266912972516201  ratio 0.000118902795267  (killing2 formula 0.000118902795267, Arb 0.000118902795267)  quoted 1.189e-4 ok True  (ratio/Barnes-1)N/k^3 1.011857
+N  10000 k 3  E|Z_N|^{2k} = 1.160536e+32  ratio 0.000116053609044  (killing2 formula 0.000116053609044, Arb 0.000116053609044)  quoted 1.1605e-4 ok True  (ratio/Barnes-1)N/k^3 1.001179
+killing.json entries agree: True
+all quoted values correct: True  all checks pass: True  seconds 3.6

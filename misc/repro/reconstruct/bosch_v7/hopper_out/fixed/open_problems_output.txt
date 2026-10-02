@@ -1,0 +1,10 @@
+t=0.05  series density 0.00034769345992343   (4/pi) eta(4it/pi)^3 0.00034769345992343
+t=0.3  series density 0.690050269211105   (4/pi) eta(4it/pi)^3 0.690050269211105
+t=1.0  series density 0.467927261554653   (4/pi) eta(4it/pi)^3 0.467927261554653
+t=3.0  series density 0.0633908642552182   (4/pi) eta(4it/pi)^3 0.0633908642552182
+check LT at s=2: int e^{-st} f = 0.214383752348, sech(pi sqrt2/2) = 0.214383752348
+p=0.5: prime region starts at |z|=0.70718; sufficient inequality holds for all |z|>3.9768  (tau_1 = 250.1), checked to |z|=6.68e+13
+p=0.9: prime region starts at |z|=3.1965; sufficient inequality holds for all |z|>10.707  (tau_1 = 194.17), checked to |z|=3.02e+14
+p=0.99: prime region starts at |z|=31.835; sufficient inequality holds for all |z|>67.284  (tau_1 = 4928.9), checked to |z|=3.01e+15
+p=0.999: prime region starts at |z|=318.34; sufficient inequality holds for all |z|>534.43  (tau_1 = 2.8923e+5), checked to |z|=3.01e+16
+asymptotic check p=0.9 |z|=1e8: Im[zG]/|z| = 8.299897931, 0.5[sin th log(|z|/2pi)+th cos th] = 8.299897931

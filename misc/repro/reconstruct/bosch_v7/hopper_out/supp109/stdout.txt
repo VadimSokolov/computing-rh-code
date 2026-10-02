@@ -1,0 +1,2 @@
+first gap 6.8873145  largest later gap among n<1000: 5.41402 at n= 3
+(extra) first 1000 zeros: first gap 6.887314497, largest later gap 5.4140185 at n=3, next ones [(8, '4.67808'), (5, '4.65112')]; gamma_1000 = 1419.42248095

@@ -1,0 +1,35 @@
+job 1242244 on hop047.orc.gmu.edu start Sat Sep 26 21:10:16 EDT 2026
+top level: {'N_ok': True, 'T_rel': 0.0, 'T_bitwise': True, 'B_ok': True, 'gamma_window_rel': 0.0, 'gamma_window_bitwise': 12, 'n_window': 12}
+
+field npts: 1 candidates; best:
+   len                                      max rel 0.000e+00  0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00 0.0e+00  (6/6 rows bitwise)
+field minrho: 2 candidates; best:
+   min(F)/pi                                max rel 8.219e-14  2.4e-16 3.1e-15 4.9e-15 1.8e-14 8.2e-14 5.4e-14  (0/6 rows bitwise)
+   min(F/pi)                                max rel 8.219e-14  2.4e-16 3.1e-15 4.9e-15 1.8e-14 8.2e-14 5.4e-14  (0/6 rows bitwise)
+field mass: 3 candidates; best:
+   trapezoid                                max rel 3.252e-15  1.5e-16 1.5e-15 5.9e-16 3.3e-15 1.3e-15 1.2e-15  (0/6 rows bitwise)
+   simpson                                  max rel 2.834e-07  2.8e-07 2.4e-08 3.1e-09 3.9e-10 2.5e-11 3.1e-12  (0/6 rows bitwise)
+   argument                                 max rel 2.835e-07  2.8e-07 2.4e-08 3.1e-09 3.9e-10 2.5e-11 3.1e-12  (0/6 rows bitwise)
+field tv_raw: 4 candidates; best:
+   trapezoid_Rld                            max rel 7.356e-11  2.6e-14 4.2e-12 3.6e-12 4.0e-11 4.3e-11 7.4e-11  (0/6 rows bitwise)
+   simpson_Rld                              max rel 7.357e-11  3.0e-11 7.1e-13 2.4e-12 4.0e-11 4.3e-11 7.4e-11  (0/6 rows bitwise)
+   simpson_R64                              max rel 8.099e-11  3.1e-11 5.4e-13 2.8e-12 4.2e-11 4.4e-11 8.1e-11  (0/6 rows bitwise)
+   trapezoid_R64                            max rel 8.216e-11  1.5e-14 4.4e-12 4.1e-12 4.2e-11 4.5e-11 8.2e-11  (0/6 rows bitwise)
+field tv: 12 candidates; best:
+   trapezoid_Rld_tail_Tstar_log             max rel 3.928e-01  3.9e-01 3.9e-01 3.9e-01 3.9e-01 3.9e-01 3.8e-01  (0/6 rows bitwise)
+   trapezoid_R64_tail_Tstar_log             max rel 3.928e-01  3.9e-01 3.9e-01 3.9e-01 3.9e-01 3.9e-01 3.8e-01  (0/6 rows bitwise)
+   trapezoid_Rld_tail_Tstar_log48           max rel 3.972e-01  4.0e-01 4.0e-01 4.0e-01 4.0e-01 3.9e-01 3.9e-01  (0/6 rows bitwise)
+   trapezoid_R64_tail_Tstar_log48           max rel 3.972e-01  4.0e-01 4.0e-01 4.0e-01 4.0e-01 3.9e-01 3.9e-01  (0/6 rows bitwise)
+field sup: 12 candidates; best:
+   max_R64_tail_Tstar_log                   max rel 5.434e-01  5.4e-01 5.4e-01 5.3e-01 4.9e-01 3.9e-01 4.6e-01  (0/6 rows bitwise)
+   max_Rld_tail_Tstar_log                   max rel 5.434e-01  5.4e-01 5.4e-01 5.3e-01 4.9e-01 4.0e-01 4.7e-01  (0/6 rows bitwise)
+   max_R64_tail_Tstar_log48                 max rel 5.467e-01  5.5e-01 5.4e-01 5.3e-01 4.9e-01 3.9e-01 4.6e-01  (0/6 rows bitwise)
+   max_Rld_tail_Tstar_log48                 max rel 5.468e-01  5.5e-01 5.4e-01 5.3e-01 4.9e-01 4.0e-01 4.7e-01  (0/6 rows bitwise)
+field atom_masses: 10 candidates; best:
+   mask_le_lastB                            max rel 2.620e-14  8.7e-16 4.2e-15 4.4e-15 2.0e-14 1.1e-14 2.6e-14  (0/6 rows bitwise)
+   mask_gt_lastB                            max rel 2.093e-04  2.1e-04 3.5e-05 9.0e-06 2.3e-06 3.7e-07 9.2e-08  (0/6 rows bitwise)
+   mask_lt_lastB                            max rel 5.426e-03  5.4e-03 9.6e-04 2.5e-04 6.2e-05 9.9e-06 2.5e-06  (0/6 rows bitwise)
+   interp_trapz_lastB                       max rel 1.029e-02  1.0e-02 2.4e-03 4.8e-04 1.1e-04 1.4e-05 5.1e-06  (0/6 rows bitwise)
+
+best candidates: {'npts': 'len', 'minrho': 'min(F)/pi', 'mass': 'trapezoid', 'tv_raw': 'trapezoid_Rld', 'tv': 'trapezoid_Rld_tail_Tstar_log', 'sup': 'max_R64_tail_Tstar_log', 'atom_masses': 'mask_le_lastB'}
+rc=0 end Sat Sep 26 21:10:23 EDT 2026

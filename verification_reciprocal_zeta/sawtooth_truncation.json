@@ -1,0 +1,259 @@
+{
+ "script": "sawtooth_truncation.py",
+ "what": "RMS of S and RMS errors of the truncated sawtooth and classical series on tau in [10,50], Chapter rz3 after Proposition rz:prop:sawtrunc",
+ "definitions": {
+  "S": "N(tau) - 1 - theta(tau)/pi, exact count of the ten zeros below 50",
+  "saw": "sum_{2<=N<=N0} w_N B_N Sigma_{log N}(tau), Sigma = floor(y+1/2) - y, y = tau log N/(2 pi)",
+  "classical": "-(1/pi) sum_{2<=n<=N0} w_n Lambda(n) n^{-1/2} (log n)^{-1} sin(tau log n)",
+  "cesaro_weight": "w_N = 1 - log N/log N0 (unweighted: w = 1)",
+  "rms": "square root of the mean of squares over the grid points"
+ },
+ "grids": {
+  "h=1e-3": {
+   "points": 40001,
+   "first": 10.0,
+   "last": 50.0
+  },
+  "h=1e-3 shifted by 5e-4": {
+   "points": 40000,
+   "first": 10.0005,
+   "last": 49.9995
+  },
+  "h=5e-4": {
+   "points": 80001,
+   "first": 10.0,
+   "last": 50.0
+  },
+  "h=2.5e-4": {
+   "points": 160001,
+   "first": 10.0,
+   "last": 50.0
+  }
+ },
+ "checks": {
+  "zeros_vs_odlyzko_max_dev": 3.2769781808321554e-10,
+  "zeros_below_50": [
+   14.134725141734695,
+   21.022039638771556,
+   25.01085758014569,
+   30.424876125859512,
+   32.93506158773919,
+   37.586178158825675,
+   40.9187190121475,
+   43.327073280915,
+   48.00515088116716,
+   49.7738324776723
+  ],
+  "S_vs_principal_arg_zeta_max_dev_300_random_points": 1.4217166778255163e-25,
+  "max_abs_S_on_finest_grid": 0.7707697056122607,
+  "mean_S_on_finest_grid": -0.015259971537372565,
+  "S_at": {
+   "10": -0.023719897999744943,
+   "20": -0.37780035138809576,
+   "30": -0.5648774443614166,
+   "40": -0.29281525589219354,
+   "50": 0.5770855779393015
+  },
+  "B_N_vs_necklace_formula_max_dev": 1.1102230246251565e-16,
+  "first_B_vs_text_max_dev": 1.1102230246251565e-16,
+  "sawtooth_formula_vs_count_max_dev": 0.0
+ },
+ "results": {
+  "100": {
+   "prime_powers": 35,
+   "half_sum_abs_B": 4.296938529365084,
+   "grids": {
+    "h=1e-3": {
+     "rms_S": 0.3195390552090223,
+     "rms_err_saw_cesaro": 0.23800236086554064,
+     "rms_err_classical_cesaro": 0.17555383820365217,
+     "rms_err_saw_unweighted": 0.2998243501101393,
+     "rms_err_classical_unweighted": 0.1358196023908124
+    },
+    "h=1e-3 shifted by 5e-4": {
+     "rms_S": 0.31953188577356134,
+     "rms_err_saw_cesaro": 0.2378929911243033,
+     "rms_err_classical_cesaro": 0.17554935369214547,
+     "rms_err_saw_unweighted": 0.2996790967072601,
+     "rms_err_classical_unweighted": 0.1358250475991665
+    },
+    "h=5e-4": {
+     "rms_S": 0.3195354705562079,
+     "rms_err_saw_cesaro": 0.2379476829622823,
+     "rms_err_classical_cesaro": 0.17555159599024645,
+     "rms_err_saw_unweighted": 0.2997517331148663,
+     "rms_err_classical_unweighted": 0.13582232498824506
+    },
+    "h=2.5e-4": {
+     "rms_S": 0.3195333899051513,
+     "rms_err_saw_cesaro": 0.2379186992585833,
+     "rms_err_classical_cesaro": 0.1755504771605217,
+     "rms_err_saw_unweighted": 0.29970869533388284,
+     "rms_err_classical_unweighted": 0.13582219275627974
+    }
+   },
+   "seconds": 0.1
+  },
+  "1000": {
+   "prime_powers": 193,
+   "half_sum_abs_B": 9.042719015571548,
+   "grids": {
+    "h=1e-3": {
+     "rms_S": 0.3195390552090223,
+     "rms_err_saw_cesaro": 0.22830700774893067,
+     "rms_err_classical_cesaro": 0.1462673870765477,
+     "rms_err_saw_unweighted": 0.30834681582161566,
+     "rms_err_classical_unweighted": 0.11844553269447758
+    },
+    "h=1e-3 shifted by 5e-4": {
+     "rms_S": 0.31953188577356134,
+     "rms_err_saw_cesaro": 0.22817542509538297,
+     "rms_err_classical_cesaro": 0.1462646615617367,
+     "rms_err_saw_unweighted": 0.30815649699340625,
+     "rms_err_classical_unweighted": 0.11841942635319284
+    },
+    "h=5e-4": {
+     "rms_S": 0.3195354705562079,
+     "rms_err_saw_cesaro": 0.22824122672682765,
+     "rms_err_classical_cesaro": 0.14626602434252486,
+     "rms_err_saw_unweighted": 0.3082516722851723,
+     "rms_err_classical_unweighted": 0.11843248040633285
+    },
+    "h=2.5e-4": {
+     "rms_S": 0.3195333899051513,
+     "rms_err_saw_cesaro": 0.22820129990718055,
+     "rms_err_classical_cesaro": 0.14626533855677443,
+     "rms_err_saw_unweighted": 0.3081876921624853,
+     "rms_err_classical_unweighted": 0.11842916132426493
+    }
+   },
+   "seconds": 0.7
+  },
+  "10000": {
+   "prime_powers": 1280,
+   "half_sum_abs_B": 18.51421524313604,
+   "grids": {
+    "h=1e-3": {
+     "rms_S": 0.3195390552090223,
+     "rms_err_saw_cesaro": 0.22305409988361904,
+     "rms_err_classical_cesaro": 0.12788322491319093,
+     "rms_err_saw_unweighted": 0.314385750578187,
+     "rms_err_classical_unweighted": 0.14152651924381077
+    },
+    "h=1e-3 shifted by 5e-4": {
+     "rms_S": 0.31953188577356134,
+     "rms_err_saw_cesaro": 0.22289058567469175,
+     "rms_err_classical_cesaro": 0.1278815104399325,
+     "rms_err_saw_unweighted": 0.31415475546565436,
+     "rms_err_classical_unweighted": 0.14151890125818103
+    },
+    "h=5e-4": {
+     "rms_S": 0.3195354705562079,
+     "rms_err_saw_cesaro": 0.22297235879001445,
+     "rms_err_classical_cesaro": 0.12788236769015024,
+     "rms_err_saw_unweighted": 0.31427027568889226,
+     "rms_err_classical_unweighted": 0.14152271034986602
+    },
+    "h=2.5e-4": {
+     "rms_S": 0.3195333899051513,
+     "rms_err_saw_cesaro": 0.2229252786129756,
+     "rms_err_classical_cesaro": 0.1278820050924583,
+     "rms_err_saw_unweighted": 0.31422553696570704,
+     "rms_err_classical_unweighted": 0.14151940267187854
+    }
+   },
+   "seconds": 4.5
+  },
+  "100000": {
+   "prime_powers": 9700,
+   "half_sum_abs_B": 40.62732293831246,
+   "grids": {
+    "h=1e-3": {
+     "rms_S": 0.3195390552090223,
+     "rms_err_saw_cesaro": 0.2178448480100945,
+     "rms_err_classical_cesaro": 0.11507259963294418,
+     "rms_err_saw_unweighted": 0.4066448384399401,
+     "rms_err_classical_unweighted": 0.2865363939836828
+    },
+    "h=1e-3 shifted by 5e-4": {
+     "rms_S": 0.31953188577356134,
+     "rms_err_saw_cesaro": 0.2176617994283245,
+     "rms_err_classical_cesaro": 0.11507112821053436,
+     "rms_err_saw_unweighted": 0.4065811027577466,
+     "rms_err_classical_unweighted": 0.28659186071837506
+    },
+    "h=5e-4": {
+     "rms_S": 0.3195354705562079,
+     "rms_err_saw_cesaro": 0.21775334409761748,
+     "rms_err_classical_cesaro": 0.11507186393328743,
+     "rms_err_saw_unweighted": 0.4066129722459897,
+     "rms_err_classical_unweighted": 0.2865641283463689
+    },
+    "h=2.5e-4": {
+     "rms_S": 0.3195333899051513,
+     "rms_err_saw_cesaro": 0.21770426120014746,
+     "rms_err_classical_cesaro": 0.1150716126044511,
+     "rms_err_saw_unweighted": 0.4066184319940584,
+     "rms_err_classical_unweighted": 0.28656256788761664
+    }
+   },
+   "seconds": 33.7
+  }
+ },
+ "grid_spread": {
+  "100": {
+   "rms_S": 7.1694354609741495e-06,
+   "rms_err_saw_cesaro": 0.00010936974123734733,
+   "rms_err_classical_cesaro": 4.484511506697153e-06,
+   "rms_err_saw_unweighted": 0.0001452534028791863,
+   "rms_err_classical_unweighted": 5.445208354104558e-06
+  },
+  "1000": {
+   "rms_S": 7.1694354609741495e-06,
+   "rms_err_saw_cesaro": 0.00013158265354770715,
+   "rms_err_classical_cesaro": 2.725514811008356e-06,
+   "rms_err_saw_unweighted": 0.0001903188282094126,
+   "rms_err_classical_unweighted": 2.6106341284734547e-05
+  },
+  "10000": {
+   "rms_S": 7.1694354609741495e-06,
+   "rms_err_saw_cesaro": 0.00016351420892729562,
+   "rms_err_classical_cesaro": 1.7144732584184474e-06,
+   "rms_err_saw_unweighted": 0.00023099511253266147,
+   "rms_err_classical_unweighted": 7.617985629732038e-06
+  },
+  "100000": {
+   "rms_S": 7.1694354609741495e-06,
+   "rms_err_saw_cesaro": 0.0001830485817699845,
+   "rms_err_classical_cesaro": 1.471422409818346e-06,
+   "rms_err_saw_unweighted": 6.373568219347758e-05,
+   "rms_err_classical_unweighted": 5.546673469225549e-05
+  }
+ },
+ "book_values_before": {
+  "saw_cesaro": {
+   "1000": 0.23,
+   "10000": 0.228,
+   "100000": 0.223
+  },
+  "classical_cesaro": {
+   "1000": 0.147,
+   "10000": 0.128,
+   "100000": 0.116
+  },
+  "rms_S": 0.324,
+  "half_sum_abs_B": {
+   "1000": 9.0,
+   "10000": 18.5,
+   "100000": 40.6
+  }
+ },
+ "software": {
+  "python": "3.11.4",
+  "numpy": "2.4.6",
+  "mpmath": "1.3.0",
+  "host": "hop061.orc.gmu.edu"
+ },
+ "seconds_theta": 20.8,
+ "seconds_total": 60.1
+}

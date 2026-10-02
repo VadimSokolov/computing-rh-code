@@ -1,0 +1,162 @@
+[
+ {
+  "recipe": "(A0-A1)/pi+(C0-C1)/pi",
+  "identical": 79,
+  "max_rel": 0.0,
+  "coef": {
+   "np.sum(np.abs)": true,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(A1-A0)/pi-(C1-C0)/pi",
+  "identical": 79,
+  "max_rel": 0.0,
+  "coef": {
+   "np.sum(np.abs)": true,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-((A1+C1)-(A0+C0))/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-((A1-A0)+(C1-C0))/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "((A0+C0)-(A1+C1))/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(np.diff(A)+np.diff(C))/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "np.diff(-A-C)/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "(np.diff(-A)+np.diff(-C))/pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "(((A0-A1)+C0)-C1)/pi",
+  "identical": 57,
+  "max_rel": 3.4139731196708758e-15,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "(((A0+C0)-A1)-C1)/pi",
+  "identical": 57,
+  "max_rel": 3.4139731196708758e-15,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(((A1-A0)+C1)-C0)/pi",
+  "identical": 56,
+  "max_rel": 4.534480190490227e-15,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(((A1+C1)-A0)-C0)/pi",
+  "identical": 56,
+  "max_rel": 4.534480190490227e-15,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-((A1-A0)+(C1-C0))*(1/pi)",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(1/pi)*((A1+C1)-(A0+C0))",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "(A0+C0)/pi-(A1+C1)/pi",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": true,
+   "math.fsum(abs)": false
+  }
+ },
+ {
+  "recipe": "-(A1/pi+C1/pi)+(A0/pi+C0/pi)",
+  "identical": 9,
+  "max_rel": 1.0790041916812433e-13,
+  "coef": {
+   "np.sum(np.abs)": false,
+   "sum(abs) sequential": false,
+   "math.fsum(abs)": false
+  }
+ }
+]

@@ -1,0 +1,2 @@
+[p13_arith_exact] job 1243545_5 on hop065.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+5 251 300 max relative difference 9.74e-71 at n = 255

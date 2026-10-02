@@ -1,0 +1,3 @@
+/scratch/vsokolov/rh_book_repro/agents/reconstruct_primeside/run/plots.py:61: RuntimeWarning: invalid value encountered in divide
+  P=lambda a,x: a/(np.pi*(a*a+x*x))
+-1.2506879156776307 0.39810632809078905

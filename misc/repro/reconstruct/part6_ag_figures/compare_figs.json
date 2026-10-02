@@ -1,0 +1,1116 @@
+{
+ "ag_almost": [
+  {
+   "panel": 0,
+   "xlim_old": [
+    0.4750000004420952,
+    1.024996727749667
+   ],
+   "xlim_new": [
+    0.4749950060691202,
+    1.0249934023422504
+   ],
+   "ylim_old": [
+    -0.04999999999999949,
+    1.049987945998072
+   ],
+   "ylim_new": [
+    -0.05001398004724217,
+    1.0500000002556034
+   ],
+   "styles_old": [
+    "#000000 lw 0.70 dash [[], 0]",
+    "#808080 lw 1.50 dash [[1.5, 2.475], 0.0]",
+    "#c0392b lw 1.50 dash [[], 0]",
+    "#d68910 lw 1.50 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#000000 lw 0.70 dash [[], 0]",
+    "#808080 lw 1.50 dash [[1.5, 2.475], 0.0]",
+    "#c0392b lw 1.50 dash [[], 0]",
+    "#d68910 lw 1.50 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "Ingham",
+     "color": "#d68910",
+     "vertices": 24,
+     "x_range": [
+      0.5000000003048933,
+      0.999999999695107
+     ],
+     "y_range": [
+      4.996003610813204e-16,
+      1.0000000000000009
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 3.1339312256406515e-09
+    },
+    {
+     "version": "old",
+     "name": "Guth and Maynard",
+     "color": "#c0392b",
+     "vertices": 15,
+     "x_range": [
+      0.7006688972449273,
+      0.999999999695107
+     ],
+     "y_range": [
+      4.996003610813204e-16,
+      0.6904088476374164
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 4.867363845306727e-09
+    },
+    {
+     "version": "old",
+     "name": "density hypothesis",
+     "color": "#808080",
+     "vertices": 3,
+     "x_range": [
+      0.5000000003048933,
+      0.999999999695107
+     ],
+     "y_range": [
+      4.996003610813204e-16,
+      1.0000000000000009
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 6.097875537847131e-10
+    },
+    {
+     "version": "old",
+     "name": "level 1",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      0.4750000004420952,
+      1.024999999557905
+     ],
+     "y_range": [
+      1.0000000000000009,
+      1.0000000000000009
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 8.881784197001252e-16
+    },
+    {
+     "version": "new",
+     "name": "Ingham",
+     "color": "#d68910",
+     "vertices": 25,
+     "x_range": [
+      0.49999999999999967,
+      0.9999999999999996
+     ],
+     "y_range": [
+      8.520104066711554e-10,
+      0.9999999991479895
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 4.61356006176139e-09
+    },
+    {
+     "version": "new",
+     "name": "Guth and Maynard",
+     "color": "#c0392b",
+     "vertices": 15,
+     "x_range": [
+      0.6999999999999996,
+      0.9999999999999996
+     ],
+     "y_range": [
+      8.520104066711554e-10,
+      0.692307689686121
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 6.590489015634304e-09
+    },
+    {
+     "version": "new",
+     "name": "density hypothesis",
+     "color": "#808080",
+     "vertices": 3,
+     "x_range": [
+      0.49999999999999967,
+      0.9999999999999996
+     ],
+     "y_range": [
+      8.520104066711554e-10,
+      0.9999999991479895
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 8.520111283161214e-10
+    },
+    {
+     "version": "new",
+     "name": "level 1",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      0.47500000159839856,
+      1.0249999984016007
+     ],
+     "y_range": [
+      0.9999999991479895,
+      0.9999999991479895
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 8.520104621823066e-10
+    }
+   ]
+  },
+  {
+   "panel": 1,
+   "xlim_old": [
+    283.2002276639484,
+    300.8001229485229
+   ],
+   "xlim_new": [
+    283.2001207662265,
+    300.80006950912446
+   ],
+   "ylim_old": [
+    -1.2875596229045694,
+    3.5488875077164916
+   ],
+   "ylim_new": [
+    -1.287621070557591,
+    3.5489405028584384
+   ],
+   "styles_old": [
+    "#000000 lw 0.50 dash [[0.5, 0.825], 0.0]",
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 0.80 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#000000 lw 0.50 dash [[0.5, 0.825], 0.0]",
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 0.80 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "line only",
+     "color": "#808080",
+     "vertices": 322,
+     "x_range": [
+      284.0000000292697,
+      300.0000000195132
+     ],
+     "y_range": [
+      0.0691559364416583,
+      3.298694660647695
+     ],
+     "max_distance_to_data_grid": 4.019710786451469e-08,
+     "max_abs_error_against_data": 1.6765948934738262e-08
+    },
+    {
+     "version": "old",
+     "name": "with hypothetical zeros",
+     "color": "#1b4f72",
+     "vertices": 327,
+     "x_range": [
+      284.0000000292697,
+      300.0000000195132
+     ],
+     "y_range": [
+      -1.0677187079101453,
+      3.329099591978334
+     ],
+     "max_distance_to_data_grid": 4.019710786451469e-08,
+     "max_abs_error_against_data": 1.729751558654513e-08
+    },
+    {
+     "version": "old",
+     "name": "dotted line at tj[4]",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      292.3999999882921,
+      292.3999999882921
+     ],
+     "y_range": [
+      -1.2875596229045694,
+      3.548940506972759
+     ],
+     "max_distance_to_data_grid": 0.001773832994501845,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      283.20000003317233,
+      300.8000000156106
+     ],
+     "y_range": [
+      -1.0599852551251843e-08,
+      -1.0599852551251843e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.0599852551251843e-08
+    },
+    {
+     "version": "new",
+     "name": "line only",
+     "color": "#808080",
+     "vertices": 321,
+     "x_range": [
+      284.0000000068198,
+      299.99999999512863
+     ],
+     "y_range": [
+      0.06924549311667683,
+      3.2986946725014654
+     ],
+     "max_distance_to_data_grid": 3.9623216707695974e-08,
+     "max_abs_error_against_data": 1.644487412910678e-08
+    },
+    {
+     "version": "new",
+     "name": "with hypothetical zeros",
+     "color": "#1b4f72",
+     "vertices": 327,
+     "x_range": [
+      284.0000000068198,
+      299.99999999512863
+     ],
+     "y_range": [
+      -1.0677186852403682,
+      3.3290995841445996
+     ],
+     "max_distance_to_data_grid": 3.9623216707695974e-08,
+     "max_abs_error_against_data": 1.7498576809771293e-08
+    },
+    {
+     "version": "new",
+     "name": "dotted line at tj[4]",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      292.4017738159523,
+      292.4017738159523
+     ],
+     "y_range": [
+      -1.2875596039542072,
+      3.5489405028584384
+     ],
+     "max_distance_to_data_grid": 5.334300112735946e-09,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      283.1999999869448,
+      300.8000000150036
+     ],
+     "y_range": [
+      7.866885365359622e-09,
+      7.866885365359622e-09
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 7.866885365359622e-09
+    }
+   ]
+  },
+  {
+   "panel": 2,
+   "xlim_old": [
+    283.19977234522224,
+    300.7996676641398
+   ],
+   "xlim_new": [
+    283.199719407818,
+    300.7996681164221
+   ],
+   "ylim_old": [
+    -5.741611235042258,
+    2.2496894810897476
+   ],
+   "ylim_new": [
+    -5.741712782241844,
+    2.2497770498565597
+   ],
+   "styles_old": [
+    "#000000 lw 0.50 dash [[0.5, 0.825], 0.0]",
+    "#000000 lw 0.60 dash [[], 0]",
+    "#808080 lw 0.80 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#000000 lw 0.50 dash [[0.5, 0.825], 0.0]",
+    "#000000 lw 0.60 dash [[], 0]",
+    "#808080 lw 0.80 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "line only",
+     "color": "#808080",
+     "vertices": 276,
+     "x_range": [
+      283.9999999736571,
+      299.9999999951217
+     ],
+     "y_range": [
+      0.13607573592407896,
+      1.811301812303249
+     ],
+     "max_distance_to_data_grid": 4.5153456085245125e-08,
+     "max_abs_error_against_data": 2.4966835043827018e-08
+    },
+    {
+     "version": "old",
+     "name": "with hypothetical zeros",
+     "color": "#c0392b",
+     "vertices": 286,
+     "x_range": [
+      283.9999999736571,
+      299.9999999951217
+     ],
+     "y_range": [
+      -5.378366312895356,
+      1.8865321300426885
+     ],
+     "max_distance_to_data_grid": 4.5153456085245125e-08,
+     "max_abs_error_against_data": 2.6351045789851923e-08
+    },
+    {
+     "version": "old",
+     "name": "dotted line at tj[4]",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      292.40000001736666,
+      292.40000001736666
+     ],
+     "y_range": [
+      -5.741611235042258,
+      2.2497770521895912
+     ],
+     "max_distance_to_data_grid": 0.001773803919945749,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      283.1999999759987,
+      300.79999999278016
+     ],
+     "y_range": [
+      1.0946386908017303e-08,
+      1.0946386908017303e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.0946386908017303e-08
+    },
+    {
+     "version": "new",
+     "name": "line only",
+     "color": "#808080",
+     "vertices": 276,
+     "x_range": [
+      283.9999999941544,
+      300.00000001948524
+     ],
+     "y_range": [
+      0.13607573716175558,
+      1.8113018020754534
+     ],
+     "max_distance_to_data_grid": 4.5673402837564936e-08,
+     "max_abs_error_against_data": 2.6775767381082005e-08
+    },
+    {
+     "version": "new",
+     "name": "with hypothetical zeros",
+     "color": "#c0392b",
+     "vertices": 287,
+     "x_range": [
+      283.9999999941544,
+      300.00000001948524
+     ],
+     "y_range": [
+      -5.378366291218973,
+      1.8865321205999344
+     ],
+     "max_distance_to_data_grid": 4.5673402837564936e-08,
+     "max_abs_error_against_data": 2.968178236528729e-08
+    },
+    {
+     "version": "new",
+     "name": "dotted line at tj[4]",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      292.40177385511424,
+      292.40177385511424
+     ],
+     "y_range": [
+      -5.741611220475598,
+      2.2497770498565597
+     ],
+     "max_distance_to_data_grid": 3.382763225090457e-08,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      283.20000004403664,
+      300.79999996960305
+     ],
+     "y_range": [
+      -1.5474386216851599e-09,
+      -1.5474386216851599e-09
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.5474386216851599e-09
+    }
+   ]
+  }
+ ],
+ "ag_cancel": [
+  {
+   "panel": 0,
+   "xlim_old": [
+    0.4984999998985948,
+    0.9715060906212327
+   ],
+   "xlim_new": [
+    0.4984957267474294,
+    0.9715032290004912
+   ],
+   "ylim_old": [
+    -0.7499999972771425,
+    15.74981699780186
+   ],
+   "ylim_new": [
+    -0.7502096995373813,
+    15.750000026092827
+   ],
+   "styles_old": [
+    "#1b4f72 lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#1b4f72 lw 1.50 dash [[], 0]",
+    "#808080 lw 0.70 dash [[2.59, 1.12], 0.0]",
+    "#c0392b lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#c0392b lw 1.50 dash [[], 0]",
+    "#d68910 lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#d68910 lw 1.50 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#1b4f72 lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#1b4f72 lw 1.50 dash [[], 0]",
+    "#808080 lw 0.70 dash [[2.59, 1.12], 0.0]",
+    "#c0392b lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#c0392b lw 1.50 dash [[], 0]",
+    "#d68910 lw 0.60 dash [[0.6, 0.99], 0.0]",
+    "#d68910 lw 1.50 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "beta 0.6",
+     "color": "#c0392b",
+     "vertices": 10,
+     "x_range": [
+      0.5199999995249478,
+      0.9499999993605068
+     ],
+     "y_range": [
+      -1.524795223417641e-08,
+      4.360610228045028
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 6.305220612290441e-08
+    },
+    {
+     "version": "old",
+     "name": "reference line",
+     "color": "#c0392b",
+     "vertices": 2,
+     "x_range": [
+      0.5999999994518628,
+      0.5999999994518628
+     ],
+     "y_range": [
+      -0.7499999972771425,
+      15.749999973316081
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "beta 0.75",
+     "color": "#d68910",
+     "vertices": 10,
+     "x_range": [
+      0.5199999995249478,
+      0.9499999993605068
+     ],
+     "y_range": [
+      -1.524795223417641e-08,
+      6.9483779415620255
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 9.671116796283741e-08
+    },
+    {
+     "version": "old",
+     "name": "reference line",
+     "color": "#d68910",
+     "vertices": 2,
+     "x_range": [
+      0.7500000004567815,
+      0.7500000004567815
+     ],
+     "y_range": [
+      -0.7499999972771425,
+      15.749999973316081
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 10,
+     "x_range": [
+      0.5199999995249478,
+      0.9499999993605068
+     ],
+     "y_range": [
+      -1.524795223417641e-08,
+      7.553531029997343
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 7.045285244089428e-08
+    },
+    {
+     "version": "old",
+     "name": "reference line",
+     "color": "#1b4f72",
+     "vertices": 2,
+     "x_range": [
+      0.8999999996345756,
+      0.8999999996345756
+     ],
+     "y_range": [
+      -0.7499999972771425,
+      15.749999973316081
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "reference line",
+     "color": "#808080",
+     "vertices": 2,
+     "x_range": [
+      0.4984999998985948,
+      0.9715000008139847
+     ],
+     "y_range": [
+      14.99999999128689,
+      14.99999999128689
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "old",
+     "name": "markers beta 0.6",
+     "color": "#c0392b",
+     "vertices": 10,
+     "max_abs_error_against_data": 2.026127776666442e-08
+    },
+    {
+     "version": "old",
+     "name": "markers beta 0.75",
+     "color": "#d68910",
+     "vertices": 10,
+     "max_abs_error_against_data": 4.225536698321264e-08
+    },
+    {
+     "version": "old",
+     "name": "markers beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 10,
+     "max_abs_error_against_data": 4.439472234274433e-08
+    },
+    {
+     "version": "new",
+     "name": "beta 0.6",
+     "color": "#c0392b",
+     "vertices": 10,
+     "x_range": [
+      0.519999999197767,
+      0.9499999994530226
+     ],
+     "y_range": [
+      1.491018686294865e-08,
+      4.360610206148058
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 4.2420544410504135e-08
+    },
+    {
+     "version": "new",
+     "name": "reference line",
+     "color": "#c0392b",
+     "vertices": 2,
+     "x_range": [
+      0.6000000007293026,
+      0.6000000007293026
+     ],
+     "y_range": [
+      -0.7500000026625337,
+      15.750000026092827
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "beta 0.75",
+     "color": "#d68910",
+     "vertices": 10,
+     "x_range": [
+      0.519999999197767,
+      0.9499999994530226
+     ],
+     "y_range": [
+      1.491018686294865e-08,
+      6.948377979187759
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 8.344711055485732e-08
+    },
+    {
+     "version": "new",
+     "name": "reference line",
+     "color": "#d68910",
+     "vertices": 2,
+     "x_range": [
+      0.7500000001823255,
+      0.7500000001823255
+     ],
+     "y_range": [
+      -0.7500000026625337,
+      15.750000026092827
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 10,
+     "x_range": [
+      0.519999999197767,
+      0.9499999994530226
+     ],
+     "y_range": [
+      1.491018686294865e-08,
+      7.553531043454168
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 4.017797916588961e-08
+    },
+    {
+     "version": "new",
+     "name": "reference line",
+     "color": "#1b4f72",
+     "vertices": 2,
+     "x_range": [
+      0.8999999996353483,
+      0.8999999996353483
+     ],
+     "y_range": [
+      -0.7500000026625337,
+      15.750000026092827
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "reference line",
+     "color": "#808080",
+     "vertices": 2,
+     "x_range": [
+      0.49850000046128395,
+      0.9715000000127623
+     ],
+     "y_range": [
+      15.000000008520107,
+      15.000000008520107
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": null
+    },
+    {
+     "version": "new",
+     "name": "markers beta 0.6",
+     "color": "#c0392b",
+     "vertices": 10,
+     "max_abs_error_against_data": 3.7084571857803894e-08
+    },
+    {
+     "version": "new",
+     "name": "markers beta 0.75",
+     "color": "#d68910",
+     "vertices": 10,
+     "max_abs_error_against_data": 4.753009896774074e-08
+    },
+    {
+     "version": "new",
+     "name": "markers beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 10,
+     "max_abs_error_against_data": 2.4935234321787902e-08
+    }
+   ]
+  },
+  {
+   "panel": 1,
+   "xlim_old": [
+    -4.399886694461847,
+    4.399886694461863
+   ],
+   "xlim_new": [
+    -4.3999399292018175,
+    4.39986043181489
+   ],
+   "ylim_old": [
+    -2.000000002376306,
+    3.999933465825506
+   ],
+   "ylim_new": [
+    -2.000076242952262,
+    3.999999998838168
+   ],
+   "styles_old": [
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 1.00 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 1.00 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "background",
+     "color": "#808080",
+     "vertices": 175,
+     "x_range": [
+      -3.999999999999993,
+      4.000000000000007
+     ],
+     "y_range": [
+      0.06905501390063717,
+      3.2367160792202507
+     ],
+     "max_distance_to_data_grid": 1.9036082932188947e-08,
+     "max_abs_error_against_data": 1.78092842695321e-08
+    },
+    {
+     "version": "old",
+     "name": "beta 0.7",
+     "color": "#c0392b",
+     "vertices": 184,
+     "x_range": [
+      -3.999999999999993,
+      4.000000000000007
+     ],
+     "y_range": [
+      -1.2358585894218446,
+      3.259020129095973
+     ],
+     "max_distance_to_data_grid": 1.9036082932188947e-08,
+     "max_abs_error_against_data": 1.841560015591881e-08
+    },
+    {
+     "version": "old",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 177,
+     "x_range": [
+      -3.999999999999993,
+      4.000000000000007
+     ],
+     "y_range": [
+      0.0723450467279414,
+      3.2563055043599696
+     ],
+     "max_distance_to_data_grid": 1.9036082932188947e-08,
+     "max_abs_error_against_data": 1.7567558519004933e-08
+    },
+    {
+     "version": "old",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      -4.399999993201389,
+      4.399999993201405
+     ],
+     "y_range": [
+      -1.1881527317569862e-08,
+      -1.1881527317569862e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.1881527317569862e-08
+    },
+    {
+     "version": "new",
+     "name": "background",
+     "color": "#808080",
+     "vertices": 176,
+     "x_range": [
+      -3.999999993215768,
+      4.00000000678423
+     ],
+     "y_range": [
+      0.06925483367426688,
+      3.236716096946687
+     ],
+     "max_distance_to_data_grid": 1.958943229851684e-08,
+     "max_abs_error_against_data": 1.692791656848769e-08
+    },
+    {
+     "version": "new",
+     "name": "beta 0.7",
+     "color": "#c0392b",
+     "vertices": 185,
+     "x_range": [
+      -3.999999993215768,
+      4.00000000678423
+     ],
+     "y_range": [
+      -1.2358585946480285,
+      3.259020121413547
+     ],
+     "max_distance_to_data_grid": 1.958943229851684e-08,
+     "max_abs_error_against_data": 1.7160054349707465e-08
+    },
+    {
+     "version": "new",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 179,
+     "x_range": [
+      -3.999999993215768,
+      4.00000000678423
+     ],
+     "y_range": [
+      0.07234504860790514,
+      3.2563054805430816
+     ],
+     "max_distance_to_data_grid": 1.958943229851684e-08,
+     "max_abs_error_against_data": 1.7202689217565847e-08
+    },
+    {
+     "version": "new",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      -4.400000003392087,
+      4.4000000169605435
+     ],
+     "y_range": [
+      -1.510382707792246e-08,
+      -1.510382707792246e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.510382707792246e-08
+    }
+   ]
+  },
+  {
+   "panel": 2,
+   "xlim_old": [
+    -4.4001133259339404,
+    4.399999993201401
+   ],
+   "xlim_new": [
+    -4.400139568185139,
+    4.400000003392105
+   ],
+   "ylim_old": [
+    -2.000000002376306,
+    3.999933465825506
+   ],
+   "ylim_new": [
+    -2.000076242952262,
+    3.999999998838168
+   ],
+   "styles_old": [
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 1.00 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "styles_new": [
+    "#000000 lw 0.60 dash [[], 0]",
+    "#1b4f72 lw 1.00 dash [[], 0]",
+    "#808080 lw 1.00 dash [[], 0]",
+    "#c0392b lw 1.00 dash [[], 0]"
+   ],
+   "curves": [
+    {
+     "version": "old",
+     "name": "background",
+     "color": "#808080",
+     "vertices": 331,
+     "x_range": [
+      -3.999999999999986,
+      4.0000000000000036
+     ],
+     "y_range": [
+      0.3420495248514399,
+      3.715272003570217
+     ],
+     "max_distance_to_data_grid": 3.1272982425889495e-08,
+     "max_abs_error_against_data": 1.8123278877624216e-08
+    },
+    {
+     "version": "old",
+     "name": "beta 0.7",
+     "color": "#c0392b",
+     "vertices": 331,
+     "x_range": [
+      -3.999999999999986,
+      4.0000000000000036
+     ],
+     "y_range": [
+      -1.6238557397469207,
+      3.7213357123223587
+     ],
+     "max_distance_to_data_grid": 3.1272982425889495e-08,
+     "max_abs_error_against_data": 1.729476450940126e-08
+    },
+    {
+     "version": "old",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 327,
+     "x_range": [
+      -3.999999999999986,
+      4.0000000000000036
+     ],
+     "y_range": [
+      0.024659564965542558,
+      3.7211298482341904
+     ],
+     "max_distance_to_data_grid": 3.1272982425889495e-08,
+     "max_abs_error_against_data": 1.8087566999724913e-08
+    },
+    {
+     "version": "old",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      -4.400000027194398,
+      4.399999993201401
+     ],
+     "y_range": [
+      -1.1881527317569862e-08,
+      -1.1881527317569862e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.1881527317569862e-08
+    },
+    {
+     "version": "new",
+     "name": "background",
+     "color": "#808080",
+     "vertices": 333,
+     "x_range": [
+      -4.000000006784223,
+      3.9999999932157877
+     ],
+     "y_range": [
+      0.3420495166785522,
+      3.715271982676916
+     ],
+     "max_distance_to_data_grid": 2.0188263505360737e-08,
+     "max_abs_error_against_data": 1.7122920858980706e-08
+    },
+    {
+     "version": "new",
+     "name": "beta 0.7",
+     "color": "#c0392b",
+     "vertices": 332,
+     "x_range": [
+      -4.000000006784223,
+      3.9999999932157877
+     ],
+     "y_range": [
+      -1.6238557174342214,
+      3.7213356901761823
+     ],
+     "max_distance_to_data_grid": 2.0188263505360737e-08,
+     "max_abs_error_against_data": 1.6974602612407352e-08
+    },
+    {
+     "version": "new",
+     "name": "beta 0.9",
+     "color": "#1b4f72",
+     "vertices": 327,
+     "x_range": [
+      -4.000000006784223,
+      3.9999999932157877
+     ],
+     "y_range": [
+      0.024659569548414417,
+      3.721129864528916
+     ],
+     "max_distance_to_data_grid": 2.0188263505360737e-08,
+     "max_abs_error_against_data": 1.6794867718772366e-08
+    },
+    {
+     "version": "new",
+     "name": "axis 0",
+     "color": "#000000",
+     "vertices": 2,
+     "x_range": [
+      -4.399999983039482,
+      4.400000003392105
+     ],
+     "y_range": [
+      -1.510382707792246e-08,
+      -1.510382707792246e-08
+     ],
+     "max_distance_to_data_grid": 0.0,
+     "max_abs_error_against_data": 1.510382707792246e-08
+    }
+   ]
+  }
+ ]
+}

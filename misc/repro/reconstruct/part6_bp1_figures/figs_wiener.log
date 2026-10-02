@@ -1,0 +1,24 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/part6_bp1_figures/run4: sbatch --wait, 1 cores, 2G, 15 min
+[hopper_run] job 1243495 on hop047.orc.gmu.edu
+Figure wr:fig:wiener (wiener.json): barrier |g^(gamma_1)| = exp(-kappa^2 gamma_1^2/2) = 0.10565
+  alpha 0.5  N [10, 20, 30, 40, 60, 80]  L1 error 0.4705 0.1345 0.1345 0.1345 0.1363 0.1365  |h^(gamma_1)| 5.84e-17 3.66e-17 3.1e-13 2.54e-10 4.58e-09 1.17e-08  max coefficient sum 4.01e+09
+  alpha 0.6  N [10, 20, 30, 40, 60, 80]  L1 error 0.4698 0.1221 0.1190 0.1152 0.1141 0.1139  |h^(gamma_1)| 0.000314 0.0104 0.0127 0.016 0.0164 0.0167  max coefficient sum 1.97e+08
+  alpha 0.75 N [10, 20, 30, 40, 60, 80]  L1 error 0.4664 0.1060 0.0991 0.0907 0.0888 0.0878  |h^(gamma_1)| 0.000789 0.0239 0.0293 0.0356 0.0372 0.0377  max coefficient sum 1.19e+08
+  alpha 1.0  N [10, 20, 30, 40, 60, 80]  L1 error 0.4540 0.0852 0.0678 0.0614 0.0571 0.0570  |h^(gamma_1)| 0.0016 0.0418 0.0575 0.0595 0.0634 0.0635  max coefficient sum 3.30e+07
+  axis limits: left x (np.float64(6.5), np.float64(83.5)) y (np.float64(0.0), np.float64(0.5)), right x (np.float64(6.5), np.float64(83.5)) y (np.float64(-0.0052823992005910266), np.float64(0.11093038321241236))
+Figure wr:fig:salem, left panel (salem_riesz.json): local minima of |eta(sigma+i theta)| on (0,60]
+  sigma 0.5  grid 2400 points on [0.05, 60.00]; 19 local minima, the deepest (theta, |eta|): (48.005, 0.000455), (32.936, 0.00374), (37.584, 0.00402), (25.015, 0.00862), (59.350, 0.0107), (21.016, 0.0134)
+  sigma 0.6  grid 2400 points on [0.05, 60.00]; 19 local minima, the deepest (theta, |eta|): (14.144, 0.175), (37.584, 0.189), (25.015, 0.206), (21.016, 0.21), (52.978, 0.247), (43.332, 0.25)
+  sigma 0.75 grid 2400 points on [0.05, 60.00]; 19 local minima, the deepest (theta, |eta|): (9.071, 0.266), (36.285, 0.367), (37.559, 0.381), (14.144, 0.387), (18.142, 0.388), (54.377, 0.414)
+  sigma 1.0  grid 2400 points on [0.05, 60.00]; 18 local minima, the deepest (theta, |eta|): (36.260, 0.00119), (9.071, 0.00611), (27.189, 0.00744), (45.331, 0.0122), (54.377, 0.0138), (18.117, 0.0153)
+  zeros of 1-2^(1-s) on sigma = 1: theta = 2 pi k/log 2 = 9.0647, 18.1294, 27.1942, 36.2589
+  axis limits: left x (np.float64(-2.9475000000000007), np.float64(62.9975)) y (np.float64(0.001), np.float64(5.0)), right x (np.float64(446.6835921509633), np.float64(22387211385.68341)) y (np.float64(-0.0031105773573365334), np.float64(0.00022975711153854847))
+Figure wr:fig:salem, right panel: 36 points of salem_riesz.json in [1e3, 1e10], x from 1000 to 1e+10
+  maxdev recomputed 3.110317191300598e-08  riesz_explicit.json 3.110317191300598e-08  rel diff 0.0e+00
+  signal recomputed 0.002958743716352547  riesz_explicit.json 0.002958743716352547  rel diff 0.0e+00
+  amp1   recomputed 7.775062764452556e-05  riesz_explicit.json 7.775062764452556e-05  rel diff 0.0e+00
+  trivial coefficients k!/(2 zeta'(-2k)) recomputed [-16.42119333144247, 125.25345898121803, -508.49533464380755], riesz_explicit.json [-16.42119333144247, 125.25345898121803, -508.49533464380755]
+wrote fig_wiener.pdf and fig_salem_riesz.pdf
+scp: Connection closed
+[hopper_run] could not fetch fig_salem_riesz.pdf
+[note] fig_salem_riesz.pdf was fetched afterwards with scp from the run folder; sha256 833a8301c364c9749e41b02e4bd3536dc44664991feed110e7c59ad52fd0ff83 on Hopper and here (fig_wiener.pdf 685b8fe1bd70206e4bf434b32be6d6e241fad484864a0da199b35d8409f55fa7)

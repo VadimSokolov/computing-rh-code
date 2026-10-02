@@ -1,0 +1,180 @@
+{
+ "default dispatch": {
+  "numpy": "2.4.6",
+  "env": {},
+  "arctan_dispatch": "{'arctan': {'dd': {'current': 'X86_V4', 'available': 'X86_V4 baseline(X86_V2)'}}}",
+  "bitwise_equal": 6,
+  "rows": [
+   {
+    "eps": 0.5,
+    "q": "celltv",
+    "archived": 0.49688791074460603,
+    "value": 0.49688791074460603,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.5,
+    "q": "mass",
+    "archived": 50.00311129348167,
+    "value": 50.00311129348167,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.1,
+    "q": "celltv",
+    "archived": 0.1250434787554282,
+    "value": 0.1250434787554211,
+    "bitwise": false,
+    "rel": 5.6823653886808964e-14
+   },
+   {
+    "eps": 0.1,
+    "q": "mass",
+    "archived": 50.00062227846783,
+    "value": 50.00062227846784,
+    "bitwise": false,
+    "rel": 1.4210677855225152e-16
+   },
+   {
+    "eps": 0.05,
+    "q": "celltv",
+    "archived": 0.06313981574086894,
+    "value": 0.06313981574086894,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.05,
+    "q": "mass",
+    "archived": 50.000311139542866,
+    "value": 50.000311139542866,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.01,
+    "q": "celltv",
+    "archived": 0.012668454358153412,
+    "value": 0.012668454358139201,
+    "bitwise": false,
+    "rel": 1.1217512660536922e-12
+   },
+   {
+    "eps": 0.01,
+    "q": "mass",
+    "archived": 50.00006222792832,
+    "value": 50.00006222792833,
+    "bitwise": false,
+    "rel": 2.8421674057966087e-16
+   },
+   {
+    "eps": 0.005,
+    "q": "celltv",
+    "archived": 0.006334863607589925,
+    "value": 0.006334863607589925,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.005,
+    "q": "mass",
+    "archived": 50.00003111396449,
+    "value": 50.00003111396449,
+    "bitwise": true,
+    "rel": 0.0
+   }
+  ]
+ },
+ "X86_V4 (AVX512) target disabled": {
+  "numpy": "2.4.6",
+  "env": {
+   "NPY_DISABLE_CPU_FEATURES": "X86_V4"
+  },
+  "arctan_dispatch": "{'arctan': {'dd': {'current': 'baseline(X86_V2)', 'available': 'X86_V4 baseline(X86_V2)'}}}",
+  "bitwise_equal": 6,
+  "rows": [
+   {
+    "eps": 0.5,
+    "q": "celltv",
+    "archived": 0.49688791074460603,
+    "value": 0.49688791074460603,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.5,
+    "q": "mass",
+    "archived": 50.00311129348167,
+    "value": 50.00311129348167,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.1,
+    "q": "celltv",
+    "archived": 0.1250434787554282,
+    "value": 0.1250434787554211,
+    "bitwise": false,
+    "rel": 5.6823653886808964e-14
+   },
+   {
+    "eps": 0.1,
+    "q": "mass",
+    "archived": 50.00062227846783,
+    "value": 50.00062227846784,
+    "bitwise": false,
+    "rel": 1.4210677855225152e-16
+   },
+   {
+    "eps": 0.05,
+    "q": "celltv",
+    "archived": 0.06313981574086894,
+    "value": 0.06313981574086894,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.05,
+    "q": "mass",
+    "archived": 50.000311139542866,
+    "value": 50.000311139542866,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.01,
+    "q": "celltv",
+    "archived": 0.012668454358153412,
+    "value": 0.012668454358139201,
+    "bitwise": false,
+    "rel": 1.1217512660536922e-12
+   },
+   {
+    "eps": 0.01,
+    "q": "mass",
+    "archived": 50.00006222792832,
+    "value": 50.00006222792833,
+    "bitwise": false,
+    "rel": 2.8421674057966087e-16
+   },
+   {
+    "eps": 0.005,
+    "q": "celltv",
+    "archived": 0.006334863607589925,
+    "value": 0.006334863607589925,
+    "bitwise": true,
+    "rel": 0.0
+   },
+   {
+    "eps": 0.005,
+    "q": "mass",
+    "archived": 50.00003111396449,
+    "value": 50.00003111396449,
+    "bitwise": true,
+    "rel": 0.0
+   }
+  ]
+ }
+}

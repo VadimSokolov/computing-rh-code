@@ -1,0 +1,1070 @@
+{
+ "archive_vs_rerun": {
+  "archived_lines": 60,
+  "rerun_lines": 95,
+  "identical_lines": 60,
+  "changed_blocks": 0,
+  "lines_only_in_rerun": 35,
+  "lines_only_in_archive": 0,
+  "numeric_tokens_compared": 176,
+  "max_rel_diff": "0.0",
+  "beyond_tol": 0,
+  "archive_is_prefix_plus_summary": true
+ },
+ "rerun_vs_run_all": {
+  "byte_identical": true,
+  "lines": [
+   95,
+   95
+  ],
+  "numeric_tokens_compared": 319,
+  "max_rel_diff": "0.0",
+  "beyond_tol": 0
+ },
+ "parsed": {
+  "F003": "0.0366850179113",
+  "F0035": "-0.0442284923318",
+  "F004": "-0.11456244439",
+  "Mg1": "0.550252829469",
+  "P004": "1.98858765094e-13",
+  "W0_01": "-0.862509600916",
+  "b": "0.860972775375",
+  "b2": "0.603553390593",
+  "b3": "-0.117851130198",
+  "b4": "0.541053390593",
+  "b6": "-0.121425565099",
+  "c1": "2.68609170961",
+  "c1im": "-1.94353",
+  "c1re": "-4.762466",
+  "c2": "2.68609170961",
+  "c2im": "-0.6272364",
+  "c2re": "-8.672921",
+  "c3": "2.68609170961",
+  "c3im": "-3.871717",
+  "c3re": "-10.14905",
+  "c4im": "3.704673",
+  "c4re": "-15.16508",
+  "cl01": "0.891613",
+  "cl1": "0.221429",
+  "cl2": "0.0378576",
+  "f0": "0.365088627202",
+  "failed": "0",
+  "flips": "3",
+  "fp0": "0.0912721568006",
+  "g195": "388.84613",
+  "g213": "415.455215",
+  "g222": "430.32875",
+  "g289": "527.9036416",
+  "g379": "650.6686839",
+  "grid_worst": "-0.729142",
+  "hm_argmax": "0.0976518",
+  "hm_max": "1.111254",
+  "int_f": "1.0",
+  "k1im": "-1.94353",
+  "k1re": "-4.762466",
+  "k213im": "-2298.912",
+  "k213re": "233.9579",
+  "k289im": "3074.083",
+  "k289re": "604.1578",
+  "k2im": "-0.6272364",
+  "k2re": "-8.672921",
+  "k379im": "-4296.907",
+  "k379re": "1164.599",
+  "k3im": "-3.871717",
+  "k3re": "-10.14905",
+  "k4im": "3.704673",
+  "k4re": "-15.16508",
+  "m055": "-1.04918",
+  "m06": "-0.9949883",
+  "m075": "-0.8666873",
+  "m09": "-0.7688592",
+  "m099": "-0.721326",
+  "maxM": "1.12394355932",
+  "maxS": "1.09756376206",
+  "mc01": "0.891195",
+  "mc1": "0.224115",
+  "mc2": "0.038555",
+  "mid127": "-0.5063",
+  "mid196": "-0.50518",
+  "mid233": "-0.53724",
+  "mid289": "-0.64548",
+  "mid368": "-0.55649",
+  "mid380": "-0.53825",
+  "mid401": "-0.51375",
+  "mid_neg_max": "-0.556493",
+  "minS": "-1.14548076977",
+  "n_low": "7",
+  "neg2": "42.0",
+  "neg3": "42.0",
+  "neg5": "42.0",
+  "neg7": "42.0",
+  "sw1": "21",
+  "sw1_hi": "21",
+  "sw1_lo": "1",
+  "sw2": "27",
+  "sw2_hi": "48",
+  "sw2_lo": "22",
+  "sw3": "78",
+  "sw3_hi": "126",
+  "sw3_lo": "49",
+  "sw4": "26",
+  "sw4_hi": "221",
+  "sw4_lo": "196",
+  "tailc": "0.757732481509",
+  "tau0": "6.28983598884",
+  "taupi": "3.43621822609",
+  "theta_tau0": "-3.53097282902",
+  "w0001": "1.00025003125",
+  "w001": "1.00249472811",
+  "w01": "0.86250960302",
+  "w1": "0.491403169211",
+  "w10": "0.215237315084",
+  "xstar": "0.00321739055955",
+  "zr_err": "-0.0005391256",
+  "zr_lhs": "-0.587879014707",
+  "zr_trunc": "-0.587339889106",
+  "zr_wt": "-1.6071503"
+ },
+ "input_sha256": {
+  "rz1.tex": "77c3aa893d88c6dd1892de07fa78bbc2fc73907966eb680faa00e62c938265d5",
+  "rz2.tex": "d1b458c5396615ccfff2b5a51c3152c0df5c406d8d59ba50ccd6ea851967a0a5",
+  "rz3.tex": "4377abf7389414068f471ffcb1c03f8e38dc2b4db492c8608b83f85e81304e0d",
+  "rz4.tex": "20826aca268ab84677ff9de9c45a056b141a7d3eddcfe5bbbec266f683324f6a",
+  "appA.tex": "1035e1f8841c69e987e77e70bd89dee10be03f24cd1f862cd780af4c9b3fa40f",
+  "ch12.tex": "38428cadb53270a382bccaf3db3fe889949efe2e71153ea9a8c12ef0bea7dd4f",
+  "archived_spot_checks_report.md": "7a9dcf1a0946091254e2e6d0e3b56078ca55d972aec1d8c5efa976fa5ff28cb7",
+  "spot_checks_report.md": "2f6cedf9902857a5d0fc44784a3e7d9f9c7fe19b32105110c402af87bb930da5",
+  "run_all_spot_checks.out": "2f6cedf9902857a5d0fc44784a3e7d9f9c7fe19b32105110c402af87bb930da5",
+  "book_quotes.tsv": "e58d97dbdb4b998d0821503994e3ad90ae190d6ac16eb13fccabcf46bf0442b3"
+ },
+ "book": {
+  "values_checked": 112,
+  "agree": 112,
+  "disagree_or_missing": 0,
+  "rows": [
+   {
+    "id": "R01",
+    "where": "rz4:497",
+    "quantity": "c, three ways (Table rz:tab:constants)",
+    "book": "2.6860917096",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R01",
+    "where": "rz4:497",
+    "quantity": "c, three ways (Table rz:tab:constants)",
+    "book": "2.6860917096",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R01",
+    "where": "rz4:497",
+    "quantity": "c, three ways (Table rz:tab:constants)",
+    "book": "2.6860917096",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R02",
+    "where": "rz4:498",
+    "quantity": "tau_0, theta(tau_0), max M (Table rz:tab:constants)",
+    "book": "6.2898360",
+    "rerun": "6.28983598884",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R02",
+    "where": "rz4:498",
+    "quantity": "tau_0, theta(tau_0), max M (Table rz:tab:constants)",
+    "book": "-3.5309728",
+    "rerun": "-3.53097282902",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R02",
+    "where": "rz4:498",
+    "quantity": "tau_0, theta(tau_0), max M (Table rz:tab:constants)",
+    "book": "1.1239436",
+    "rerun": "1.12394355932",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R03",
+    "where": "rz4:499",
+    "quantity": "M(gamma_1^2 -) (Table rz:tab:constants)",
+    "book": "0.5502528",
+    "rerun": "0.550252829469",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R04",
+    "where": "rz4:500",
+    "quantity": "tau_pi (Table rz:tab:constants)",
+    "book": "3.4362182",
+    "rerun": "3.43621822609",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R05",
+    "where": "rz4:501",
+    "quantity": "x_* (Table rz:tab:constants)",
+    "book": "0.0032173906",
+    "rerun": "0.00321739055955",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R06",
+    "where": "rz4:502",
+    "quantity": "F(0.003), F(0.0035), F(0.004) (Table rz:tab:constants)",
+    "book": "0.0366850",
+    "rerun": "0.0366850179113",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R06",
+    "where": "rz4:502",
+    "quantity": "F(0.003), F(0.0035), F(0.004) (Table rz:tab:constants)",
+    "book": "-0.0442285",
+    "rerun": "-0.0442284923318",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R06",
+    "where": "rz4:502",
+    "quantity": "F(0.003), F(0.0035), F(0.004) (Table rz:tab:constants)",
+    "book": "-0.1145624",
+    "rerun": "-0.11456244439",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R07",
+    "where": "rz4:503",
+    "quantity": "P(0.004) (Table rz:tab:constants)",
+    "book": "1.99e-13",
+    "rerun": "1.98858765094e-13",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R08",
+    "where": "rz4:504",
+    "quantity": "min S over the first 300, at gamma_289 (Table rz:tab:constants)",
+    "book": "-1.1454808",
+    "rerun": "-1.14548076977",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R09",
+    "where": "rz4:505",
+    "quantity": "max S over the first 300 and its ordinate gamma_213 (Table rz:tab:constants)",
+    "book": "1.0975638",
+    "rerun": "1.09756376206",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R09",
+    "where": "rz4:505",
+    "quantity": "max S over the first 300 and its ordinate gamma_213 (Table rz:tab:constants)",
+    "book": "415.4552",
+    "rerun": "415.455215",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R10",
+    "where": "rz4:464",
+    "quantity": "w(0.1), Table rz:tab:num (the script computes the zeros side only)",
+    "book": "0.8625096",
+    "rerun": "0.86250960302",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R11",
+    "where": "rz4:465",
+    "quantity": "w(1), Table rz:tab:num (zeros side only)",
+    "book": "0.4914032",
+    "rerun": "0.491403169211",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R12",
+    "where": "rz4:466",
+    "quantity": "W_0(0.1), Table rz:tab:num (the script computes one side, the integral of theta')",
+    "book": "-0.86250960",
+    "rerun": "-0.862509600916",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R13",
+    "where": "rz4:477",
+    "quantity": "Prop. rz:prop:zetaright row of Table rz:tab:num, left and right side",
+    "book": "-0.587879",
+    "rerun": "-0.587879014707",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R13",
+    "where": "rz4:477",
+    "quantity": "Prop. rz:prop:zetaright row of Table rz:tab:num, left and right side",
+    "book": "-0.587340",
+    "rerun": "-0.587339889106",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R14",
+    "where": "rz4:450",
+    "quantity": "weight of the omitted terms at n=3000 (the book's sign: sqrt(s) minus (1-n^-sqrt(s))/log n)",
+    "book": "1.607",
+    "rerun": "1.6071503 (-zr_wt)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R15",
+    "where": "rz4:450",
+    "quantity": "gap between the two sides of the zetaright row",
+    "book": "5.39e-4",
+    "rerun": "0.0005391256 (-zr_err)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R16",
+    "where": "rz4:489",
+    "quantity": "w at x = 0.001, 0.01, 0.1, 1, 10",
+    "book": "1.00025",
+    "rerun": "1.00025003125",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R16",
+    "where": "rz4:489",
+    "quantity": "w at x = 0.001, 0.01, 0.1, 1, 10",
+    "book": "1.00249",
+    "rerun": "1.00249472811",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R16",
+    "where": "rz4:489",
+    "quantity": "w at x = 0.001, 0.01, 0.1, 1, 10",
+    "book": "0.86251",
+    "rerun": "0.86250960302",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R16",
+    "where": "rz4:489",
+    "quantity": "w at x = 0.001, 0.01, 0.1, 1, 10",
+    "book": "0.49140",
+    "rerun": "0.491403169211",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R16",
+    "where": "rz4:489",
+    "quantity": "w at x = 0.001, 0.01, 0.1, 1, 10",
+    "book": "0.21524",
+    "rerun": "0.215237315084",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R17",
+    "where": "rz4:489",
+    "quantity": "c/(2 sqrt pi), limit of x^{3/2} f(x)",
+    "book": "0.75773",
+    "rerun": "0.757732481509",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-4.762",
+    "rerun": "-4.762466",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-1.944",
+    "rerun": "-1.94353",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-8.673",
+    "rerun": "-8.672921",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-0.627",
+    "rerun": "-0.6272364",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-10.149",
+    "rerun": "-10.14905",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-3.872",
+    "rerun": "-3.871717",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "-15.165",
+    "rerun": "-15.16508",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18",
+    "where": "rz4:88",
+    "quantity": "kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)",
+    "book": "3.705",
+    "rerun": "3.704673",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R18b",
+    "where": "rz4:88",
+    "quantity": "closed form of Theorem rz:thm:kappaexact equals the xi form for rho_1 to rho_4",
+    "book": "closed form = xi form",
+    "rerun": "k1re==c1re and k1im==c1im and k2re==c2re and k2im==c2im and k3re==c3re and k3im==c3im and k4re==c4re and k4im==c4im",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R19",
+    "where": "rz4:112",
+    "quantity": "minus Re kappa(rho_j), caption of Table rz:tab:traj",
+    "book": "4.762",
+    "rerun": "4.762466 (-k1re)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R19",
+    "where": "rz4:112",
+    "quantity": "minus Re kappa(rho_j), caption of Table rz:tab:traj",
+    "book": "8.673",
+    "rerun": "8.672921 (-k2re)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R19",
+    "where": "rz4:112",
+    "quantity": "minus Re kappa(rho_j), caption of Table rz:tab:traj",
+    "book": "10.149",
+    "rerun": "10.14905 (-k3re)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R19",
+    "where": "rz4:112",
+    "quantity": "minus Re kappa(rho_j), caption of Table rz:tab:traj",
+    "book": "15.165",
+    "rerun": "15.16508 (-k4re)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R20",
+    "where": "rz4:88",
+    "quantity": "Re kappa < 0 for the first 100 zeros",
+    "book": "no flip below index 101",
+    "rerun": "min(flip_ks) > 100",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R21",
+    "where": "rz4:86",
+    "quantity": "first zero with Re kappa > 0",
+    "book": "213",
+    "rerun": "min(flip_ks) == 213",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R22",
+    "where": "rz4:130",
+    "quantity": "number of zeros with Re kappa > 0 among the first 460",
+    "book": "3",
+    "rerun": "3",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R23",
+    "where": "rz4:132",
+    "quantity": "ordinates of the three zeros with Re kappa > 0",
+    "book": "415.4552",
+    "rerun": "415.455215",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R23",
+    "where": "rz4:132",
+    "quantity": "ordinates of the three zeros with Re kappa > 0",
+    "book": "527.9036",
+    "rerun": "527.9036416",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R23",
+    "where": "rz4:132",
+    "quantity": "ordinates of the three zeros with Re kappa > 0",
+    "book": "650.6687",
+    "rerun": "650.6686839",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "233.96",
+    "rerun": "233.9579",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "-2298.91",
+    "rerun": "-2298.912",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "604.16",
+    "rerun": "604.1578",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "3074.08",
+    "rerun": "3074.083",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "1164.60",
+    "rerun": "1164.599",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R24",
+    "where": "rz4:134",
+    "quantity": "kappa at gamma_213, gamma_289, gamma_379",
+    "book": "-4296.91",
+    "rerun": "-4296.907",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R25",
+    "where": "rz4:143",
+    "quantity": "Re kappa(rho_213), proof of Corollary rz:cor:Tfalse",
+    "book": "233.96",
+    "rerun": "233.9579",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R26",
+    "where": "rz4:136",
+    "quantity": "S just below and above gamma_213 and gamma_289 (max S minus 1, max S, min S, min S plus 1)",
+    "book": "0.098",
+    "rerun": "0.09756376206 (maxS-1)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R26",
+    "where": "rz4:136",
+    "quantity": "S just below and above gamma_213 and gamma_289 (max S minus 1, max S, min S, min S plus 1)",
+    "book": "1.098",
+    "rerun": "1.09756376206",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R26",
+    "where": "rz4:136",
+    "quantity": "S just below and above gamma_213 and gamma_289 (max S minus 1, max S, min S, min S plus 1)",
+    "book": "-1.145",
+    "rerun": "-1.14548076977",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R26",
+    "where": "rz4:136",
+    "quantity": "S just below and above gamma_213 and gamma_289 (max S minus 1, max S, min S, min S plus 1)",
+    "book": "-0.145",
+    "rerun": "-0.14548076977 (minS+1)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R27",
+    "where": "rz4:136",
+    "quantity": "midpoints of the jumps at gamma_213 and gamma_289",
+    "book": "0.598",
+    "rerun": "0.59756376206 (maxS-mpf(1)/2)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R27",
+    "where": "rz4:136",
+    "quantity": "midpoints of the jumps at gamma_213 and gamma_289",
+    "book": "-0.645",
+    "rerun": "-0.64548",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R28",
+    "where": "rz4:136",
+    "quantity": "number of the first 460 zeros with S(gamma^-) < -1",
+    "book": "7",
+    "rerun": "7",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R29",
+    "where": "rz4:136",
+    "quantity": "indices of those zeros",
+    "book": "127, 196, 233, 289, 368, 380, 401",
+    "rerun": "low_ks == [127, 196, 233, 289, 368, 380, 401]",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.506",
+    "rerun": "-0.5063",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.505",
+    "rerun": "-0.50518",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.537",
+    "rerun": "-0.53724",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.556",
+    "rerun": "-0.55649",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.538",
+    "rerun": "-0.53825",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R30",
+    "where": "rz4:136",
+    "quantity": "their midpoints S(gamma^-)+1/2",
+    "book": "-0.514",
+    "rerun": "-0.51375",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R31",
+    "where": "rz4:136",
+    "quantity": "largest midpoint modulus with Re kappa < 0 (the script scans negative midpoints only)",
+    "book": "0.556",
+    "rerun": "0.556493 (-mid_neg_max)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R31b",
+    "where": "rz4:136",
+    "quantity": "it is attained at gamma_368",
+    "book": "368",
+    "rerun": "abs(mids[368] - mid_neg_max) < mpf('1e-5')",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R32",
+    "where": "rz4:136",
+    "quantity": "midpoint at gamma_213 (the script does not print the one at gamma_379)",
+    "book": "0.598",
+    "rerun": "0.59756376206 (maxS-mpf(1)/2)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R33",
+    "where": "rz4:199",
+    "quantity": "zeros of xi with 1 < gamma < 80 and 80 < gamma < 140 (Table rz:tab:symwin)",
+    "book": "21",
+    "rerun": "21",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R33",
+    "where": "rz4:199",
+    "quantity": "zeros of xi with 1 < gamma < 80 and 80 < gamma < 140 (Table rz:tab:symwin)",
+    "book": "27",
+    "rerun": "27",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R34",
+    "where": "rz4:201",
+    "quantity": "zeros of xi with 140 < gamma < 280 and 390 < gamma < 430 (Table rz:tab:symwin)",
+    "book": "78",
+    "rerun": "78",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R34",
+    "where": "rz4:201",
+    "quantity": "zeros of xi with 140 < gamma < 280 and 390 < gamma < 430 (Table rz:tab:symwin)",
+    "book": "26",
+    "rerun": "26",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R35",
+    "where": "rz4:210",
+    "quantity": "first and last index in 390 < gamma < 430, and the count",
+    "book": "196",
+    "rerun": "196",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R35",
+    "where": "rz4:210",
+    "quantity": "first and last index in 390 < gamma < 430, and the count",
+    "book": "221",
+    "rerun": "221",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R35",
+    "where": "rz4:210",
+    "quantity": "first and last index in 390 < gamma < 430, and the count",
+    "book": "26",
+    "rerun": "26",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R36",
+    "where": "rz4:210",
+    "quantity": "gamma_195 and gamma_222",
+    "book": "388.85",
+    "rerun": "388.84613",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R36",
+    "where": "rz4:210",
+    "quantity": "gamma_195 and gamma_222",
+    "book": "430.33",
+    "rerun": "430.32875",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R40",
+    "where": "rz3:72",
+    "quantity": "S(gamma_289^-) and gamma_289, printed truncated",
+    "book": "-1.14548",
+    "rerun": "-1.14548076977",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R40",
+    "where": "rz3:72",
+    "quantity": "S(gamma_289^-) and gamma_289, printed truncated",
+    "book": "527.9036",
+    "rerun": "527.9036416",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R41",
+    "where": "rz3:81",
+    "quantity": "S(gamma_127^-) = midpoint minus 1/2",
+    "book": "-1.0063",
+    "rerun": "-1.0063 (mid127-mpf(1)/2)",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R42",
+    "where": "rz3:81",
+    "quantity": "most negative S(gamma^-) among the first 460",
+    "book": "at gamma_289",
+    "rerun": "min(mids, key=lambda k: mids[k]) == 289",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R43",
+    "where": "rz3:89",
+    "quantity": "f(0+)",
+    "book": "0.36509",
+    "rerun": "0.365088627202",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R44",
+    "where": "rz3:91",
+    "quantity": "c/(2 sqrt pi)",
+    "book": "0.75773",
+    "rerun": "0.757732481509",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R45",
+    "where": "rz3:126",
+    "quantity": "c/(2 sqrt pi)",
+    "book": "0.75773",
+    "rerun": "0.757732481509",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R46",
+    "where": "rz3:101",
+    "quantity": "f'(0+)",
+    "book": "0.09127",
+    "rerun": "0.0912721568006",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R47",
+    "where": "rz3:126",
+    "quantity": "f(0+)",
+    "book": "0.365089",
+    "rerun": "0.365088627202",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R48",
+    "where": "rz3:161",
+    "quantity": "maximum of f_H and where (Prop. rz:prop:hmfalse)",
+    "book": "1.11125",
+    "rerun": "1.111254",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R48",
+    "where": "rz3:161",
+    "quantity": "maximum of f_H and where (Prop. rz:prop:hmfalse)",
+    "book": "0.09765",
+    "rerun": "0.0976518",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R49",
+    "where": "rz3:200",
+    "quantity": "negative b_n for 2 <= n <= 60",
+    "book": "42",
+    "rerun": "42",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R49",
+    "where": "rz3:200",
+    "quantity": "negative b_n for 2 <= n <= 60",
+    "book": "42",
+    "rerun": "42",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R49",
+    "where": "rz3:200",
+    "quantity": "negative b_n for 2 <= n <= 60",
+    "book": "42",
+    "rerun": "42",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R49",
+    "where": "rz3:200",
+    "quantity": "negative b_n for 2 <= n <= 60",
+    "book": "42",
+    "rerun": "42",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R50",
+    "where": "rz3:305",
+    "quantity": "min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)",
+    "book": "-1.049",
+    "rerun": "-1.04918",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R50",
+    "where": "rz3:305",
+    "quantity": "min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)",
+    "book": "-0.995",
+    "rerun": "-0.9949883",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R50",
+    "where": "rz3:305",
+    "quantity": "min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)",
+    "book": "-0.867",
+    "rerun": "-0.8666873",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R50",
+    "where": "rz3:305",
+    "quantity": "min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)",
+    "book": "-0.769",
+    "rerun": "-0.7688592",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R50",
+    "where": "rz3:305",
+    "quantity": "min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)",
+    "book": "-0.721",
+    "rerun": "-0.721326",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R51",
+    "where": "rz3:35",
+    "quantity": "x_* (caption of Figure rz:fig:w)",
+    "book": "0.00322",
+    "rerun": "0.00321739055955",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R52",
+    "where": "rz3:7",
+    "quantity": "c",
+    "book": "2.68609",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R53",
+    "where": "rz3:30",
+    "quantity": "minus W_0(0.004) = minus F(0.004)/(4 sqrt(0.004 pi)) by Lemma rz:lem:W0",
+    "book": "exceeds 0.25",
+    "rerun": "-F004/(4*sqrt(pi*mpf('0.004'))) > mpf('0.25')",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R60",
+    "where": "rz2:7",
+    "quantity": "b",
+    "book": "0.860973",
+    "rerun": "0.860972775375",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R61",
+    "where": "rz2:264",
+    "quantity": "c",
+    "book": "2.68609",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R70",
+    "where": "rz1:228",
+    "quantity": "tau_0",
+    "book": "6.28984",
+    "rerun": "6.28983598884",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R71",
+    "where": "rz1:232",
+    "quantity": "c",
+    "book": "2.68609",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R72",
+    "where": "rz1:234",
+    "quantity": "max M",
+    "book": "1.12394",
+    "rerun": "1.12394355932",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R73",
+    "where": "rz1:234",
+    "quantity": "M(gamma_1^2 -)",
+    "book": "0.55025",
+    "rerun": "0.550252829469",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R80",
+    "where": "ch12:153",
+    "quantity": "c",
+    "book": "2.6860917",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   },
+   {
+    "id": "R90",
+    "where": "appA:75",
+    "quantity": "c, constants table of Appendix A (cites spot_checks_report.md)",
+    "book": "2.6860917096",
+    "rerun": "2.68609170961",
+    "verdict": "agrees"
+   }
+  ]
+ },
+ "stale_references": [
+  [
+   "zr_trunc",
+   "-0.587339889106",
+   "paper: -0.587379",
+   "\"0.587379\" does not occur in rz1 to rz4, appA or ch12"
+  ],
+  [
+   "zr_err",
+   "-0.0005391256",
+   "row's printed gap: -5.00e-4",
+   "\"5.00\\times10^{-4}\" does not occur in rz1 to rz4, appA or ch12"
+  ],
+  [
+   "zr_wt",
+   "-1.6071503",
+   "round 1 assumed 1",
+   "wording of a reply to a referee; no number to look for"
+  ],
+  [
+   "grid_worst",
+   "-0.729142",
+   "paper: below -0.729",
+   "\"0.729\" does not occur in rz1 to rz4, appA or ch12"
+  ]
+ ],
+ "failed_checks_reported_by_script": "0"
+}

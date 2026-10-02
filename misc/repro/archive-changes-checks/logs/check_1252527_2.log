@@ -1,0 +1,28 @@
+task 2 of job 1252527 on hop050.orc.gmu.edu:  Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz start Sun Sep 27 01:15:02 EDT 2026
+python 3.11.4 numpy 2.4.6 scipy 1.17.1 mpmath 1.3.0 flint 0.9.0 matplotlib 3.11.2
+e746cd16a917ebc974f3274b931add48  sinh_bench.py
+{'eps': 0.5, 'celltv': 0.49688791074460603, 'mass': 50.00311129348167}
+{'eps': 0.1, 'celltv': 0.1250434787554211, 'mass': 50.00062227846784}
+{'eps': 0.05, 'celltv': 0.06313981574086894, 'mass': 50.000311139542866}
+{'eps': 0.01, 'celltv': 0.012668454358139201, 'mass': 50.00006222792833}
+{'eps': 0.005, 'celltv': 0.006334863607589925, 'mass': 50.00003111396449}
+rc=0
+{'eps': 0.5, 'celltv': 0.4968485199452337, 'mass': 50.00315148005477}
+{'eps': 0.1, 'celltv': 0.1250356005955584, 'mass': 50.000630315782445}
+{'eps': 0.05, 'celltv': 0.06313587666093763, 'mass': 50.000315158200166}
+{'eps': 0.01, 'celltv': 0.012667666542139005, 'mass': 50.000063031659806}
+{'eps': 0.005, 'celltv': 0.006334469699604266, 'mass': 50.000031515830216}
+rc=0
+== default run against data/sinh_bench.json (tolerance 1.1e-12)
+sha256 bc79a1a4e9ea419840ac2dd73c8bdcd69c2f0ede46a1e7de18205ec9ba68a69c  /scratch/vsokolov/rh_book_repro/agents/R2-23/src/data/sinh_bench.json
+sha256 42e4b1592625c81e0e457318420483da99d5f4b31e09bd2c5bbbbb6341632cf1  sinh_bench.json
+byte identical: False
+same paths in the same order: True
+15 values, 11 identical, 1 beyond relative 1.1e-12, max relative difference 1.12e-12 at [3]/celltv (archived 0.012668454358153412, new 0.012668454358139201), max ulp 8192
+== closed against the reconstruction's sinh_bench_closed.json
+sha256 149bfb71bcd6b72d76d6862a74f1524e13412a2a7b239cb47ded49423f619d9c  /scratch/vsokolov/rh_book_repro/agents/R2-23/src/helpers/sinh_bench_closed.json
+sha256 149bfb71bcd6b72d76d6862a74f1524e13412a2a7b239cb47ded49423f619d9c  sinh_bench_closed.json
+byte identical: True
+same paths in the same order: True
+15 values, 15 identical, 0 beyond relative 0, max relative difference 0, max ulp 0
+seconds=2 end Sun Sep 27 01:15:08 EDT 2026

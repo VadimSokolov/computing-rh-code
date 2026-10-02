@@ -1,0 +1,84 @@
+task 1 of job 1252663 on hop047.orc.gmu.edu:  Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz start Sun Sep 27 01:18:04 EDT 2026
+python 3.11.4 numpy 2.4.6 scipy 1.17.1 mpmath 1.3.0 flint 0.9.0 matplotlib 3.11.2
+9ab3c9328f8b4b392685b9b85f2d5ffe  npy/spacing.py
+== with the zero lists
+ordinates: loaded from g_1_400.npy, g_401_1000.npy, g_1001_1700.npy ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.089252914107, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta: 1700 identical, max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 13.5 s
+rc=0
+== without the zero lists
+ordinates: computed with mpmath.zetazero at 30 digits and saved ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.089252914107, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta: 1700 identical, max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 49.3 s
+rc=0
+computed g_1_400.npy is byte identical to riesz_program/zeros/g_1_400.npy
+computed g_401_1000.npy is byte identical to riesz_program/zeros/g_401_1000.npy
+computed g_1001_1700.npy is byte identical to riesz_program/zeros/g_1001_1700.npy
+== npy/spacing.json against data/spacing.json
+sha256 a420d6cac4f2bf58b1e177426cce6ee98048b372636cf5c8c3616db8d89cd018  /scratch/vsokolov/rh_book_repro/agents/R2-23/src/data/spacing.json
+sha256 a420d6cac4f2bf58b1e177426cce6ee98048b372636cf5c8c3616db8d89cd018  npy/spacing.json
+byte identical: True
+same paths in the same order: True
+83 values, 83 identical, 0 beyond relative 0, max relative difference 0, max ulp 0
+npy/spacing.json is byte identical to data/spacing.json
+== fresh/spacing.json against data/spacing.json
+sha256 a420d6cac4f2bf58b1e177426cce6ee98048b372636cf5c8c3616db8d89cd018  /scratch/vsokolov/rh_book_repro/agents/R2-23/src/data/spacing.json
+sha256 a420d6cac4f2bf58b1e177426cce6ee98048b372636cf5c8c3616db8d89cd018  fresh/spacing.json
+byte identical: True
+same paths in the same order: True
+83 values, 83 identical, 0 beyond relative 0, max relative difference 0, max ulp 0
+fresh/spacing.json is byte identical to data/spacing.json
+7ad57c0957ef4851617c32735be6d001  npy/spacing.json
+7ad57c0957ef4851617c32735be6d001  fresh/spacing.json
+7ad57c0957ef4851617c32735be6d001  /scratch/vsokolov/rh_book_repro/agents/R2-23/src/data/spacing.json
+npy/spacing.pdf fresh/spacing.pdf differ: byte 17393, line 380
+== bars of the book's fig/spacing.pdf and of the new spacing.pdf against the new histogram
+{
+ "book": {
+  "bars": 40,
+  "bins_in_hist": 40,
+  "nonzero_bins": 40,
+  "max_edge_diff": 5.9150638831440006e-09,
+  "max_height_diff": 4.136014197797522e-09,
+  "max_rel_height_diff": 2.831646119178761e-07
+ },
+ "candidate": {
+  "bars": 40,
+  "bins_in_hist": 40,
+  "nonzero_bins": 40,
+  "max_edge_diff": 5.9150638831440006e-09,
+  "max_height_diff": 5.73991121299855e-09,
+  "max_rel_height_diff": 2.2147587022476855e-07
+ },
+ "first_edges_book": [
+  0.0892529091531694,
+  0.14208324753242493,
+  0.19491358591168043
+ ],
+ "first_edges_hist": [
+  0.08925291410696445,
+  0.14208325154202725,
+  0.19491358897709005
+ ],
+ "heights_book_first5": [
+  0.022281951352281365,
+  0.022281951352281365,
+  0.0668458540568441,
+  0.1336917081136882,
+  0.12255073586132716
+ ],
+ "density_first5": [
+  0.022281951890380472,
+  0.022281951890380472,
+  0.06684585567114137,
+  0.1336917113422829,
+  0.12255073539709253
+ ]
+}
+seconds=65 end Sun Sep 27 01:19:14 EDT 2026

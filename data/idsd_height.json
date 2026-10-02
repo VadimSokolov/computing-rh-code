@@ -1,0 +1,98 @@
+{
+ "archimedean_integrals": {
+  "holds": true,
+  "I0_upper": "0.835822194741",
+  "I1_upper": "0.403296711612",
+  "I_stated": "0.836, 0.404",
+  "pieces": 60373
+ },
+ "archimedean_sup": {
+  "holds": true,
+  "sup_on_5_10_upper": "0.0421076034240",
+  "pieces": 5000,
+  "bound_beyond_10": "0.0461101828272",
+  "r2dev_at_5": "-0.0419766067588",
+  "r2dev_at_10": "-0.0417399719770"
+ },
+ "prime_constants": {
+  "holds": true,
+  "note": "(y + 1/2) e^{-y/2} <= 2 e^{-3/4} < 1, so |p_k(y)| e^{-y} <= e^{-y/2} for k = 0, 1"
+ },
+ "a_arithmetic": {
+  "holds": true,
+  "F0_at_tau": "0.00493573948159",
+  "F1_at_tau": "2.52701320013",
+  "E0": "1.68743757799",
+  "E1": "0.165355429204",
+  "q": "719.140199831"
+ },
+ "b_arithmetic": {
+  "holds": true,
+  "F0_at_tau": "0.243485194022",
+  "F1_at_tau": "1.28527319739",
+  "E0": "0.0441867757682",
+  "E1": "0.00208154764311",
+  "q": "43.3216987850"
+ },
+ "c_arithmetic": {
+  "holds": true,
+  "F0_at_t1": "0.602415004849",
+  "F1_at_t1": "1.63210460077",
+  "q1_at_end": "21.2574836354",
+  "balls": 5993,
+  "least_F0_lower": "0.00598902677418",
+  "at_t": 0.019990381833844915,
+  "least_F1_lower": "0.0950951100320",
+  "at_t_1": 0.019990381833844915
+ },
+ "zero_counts": {
+  "holds": true,
+  "N20_upper": "4.53800920354",
+  "N50_lower": "6.09142802530",
+  "N_over_r2_at_most": "0.0697175508066",
+  "note": "a zero in (20, 50]; for r >= 25 the bound is at most (r/2pi + 0.39) log r + 3.393 <= r^2/(2 pi e) + 0.39 r/e + 3.393, so N(r)/r^2 is at most N_over_r2_at_most, which decreases in r"
+ },
+ "first_zero": {
+  "holds": true,
+  "Xi_at_14_1347": "3.47644631124e-8",
+  "Xi_at_14_1348": "-1.03503461278e-7",
+  "note": "Xi(t) = xi(1/2 + it) is real, so it has a zero in between, on the line"
+ },
+ "a_spectral": {
+  "holds": true,
+  "R": 400,
+  "H0": "0.000714751996791",
+  "L0": "0.739926206075",
+  "H1": "241.170658960",
+  "L1": "295.970482430"
+ },
+ "b_spectral": {
+  "holds": true,
+  "R": 100,
+  "H0": "2.16529367978e-5",
+  "L0": "0.00673794699909",
+  "H1": "0.455742764983",
+  "L1": "2.69517879963"
+ },
+ "c_spectral": {
+  "holds": true,
+  "R": 25,
+  "H0": "0.00252809984172",
+  "L0": "0.018392",
+  "H1": "3.43166145181",
+  "L1": "3.675"
+ },
+ "least_heights_not_certified": {
+  "a": 398,
+  "b": 95,
+  "c": 25
+ },
+ "crosscheck": {
+  "sign_change_of_dev": "0.02959359151",
+  "I0": "0.835675838414",
+  "I1": "0.403215394021",
+  "note": "mpmath quadrature, not part of the certificate"
+ },
+ "all_hold": true,
+ "seconds": 9.2
+}

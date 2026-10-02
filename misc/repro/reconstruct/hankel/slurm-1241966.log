@@ -1,0 +1,51 @@
+[hopper_run] job 1241966 on hop062.orc.gmu.edu
+float64 zeros 1700 14.134725141734695 2197.258747040206
+Arb at 320 bits: zeros in 11.8 s, worst relative radius 4.45e-71
+largest |Arb zero minus float64 zero| over 1700 zeros: 2.26e-13
+
+Arb enclosures from 1700 Arb zeros (midpoint to 20 digits, relative radius)
+  /0.01/ratio           1.1346547894255757425  relrad  5.91e-93  float64 zeros change it by 2.22e-17
+  /0.01/even[0]        0.11867467592830181866  relrad  4.96e-92  float64 zeros change it by 1.65e-16
+  /0.01/even[1]      0.0024512460178809482303  relrad  4.86e-90  float64 zeros change it by 5.96e-16
+  /0.01/even[2]    0.000010458010993659920323  relrad  4.16e-88  float64 zeros change it by 1.14e-15
+  /0.01/even[3]      1.0414250733517937339e-8  relrad  6.22e-86  float64 zeros change it by 1.37e-15
+  /0.01/odd[0]         0.18164615773683655341  relrad  3.18e-92  float64 zeros change it by 1.24e-16
+  /0.01/odd[1]        0.005866231532448349071  relrad  1.64e-90  float64 zeros change it by 5.67e-16
+  /0.01/odd[2]     0.000032955325930946794035  relrad  1.86e-88  float64 zeros change it by 9.34e-16
+  /0.01/odd[3]       4.5671572690165848772e-8  relrad  3.01e-86  float64 zeros change it by 1.07e-15
+  /0.05/ratio           1.0000081130844444114  relrad  4.77e-93  float64 zeros change it by 8.42e-21
+  /0.05/even[0]      8.1130186228062231594e-6  relrad  5.88e-88  float64 zeros change it by 1.04e-15
+  /0.05/even[1]     1.7690131577293795552e-14  relrad  7.87e-79  float64 zeros change it by 1.97e-15
+  /0.05/even[2]     5.3479066656974224952e-28  relrad  2.71e-76  float64 zeros change it by 1.61e-16
+  /0.05/even[3]      2.199222322393773974e-44  relrad  4.45e-71  float64 zeros change it by 3.24e-15
+  /0.05/odd[0]     0.000017947243028640496982  relrad  2.42e-88  float64 zeros change it by 1.06e-15
+  /0.05/odd[1]      1.2249066605694786129e-13  relrad  1.16e-79  float64 zeros change it by 2.06e-15
+  /0.05/odd[2]      1.7149746690305917498e-26  relrad  6.04e-77  float64 zeros change it by 4.26e-16
+  /0.05/odd[3]      3.8129716652745451122e-42  relrad  7.88e-72  float64 zeros change it by 3.49e-15
+first 80 zeros instead of 1700: largest relative change of the 18 numbers at most 4.8e-71
+first 100 zeros instead of 1700: largest relative change of the 18 numbers at most 4.85e-71
+first 120 zeros instead of 1700: largest relative change of the 18 numbers at most 4.9e-71
+
+mpmath method of hankel.py (float64 zeros, t as float) at several precisions
+  dps  20: 14 of 18 strings equal the archive, largest relative error 1.0
+  dps  25: 18 of 18 strings equal the archive, largest relative error 1.39e-6
+  dps  30: 18 of 18 strings equal the archive, largest relative error 2.31e-11
+  dps  35: 18 of 18 strings equal the archive, largest relative error 6.33e-15
+  dps  40: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps  45: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps  50: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps  55: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps  60: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps  80: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+  dps 100: 18 of 18 strings equal the archive, largest relative error 6.32e-15
+t as float instead of exact decimal changes the 18 numbers by at most 6.32e-15
+mpmath at 60 digits from float64 zeros against Arb from exact zeros: largest relative difference 9.81e-15
+
+regenerated hankel.json against /scratch/vsokolov/rh_book_repro/book_data/hankel.json: 18 numbers, 0 differences beyond 1e-9, max rel diff 0.0, byte identical True
+archived_strings: 18 of 18 printed values are the correctly rounded true values; largest relative deviation 0.000408
+book_table_tab_ch12_hankel: 18 of 18 printed values are the correctly rounded true values; largest relative deviation 0.00402
+round1_U09_recomputation: 18 of 18 printed values are the correctly rounded true values; largest relative deviation 4.73e-6
+P17_draft_observation_7_2_vs_120_zeros: 10 of 10 printed values are the correctly rounded true values; largest relative deviation 0.00402
+table minors equal to %.2e of the stored 4 digit strings: 14 of 16
+nearest powers of ten at t = 0.05: {'/0.05/ratio': 0, '/0.05/even[0]': -5, '/0.05/even[1]': -14, '/0.05/even[2]': -27, '/0.05/even[3]': -44, '/0.05/odd[0]': -5, '/0.05/odd[1]': -13, '/0.05/odd[2]': -26, '/0.05/odd[3]': -41}
+done in 14.3 s

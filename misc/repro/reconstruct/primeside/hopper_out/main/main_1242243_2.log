@@ -1,0 +1,4 @@
+job 1242252 task 2 eps 0.1 on hop048.orc.gmu.edu start Sat Sep 26 21:08:15 EDT 2026
+Model name:          Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+0.1 npts 9281 polya secs 9.3 maxstep 0.0628001439123889 mass(arg) 12.033028394873357 min rho 0.0014708858818753584
+rc=0 end Sat Sep 26 21:08:33 EDT 2026

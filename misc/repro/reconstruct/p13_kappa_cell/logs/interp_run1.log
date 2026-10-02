@@ -1,0 +1,10 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/interp1: sbatch --wait, 16 cores, 8G, 60 min
+[hopper_run] job 1243703 on hop066.orc.gmu.edu
+Traceback (most recent call last):
+  File "/scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/interp1/interp_check.py", line 63, in <module>
+    Mc_exact[k] = np.searchsorted(zf, cells[k]) + ex[(eps, round(float(cells[k]), 12))]
+                                                  ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: (1.0, 185.236625763047)
+scp: /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/interp1/interp_check.json: No such file or directory
+[hopper_run] could not fetch interp_check.json
+exit 1 (attempt 1)

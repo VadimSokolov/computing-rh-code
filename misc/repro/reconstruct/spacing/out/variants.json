@@ -1,0 +1,606 @@
+{
+ "zeros": {
+  "dps20 vs dps30": [
+   1700,
+   0.0
+  ],
+  "dps15 vs dps30": [
+   1699,
+   1.354276643497723e-16
+  ]
+ },
+ "dps30": {
+  "spacings: theta30, float(theta/pi), np.diff": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    9.4887902595705e-15
+   ],
+   "min": [
+    0,
+    2.547521027382463e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185307227
+   ]
+  },
+  "spacings: theta30, float(theta)/np.pi, np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: theta30, exact differences": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    8.53991123361345e-15
+   ],
+   "min": [
+    0,
+    1.7553079149257452e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.00058858151853186
+   ]
+  },
+  "spacings: theta15, float(theta/pi), np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: asymptotic theta to 1/t^3, float64": {
+   "mean": [
+    0,
+    1.282329105833089e-13
+   ],
+   "var": [
+    0,
+    1.4005454423124094e-13
+   ],
+   "min": [
+    0,
+    5.095042054751946e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815186802796
+   ]
+  },
+  "spacings: asymptotic theta without 1/t terms": {
+   "mean": [
+    0,
+    2.744481598730584e-07
+   ],
+   "var": [
+    0,
+    3.383226210187069e-07
+   ],
+   "min": [
+    0,
+    1.8571428255175673e-09
+   ],
+   "var ddof=1": [
+    0,
+    0.0005889196420308891
+   ]
+  },
+  "spacings: local unfolding by log(g_k/2pi)/2pi": {
+   "mean": [
+    0,
+    0.0006532694684419922
+   ],
+   "var": [
+    0,
+    0.0013955333180764996
+   ],
+   "min": [
+    0,
+    4.285083466400841e-06
+   ],
+   "var ddof=1": [
+    0,
+    0.0008074270361672573
+   ]
+  },
+  "leaks: first order, differences of L(b), float64": {
+   "leaks": [
+    4,
+    2.220536115124104e-13
+   ],
+   "coef": [
+    1,
+    0.0
+   ]
+  },
+  "leaks: first order, four terms per cell, float64": {
+   "leaks": [
+    1,
+    2.9484230438362654e-13
+   ],
+   "coef": [
+    0,
+    4.920570629359536e-16
+   ]
+  },
+  "leaks: first order, 30 digits": {
+   "leaks": [
+    3,
+    1.3118318123587324e-11
+   ],
+   "coef": [
+    0,
+    1.3449559720249406e-14
+   ]
+  },
+  "leaks: finite eps=0.005, arctan masses, float64": {
+   "leaks": [
+    0,
+    8.103929289696049e-05
+   ],
+   "coef": [
+    0,
+    2.4317844460034117e-06
+   ]
+  },
+  "leaks: finite eps=0.001, arctan masses, float64": {
+   "leaks": [
+    0,
+    3.241582512554519e-06
+   ],
+   "coef": [
+    0,
+    9.72722461961981e-08
+   ]
+  },
+  "leaks: first order, last boundary at the midpoint 199.64": {
+   "leaks": [
+    4,
+    0.6216966419801211
+   ],
+   "coef": [
+    0,
+    0.028755525931081095
+   ]
+  },
+  "leaks: first order, without the reflected ordinates": {
+   "leaks": [
+    0,
+    1.6143556245154165
+   ],
+   "coef": [
+    0,
+    0.02784320153077772
+   ]
+  }
+ },
+ "dps20": {
+  "spacings: theta30, float(theta/pi), np.diff": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    9.4887902595705e-15
+   ],
+   "min": [
+    0,
+    2.547521027382463e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185307227
+   ]
+  },
+  "spacings: theta30, float(theta)/np.pi, np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: theta30, exact differences": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    8.53991123361345e-15
+   ],
+   "min": [
+    0,
+    1.7553079149257452e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.00058858151853186
+   ]
+  },
+  "spacings: theta15, float(theta/pi), np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: asymptotic theta to 1/t^3, float64": {
+   "mean": [
+    0,
+    1.282329105833089e-13
+   ],
+   "var": [
+    0,
+    1.4005454423124094e-13
+   ],
+   "min": [
+    0,
+    5.095042054751946e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815186802796
+   ]
+  },
+  "spacings: asymptotic theta without 1/t terms": {
+   "mean": [
+    0,
+    2.744481598730584e-07
+   ],
+   "var": [
+    0,
+    3.383226210187069e-07
+   ],
+   "min": [
+    0,
+    1.8571428255175673e-09
+   ],
+   "var ddof=1": [
+    0,
+    0.0005889196420308891
+   ]
+  },
+  "spacings: local unfolding by log(g_k/2pi)/2pi": {
+   "mean": [
+    0,
+    0.0006532694684419922
+   ],
+   "var": [
+    0,
+    0.0013955333180764996
+   ],
+   "min": [
+    0,
+    4.285083466400841e-06
+   ],
+   "var ddof=1": [
+    0,
+    0.0008074270361672573
+   ]
+  },
+  "leaks: first order, differences of L(b), float64": {
+   "leaks": [
+    4,
+    2.220536115124104e-13
+   ],
+   "coef": [
+    1,
+    0.0
+   ]
+  },
+  "leaks: first order, four terms per cell, float64": {
+   "leaks": [
+    1,
+    2.9484230438362654e-13
+   ],
+   "coef": [
+    0,
+    4.920570629359536e-16
+   ]
+  },
+  "leaks: first order, 30 digits": {
+   "leaks": [
+    3,
+    1.3118318123587324e-11
+   ],
+   "coef": [
+    0,
+    1.3449559720249406e-14
+   ]
+  },
+  "leaks: finite eps=0.005, arctan masses, float64": {
+   "leaks": [
+    0,
+    8.103929289696049e-05
+   ],
+   "coef": [
+    0,
+    2.4317844460034117e-06
+   ]
+  },
+  "leaks: finite eps=0.001, arctan masses, float64": {
+   "leaks": [
+    0,
+    3.241582512554519e-06
+   ],
+   "coef": [
+    0,
+    9.72722461961981e-08
+   ]
+  },
+  "leaks: first order, last boundary at the midpoint 199.64": {
+   "leaks": [
+    4,
+    0.6216966419801211
+   ],
+   "coef": [
+    0,
+    0.028755525931081095
+   ]
+  },
+  "leaks: first order, without the reflected ordinates": {
+   "leaks": [
+    0,
+    1.6143556245154165
+   ],
+   "coef": [
+    0,
+    0.02784320153077772
+   ]
+  }
+ },
+ "dps15": {
+  "spacings: theta30, float(theta/pi), np.diff": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    9.4887902595705e-15
+   ],
+   "min": [
+    0,
+    2.547521027382463e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185307227
+   ]
+  },
+  "spacings: theta30, float(theta)/np.pi, np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: theta30, exact differences": {
+   "mean": [
+    0,
+    1.1102416500720809e-16
+   ],
+   "var": [
+    0,
+    8.729687038804859e-15
+   ],
+   "min": [
+    0,
+    1.7553079149257452e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185316705
+   ]
+  },
+  "spacings: theta15, float(theta/pi), np.diff": {
+   "mean": [
+    1,
+    0.0
+   ],
+   "var": [
+    1,
+    0.0
+   ],
+   "min": [
+    1,
+    0.0
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815185403899
+   ]
+  },
+  "spacings: asymptotic theta to 1/t^3, float64": {
+   "mean": [
+    0,
+    1.282329105833089e-13
+   ],
+   "var": [
+    0,
+    1.3986476842604958e-13
+   ],
+   "min": [
+    0,
+    5.095042054751946e-12
+   ],
+   "var ddof=1": [
+    0,
+    0.0005885815186800901
+   ]
+  },
+  "spacings: asymptotic theta without 1/t terms": {
+   "mean": [
+    0,
+    2.744481598730584e-07
+   ],
+   "var": [
+    0,
+    3.383226204493799e-07
+   ],
+   "min": [
+    0,
+    1.8571428255175673e-09
+   ],
+   "var ddof=1": [
+    0,
+    0.0005889196420303205
+   ]
+  },
+  "spacings: local unfolding by log(g_k/2pi)/2pi": {
+   "mean": [
+    0,
+    0.0006532694684419922
+   ],
+   "var": [
+    0,
+    0.0013955333180768793
+   ],
+   "min": [
+    0,
+    4.285083466400841e-06
+   ],
+   "var ddof=1": [
+    0,
+    0.0008074270361674472
+   ]
+  },
+  "leaks: first order, differences of L(b), float64": {
+   "leaks": [
+    5,
+    2.220536115124104e-13
+   ],
+   "coef": [
+    1,
+    0.0
+   ]
+  },
+  "leaks: first order, four terms per cell, float64": {
+   "leaks": [
+    1,
+    2.9484230438362654e-13
+   ],
+   "coef": [
+    0,
+    4.920570629359536e-16
+   ]
+  },
+  "leaks: first order, 30 digits": {
+   "leaks": [
+    3,
+    1.3118318123587324e-11
+   ],
+   "coef": [
+    0,
+    1.3449559720249406e-14
+   ]
+  },
+  "leaks: finite eps=0.005, arctan masses, float64": {
+   "leaks": [
+    0,
+    8.103929289696049e-05
+   ],
+   "coef": [
+    0,
+    2.4317844460034117e-06
+   ]
+  },
+  "leaks: finite eps=0.001, arctan masses, float64": {
+   "leaks": [
+    0,
+    3.241582512554519e-06
+   ],
+   "coef": [
+    0,
+    9.72722461961981e-08
+   ]
+  },
+  "leaks: first order, last boundary at the midpoint 199.64": {
+   "leaks": [
+    5,
+    0.6216966419801211
+   ],
+   "coef": [
+    0,
+    0.028755525931081095
+   ]
+  },
+  "leaks: first order, without the reflected ordinates": {
+   "leaks": [
+    0,
+    1.6143556245154165
+   ],
+   "coef": [
+    0,
+    0.02784320153077772
+   ]
+  }
+ }
+}

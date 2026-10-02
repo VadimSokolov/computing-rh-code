@@ -1,0 +1,87 @@
+job 1242621 on hop062.orc.gmu.edu start Sat Sep 26 21:14:50 EDT 2026
+Model name:          Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+eps 0.5: archived tv/eps 1.7320e-09, sup 1.9915e-11
+   Tstar_log_default              tv/eps 1.1582e-10  sup 1.0087e-12
+   g1700_boundary_log_default     tv/eps 1.3693e-09  sup 1.1816e-11
+   Tstar_log_tight                tv/eps 1.0517e-09  sup 9.0925e-12
+   g1700_boundary_log_tight       tv/eps 2.3037e-09  sup 1.9915e-11
+   Tstar_log48_default            tv/eps 1.0813e-10  sup 9.4244e-13
+   g1700_boundary_log48_default   tv/eps 1.3616e-09  sup 1.1750e-11
+   Tstar_log48_tight              tv/eps 1.0440e-09  sup 9.0262e-12
+   g1700_boundary_log48_tight     tv/eps 2.2960e-09  sup 1.9849e-11
+eps 0.2: archived tv/eps 1.7314e-09, sup 7.9666e-12
+   Tstar_log_default              tv/eps 1.1582e-10  sup 4.1614e-13
+   g1700_boundary_log_default     tv/eps 1.3693e-09  sup 4.7424e-12
+   Tstar_log_tight                tv/eps 1.0517e-09  sup 3.6529e-12
+   g1700_boundary_log_tight       tv/eps 2.3037e-09  sup 7.9815e-12
+   Tstar_log48_default            tv/eps 1.0813e-10  sup 3.8962e-13
+   g1700_boundary_log48_default   tv/eps 1.3616e-09  sup 4.7159e-12
+   Tstar_log48_tight              tv/eps 1.0440e-09  sup 3.6263e-12
+   g1700_boundary_log48_tight     tv/eps 2.2960e-09  sup 7.9549e-12
+eps 0.1: archived tv/eps 1.7314e-09, sup 4.0234e-12
+   Tstar_log_default              tv/eps 1.1582e-10  sup 2.7046e-13
+   g1700_boundary_log_default     tv/eps 1.3693e-09  sup 2.4324e-12
+   Tstar_log_tight                tv/eps 1.0517e-09  sup 1.8860e-12
+   g1700_boundary_log_tight       tv/eps 2.3037e-09  sup 4.0503e-12
+   Tstar_log48_default            tv/eps 1.0813e-10  sup 2.5720e-13
+   g1700_boundary_log48_default   tv/eps 1.3616e-09  sup 2.4192e-12
+   Tstar_log48_tight              tv/eps 1.0440e-09  sup 1.8727e-12
+   g1700_boundary_log48_tight     tv/eps 2.2960e-09  sup 4.0370e-12
+eps 0.05: archived tv/eps 1.7307e-09, sup 2.3466e-12
+   Tstar_log_default              tv/eps 1.1726e-10  sup 3.8448e-13
+   g1700_boundary_log_default     tv/eps 1.3693e-09  sup 1.4655e-12
+   Tstar_log_tight                tv/eps 1.0517e-09  sup 1.1918e-12
+   g1700_boundary_log_tight       tv/eps 2.3037e-09  sup 2.2716e-12
+   Tstar_log48_default            tv/eps 1.0970e-10  sup 3.7785e-13
+   g1700_boundary_log48_default   tv/eps 1.3616e-09  sup 1.4588e-12
+   Tstar_log48_tight              tv/eps 1.0440e-09  sup 1.1852e-12
+   g1700_boundary_log48_tight     tv/eps 2.2960e-09  sup 2.2649e-12
+eps 0.02: archived tv/eps 1.7493e-09, sup 3.5580e-12
+   Tstar_log_default              tv/eps 7.6534e-07  sup 2.6834e-10
+   g1700_boundary_log_default     tv/eps 7.7920e-07  sup 2.7326e-10
+   Tstar_log_tight                tv/eps 1.0669e-09  sup 2.1408e-12
+   g1700_boundary_log_tight       tv/eps 2.3098e-09  sup 2.5727e-12
+   Tstar_log48_default            tv/eps 7.6534e-07  sup 2.6833e-10
+   g1700_boundary_log48_default   tv/eps 7.7919e-07  sup 2.7326e-10
+   Tstar_log48_tight              tv/eps 1.0593e-09  sup 2.1381e-12
+   g1700_boundary_log48_tight     tv/eps 2.3022e-09  sup 2.5700e-12
+eps 0.01: archived tv/eps 1.9043e-09, sup 1.3628e-11
+   Tstar_log_default              tv/eps 1.8136e-07  sup 3.8622e-11
+   g1700_boundary_log_default     tv/eps 1.8218e-07  sup 3.8750e-11
+   Tstar_log_tight                tv/eps 1.1772e-09  sup 7.2899e-12
+   g1700_boundary_log_tight       tv/eps 2.4128e-09  sup 7.5059e-12
+   Tstar_log48_default            tv/eps 1.8135e-07  sup 3.8620e-11
+   g1700_boundary_log48_default   tv/eps 1.8217e-07  sup 3.8749e-11
+   Tstar_log48_tight              tv/eps 1.1697e-09  sup 7.2886e-12
+   g1700_boundary_log48_tight     tv/eps 2.4052e-09  sup 7.5045e-12
+probe2 rc=0
+== results_prime.json
+   not produced by this run (no script in the run writes it)
+== extra.json
+   not produced by this run (no script in the run writes it)
+== sens2.json
+   not produced by this run (no script in the run writes it)
+== results_main.json
+   135 numbers: 29 bitwise equal, 117 within rel 1e-9, 18 beyond; max rel diff 0.711; structural differences: 0
+   /rows[0]/secs: book 6.4483983516693115 | rerun 1.8646619319915771 (rel 0.711, -5160828407906304 ulp)
+   /rows[4]/secs: book 15.330109596252441 | rerun 45.84794878959656 (rel 0.666, +17180016152412160 ulp)
+   /rows[5]/secs: book 33.26119303703308 | rerun 91.43324971199036 (rel 0.636, +8186989148897280 ulp)
+   /rows[0]/sup: book 1.991548592705783e-11 | rerun 9.093582386664883e-12 (rel 0.543, -3349216923484160 ulp)
+   /rows[1]/sup: book 7.966557968863697e-12 | rerun 3.654850958012025e-12 (rel 0.541, -2668817373200384 ulp)
+   /rows[2]/sup: book 4.023448241241567e-12 | rerun 1.8946693375993494e-12 (rel 0.529, -2635300639604736 ulp)
+   /rows[3]/sup: book 2.346567384847731e-12 | rerun 1.1981252002622646e-12 (rel 0.489, -2843405126205440 ulp)
+   /rows[5]/sup: book 1.3628209671878722e-11 | rerun 7.31834574071408e-12 (rel 0.463, -3905616601415680 ulp)
+   field N           :    1 numbers,    1 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field T           :    1 numbers,    1 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field B           :    1 numbers,    1 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field eps         :    6 numbers,    6 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field npts        :    6 numbers,    6 bitwise equal, max rel 0.000e+00, max 0 ulp
+   field tv_raw      :    6 numbers,    0 bitwise equal, max rel 7.356e-11, max 497670 ulp
+   field tv          :    6 numbers,    0 bitwise equal, max rel 3.928e-01, max 3289686586036224 ulp
+   field sup         :    6 numbers,    0 bitwise equal, max rel 5.434e-01, max 3905616601415680 ulp
+   field mass        :    6 numbers,    0 bitwise equal, max rel 3.252e-15, max 22 ulp
+   field minrho      :    6 numbers,    0 bitwise equal, max rel 8.219e-14, max 446 ulp
+   field atom_masses :   72 numbers,    2 bitwise equal, max rel 2.620e-14, max 118 ulp
+   field secs        :    6 numbers,    0 bitwise equal, max rel 7.108e-01, max 17180016152412160 ulp
+   field gamma_window:   12 numbers,   12 bitwise equal, max rel 0.000e+00, max 0 ulp
+end Sat Sep 26 21:15:00 EDT 2026

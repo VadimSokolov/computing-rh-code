@@ -1,0 +1,2965 @@
+{
+ "part1": {
+  "groups": {
+   "fixed script, blocks 1 to 3": {
+    "lines": 36,
+    "identical_lines": 36,
+    "identical_but_timing": 0,
+    "numbers": 196,
+    "numbers_agree": 196,
+    "numbers_differ": 0,
+    "max_rel_diff": "0.0",
+    "timing_pairs": [
+     [
+      33,
+      [
+       "7"
+      ],
+      [
+       "7"
+      ]
+     ],
+     [
+      34,
+      [
+       "7"
+      ],
+      [
+       "7"
+      ]
+     ],
+     [
+      35,
+      [
+       "7"
+      ],
+      [
+       "7"
+      ]
+     ],
+     [
+      36,
+      [
+       "7"
+      ],
+      [
+       "7"
+      ]
+     ]
+    ]
+   },
+   "reconstruction supp_lines37_39.py": {
+    "lines": 3,
+    "identical_lines": 3,
+    "identical_but_timing": 0,
+    "numbers": 28,
+    "numbers_agree": 28,
+    "numbers_differ": 0,
+    "max_rel_diff": "0.0",
+    "timing_pairs": []
+   },
+   "fixed script, blocks 4 to 12": {
+    "lines": 53,
+    "identical_lines": 53,
+    "identical_but_timing": 0,
+    "numbers": 312,
+    "numbers_agree": 312,
+    "numbers_differ": 0,
+    "max_rel_diff": "0.0",
+    "timing_pairs": [
+     [
+      55,
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ],
+     [
+      56,
+      [
+       "0"
+      ],
+      [
+       "0"
+      ]
+     ],
+     [
+      87,
+      [
+       "1"
+      ],
+      [
+       "1"
+      ]
+     ],
+     [
+      88,
+      [
+       "1"
+      ],
+      [
+       "1"
+      ]
+     ],
+     [
+      89,
+      [
+       "1"
+      ],
+      [
+       "1"
+      ]
+     ],
+     [
+      90,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      91,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      92,
+      [
+       "3"
+      ],
+      [
+       "3"
+      ]
+     ]
+    ]
+   },
+   "printed block 13 code on the ten stale cases (supp_gaps_table.py)": {
+    "lines": 10,
+    "identical_lines": 5,
+    "identical_but_timing": 1,
+    "numbers": 202,
+    "numbers_agree": 194,
+    "numbers_differ": 8,
+    "max_rel_diff": "0.667",
+    "timing_pairs": [
+     [
+      93,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      94,
+      [
+       "0"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      95,
+      [
+       "2"
+      ],
+      [
+       "3"
+      ]
+     ],
+     [
+      96,
+      [
+       "4"
+      ],
+      [
+       "4"
+      ]
+     ],
+     [
+      97,
+      [
+       "0"
+      ],
+      [
+       "5"
+      ]
+     ],
+     [
+      98,
+      [
+       "3"
+      ],
+      [
+       "3"
+      ]
+     ],
+     [
+      99,
+      [
+       "0"
+      ],
+      [
+       "3"
+      ]
+     ],
+     [
+      100,
+      [
+       "0"
+      ],
+      [
+       "4"
+      ]
+     ],
+     [
+      101,
+      [
+       "3"
+      ],
+      [
+       "3"
+      ]
+     ],
+     [
+      102,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ]
+    ]
+   },
+   "fixed script, block 13": {
+    "lines": 6,
+    "identical_lines": 5,
+    "identical_but_timing": 1,
+    "numbers": 119,
+    "numbers_agree": 119,
+    "numbers_differ": 0,
+    "max_rel_diff": "0.0",
+    "timing_pairs": [
+     [
+      103,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      104,
+      [
+       "5"
+      ],
+      [
+       "5"
+      ]
+     ],
+     [
+      105,
+      [
+       "3"
+      ],
+      [
+       "3"
+      ]
+     ],
+     [
+      106,
+      [
+       "3"
+      ],
+      [
+       "4"
+      ]
+     ],
+     [
+      107,
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ],
+     [
+      108,
+      [
+       "1"
+      ],
+      [
+       "1"
+      ]
+     ]
+    ]
+   },
+   "reconstruction supp_line109.py": {
+    "lines": 1,
+    "identical_lines": 1,
+    "identical_but_timing": 0,
+    "numbers": 4,
+    "numbers_agree": 4,
+    "numbers_differ": 0,
+    "max_rel_diff": "0.0",
+    "timing_pairs": []
+   }
+  },
+  "lines": [
+   {
+    "line": 1,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 2,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 12,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 3,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 12,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 4,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 5,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 6,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 7,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 8,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 9,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 10,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 11,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 12,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 13,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 14,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 15,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 16,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 17,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 18,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 19,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 20,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 21,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 22,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 23,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 24,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 25,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 26,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 27,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 28,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 29,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 30,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 31,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 32,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 33,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [
+     "7"
+    ],
+    "timings_rerun": [
+     "7"
+    ],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 34,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [
+     "7"
+    ],
+    "timings_rerun": [
+     "7"
+    ],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 35,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [
+     "7"
+    ],
+    "timings_rerun": [
+     "7"
+    ],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 36,
+    "source": "fixed script, blocks 1 to 3",
+    "identical": true,
+    "timings_archive": [
+     "7"
+    ],
+    "timings_rerun": [
+     "7"
+    ],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 37,
+    "source": "reconstruction supp_lines37_39.py",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 38,
+    "source": "reconstruction supp_lines37_39.py",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 39,
+    "source": "reconstruction supp_lines37_39.py",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 10,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 40,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 41,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 42,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 43,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 44,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 45,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 46,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 47,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 48,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 49,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 50,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 12,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 51,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 1,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 52,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 53,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 10,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 54,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 55,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "0"
+    ],
+    "text_same": true,
+    "n_numbers": 3,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 56,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "0"
+    ],
+    "text_same": true,
+    "n_numbers": 3,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 57,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 58,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 59,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 60,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 61,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 62,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 63,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 64,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 65,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 66,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 67,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 3,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 68,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 12,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 69,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 70,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 71,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 72,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 73,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 74,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 75,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 76,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 8,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 77,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 3,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 78,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 79,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 7,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 80,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 81,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 82,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 83,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 84,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 2,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 85,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 3,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 86,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 5,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 87,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "1"
+    ],
+    "timings_rerun": [
+     "1"
+    ],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 88,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "1"
+    ],
+    "timings_rerun": [
+     "1"
+    ],
+    "text_same": true,
+    "n_numbers": 8,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 89,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "1"
+    ],
+    "timings_rerun": [
+     "1"
+    ],
+    "text_same": true,
+    "n_numbers": 8,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 90,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 6,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 91,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 9,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 92,
+    "source": "fixed script, blocks 4 to 12",
+    "identical": true,
+    "timings_archive": [
+     "3"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 10,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 93,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 19,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 94,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": false,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.667",
+    "differences": [
+     [
+      17,
+      "3.14159",
+      "1.04721",
+      "0.667"
+     ],
+     [
+      18,
+      "1.0",
+      "2.99997",
+      "0.667"
+     ]
+    ],
+    "archive": "removed [2, 3]: freqs [1, 4, 5, 6, 7, 8, 9]..., gaps [3, 1, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 1.0472 (0s)",
+    "rerun": "removed [2, 3]: freqs [1, 4, 5, 6, 7, 8, 9]..., gaps [3, 1, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 1.04721; pi/threshold = 2.99997; pi/first gap = 1.0472 (2s)"
+   },
+   {
+    "line": 95,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": false,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.0",
+    "differences": [],
+    "archive": "removed [2, 4]: freqs [1, 3, 5, 6, 7, 8, 9]..., gaps [2, 2, 1, 1, 1, 1]...: first gap 2, max gap 2; threshold strip 1.57079; pi/threshold = 2.0; pi/first gap = 1.5708 (2s)",
+    "rerun": "removed [2, 4]: freqs [1, 3, 5, 6, 7, 8, 9]..., gaps [2, 2, 1, 1, 1, 1]...: first gap 2, max gap 2; threshold strip 1.57079; pi/threshold = 2.0; pi/first gap = 1.5708 (3s)"
+   },
+   {
+    "line": 96,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": true,
+    "timings_archive": [
+     "4"
+    ],
+    "timings_rerun": [
+     "4"
+    ],
+    "text_same": true,
+    "n_numbers": 21,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 97,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": false,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "5"
+    ],
+    "text_same": true,
+    "n_numbers": 22,
+    "max_rel": "0.667",
+    "differences": [
+     [
+      19,
+      "3.14159",
+      "1.0472",
+      "0.667"
+     ],
+     [
+      20,
+      "1.0",
+      "3.0",
+      "0.667"
+     ]
+    ],
+    "archive": "removed [2, 3, 5, 6]: freqs [1, 4, 7, 8, 9, 10, 11]..., gaps [3, 3, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 1.0472 (0s)",
+    "rerun": "removed [2, 3, 5, 6]: freqs [1, 4, 7, 8, 9, 10, 11]..., gaps [3, 3, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 1.0472; pi/threshold = 3.0; pi/first gap = 1.0472 (5s)"
+   },
+   {
+    "line": 98,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": true,
+    "timings_archive": [
+     "3"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 21,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 99,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": false,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.326",
+    "differences": [
+     [
+      17,
+      "3.14159",
+      "2.11821",
+      "0.326"
+     ],
+     [
+      18,
+      "1.0",
+      "1.48313",
+      "0.326"
+     ]
+    ],
+    "archive": "removed [3, 4]: freqs [1, 2, 5, 6, 7, 8, 9]..., gaps [1, 3, 1, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 3.1416 (0s)",
+    "rerun": "removed [3, 4]: freqs [1, 2, 5, 6, 7, 8, 9]..., gaps [1, 3, 1, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.11821; pi/threshold = 1.48313; pi/first gap = 3.1416 (3s)"
+   },
+   {
+    "line": 100,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": false,
+    "timings_archive": [
+     "0"
+    ],
+    "timings_rerun": [
+     "4"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.241",
+    "differences": [
+     [
+      17,
+      "3.14159",
+      "2.38594",
+      "0.241"
+     ],
+     [
+      18,
+      "1.0",
+      "1.31671",
+      "0.241"
+     ]
+    ],
+    "archive": "removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 3.1416 (0s)",
+    "rerun": "removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.38594; pi/threshold = 1.31671; pi/first gap = 3.1416 (4s)"
+   },
+   {
+    "line": 101,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": true,
+    "timings_archive": [
+     "3"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 102,
+    "source": "printed block 13 code on the ten stale cases (supp_gaps_table.py)",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 19,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 103,
+    "source": "fixed script, block 13",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 104,
+    "source": "fixed script, block 13",
+    "identical": true,
+    "timings_archive": [
+     "5"
+    ],
+    "timings_rerun": [
+     "5"
+    ],
+    "text_same": true,
+    "n_numbers": 22,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 105,
+    "source": "fixed script, block 13",
+    "identical": true,
+    "timings_archive": [
+     "3"
+    ],
+    "timings_rerun": [
+     "3"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 106,
+    "source": "fixed script, block 13",
+    "identical": false,
+    "timings_archive": [
+     "3"
+    ],
+    "timings_rerun": [
+     "4"
+    ],
+    "text_same": true,
+    "n_numbers": 20,
+    "max_rel": "0.0",
+    "differences": [],
+    "archive": "removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.38594; pi/threshold = 1.31671; pi/first gap = 3.1416 (3s)",
+    "rerun": "removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.38594; pi/threshold = 1.31671; pi/first gap = 3.1416 (4s)"
+   },
+   {
+    "line": 107,
+    "source": "fixed script, block 13",
+    "identical": true,
+    "timings_archive": [
+     "2"
+    ],
+    "timings_rerun": [
+     "2"
+    ],
+    "text_same": true,
+    "n_numbers": 19,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 108,
+    "source": "fixed script, block 13",
+    "identical": true,
+    "timings_archive": [
+     "1"
+    ],
+    "timings_rerun": [
+     "1"
+    ],
+    "text_same": true,
+    "n_numbers": 18,
+    "max_rel": "0.0",
+    "differences": []
+   },
+   {
+    "line": 109,
+    "source": "reconstruction supp_line109.py",
+    "identical": true,
+    "timings_archive": [],
+    "timings_rerun": [],
+    "text_same": true,
+    "n_numbers": 4,
+    "max_rel": "0.0",
+    "differences": []
+   }
+  ]
+ },
+ "part2": {
+  "lines_fixed": 95,
+  "lines_equiv": 95,
+  "identical": 95,
+  "differ_only_in_timing": 0,
+  "other_differences": []
+ },
+ "part3": [
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h positive for (alpha,q)=(0.4,0.6)",
+   "quoted": "> 0",
+   "value": "8.79e-7",
+   "source": "line 11",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h positive for (alpha,q)=(0.4,0.55)",
+   "quoted": "> 0",
+   "value": "1.476e-6",
+   "source": "line 12",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h positive for (alpha,q)=(0.5,0.5)",
+   "quoted": "> 0",
+   "value": "1.571e-8",
+   "source": "line 14",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h positive for (alpha,q)=(0.3,0.7)",
+   "quoted": "> 0",
+   "value": "5.709e-7",
+   "source": "line 17",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h for (0.6,0.3)",
+   "quoted": "-0.0114",
+   "value": "-0.01138",
+   "source": "line 16",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h for (0.5,0.6)",
+   "quoted": "-191",
+   "value": "-191.0",
+   "source": "line 15",
+   "ok": true
+  },
+  {
+   "where": "boschB:72",
+   "what": "min Im eps_h for (0.4,0.75)",
+   "quoted": "-1.1e16",
+   "value": "-1.075e+16",
+   "source": "line 13",
+   "ok": true
+  },
+  {
+   "where": "boschB:72, app:bosch",
+   "what": "grid of 49 x 199 points (radii 10^(k/4), k=-24..24; angles j pi/200)",
+   "quoted": "49 x 199",
+   "value": "49 x 199",
+   "source": "script lines 56, 57",
+   "ok": true
+  },
+  {
+   "where": "boschB:149, app:bosch",
+   "what": "ray scan: number of points",
+   "quoted": "885",
+   "value": "885.0",
+   "source": "line 10",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "ray scan: minimum of Im eps_phi(r e^{i theta})/r",
+   "quoted": "3.8e-4",
+   "value": "0.00037816",
+   "source": "line 10",
+   "ok": true
+  },
+  {
+   "where": "boschB:149, app:bosch",
+   "what": "toy p_* = 1-0.2/pi",
+   "quoted": "0.9363",
+   "value": "0.936338",
+   "source": "line 18",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=0.80: no poles in Omega, scan positive",
+   "quoted": "False, > 0",
+   "value": "1.955e-9",
+   "source": "line 19",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=0.90: no poles in Omega, scan positive",
+   "quoted": "False, > 0",
+   "value": "6.214e-10",
+   "source": "line 20",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=0.93: no poles in Omega, scan positive",
+   "quoted": "False, > 0",
+   "value": "4.384e-10",
+   "source": "line 21",
+   "ok": true
+  },
+  {
+   "where": "boschB:149, app:bosch",
+   "what": "toy p=0.94: poles in Omega, scan stays positive",
+   "quoted": "True, > 0",
+   "value": "3.901e-10",
+   "source": "line 22",
+   "ok": true
+  },
+  {
+   "where": "boschB:149, app:bosch",
+   "what": "toy p=0.97: poles in Omega, scan stays positive",
+   "quoted": "True, > 0",
+   "value": "2.744e-10",
+   "source": "line 23",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=1: minimum",
+   "quoted": "-2.08",
+   "value": "-2.082",
+   "source": "line 24",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=1: radius of the minimum",
+   "quoted": "178",
+   "value": "178.0",
+   "source": "line 24",
+   "ok": true
+  },
+  {
+   "where": "boschB:149",
+   "what": "toy p=1: angle/pi of the minimum",
+   "quoted": "0.965",
+   "value": "0.965",
+   "source": "line 24",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "sign test: no violation at p=0.95",
+   "quoted": "[None, None, None, None]",
+   "value": "[None, None, None, None]",
+   "source": "line 8",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "sign test: violation at p=1",
+   "quoted": "first entry 29",
+   "value": "[29, None, None, None]",
+   "source": "line 9",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "toy p=0.94: pole angle/pi 0.9961, radius 274.52; beyond the last ray 0.995 or between grid radii 177.8 and 316.2",
+   "quoted": "between grid points or beyond the last ray",
+   "value": "angle beyond last ray",
+   "source": "arithmetic from script lines 57, 78",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "toy p=0.97: pole angle/pi 0.9653, radius 230.75; beyond the last ray 0.995 or between grid radii 177.8 and 316.2",
+   "quoted": "between grid points or beyond the last ray",
+   "value": "radius between grid radii",
+   "source": "arithmetic from script lines 57, 78",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "log phi(s^p) reproduced to all ten printed digits (line 33)",
+   "quoted": "equal",
+   "value": "-0.02308645471 | -0.02308645471",
+   "source": "line 33",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "log phi(s^p) reproduced to all ten printed digits (line 34)",
+   "quoted": "equal",
+   "value": "-0.07288004392 | -0.07288004392",
+   "source": "line 34",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "log phi(s^p) reproduced to all ten printed digits (line 35)",
+   "quoted": "equal",
+   "value": "-0.02308645471 | -0.02308645471",
+   "source": "line 35",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "log phi(s^p) reproduced to all ten printed digits (line 36)",
+   "quoted": "equal",
+   "value": "-0.1823802136 | -0.1823802136",
+   "source": "line 36",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "log phi(s^p) at p=0.9, s=10",
+   "quoted": "-0.1823802136",
+   "value": "-0.1823802136",
+   "source": "line 36",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.5, tau=100: zero sum, 30 zeros",
+   "quoted": "2.74 x 0.0001",
+   "value": "0.00027362781",
+   "source": "line 26",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.5, tau=100: zero sum, 100 zeros",
+   "quoted": "3.18 x 0.0001",
+   "value": "0.000317988",
+   "source": "line 37 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.5, tau=100: zero sum, 200 zeros",
+   "quoted": "3.35 x 0.0001",
+   "value": "0.000334699",
+   "source": "line 37 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.5, tau=100: exact u_p",
+   "quoted": "3.67 x 0.0001",
+   "value": "0.00036749844",
+   "source": "line 26",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.9, tau=gamma_1^(2/p): zero sum, 30 zeros",
+   "quoted": "3.504 x 0.001",
+   "value": "0.003504334",
+   "source": "line 31",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.9, tau=gamma_1^(2/p): zero sum, 100 zeros",
+   "quoted": "3.644 x 0.001",
+   "value": "0.00364394",
+   "source": "line 38 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.9, tau=gamma_1^(2/p): zero sum, 200 zeros",
+   "quoted": "3.696 x 0.001",
+   "value": "0.00369577",
+   "source": "line 38 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:172",
+   "what": "p=0.9, tau=gamma_1^(2/p): exact u_p",
+   "quoted": "3.797 x 0.001",
+   "value": "0.003797116",
+   "source": "line 31",
+   "ok": true
+  },
+  {
+   "where": "boschB:172, app:bosch",
+   "what": "u_p positive on 148 points",
+   "quoted": "148 points, min > 0",
+   "value": "148 points, min 9.995e-8",
+   "source": "line 39 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "series and eta form agree to fifteen digits (line 40)",
+   "quoted": "equal",
+   "value": "0.00034769345992343 | 0.00034769345992343",
+   "source": "line 40",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "series and eta form agree to fifteen digits (line 41)",
+   "quoted": "equal",
+   "value": "0.690050269211105 | 0.690050269211105",
+   "source": "line 41",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "series and eta form agree to fifteen digits (line 42)",
+   "quoted": "equal",
+   "value": "0.467927261554653 | 0.467927261554653",
+   "source": "line 42",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "series and eta form agree to fifteen digits (line 43)",
+   "quoted": "equal",
+   "value": "0.0633908642552182 | 0.0633908642552182",
+   "source": "line 43",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "int e^{-2t} f_C",
+   "quoted": "0.214383752348",
+   "value": "0.214383752348",
+   "source": "line 44",
+   "ok": true
+  },
+  {
+   "where": "boschB:306",
+   "what": "sech(pi/sqrt 2)",
+   "quoted": "0.214383752348",
+   "value": "0.214383752348",
+   "source": "line 44",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.5: strip exit t_e",
+   "quoted": "0.707",
+   "value": "0.70718",
+   "source": "line 61",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.5: t_1",
+   "quoted": "4.07",
+   "value": "4.0694",
+   "source": "line 61",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.5: t_1/t_e",
+   "quoted": "5.75",
+   "value": "5.75440481914",
+   "source": "line 61",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.5: tau_1",
+   "quoted": "274",
+   "value": "274.23",
+   "source": "line 61",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9: strip exit t_e",
+   "quoted": "3.20",
+   "value": "3.1965",
+   "source": "line 62",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9: t_1",
+   "quoted": "11.1",
+   "value": "11.084",
+   "source": "line 62",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9: t_1/t_e",
+   "quoted": "3.47",
+   "value": "3.46754262475",
+   "source": "line 62",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9: tau_1",
+   "quoted": "210",
+   "value": "209.66",
+   "source": "line 62",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.99: strip exit t_e",
+   "quoted": "31.8",
+   "value": "31.835",
+   "source": "line 63",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.99: t_1",
+   "quoted": "69.6",
+   "value": "69.648",
+   "source": "line 63",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.99: t_1/t_e",
+   "quoted": "2.19",
+   "value": "2.18778074446",
+   "source": "line 63",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.99: tau_1",
+   "quoted": "5.29e3",
+   "value": "5285.1",
+   "source": "line 63",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.999: strip exit t_e",
+   "quoted": "318",
+   "value": "318.34",
+   "source": "line 64",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.999: t_1",
+   "quoted": "553",
+   "value": "553.21",
+   "source": "line 64",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.999: t_1/t_e",
+   "quoted": "1.74",
+   "value": "1.7377960671",
+   "source": "line 64",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.999: tau_1",
+   "quoted": "3.10e5",
+   "value": "309940.0",
+   "source": "line 64",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9999: strip exit t_e",
+   "quoted": "3183",
+   "value": "3183.4",
+   "source": "line 65",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9999: t_1",
+   "quoted": "4818",
+   "value": "4818.3",
+   "source": "line 65",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9999: t_1/t_e",
+   "quoted": "1.51",
+   "value": "1.51357039643",
+   "source": "line 65",
+   "ok": true
+  },
+  {
+   "where": "boschB:273-277",
+   "what": "Table bs:tab:prime, p=0.9999: tau_1",
+   "quoted": "2.33e7",
+   "value": "23255000.0",
+   "source": "line 65",
+   "ok": true
+  },
+  {
+   "where": "boschB:265",
+   "what": "-zeta'/zeta(sigma) < 1/(sigma-1) at 80 points, 10^-5.9 <= sigma-1 <= 10^2",
+   "quoted": "True",
+   "value": "True",
+   "source": "line 66, script line 217",
+   "ok": true
+  },
+  {
+   "where": "boschB:285",
+   "what": "p=0.9999: leading term ratio 1+4/log(t_e/2 pi)",
+   "quoted": "1.64",
+   "value": "1.64228824964",
+   "source": "arithmetic",
+   "ok": true
+  },
+  {
+   "where": "boschB:285",
+   "what": "p=0.9999: sign change of m_p, as a ratio to t_e",
+   "quoted": "1.53",
+   "value": "1.53272863213",
+   "source": "recomputed with block 7's L, bisection between grid points",
+   "ok": true
+  },
+  {
+   "where": "boschB:285",
+   "what": "p=0.9999: last grid point with m_p <= 0, as a ratio to t_e",
+   "quoted": "1.51",
+   "value": "1.51371260456",
+   "source": "recomputed with block 7's L",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "c_1",
+   "quoted": "10163.5",
+   "value": "10163.547",
+   "source": "line 50",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "c_1/gamma_1^2",
+   "quoted": "50.87",
+   "value": "50.871036",
+   "source": "line 50",
+   "ok": true
+  },
+  {
+   "where": "boschA:128, boschB:341",
+   "what": "A_1",
+   "quoted": "50.9",
+   "value": "50.871036",
+   "source": "line 50",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "c_n alternate in sign for n <= 200",
+   "quoted": "True",
+   "value": "True",
+   "source": "line 51",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "smallest gap gamma_{n+1}^2-gamma_n^2",
+   "quoted": "159",
+   "value": "159.045",
+   "source": "line 52",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "smallest gap at n=4",
+   "quoted": "n=4",
+   "value": "n=4",
+   "source": "line 52",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 at n=1",
+   "quoted": "0.0462",
+   "value": "0.046181",
+   "source": "line 53",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 at n=10",
+   "quoted": "0.0144",
+   "value": "0.014407",
+   "source": "line 53",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 at n=50",
+   "quoted": "0.00524",
+   "value": "0.0052359",
+   "source": "line 53",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 at n=100",
+   "quoted": "0.00322",
+   "value": "0.0032204",
+   "source": "line 53",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 at n=200",
+   "quoted": "0.00195",
+   "value": "0.0019464",
+   "source": "line 53",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "log|c_n|/gamma_n^2 tracks pi/(4 gamma_n)",
+   "quoted": "ratio near 1",
+   "value": "0.831, 0.913, 0.954, 0.97, 0.982",
+   "source": "lines 53, 54",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.02: residue series",
+   "quoted": "80.10419773",
+   "value": "80.10419773",
+   "source": "line 58",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.02: Talbot",
+   "quoted": "80.10419773",
+   "value": "80.10419773",
+   "source": "line 58",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.005: residue series",
+   "quoted": "6.537917064e-24",
+   "value": "6.537917064e-24",
+   "source": "line 59",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.005: series and Talbot agree to nine digits",
+   "quoted": "rel diff < 1e-9 but not to ten digits",
+   "value": "rel diff 1.53e-10",
+   "source": "line 59",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "t=0.003: the Talbot value is negative (line 56)",
+   "quoted": "< 0",
+   "value": "-1.1098e-18",
+   "source": "line 56",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "t=0.003: the Talbot value is negative (line 60)",
+   "quoted": "< 0",
+   "value": "-1.1904e-31",
+   "source": "line 60",
+   "ok": true
+  },
+  {
+   "where": "boschB:341, app:bosch",
+   "what": "t=0.003: density (150 digits, N=250)",
+   "quoted": "3.3e-72",
+   "value": "3.32007507753e-72",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341, app:bosch",
+   "what": "t=0.003: largest term",
+   "quoted": "2.7e20",
+   "value": "2.6942e+20",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341, app:bosch",
+   "what": "t=0.003: digits that cancel",
+   "quoted": "92",
+   "value": "91.91",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341, app:bosch",
+   "what": "t=0.003: more digits cancel than the 90 of line 60 and the 25 of line 56",
+   "quoted": "> 90",
+   "value": "91.91",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.02: 150 digit series, 200 zeros, against line 58",
+   "quoted": "80.10419773",
+   "value": "80.1041977273",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.005: 150 digit series, 200 zeros, against line 59",
+   "quoted": "6.537917064e-24",
+   "value": "6.5379170642e-24",
+   "source": "residue_hp.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.003: Talbot at 150 digits against the 150 digit series (N=250)",
+   "quoted": "agree",
+   "value": "3.320075077529 vs 3.32007507752996e-72, rel diff 1.46e-15",
+   "source": "talbot_0.003.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:341",
+   "what": "t=0.005: Talbot at 150 digits against the 150 digit series (N=250)",
+   "quoted": "agree",
+   "value": "6.537917064198 vs 6.53791706419889e-24, rel diff 7.12e-16",
+   "source": "talbot_0.005.json",
+   "ok": true
+  },
+  {
+   "where": "boschB:375",
+   "what": "Sigma_off < 2e-11",
+   "quoted": "< 2e-11",
+   "value": "1.982e-11",
+   "source": "line 85",
+   "ok": true
+  },
+  {
+   "where": "boschB:375",
+   "what": "kappa < 8e-9",
+   "quoted": "< 8e-9",
+   "value": "7.92e-9",
+   "source": "line 85",
+   "ok": true
+  },
+  {
+   "where": "boschB:375",
+   "what": "A > 0.99989",
+   "quoted": "> 0.99989",
+   "value": "0.9998995911",
+   "source": "line 85",
+   "ok": true
+  },
+  {
+   "where": "boschB:377",
+   "what": "each pair term below exp(-1.8e13)",
+   "quoted": "log bound < -1.8e13",
+   "value": "-1.88496e+13",
+   "source": "line 86",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "pair kernel: FT equals q(t^2) (line 81)",
+   "quoted": "equal",
+   "value": "1.0 | 1.0",
+   "source": "line 81",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "pair kernel: FT equals q(t^2) (line 82)",
+   "quoted": "equal",
+   "value": "0.914506090391 | 0.914506090391",
+   "source": "line 82",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "pair kernel: FT equals q(t^2) (line 83)",
+   "quoted": "equal",
+   "value": "0.439440954571 | 0.439440954571",
+   "source": "line 83",
+   "ok": true
+  },
+  {
+   "where": "boschB:390",
+   "what": "(log g)'' <= -2.2 on [0,1]",
+   "quoted": "max <= -2.2",
+   "value": "-2.2266237529322552",
+   "source": "line 77",
+   "ok": true
+  },
+  {
+   "where": "boschA:192, boschB:397",
+   "what": "gamma_2-gamma_1",
+   "quoted": "6.8873",
+   "value": "6.887314497",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "b_1",
+   "quoted": "359.52",
+   "value": "359.52406",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "b_2",
+   "quoted": "-28007",
+   "value": "-28007.158",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "b_3",
+   "quoted": "392918",
+   "value": "392917.58",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "g(0)",
+   "quoted": "1.8994210510",
+   "value": "1.89942105102",
+   "source": "line 67",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "quadrature and series agree to eleven digits at u=1 and u=1.2+0.3i",
+   "quoted": "rel diff <= 5e-11",
+   "value": "2.59e-14, 1.5298956985109883e-11",
+   "source": "lines 69, 70",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "v_* = pi/(gamma_2-gamma_1)",
+   "quoted": "0.45614",
+   "value": "0.4561418903",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "scan of 4840 points: no value below -1.3e-15",
+   "quoted": "4840 points, min >= -1.3e-15",
+   "value": "-1.2990e-15",
+   "source": "line 76",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "min at v=0.999 v_* (40 digits)",
+   "quoted": "1.0e-27",
+   "value": "1.01748e-27",
+   "source": "line 78",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "min at v=1.001 v_*",
+   "quoted": "-6.5e-8",
+   "value": "-6.4965e-8",
+   "source": "line 79",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "min at v=1.01 v_*",
+   "quoted": "-3.6e-5",
+   "value": "-3.626e-5",
+   "source": "line 74",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "min at v=1.1 v_*",
+   "quoted": "-2.1e-2",
+   "value": "-0.020556",
+   "source": "line 75",
+   "ok": true
+  },
+  {
+   "where": "boschB:412",
+   "what": "asymptotic formula at x=8, v=v_*/2 to eight digits",
+   "quoted": "equal to 8 digits",
+   "value": "6.3184353e-22 | 6.3184353e-22",
+   "source": "line 80",
+   "ok": true
+  },
+  {
+   "where": "boschA:128",
+   "what": "A_1 = 2 b_1/gamma_1",
+   "quoted": "50.9",
+   "value": "50.8710365989",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschA:128",
+   "what": "A_2 = 2 b_2/gamma_2",
+   "quoted": "-2664.6",
+   "value": "-2664.55191611",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschA:128",
+   "what": "A_3 = 2 b_3/gamma_3",
+   "quoted": "31420",
+   "value": "31419.7606972",
+   "source": "line 68",
+   "ok": true
+  },
+  {
+   "where": "boschA:128",
+   "what": "three terms against the Fourier integral at y=1.0, relative error",
+   "quoted": "3e-3",
+   "value": "0.00301660159019",
+   "source": "block 9 quadrature (fixed/chi_nodes.npz), b_n of line 68",
+   "ok": true
+  },
+  {
+   "where": "boschA:128",
+   "what": "three terms against the Fourier integral at y=1.2, relative error",
+   "quoted": "1.4e-4",
+   "value": "0.000137775886673",
+   "source": "block 9 quadrature (fixed/chi_nodes.npz), b_n of line 68",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 3] (first gap 3, largest gap 3): beta_*",
+   "quoted": "3.000",
+   "value": "2.99997",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 3, 5, 6] (first gap 3, largest gap 3): beta_*",
+   "quoted": "3.000",
+   "value": "3.0",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [3, 4] (first gap 1, largest gap 3): beta_*",
+   "quoted": "1.483",
+   "value": "1.48313",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [4, 5] (first gap 1, largest gap 3): beta_*",
+   "quoted": "1.317",
+   "value": "1.31671",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [3] (first gap 1, largest gap 2): beta_*",
+   "quoted": "1.269",
+   "value": "1.26914",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [] (first gap 1, largest gap 1): beta_*",
+   "quoted": "1.000",
+   "value": "1.0",
+   "source": "block 13 (fixed run)",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2] (first gap 2, largest gap 2): beta_*",
+   "quoted": "2.000",
+   "value": "2.0",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps [2, 3]: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "2.99997",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 4] (first gap 2, largest gap 2): beta_*",
+   "quoted": "2.000",
+   "value": "2.0",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 3, 6] (first gap 3, largest gap 3): beta_*",
+   "quoted": "3.000",
+   "value": "2.99999",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps [2, 3, 5, 6]: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "3.0",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 3, 4] (first gap 4, largest gap 4): beta_*",
+   "quoted": "4.000",
+   "value": "3.99967",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps [3, 4]: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "1.48313",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps [4, 5]: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "1.31671",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:426-437",
+   "what": "Table bs:tab:gaps, removed [2, 5] (first gap 2, largest gap 2): beta_*",
+   "quoted": "2.000",
+   "value": "2.0",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps [3]: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "1.26914",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:437",
+   "what": "Table bs:tab:gaps []: block 13 and supp_gaps_table.py agree",
+   "quoted": "same line",
+   "value": "1.0",
+   "source": "printed block 13 code, supp_gaps_table.py",
+   "ok": true
+  },
+  {
+   "where": "boschB:418",
+   "what": "bisection grid 0 <= x <= 16",
+   "quoted": "xs = k/5, k=0..80",
+   "value": "xs=[mp.mpf(k)/5 for k in range(0,81)]",
+   "source": "script line 399",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "first gap among the first 1000 zeros",
+   "quoted": "6.8873",
+   "value": "6.8873145",
+   "source": "line 109 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "next largest gap gamma_4-gamma_3",
+   "quoted": "5.414",
+   "value": "5.41402",
+   "source": "line 109 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "the next largest gap is at n=3 (gamma_4-gamma_3)",
+   "quoted": "n=3",
+   "value": "5.41402 at n= 3",
+   "source": "line 109 (reconstructed)",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "height of zero 1000",
+   "quoted": "1419",
+   "value": "1419.42248095",
+   "source": "supp_line109.py extra line",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "first 1000 zeros (not n<1000): same largest later gap",
+   "quoted": "5.414 at n=3",
+   "value": "irst 1000 zeros: first gap 6.887314497, largest later gap 5.4140185 at n=3, next ones [(8, '4.67808'), (5, '4.6",
+   "source": "supp_line109.py extra line",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "Trudgian: every (T, T+6.8873] contains an ordinate for T >= this",
+   "quoted": "1.34e4",
+   "value": "13371.2496585",
+   "source": "arithmetic",
+   "ok": true
+  },
+  {
+   "where": "boschB:444",
+   "what": "mean spacing 2 pi/log(T/2 pi) below 1.2 on [1419, 1.34e4]",
+   "quoted": "< 1.2",
+   "value": "1.159",
+   "source": "arithmetic",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "block starts in the script: 1,51,87,117,149,183,200,220,241,295,319,344,389",
+   "quoted": "as in Table tab:app:bosch",
+   "value": "[1, 51, 87, 117, 149, 183, 200, 220, 241, 295, 319, 344, 389]",
+   "source": "src/verify_bosch_xi_v7.py",
+   "ok": true
+  },
+  {
+   "where": "app:bosch",
+   "what": "output lines per file of the fixed run: 10,14,12,10,17,14,6,6,6",
+   "quoted": "1-10, 11-24, 25-36, 40-49, 50-66, 67-80, 81-86, 87-92, 103-108",
+   "value": "[10, 14, 12, 10, 17, 14, 6, 6, 6]",
+   "source": "fixed/*_output.txt",
+   "ok": true
+  }
+ ],
+ "residue": {
+  "nzeros": 250,
+  "dps": 150,
+  "max |gamma_mpmath - gamma_arb|": "1.0167e-147",
+  "c_1..c_4": [
+   "10163.5474866",
+   "-1177535.15127",
+   "19654411.4928",
+   "-1254283892.63"
+  ],
+  "signs alternate": true,
+  "series": {
+   "t=0.02 N=200": {
+    "sum": "80.1041977272567",
+    "max_term": "186.934",
+    "max_term_n": 1,
+    "digits_cancelled": "0.368",
+    "last_term": "-1.262e-1232"
+   },
+   "t=0.02 N=220": {
+    "sum": "80.1041977272567",
+    "max_term": "186.934",
+    "max_term_n": 1,
+    "digits_cancelled": "0.368",
+    "last_term": "-6.996e-1443"
+   },
+   "t=0.02 N=250": {
+    "sum": "80.1041977272567",
+    "max_term": "186.934",
+    "max_term_n": 1,
+    "digits_cancelled": "0.368",
+    "last_term": "-5.5e-1768"
+   },
+   "t=0.005 N=200": {
+    "sum": "6.53791706419889e-24",
+    "max_term": "5.75238e+11",
+    "max_term_n": 20,
+    "digits_cancelled": "34.94",
+    "last_term": "-4.335e-209"
+   },
+   "t=0.005 N=220": {
+    "sum": "6.53791706419889e-24",
+    "max_term": "5.75238e+11",
+    "max_term_n": 20,
+    "digits_cancelled": "34.94",
+    "last_term": "-5.944e-254"
+   },
+   "t=0.005 N=250": {
+    "sum": "6.53791706419889e-24",
+    "max_term": "5.75238e+11",
+    "max_term_n": 20,
+    "digits_cancelled": "34.94",
+    "last_term": "-3.285e-324"
+   },
+   "t=0.003 N=200": {
+    "sum": "3.27130121622856e-72",
+    "max_term": "2.6942e+20",
+    "max_term_n": 40,
+    "digits_cancelled": "91.92",
+    "last_term": "-1.284e-72"
+   },
+   "t=0.003 N=220": {
+    "sum": "3.32007507752996e-72",
+    "max_term": "2.6942e+20",
+    "max_term_n": 40,
+    "digits_cancelled": "91.91",
+    "last_term": "-1.986e-95"
+   },
+   "t=0.003 N=250": {
+    "sum": "3.32007507752996e-72",
+    "max_term": "2.6942e+20",
+    "max_term_n": 40,
+    "digits_cancelled": "91.91",
+    "last_term": "-1.047e-131"
+   }
+  }
+ },
+ "talbot": {
+  "0.003": {
+   "t": "0.003",
+   "talbot": "3.3200750775299648560040446188e-72",
+   "seconds": 15
+  },
+  "0.005": {
+   "t": "0.005",
+   "talbot": "6.53791706419889465701398884953e-24",
+   "seconds": 15
+  }
+ }
+}

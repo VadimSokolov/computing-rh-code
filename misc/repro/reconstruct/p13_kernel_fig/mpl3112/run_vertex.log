@@ -1,0 +1,68 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kernel_fig/vertex: sbatch --wait, 1 cores, 2G, 20 min
+[hopper_run] job 1243676 on hop064.orc.gmu.edu
+old_kernel.pdf right box [376.580607, 41.96, 673.2, 222.96]
+  d=0.6854: 57 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-1.359391, -16.0349, -42.96, -16.0582, False)
+     (-1.31, -14.2257, -23.6967, -14.2257, True)
+     (-1.26, -12.5771, -6.1447, -12.5771, True)
+     (1.24, -11.9653, 0.37, -11.9653, True)
+     (1.29, -13.5452, -16.4517, -13.5452, True)
+     (1.34, -15.3019, -35.1555, -15.3019, True)
+     (1.359391, -16.0349, -42.96, -16.0582, False)
+     (1.359391, -16.0349, -42.96, -16.0582, False)
+  d=0.3927: 60 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-1.530973, -16.0349, -42.96, -15.9964, False)
+     (-1.49, -14.4932, -26.5451, -14.4932, True)
+     (-1.44, -12.7842, -8.3491, -12.7842, True)
+     (1.44, -12.7842, -8.3491, -12.7842, True)
+     (1.49, -14.4932, -26.5451, -14.4932, True)
+     (1.530973, -16.0349, -42.96, -15.9964, False)
+     (1.530973, -16.0349, -42.96, -15.9964, False)
+  d=0.1: 133 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-2.196462, -16.0349, -42.96, -16.1827, False)
+     (-2.15, -14.1794, -23.2046, -14.1794, True)
+     (-2.1, -12.3761, -4.0048, -12.3761, True)
+     (2.09, -12.0378, -0.4022, -12.0378, True)
+     (2.14, -13.8034, -19.2011, -13.8034, True)
+     (2.19, -15.7651, -40.0867, -15.7651, True)
+     (2.196462, -16.0349, -42.96, -16.1827, False)
+     (2.196462, -16.0349, -42.96, -16.1827, False)
+  d=0.02: 320 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-3.0, -14.552, -27.1709, -14.552, True)
+     (-2.95, -12.555, -5.9094, -12.555, True)
+     (2.98, -13.728, -18.3979, -13.728, True)
+     (3.0, -14.552, -27.1709, -14.552, True)
+     (3.0, -14.552, -27.1709, -14.552, True)
+kernel.pdf right box [376.36, 41.8, 673.2, 225.12]
+  d=0.6854: 57 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-1.357667, -15.969, -42.8, -16.0582, False)
+     (-1.31, -14.2257, -24.0005, -14.2257, True)
+     (-1.26, -12.5771, -6.2234, -12.5771, True)
+     (1.24, -11.9653, 0.3747, -11.9653, True)
+     (1.29, -13.5452, -16.6626, -13.5452, True)
+     (1.34, -15.3019, -35.6062, -15.3019, True)
+     (1.357667, -15.969, -42.8, -16.0582, False)
+     (1.357667, -15.969, -42.8, -16.0582, False)
+  d=0.3927: 60 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-1.529294, -15.969, -42.8, -15.9964, False)
+     (-1.48, -14.1368, -23.042, -14.1368, True)
+     (-1.43, -12.4636, -4.9988, -12.4636, True)
+     (1.45, -13.1117, -11.9875, -13.1117, True)
+     (1.5, -14.8572, -30.8108, -14.8572, True)
+     (1.529294, -15.969, -42.8, -15.9964, False)
+     (1.529294, -15.969, -42.8, -15.9964, False)
+  d=0.1: 133 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-2.194884, -15.969, -42.8, -15.7651, False)
+     (-2.15, -14.1794, -23.502, -14.1794, True)
+     (-2.1, -12.3761, -4.0562, -12.3761, True)
+     (2.13, -13.4352, -15.4769, -13.4352, True)
+     (2.18, -15.3561, -36.1905, -15.3561, True)
+     (2.194884, -15.969, -42.8, -15.7651, False)
+     (2.194884, -15.969, -42.8, -15.7651, False)
+  d=0.02: 320 vertices; (x, log10 y from the PDF, height above the box bottom in pt, log10 of the computed value, on grid):
+     (-3.0, -14.552, -27.5192, -14.552, True)
+     (-2.95, -12.555, -5.9852, -12.555, True)
+     (2.98, -13.728, -18.6337, -13.728, True)
+     (3.0, -14.552, -27.5192, -14.552, True)
+     (3.0, -14.552, -27.5192, -14.552, True)
+exit 0

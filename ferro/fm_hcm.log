@@ -1,0 +1,14 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/fm-hcm: sbatch --wait, 2 cores, 16G, 120 min
+[hopper_run] job 1530443 on hop047.orc.gmu.edu
+zero free |Im u| <= 0.2817: True [0.601434 +/- 7.10e-8]
+v_lo = 0.28154813229012610  F'(v_lo) = [2.3385e-14 +/- 4.14e-19]  F(v_lo) = [3.51579186376 +/- 2.52e-12]
+v_hi = 0.28154813229012611  F'(v_hi) = [-9.7656e-18 +/- 6.07e-24]  F(v_hi) = [3.51579186376 +/- 2.52e-12]  necessity point certified: True
+top line V = pi/12: {'intervals': 1024, 'failures': [], 'nfail': 0, 'unfinished': 0, 'evaluations': 1792, 'min_lower_bound': 0.636355313065594, 'at': (0.41015625, 0.4140625)}
+top line V = 0.281548: {'intervals': 2896, 'failures': [], 'nfail': 0, 'unfinished': 0, 'evaluations': 5536, 'min_lower_bound': 3.685180722087803e-08, 'at': (4.744529724121094e-05, 4.756450653076172e-05)}
+side x >= 1, V = 0.2618: h/v >= [1747.14 +/- 8.02e-4] - [3.43e-54 +/- 2.99e-58], positive True
+side x >= 1, V = 0.281548: h/v >= [1747.14 +/- 8.02e-4] - [2.54e-40 +/- 3.04e-43], positive True
+RESULT: not HCM for |kappa| < 11.1582791476; HCM for |kappa| >= 11.1582843905 (variable u = t/2).
+        book units e^{beta X}: not HCM for |beta| < 5.57913957382; HCM for |beta| >= 5.57914219527.
+        kappa = 12 (beta = 6) is HCM: True
+total 2 s
+rc=0

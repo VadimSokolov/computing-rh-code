@@ -1,0 +1,177 @@
+{
+ "psi_1e9": "1000001595.99043",
+ "cases": [
+  {
+   "u": "100",
+   "t": "1",
+   "G": "0.09608453248176372",
+   "G_minus_u": "1.322e-11315",
+   "zeros_above_T1_at_most": "4.34e-3820477",
+   "polar": "2.071e-8686",
+   "archimedean": "0.5519917891425648",
+   "rows": [
+    {
+     "N": 10000,
+     "prime": "0.4559049106366469",
+     "formula": "0.09608687850591788",
+     "zeros_minus_formula": "-2.346e-6",
+     "tail_bound": "0.000571",
+     "zeros_minus_formula_with_tail_main_term": "2.654e-6"
+    },
+    {
+     "N": 1000000,
+     "prime": "0.455907256539051",
+     "formula": "0.09608453260351381",
+     "zeros_minus_formula": "-1.218e-10",
+     "tail_bound": "6.62e-9",
+     "zeros_minus_formula_with_tail_main_term": "1.192e-13"
+    },
+    {
+     "N": 100000000,
+     "prime": "0.4559072566608011",
+     "formula": "0.09608453248176371",
+     "zeros_minus_formula": "1.225e-17",
+     "tail_bound": "4.37e-16",
+     "zeros_minus_formula_with_tail_main_term": "-9.034e-19"
+    },
+    {
+     "N": 1000000000,
+     "prime": "0.455907256660801",
+     "formula": "0.09608453248176372",
+     "zeros_minus_formula": "-9.551e-19",
+     "tail_bound": "1.58e-20",
+     "zeros_minus_formula_with_tail_main_term": "-9.545e-19"
+    }
+   ]
+  },
+  {
+   "u": "1977.22",
+   "t": "1.75",
+   "G": "1.983540664371129",
+   "G_minus_u": "9.493e-6027673",
+   "zeros_above_T1_at_most": "9.18e-73589",
+   "polar": "-1.744e-5942406",
+   "archimedean": "0.8672562846834187",
+   "rows": [
+    {
+     "N": 10000,
+     "prime": "-1.115112200170812",
+     "formula": "1.982368484854231",
+     "zeros_minus_formula": "0.001172",
+     "tail_bound": "0.0797",
+     "zeros_minus_formula_with_tail_main_term": "0.001143"
+    },
+    {
+     "N": 1000000,
+     "prime": "-1.116284246381336",
+     "formula": "1.983540531064754",
+     "zeros_minus_formula": "1.333e-7",
+     "tail_bound": "0.000255",
+     "zeros_minus_formula_with_tail_main_term": "1.615e-7"
+    },
+    {
+     "N": 100000000,
+     "prime": "-1.116284379726794",
+     "formula": "1.983540664410213",
+     "zeros_minus_formula": "-3.908e-11",
+     "tail_bound": "4.6e-8",
+     "zeros_minus_formula_with_tail_main_term": "4.069e-12"
+    },
+    {
+     "N": 1000000000,
+     "prime": "-1.116284379687488",
+     "formula": "1.983540664370906",
+     "zeros_minus_formula": "2.224e-13",
+     "tail_bound": "2.05e-10",
+     "zeros_minus_formula_with_tail_main_term": "-1.193e-15"
+    }
+   ]
+  },
+  {
+   "u": "1000",
+   "t": "2",
+   "G": "0.8452691893222734",
+   "G_minus_u": "8.625e-1786635",
+   "zeros_above_T1_at_most": "1.14e-2490113",
+   "polar": "-4.688e-1737178",
+   "archimedean": "0.7150931046548796",
+   "rows": [
+    {
+     "N": 10000,
+     "prime": "-0.1295982789216704",
+     "formula": "0.84469138357655",
+     "zeros_minus_formula": "0.0005778",
+     "tail_bound": "0.19",
+     "zeros_minus_formula_with_tail_main_term": "0.0006796"
+    },
+    {
+     "N": 1000000,
+     "prime": "-0.1301818487533031",
+     "formula": "0.8452749534081827",
+     "zeros_minus_formula": "-5.764e-6",
+     "tail_bound": "0.00154",
+     "zeros_minus_formula_with_tail_main_term": "-4.02e-6"
+    },
+    {
+     "N": 100000000,
+     "prime": "-0.1301760865197966",
+     "formula": "0.8452691911746762",
+     "zeros_minus_formula": "-1.852e-9",
+     "tail_bound": "1.03e-6",
+     "zeros_minus_formula_with_tail_main_term": "-1.165e-10"
+    },
+    {
+     "N": 1000000000,
+     "prime": "-0.1301760846488717",
+     "formula": "0.8452691893037513",
+     "zeros_minus_formula": "1.852e-11",
+     "tail_bound": "1.03e-8",
+     "zeros_minus_formula_with_tail_main_term": "-5.149e-13"
+    }
+   ]
+  },
+  {
+   "u": "100",
+   "t": "3",
+   "G": "0.0003053957988161092",
+   "G_minus_u": "2.312e-33945",
+   "zeros_above_T1_at_most": "8.75e-11461444",
+   "polar": "-1.919e-26057",
+   "archimedean": "0.3186935678298813",
+   "rows": [
+    {
+     "N": 10000,
+     "prime": "0.3203857497441084",
+     "formula": "-0.001692181914227058",
+     "zeros_minus_formula": "0.001998",
+     "tail_bound": "1.67",
+     "zeros_minus_formula_with_tail_main_term": "0.005479"
+    },
+    {
+     "N": 1000000,
+     "prime": "0.3178485751929905",
+     "formula": "0.0008449926368908807",
+     "zeros_minus_formula": "-0.0005396",
+     "tail_bound": "0.115",
+     "zeros_minus_formula_with_tail_main_term": "1.618e-5"
+    },
+    {
+     "N": 100000000,
+     "prime": "0.3184029975282829",
+     "formula": "0.0002905703015984045",
+     "zeros_minus_formula": "1.483e-5",
+     "tail_bound": "0.00163",
+     "zeros_minus_formula_with_tail_main_term": "8.293e-8"
+    },
+    {
+     "N": 1000000000,
+     "prime": "0.318387052678922",
+     "formula": "0.0003065151509593813",
+     "zeros_minus_formula": "-1.119e-6",
+     "tail_bound": "0.000104",
+     "zeros_minus_formula_with_tail_main_term": "-2.998e-10"
+    }
+   ]
+  }
+ ]
+}

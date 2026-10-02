@@ -1,0 +1,6 @@
+[hopper_run] job 1242907 on hop048.orc.gmu.edu
+alpha 0.6: archived points agree to 0.0e+00 (with zeros) and 0.0e+00 (line only); min on the plot grid -1.0677 at 292.405, fine min -1.0679 at 292.40351
+alpha 0.7: archived points agree to 0.0e+00 (with zeros) and 0.0e+00 (line only); min on the plot grid -5.3784 at 292.400, fine min -5.3873 at 292.40187
+height 300.0: background min 0.0690 mean 0.5143; stored minima and negative masses agree to 0.0e+00
+height 100000.0: background min 0.3420 mean 1.5876; stored minima and negative masses agree to 0.0e+00
+ok

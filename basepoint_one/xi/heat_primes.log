@@ -1,0 +1,19 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/heat_primes-20261001-230337-36094: sbatch --wait, 32 cores, 16G, 60 min
+[hopper_run] job 1569132 on hop047.orc.gmu.edu
+665134 prime powers up to 10000000, 664579 primes
+heat trace, primes up to 1: threshold 3.1900 (argmin t 0.0406); min over 40 alpha in (threshold, 10]: 0.000189
+heat trace, primes up to 1000: threshold 1.5320 (argmin t 1.7); min over 40 alpha in (threshold, 10]: 0.000463
+heat trace, primes up to 100000: threshold 1.3667 (argmin t 4.13); min over 40 alpha in (threshold, 10]: 0.000612
+heat trace, primes up to 10000000: threshold 1.2840 (argmin t 7.47); min over 40 alpha in (threshold, 10]: 0.00075
+alpha >= 10: b_10 = 0.39111 > 1/9 = 0.11111: True
+Thorin density, no primes: threshold 3.5748 (argmin theta 3.452); min over 40 alpha in (threshold, 10]: 0.000173
+ball arithmetic: 1280 exact terms, 13816 blocks; psi(N) = [9998539.40335 +/- 4.03e-6]; 18 s
+tau = [0.000912336 +/- 4.63e-10]: sup eps [0.0002973 +/- 4.60e-8], int eps [0.0006151 +/- 1.86e-8] (Johnston-Yang part [4.55e-12 +/- 3.92e-15]); boundary term [0.0001461 +/- 4.04e-8] <= sup eps
+certificate at alpha = 1: {'all_ok': True, 'cells': 65137, 'min_lower_bound': 0.0210000494198367, 'min_cell': (2.329423943532439, 2.330897592807102)}
+float profile of b1 + T + P - Q - tau: min 0.022045 at t = 12.74
+alpha 2.0 t 0.5: heat kernel form 0.0693973875, Thorin form 0.0693974875, difference -1.00e-07
+alpha 2.0 t 3.0: heat kernel form 0.0691204716, Thorin form 0.0691205716, difference -1.00e-07
+alpha 1.0 t 1.0: heat kernel form 0.0230085599, Thorin form 0.0231518332, difference -1.43e-04
+alpha 1.0 t 12.0: heat kernel form 0.0229577012, Thorin form 0.0231003443, difference -1.43e-04
+alpha 1.0 t 100.0: heat kernel form 0.0230277054, Thorin form 0.0230962648, difference -6.86e-05
+done in 86 s

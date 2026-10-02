@@ -1,0 +1,35 @@
+job 1242323 on hop055.orc.gmu.edu: model name	: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+7ad57c0957ef4851617c32735be6d001  /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+== spacing.py, ordinates computed by the script
+ordinates: computed with mpmath.zetazero at 30 digits and saved ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.089252914107, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta: 1700 identical, max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 52.4 s
+== spacing.py, zero lists of the earlier rerun
+ordinates: loaded from g_1_400.npy, g_401_1000.npy, g_1001_1700.npy ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.089252914107, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta: 1700 identical, max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 11.2 s
+== zero lists: fresh against the earlier rerun
+g_1_400.npy identical
+g_401_1000.npy identical
+g_1001_1700.npy identical
+== extras and histogram: fresh against npy
+3c3
+<  "ordinates": "computed with mpmath.zetazero at 30 digits and saved",
+---
+>  "ordinates": "loaded from g_1_400.npy, g_401_1000.npy, g_1001_1700.npy",
+spacing_hist.json identical
+== comparison with the archived file
+fresh/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+npy/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+npy/spacing.json against fresh/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+== variants (see first_run and variants2.json, variants3.json)
+== end

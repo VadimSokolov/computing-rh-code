@@ -1,0 +1,46 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/part6_almost_dip/run3: sbatch --wait, 4 cores, 8G, 60 min
+[hopper_run] job 1243284 on hop062.orc.gmu.edu
+almost.json alpha 0.6 1.3322676295501878e-14 1.4210854715202004e-14 archived min {'value': -1.185831628090826, 'theta': 63.5}
+almost.json alpha 0.7 8.43769498715119e-15 8.215650382226158e-15 archived min {'value': -5.592409172974352, 'theta': 20.0}
+almost.json alpha 0.8 7.549516567451064e-15 7.771561172376096e-15 archived min {'value': 0.0054115466415436304, 'theta': 0.0}
+window alpha 0.6: local minimum -1.067912 at theta 292.403514 (t_j 292.401774), background 0.1444, negative on [292.24011, 292.59186], mass 0.20015, mp30 1.444e-17
+  figure grid (step 0.005) min -1.0677 at 292.405; background min 0.0690 at 296.825; almost.py grid value at 292.40: -1.0668
+window alpha 0.7: local minimum -5.387274 at theta 292.401872 (t_j 292.401774), background 0.2715, negative on [292.28708, 292.52621], mass 0.51620, mp30 1.794e-15
+  figure grid (step 0.005) min -5.3784 at 292.400; background min 0.1357 at 290.715; almost.py grid value at 292.40: -5.3784
+alpha 0.6 grid minimum near each t_j: 20.0:-1.1786 63.5:-1.1872 124.8:-1.0871 201.6:-0.8840 292.4:-1.0679 396.2:-0.2853 512.3:-0.8385 640.0:-1.0860 778.8:-0.9177 928.3:-0.7852 1088.1:-1.0724 1258.0:-0.9541 1437.5:-0.6403 1626.5:0.4186 1824.7:-1.0190
+alpha 0.6 exact negative mass on [0, T]: {'250': 0.8420877453432193, '1000': 1.6558824960372784, '2000': 2.2783716960486733}
+alpha 0.6 t_j   20.000: minimum -1.178565 at 19.999662 (offset -3.38e-04), background 0.0339, width of negative interval 0.42777, mass 0.24635
+alpha 0.6 t_j   63.496: minimum -1.187241 at 63.495971 (offset -7.07e-05), background 0.0253, width of negative interval 0.43635, mass 0.25052
+alpha 0.6 t_j  124.805: minimum -1.087118 at 124.807134 (offset +2.10e-03), background 0.1251, width of negative interval 0.36305, mass 0.20736
+alpha 0.6 t_j  201.587: minimum -0.884047 at 201.595413 (offset +8.05e-03), background 0.3229, width of negative interval 0.27191, mass 0.13786
+alpha 0.6 t_j  292.402: minimum -1.067912 at 292.403514 (offset +1.74e-03), background 0.1444, width of negative interval 0.35175, mass 0.20015
+alpha 0.6 t_j  396.231: minimum -0.285293 at 396.194657 (offset -3.66e-02), background 0.8178, width of negative interval 0.12476, mass 0.02261
+alpha 0.6 t_j  512.303: minimum -0.838472 at 512.294877 (offset -7.92e-03), background 0.3687, width of negative interval 0.25532, mass 0.12513
+alpha 0.6 t_j  640.000: minimum -1.085961 at 639.999251 (offset -7.49e-04), background 0.1266, width of negative interval 0.36452, mass 0.20798
+alpha 0.6 t_j  778.815: minimum -0.917714 at 778.807423 (offset -7.34e-03), background 0.2902, width of negative interval 0.28686, mass 0.14851
+alpha 0.6 t_j  928.318: minimum -0.785174 at 928.313776 (offset -3.99e-03), background 0.4260, width of negative interval 0.23027, mass 0.10942
+alpha 0.6 t_j 1088.139: minimum -1.072387 at 1088.137884 (offset -1.35e-03), background 0.1401, width of negative interval 0.35666, mass 0.20259
+alpha 0.6 t_j 1257.956: minimum -0.954085 at 1257.959760 (offset +3.89e-03), background 0.2572, width of negative interval 0.29691, mass 0.15980
+alpha 0.6 t_j 1437.481: minimum -0.640322 at 1437.493817 (offset +1.24e-02), background 0.5591, width of negative interval 0.19551, mass 0.07713
+alpha 0.6 t_j 1824.661: minimum -1.018984 at 1824.658901 (offset -1.70e-03), background 0.1934, width of negative interval 0.32866, mass 0.18297
+alpha 0.6 delta 0.22912878474779202 min of r on the grid of almost.py away from the intervals 0.001804102348896339
+alpha 0.7 grid minimum near each t_j: 20.0:-5.5924 63.5:-5.6084 124.8:-5.4254 201.6:-5.1090 292.4:-5.3873 396.2:-4.4497 512.3:-5.0246 640.0:-5.4146 778.8:-5.1558 928.3:-4.9264 1088.1:-5.3909 1258.0:-5.1929 1437.5:-4.7496 1626.5:-3.8412 1824.7:-5.2924
+alpha 0.7 exact negative mass on [0, T]: {'250': 2.1252209657685213, '1000': 4.820670432908295, '2000': 6.948377191387892}
+alpha 0.7 t_j   20.000: minimum -5.592410 at 19.999978 (offset -2.19e-05), background 0.0662, width of negative interval 0.28150, mass 0.57075
+alpha 0.7 t_j   63.496: minimum -5.608439 at 63.496037 (offset -4.71e-06), background 0.0503, width of negative interval 0.28600, mass 0.57551
+alpha 0.7 t_j  124.805: minimum -5.425395 at 124.805151 (offset +1.21e-04), background 0.2333, width of negative interval 0.24585, mass 0.52564
+alpha 0.7 t_j  201.587: minimum -5.109017 at 201.587725 (offset +3.57e-04), background 0.5494, width of negative interval 0.20265, mass 0.45332
+alpha 0.7 t_j  292.402: minimum -5.387274 at 292.401872 (offset +9.83e-05), background 0.2715, width of negative interval 0.23913, mass 0.51620
+alpha 0.7 t_j  396.231: minimum -4.449746 at 396.230385 (offset -8.85e-04), background 1.2071, width of negative interval 0.15536, mass 0.33989
+alpha 0.7 t_j  512.303: minimum -5.024638 at 512.302453 (offset -3.47e-04), background 0.6339, width of negative interval 0.19366, mass 0.43625
+alpha 0.7 t_j  640.000: minimum -5.414558 at 639.999956 (offset -4.45e-05), background 0.2443, width of negative interval 0.24426, mass 0.52333
+alpha 0.7 t_j  778.815: minimum -5.155821 at 778.814423 (offset -3.45e-04), background 0.5027, width of negative interval 0.20851, mass 0.46345
+alpha 0.7 t_j  928.318: minimum -4.926397 at 928.317600 (offset -1.67e-04), background 0.7324, width of negative interval 0.18262, mass 0.41633
+alpha 0.7 t_j 1088.139: minimum -5.390930 at 1088.139158 (offset -7.96e-05), background 0.2679, width of negative interval 0.24026, mass 0.51742
+alpha 0.7 t_j 1257.956: minimum -5.192911 at 1257.956064 (offset +1.95e-04), background 0.4658, width of negative interval 0.21154, mass 0.47115
+alpha 0.7 t_j 1437.481: minimum -4.749598 at 1437.481893 (offset +4.41e-04), background 0.9087, width of negative interval 0.17008, mass 0.38514
+alpha 0.7 t_j 1626.460: minimum -3.841207 at 1626.460970 (offset +9.64e-04), background 1.8153, width of negative interval 0.12906, mass 0.26009
+alpha 0.7 t_j 1824.661: minimum -5.292358 at 1824.660502 (offset -9.63e-05), background 0.3665, width of negative interval 0.22502, mass 0.49391
+alpha 0.7 delta 0.15000000000000005 min of r on the grid of almost.py away from the intervals 0.003608014563036261
+alpha 0.8 min on the grid of almost.py 0.005411546641543651
+ok

@@ -1,0 +1,14 @@
+[hopper_run] job 1242522 on hop062.orc.gmu.edu
+numpy 2.4.6 ; baseline X86_V2 ; AVX512 features on this node: AVX512F AVX512CD AVX512VL AVX512BW AVX512DQ AVX512VNNI AVX512_SKX AVX512_CLX
+default dispatch: 6 of 10 bitwise equal to the archived values, max rel 1.12e-12
+   arctan dispatch: {'arctan': {'dd': {'current': 'X86_V4', 'available': 'X86_V4 baseline(X86_V2)'}}}
+   differs: celltv eps=0.1    archived 0.12504347875542821  here 0.1250434787554211  rel 5.68e-14
+   differs: mass   eps=0.1    archived 50.00062227846783  here 50.000622278467837  rel 1.42e-16
+   differs: celltv eps=0.01   archived 0.012668454358153412  here 0.012668454358139201  rel 1.12e-12
+   differs: mass   eps=0.01   archived 50.000062227928318  here 50.000062227928332  rel 2.84e-16
+X86_V4 (AVX512) target disabled: 6 of 10 bitwise equal to the archived values, max rel 1.12e-12
+   arctan dispatch: {'arctan': {'dd': {'current': 'baseline(X86_V2)', 'available': 'X86_V4 baseline(X86_V2)'}}}
+   differs: celltv eps=0.1    archived 0.12504347875542821  here 0.1250434787554211  rel 5.68e-14
+   differs: mass   eps=0.1    archived 50.00062227846783  here 50.000622278467837  rel 1.42e-16
+   differs: celltv eps=0.01   archived 0.012668454358153412  here 0.012668454358139201  rel 1.12e-12
+   differs: mass   eps=0.01   archived 50.000062227928318  here 50.000062227928332  rel 2.84e-16

@@ -1,0 +1,23 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/main: sbatch --wait, 8 cores, 8G, 60 min
+[hopper_run] job 1243541 on hop064.orc.gmu.edu
+[   0.4s] Arb zeros gamma_1..gamma_80: gamma_79 = [198.0153096762519124249199 +/- 1.88e-23] , gamma_80 = [201.2647519437037887330161 +/- 3.35e-23] ; max |Arb - part1.json ref| = 1.33e-14
+[   0.5s] A exact cells: kappa_cell = [5.43665095945071355706096042488607789094969652 +/- 2.30e-45]
+[   0.5s] A sum of cell errors = [0.398106328090789021693610995433 +/- 3.28e-32] ; -l(200)/pi = [0.398106328090789021693610995433 +/- 3.28e-32] ; l(200) = [-1.25068791567763072802284399390 +/- 4.87e-30]
+[   0.5s] A eps^2 coefficient of d_cell/eps: c2 = [-0.52673622683468814347 +/- 2.83e-21]
+[   0.6s] A2 float64 cells of analyse.py: kappa_cell = [5.43665095945089351824887480975 +/- 4.70e-30] ; max |cell - exact| = 0.00e+00 ; kappa difference 1.80e-13
+[   1.1s] B Polya route (setup(420,200,3)) at the float64 cells of plots.py: kappa_cell = [5.43665095945078140888037112935 +/- 1.69e-30] ; float64 block gives 5.436650959450781 ; l(200) = -1.2506879156776307 vs extra.json -1.2506879156776307 ; max |l_Polya - l_Arb| = 2.33e-48 (0.4s)
+[   1.1s] C float64 recipe: coef 5.415094020197392 vs spacing.json 5.415094020197392 ; leaks identical 79 of 79
+[  10.5s] C check of the series for l'': max |sum_{j<=1700} 2/(b-g)^3+2/(b+g)^3 - l''(b)| = 7.55e-8 ; max |l''| = 0.81289
+[  70.2s] C high precision truncated sum (1700 Arb zeros, exact cells): kappa_1700 = 5.41509402019733 ; with the smooth tail beyond T* = 2197.87959116 : 5.43665095819407 ; kappa - kappa_1700 = 0.021556939 (0.3965 percent of kappa) ; max |truncated + tail - l| = 1.17e-8
+[  71.9s] D eps 1      d_cell 4.991980275140 slope 4.991980275 slope-kappa -4.447e-01 (kappa+c2 eps^2: -5.267e-01) cells [0.8052956, 1.2125134]; archived 4.994501256179 (diff +2.52e-03), cells [0.8051465, 1.2125831]
+[  71.9s] D eps 0.5    d_cell 2.655192386509 slope 5.310384773 slope-kappa -1.263e-01 (kappa+c2 eps^2: -1.317e-01) cells [0.8921743, 1.1196532]; archived 2.655697205575 (diff +5.05e-04), cells [0.8921393, 1.1196502]
+[  71.9s] D eps 0.25   d_cell 1.351020915373 slope 5.404083661 slope-kappa -3.257e-02 (kappa+c2 eps^2: -3.292e-02) cells [0.9444948, 1.0620219]; archived 1.351072711170 (diff +5.18e-05), cells [0.9444930, 1.0620209]
+[  71.9s] D eps 0.1    d_cell 0.543139276889 slope 5.431392769 slope-kappa -5.258e-03 (kappa+c2 eps^2: -5.267e-03) cells [0.9776092, 1.0250759]; archived 0.543142416855 (diff +3.14e-06), cells [0.9776094, 1.0250761]
+[  71.9s] D eps 0.05   d_cell 0.271766734659 slope 5.435334693 slope-kappa -1.316e-03 (kappa+c2 eps^2: -1.317e-03) cells [0.9887909, 1.0125574]; archived 0.271767286545 (diff +5.52e-07), cells [0.9887909, 1.0125575]
+[  71.9s] D eps 0.02   d_cell 0.108728805593 slope 5.436440280 slope-kappa -2.107e-04 (kappa+c2 eps^2: -2.107e-04) cells [0.9955148, 1.0050252]; archived 0.108728834246 (diff +2.87e-08), cells [0.9955148, 1.0050252]
+[  71.9s] D eps 0.01   d_cell 0.054365982867 slope 5.436598287 slope-kappa -5.267e-05 (kappa+c2 eps^2: -5.267e-05) cells [0.9977573, 1.0025127]; archived 0.054365986492 (diff +3.62e-09), cells [0.9977573, 1.0025127]
+[  71.9s] D eps 0.005  d_cell 0.027183188956 slope 5.436637791 slope-kappa -1.317e-05 (kappa+c2 eps^2: -1.317e-05) cells [0.9988786, 1.0012564]; archived 0.027183190767 (diff +1.81e-09), cells [0.9988786, 1.0012564]
+[  71.9s] D eps 0.002  d_cell 0.010873297705 slope 5.436648853 slope-kappa -2.107e-06 (kappa+c2 eps^2: -2.107e-06) cells [0.9995515, 1.0005026]
+[  71.9s] D eps 0.001  d_cell 0.005436650433 slope 5.436650433 slope-kappa -5.267e-07 (kappa+c2 eps^2: -5.267e-07) cells [0.9997757, 1.0002513]
+[  71.9s] D max arg step 0.000 rad; Richardson (eps 0.01, 0.005) of the archived slopes: 5.436651321 (kappa 5.436650959) (1.7s)
+[  71.9s] done

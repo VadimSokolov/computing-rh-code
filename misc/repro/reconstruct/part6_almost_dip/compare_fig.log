@@ -1,0 +1,6 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/part6_almost_dip/compare_fig: sbatch --wait, 1 cores, 4G, 10 min
+[hopper_run] job 1242875 on hop064.orc.gmu.edu
+0.6_line_only {'vertices': 322, 'max_abs_diff': 0.0004944847964307719, 'at_theta': 299.8750284306818, 'median_abs_diff': 1.7066443108670892e-05, 'max_distance_from_step_0005_grid': 2.8859971337169554e-05, 'drawn_min': 0.06915935502073589, 'drawn_min_theta': 290.67999900484637}
+0.6_with_hypothetical {'vertices': 327, 'max_abs_diff': 0.0004944896178225022, 'at_theta': 299.8750284306818, 'median_abs_diff': 1.7792277329564676e-05, 'max_distance_from_step_0005_grid': 2.8859971337169554e-05, 'drawn_min': -1.0677116319307884, 'drawn_min_theta': 292.40500454658206}
+0.7_line_only {'vertices': 276, 'max_abs_diff': 5.9213811789637916e-05, 'at_theta': 299.9750109175132, 'median_abs_diff': 5.774846096248676e-06, 'max_distance_from_step_0005_grid': 1.0927269386229455e-05, 'drawn_min': 0.1360785784150318, 'drawn_min_theta': 296.8100069368717}
+0.7_with_hypothetical {'vertices': 286, 'max_abs_diff': 8.982259561118866e-05, 'at_theta': 292.41500149276, 'median_abs_diff': 5.944828614184994e-06, 'max_distance_from_step_0005_grid': 1.0927269386229455e-05, 'drawn_min': -5.378369601406851, 'drawn_min_theta': 292.400001473247}

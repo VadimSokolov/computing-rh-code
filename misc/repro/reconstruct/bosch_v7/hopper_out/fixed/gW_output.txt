@@ -1,0 +1,14 @@
+g(0) from quadrature: 1.8994210510239022 (first version: 1.89942105102)
+b_1,b_2,b_3 = ['359.52406', '-28007.158', '392917.58'] ; gamma_2-gamma_1 = 6.887314497 ; pi/(gamma_2-gamma_1) = 0.4561418903
+overlap y=1.0: integral g=(0.0002451578539951479+0j), series g=(0.00024515785399514155+0j)
+overlap y=(1.2+0.3j): integral g=(-7.32694751296874e-06+1.3749180252589496e-05j), series g=(-7.326947512957921e-06+1.3749180252827602e-05j)
+v=0.2281 (=0.50 v*): min over x in [0,6] of Im(-g'/g) = 4.0240e-16 at x=6.000; min |g| = 5.296e-35
+v=0.4105 (=0.90 v*): min over x in [0,6] of Im(-g'/g) = -7.1608e-16 at x=6.000; min |g| = 5.296e-35
+v=0.4516 (=0.99 v*): min over x in [0,6] of Im(-g'/g) = 0.0000e+00 at x=5.600; min |g| = 5.296e-35
+v=0.4607 (=1.01 v*): min over x in [0,6] of Im(-g'/g) = -3.6260e-05 at x=1.750; min |g| = 5.296e-35
+v=0.5018 (=1.10 v*): min over x in [0,6] of Im(-g'/g) = -2.0556e-02 at x=1.175; min |g| = 5.296e-35
+full strip scan 0<v<0.99 v*, 0<=x<=6 (4840 points): min Im(-g'/g) = -1.2990e-15 at (x,v)=(5.800,0.0394)
+max (log g)'' on [0,1]: -2.2266237529322552
+v=0.999 v*: min over x in [1.1,9.1] of Im(-g'/g) (40 digits, 120 zeros) = 1.01748e-27 at x=9.1
+v=1.001 v*: min over x in [1.1,9.1] of Im(-g'/g) (40 digits, 120 zeros) = -6.4965e-8 at x=2.3
+x=8,v=v*/2: Im(-g'/g)=6.3184353e-22, leading prediction 6.3184353e-22

@@ -1,0 +1,63 @@
+# Numbers the book quotes that spot_checks.py prints (or that follow from what it prints). Columns, tab separated:
+# id	file	exact TeX substring	quantity	book values (comma separated, as printed)	rerun expressions over the parsed report (comma separated)	mode
+# modes: round = the book value is the rerun value rounded at the book's last digit (both printed precisions allowed for); trunc = truncated (the book prints \ldots); int = equal integers; expr = a boolean expression that must hold
+R01	rz4.tex	$c=-\theta'(0)=\zeta'(\frac12)/\zeta(\frac12)$ & $2.6860917096$	c, three ways (Table rz:tab:constants)	2.6860917096,2.6860917096,2.6860917096	c1,c2,c3	round
+R02	rz4.tex	$6.2898360$, $-3.5309728$, $1.1239436$	tau_0, theta(tau_0), max M (Table rz:tab:constants)	6.2898360,-3.5309728,1.1239436	tau0,theta_tau0,maxM	round
+R03	rz4.tex	$M(\gamma_1^{2\,-})$ & $0.5502528$	M(gamma_1^2 -) (Table rz:tab:constants)	0.5502528	Mg1	round
+R04	rz4.tex	$\tau_\pi$ with $\theta(\tau_\pi)=-\pi$ & $3.4362182$	tau_pi (Table rz:tab:constants)	3.4362182	taupi	round
+R05	rz4.tex	$x_*$ with $W_0(x_*)=0$ & $0.0032173906$	x_* (Table rz:tab:constants)	0.0032173906	xstar	round
+R06	rz4.tex	$0.0366850$, $-0.0442285$, $-0.1145624$	F(0.003), F(0.0035), F(0.004) (Table rz:tab:constants)	0.0366850,-0.0442285,-0.1145624	F003,F0035,F004	round
+R07	rz4.tex	$P(0.004)$ & $1.99\times10^{-13}$	P(0.004) (Table rz:tab:constants)	1.99e-13	P004	round
+R08	rz4.tex	$\min S$ over the first 300 ordinates & $S(\gamma_{289}^-)=-1.1454808$	min S over the first 300, at gamma_289 (Table rz:tab:constants)	-1.1454808	minS	round
+R09	rz4.tex	$\max S$ over the first 300 ordinates & $1.0975638$, at $\gamma=415.4552$	max S over the first 300 and its ordinate gamma_213 (Table rz:tab:constants)	1.0975638,415.4552	maxS,g213	round
+R10	rz4.tex	$x=0.1$, primes vs zeros & $0.8625096$ & $0.8625096$	w(0.1), Table rz:tab:num (the script computes the zeros side only)	0.8625096	w01	round
+R11	rz4.tex	$x=1$, primes vs zeros & $0.4914032$ & $0.4914032$	w(1), Table rz:tab:num (zeros side only)	0.4914032	w1	round
+R12	rz4.tex	$W_0(0.1)$, closed form vs direct & $-0.86250960$ & $-0.86250960$	W_0(0.1), Table rz:tab:num (the script computes one side, the integral of theta')	-0.86250960	W0_01	round
+R13	rz4.tex	$n<3000$ & $-0.587879$ & $-0.587340$	Prop. rz:prop:zetaright row of Table rz:tab:num, left and right side	-0.587879,-0.587340	zr_lhs,zr_trunc	round
+R14	rz4.tex	which is $1.607$ at $n=3000$	weight of the omitted terms at n=3000 (the book's sign: sqrt(s) minus (1-n^-sqrt(s))/log n)	1.607	-zr_wt	round
+R15	rz4.tex	against the gap of $5.39\times10^{-4}$	gap between the two sides of the zetaright row	5.39e-4	-zr_err	round
+R16	rz4.tex	is $1.00025$, $1.00249$, $0.86251$, $0.49140$, $0.21524$	w at x = 0.001, 0.01, 0.1, 1, 10	1.00025,1.00249,0.86251,0.49140,0.21524	w0001,w001,w01,w1,w10	round
+R17	rz4.tex	approaching $0.75773$	c/(2 sqrt pi), limit of x^{3/2} f(x)	0.75773	tailc	round
+R18	rz4.tex	$\kappa(\rho_1)=-4.762-1.944i$, $\kappa(\rho_2)=-8.673-0.627i$, $\kappa(\rho_3)=-10.149-3.872i$ and $\kappa(\rho_4)=-15.165+3.705i$	kappa(rho_1) to kappa(rho_4), real and imaginary parts (xi form)	-4.762,-1.944,-8.673,-0.627,-10.149,-3.872,-15.165,3.705	k1re,k1im,k2re,k2im,k3re,k3im,k4re,k4im	round
+R18b	rz4.tex	$\kappa(\rho_1)=-4.762-1.944i$	closed form of Theorem rz:thm:kappaexact equals the xi form for rho_1 to rho_4	closed form = xi form	k1re==c1re and k1im==c1im and k2re==c2re and k2im==c2im and k3re==c3re and k3im==c3im and k4re==c4re and k4im==c4im	expr
+R19	rz4.tex	$-\Re\kappa(\rho_j)=4.762$, $8.673$, $10.149$, $15.165$	minus Re kappa(rho_j), caption of Table rz:tab:traj	4.762,8.673,10.149,15.165	-k1re,-k2re,-k3re,-k4re	round
+R20	rz4.tex	For each of the first $100$ zeros $\kappa(\rho)$ has negative real part	Re kappa < 0 for the first 100 zeros	no flip below index 101	min(flip_ks) > 100	expr
+R21	rz4.tex	the first being $\gamma_{213}$	first zero with Re kappa > 0	213	min(flip_ks) == 213	expr
+R22	rz4.tex	$\Re\kappa>0$ occurs three times	number of zeros with Re kappa > 0 among the first 460	3	flips	int
+R23	rz4.tex	\gamma_{213}=415.4552,\quad\gamma_{289}=527.9036,\quad\gamma_{379}=650.6687	ordinates of the three zeros with Re kappa > 0	415.4552,527.9036,650.6687	g213,g289,g379	round
+R24	rz4.tex	with $\kappa=233.96-2298.91i$, $604.16+3074.08i$, $1164.60-4296.91i$	kappa at gamma_213, gamma_289, gamma_379	233.96,-2298.91,604.16,3074.08,1164.60,-4296.91	k213re,k213im,k289re,k289im,k379re,k379im	round
+R25	rz4.tex	$\Re\kappa(\rho_{213})=233.96>0$	Re kappa(rho_213), proof of Corollary rz:cor:Tfalse	233.96	k213re	round
+R26	rz4.tex	the jump of $S$ runs from $0.098$ to $1.098$, from $-1.145$ to $-0.145$	S just below and above gamma_213 and gamma_289 (max S minus 1, max S, min S, min S plus 1)	0.098,1.098,-1.145,-0.145	maxS-1,maxS,minS,minS+1	round
+R27	rz4.tex	the midpoints of the jumps are $0.598$, $-0.645$	midpoints of the jumps at gamma_213 and gamma_289	0.598,-0.645	maxS-mpf(1)/2,mid289	round
+R28	rz4.tex	Seven of the first $460$ zeros have $S(\gamma^-)<-1$	number of the first 460 zeros with S(gamma^-) < -1	7	n_low	int
+R29	rz4.tex	besides $\gamma_{289}$ these are $\gamma_{127}$, $\gamma_{196}$, $\gamma_{233}$, $\gamma_{368}$, $\gamma_{380}$ and $\gamma_{401}$	indices of those zeros	127, 196, 233, 289, 368, 380, 401	low_ks == [127, 196, 233, 289, 368, 380, 401]	expr
+R30	rz4.tex	with midpoints $-0.506$, $-0.505$, $-0.537$, $-0.556$, $-0.538$ and $-0.514$	their midpoints S(gamma^-)+1/2	-0.506,-0.505,-0.537,-0.556,-0.538,-0.514	mid127,mid196,mid233,mid368,mid380,mid401	round
+R31	rz4.tex	The largest $|S_{\rm mid}|$ with $\Re\kappa<0$ is $0.556$, at $\gamma_{368}$	largest midpoint modulus with Re kappa < 0 (the script scans negative midpoints only)	0.556	-mid_neg_max	round
+R31b	rz4.tex	The largest $|S_{\rm mid}|$ with $\Re\kappa<0$ is $0.556$, at $\gamma_{368}$	it is attained at gamma_368	368	abs(mids[368] - mid_neg_max) < mpf('1e-5')	expr
+R32	rz4.tex	and the smallest with $\Re\kappa>0$ is $0.598$, at $\gamma_{213}$	midpoint at gamma_213 (the script does not print the one at gamma_379)	0.598	maxS-mpf(1)/2	round
+R33	rz4.tex	$4,5,6,8,16$ & $(0.5,40)$, $(40,70)$ & $21,21$; $27,27$ & $21$; $27$	zeros of xi with 1 < gamma < 80 and 80 < gamma < 140 (Table rz:tab:symwin)	21,27	sw1,sw2	int
+R34	rz4.tex	$8$ & $(70,140)$, $(195,215)$ & $78,78$; $27,27$ & $78$; $26$	zeros of xi with 140 < gamma < 280 and 390 < gamma < 430 (Table rz:tab:symwin)	78,26	sw3,sw4	int
+R35	rz4.tex	are $\gamma_{196}$ to $\gamma_{221}$, twenty six of them	first and last index in 390 < gamma < 430, and the count	196,221,26	sw4_lo,sw4_hi,sw4	int
+R36	rz4.tex	the nearest excluded ordinates being $\gamma_{195}=388.85$ and $\gamma_{222}=430.33$	gamma_195 and gamma_222	388.85,430.33	g195,g222	round
+R40	rz3.tex	$S(\gamma_{289}^-)=-1.14548\ldots$ with $\gamma_{289}=527.9036\ldots$	S(gamma_289^-) and gamma_289, printed truncated	-1.14548,527.9036	minS,g289	trunc
+R41	rz3.tex	$S(\gamma_{127}^-)=-1.0063$	S(gamma_127^-) = midpoint minus 1/2	-1.0063	mid127-mpf(1)/2	round
+R42	rz3.tex	the most negative value among the first $460$ zeros is at $\gamma_{289}$	most negative S(gamma^-) among the first 460	at gamma_289	min(mids, key=lambda k: mids[k]) == 289	expr
+R43	rz3.tex	-\zeta(\frac12)/4\approx0.36509	f(0+)	0.36509	f0	round
+R44	rz3.tex	\approx0.75773\,x^{-3/2}	c/(2 sqrt pi)	0.75773	tailc	round
+R45	rz3.tex	like $0.75773\,x^{-3/2}$	c/(2 sqrt pi)	0.75773	tailc	round
+R46	rz3.tex	-\zeta(\frac12)/16\approx0.09127	f'(0+)	0.09127	fp0	round
+R47	rz3.tex	it rises from $0.365089$	f(0+)	0.365089	f0	round
+R48	rz3.tex	$f_H$ attains $1.11125$ at $h=0.09765$	maximum of f_H and where (Prop. rz:prop:hmfalse)	1.11125,0.09765	hm_max,hm_argmax	round
+R49	rz3.tex	there are $42$ negative exponents for each of $p=2,3,5,7$	negative b_n for 2 <= n <= 60	42,42,42,42	neg2,neg3,neg5,neg7	int
+R50	rz3.tex	is $-1.049$, $-0.995$, $-0.867$, $-0.769$, $-0.721$ at $\sigma=0.55,0.6,0.75,0.9,0.99$	min of Re zeta'/zeta over (0,60] (Prop. rz:prop:onlyhalf discussion)	-1.049,-0.995,-0.867,-0.769,-0.721	m055,m06,m075,m09,m099	round
+R51	rz3.tex	$x_*\approx0.00322$	x_* (caption of Figure rz:fig:w)	0.00322	xstar	round
+R52	rz3.tex	$c=-\theta'(0)\approx2.68609$	c	2.68609	c3	round
+R53	rz3.tex	while $-W_0(x_1)$ already exceeds $0.25$	minus W_0(0.004) = minus F(0.004)/(4 sqrt(0.004 pi)) by Lemma rz:lem:W0	exceeds 0.25	-F004/(4*sqrt(pi*mpf('0.004'))) > mpf('0.25')	expr
+R60	rz2.tex	$b=\frac12(\gamma_E+\log\pi)\approx0.860973$	b	0.860973	b	round
+R61	rz2.tex	(\log\pi-\psi(\frac14))\approx2.68609$	c	2.68609	c2	round
+R70	rz1.tex	$\tau_0\approx6.28984$	tau_0	6.28984	tau0	round
+R71	rz1.tex	\frac{\zeta'(\frac12)}{\zeta(\frac12)}\approx2.68609	c	2.68609	c1	round
+R72	rz1.tex	$-\theta(\tau_0)/\pi\approx1.12394$	max M	1.12394	maxM	round
+R73	rz1.tex	falls to $\approx0.55025$	M(gamma_1^2 -)	0.55025	Mg1	round
+R80	ch12.tex	c=\zeta'(\frac12)/\zeta(\frac12)=2.6860917$	c	2.6860917	c1	round
+R90	appA.tex	& 2.6860917096 & \texttt{spot\_checks\_report.md}	c, constants table of Appendix A (cites spot_checks_report.md)	2.6860917096	c1	round

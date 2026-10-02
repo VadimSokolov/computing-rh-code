@@ -1,0 +1,546 @@
+{
+ "K0": 400000,
+ "formula_vs_direct_K300_maxabs": 3.4438311059246704e-41,
+ "rows": [
+  {
+   "eps": 0.5,
+   "celltv": {
+    "archived": 0.49688791074460603,
+    "reconstructed": 0.49688791074460603,
+    "exact_trunc": "0.49688791074462391339",
+    "closed_form": "0.49684851994523369814",
+    "lattice_limit_minus_closed_form": 5.739718509874451e-41,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 3.5973084291140436e-14,
+    "rel_reconstructed_vs_exact_trunc": 3.5973084291140436e-14,
+    "rel_archived_vs_closed": 7.928130565159083e-05,
+    "dvalue_dK": -9.847687644740865e-11,
+    "K_implied": 400000.00018158264,
+    "K_per_ulp": 5.636973189427208e-07
+   },
+   "mass": {
+    "archived": 50.00311129348167,
+    "reconstructed": 50.00311129348167,
+    "exact_trunc": "50.003111293481655345",
+    "closed_form": "50.003151480054766302",
+    "lattice_limit_minus_closed_form": 0.0,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 4.262991146229289e-16,
+    "rel_reconstructed_vs_exact_trunc": 4.262991146229289e-16,
+    "rel_archived_vs_closed": 8.03680806219646e-07,
+    "dvalue_dK": 1.0046630826248402e-10,
+    "K_implied": 400000.0001784389,
+    "K_per_ulp": 7.072447948457463e-05
+   },
+   "mass_defect_over_eps": {
+    "archived": 0.006222586963346544,
+    "exact": 0.006302960109532603
+   }
+  },
+  {
+   "eps": 0.1,
+   "celltv": {
+    "archived": 0.1250434787554282,
+    "reconstructed": 0.1250434787554211,
+    "exact_trunc": "0.12504347875543644571",
+    "closed_form": "0.12503560059555839872",
+    "lattice_limit_minus_closed_form": 1.7219155529623352e-41,
+    "rel_archived_vs_reconstructed": 5.682365388681219e-14,
+    "rel_archived_vs_exact_trunc": 6.592431720461387e-14,
+    "rel_reconstructed_vs_exact_trunc": 1.2274797109141908e-13,
+    "rel_archived_vs_closed": 6.300733416943842e-05,
+    "dvalue_dK": -1.9695375289511272e-11,
+    "K_implied": 400000.00041837414,
+    "K_per_ulp": 1.4092432973546883e-06
+   },
+   "mass": {
+    "archived": 50.00062227846783,
+    "reconstructed": 50.00062227846784,
+    "exact_trunc": "50.000622278467821773",
+    "closed_form": "50.000630315782443969",
+    "lattice_limit_minus_closed_form": 0.0,
+    "rel_archived_vs_reconstructed": 1.421067785522515e-16,
+    "rel_archived_vs_exact_trunc": 1.4210677855225155e-16,
+    "rel_reconstructed_vs_exact_trunc": 2.842135571045031e-16,
+    "rel_archived_vs_closed": 1.6074426590183416e-07,
+    "dvalue_dK": 2.0093261652526942e-11,
+    "K_implied": 400000.00041084155,
+    "K_per_ulp": 0.00035362239742234275
+   },
+   "mass_defect_over_eps": {
+    "archived": 0.006222784678300286,
+    "exact": 0.0063031578244396895
+   }
+  },
+  {
+   "eps": 0.05,
+   "celltv": {
+    "archived": 0.06313981574086894,
+    "reconstructed": 0.06313981574086894,
+    "exact_trunc": "0.063139815740876647194",
+    "closed_form": "0.063135876660937623639",
+    "lattice_limit_minus_closed_form": 1.8654085157091965e-41,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 1.2220577349815538e-13,
+    "rel_reconstructed_vs_exact_trunc": 1.2220577349815538e-13,
+    "rel_archived_vs_closed": 6.239051613196406e-05,
+    "dvalue_dK": -9.847687644756098e-12,
+    "K_implied": 400000.0007828883,
+    "K_per_ulp": 1.4092432973546222e-06
+   },
+   "mass": {
+    "archived": 50.000311139542866,
+    "reconstructed": 50.000311139542866,
+    "exact_trunc": "50.000311139542858418",
+    "closed_form": "50.000315158200169515",
+    "lattice_limit_minus_closed_form": 0.0,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 1.4210766284575496e-16,
+    "rel_reconstructed_vs_exact_trunc": 1.4210766284575496e-16,
+    "rel_archived_vs_closed": 8.037263940335835e-08,
+    "dvalue_dK": 1.0046630826263943e-11,
+    "K_implied": 400000.0007647971,
+    "K_per_ulp": 0.0007072447948446523
+   },
+   "mass_defect_over_eps": {
+    "archived": 0.006222790857322025,
+    "exact": 0.006303164003390308
+   }
+  },
+  {
+   "eps": 0.01,
+   "celltv": {
+    "archived": 0.012668454358153412,
+    "reconstructed": 0.012668454358139201,
+    "exact_trunc": "0.012668454358126806961",
+    "closed_form": "0.012667666542139002246",
+    "lattice_limit_minus_closed_form": 5.3809861030072976e-43,
+    "rel_archived_vs_reconstructed": 1.1217512660549505e-12,
+    "rel_archived_vs_exact_trunc": 2.100134175720411e-12,
+    "rel_reconstructed_vs_exact_trunc": 9.78382909664363e-13,
+    "rel_archived_vs_closed": 6.219109192606572e-05,
+    "dvalue_dK": -1.969537528951249e-12,
+    "K_implied": 399999.9864915761,
+    "K_per_ulp": 8.807770608466256e-07
+   },
+   "mass": {
+    "archived": 50.00006222792832,
+    "reconstructed": 50.00006222792833,
+    "exact_trunc": "50.000062227928344372",
+    "closed_form": "50.000063031659806591",
+    "lattice_limit_minus_closed_form": 0.0,
+    "rel_archived_vs_reconstructed": 2.842167405796608e-16,
+    "rel_archived_vs_exact_trunc": 5.684334811593214e-16,
+    "rel_reconstructed_vs_exact_trunc": 2.842167405796607e-16,
+    "rel_archived_vs_closed": 1.607460950530501e-08,
+    "dvalue_dK": 2.0093261652528188e-12,
+    "K_implied": 399999.9867668264,
+    "K_per_ulp": 0.0035362239742232084
+   },
+   "mass_defect_over_eps": {
+    "archived": 0.006222792831778179,
+    "exact": 0.0063031659806591115
+   }
+  },
+  {
+   "eps": 0.005,
+   "celltv": {
+    "archived": 0.006334863607589925,
+    "reconstructed": 0.006334863607589925,
+    "exact_trunc": "0.0063348636075981686692",
+    "closed_form": "0.0063344696996042663116",
+    "lattice_limit_minus_closed_form": 4.259947331547444e-41,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 1.3012759971587192e-12,
+    "rel_reconstructed_vs_exact_trunc": 1.3012759971587192e-12,
+    "rel_archived_vs_closed": 6.218484014266658e-05,
+    "dvalue_dK": -9.847687644756251e-13,
+    "K_implied": 400000.008371146,
+    "K_per_ulp": 8.807770608466252e-07
+   },
+   "mass": {
+    "archived": 50.00003111396449,
+    "reconstructed": 50.00003111396449,
+    "exact_trunc": "50.000031113964481134",
+    "closed_form": "50.000031515830212244",
+    "lattice_limit_minus_closed_form": 0.0,
+    "rel_archived_vs_reconstructed": 0.0,
+    "rel_archived_vs_exact_trunc": 1.421084587208693e-16,
+    "rel_reconstructed_vs_exact_trunc": 1.421084587208693e-16,
+    "rel_archived_vs_closed": 8.037309463424706e-09,
+    "dvalue_dK": 1.0046630826264098e-12,
+    "K_implied": 400000.008121191,
+    "K_per_ulp": 0.007072447948446413
+   },
+   "mass_defect_over_eps": {
+    "archived": 0.006222792897858653,
+    "exact": 0.006303166042448798
+   }
+  }
+ ],
+ "archived_max_rel_vs_exact_trunc": 2.100134175720411e-12,
+ "reconstructed_max_rel_vs_exact_trunc": 1.3012759971587192e-12,
+ "K_implied_range": [
+  399999.9864915761,
+  400000.008371146
+ ],
+ "compare_archived_reconstructed": {
+  "numbers": 15,
+  "agree": 15,
+  "tol": 1e-09,
+  "bitwise_equal": 11,
+  "max_rel": 1.1217512660536922e-12,
+  "where": "celltv at eps=0.01"
+ },
+ "closed_file_max_rel_vs_mpmath": 2.7388208715571225e-16,
+ "compare_archived_closed": {
+  "numbers": 15,
+  "agree": 5,
+  "tol": 1e-09,
+  "bitwise_equal": 5,
+  "max_rel": 7.927502062445016e-05,
+  "where": "celltv at eps=0.5"
+ },
+ "printed": [
+  {
+   "where": "ch03 Sec. sec:ch3:bench, mass defect coefficient to first order",
+   "printed": "0.00630",
+   "closed_form": 0.0063031660630453595,
+   "closed_form_rounds_to_printed": true,
+   "archived": null,
+   "archived_rounds_to_printed": null
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, mass defect at eps=0.5",
+   "printed": "3.151e-3",
+   "closed_form": 0.0031514800547663016,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.003111293481673272,
+   "archived_rounds_to_printed": false
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, cell distance at eps=0.5",
+   "printed": "0.4968",
+   "closed_form": 0.4968485199452337,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.49688791074460603,
+   "archived_rounds_to_printed": false
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, cell distance at eps=0.1",
+   "printed": "0.1250",
+   "closed_form": 0.1250356005955584,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.1250434787554282,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, cell distance at eps=0.05",
+   "printed": "0.0631",
+   "closed_form": 0.06313587666093762,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.06313981574086894,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, cell distance at eps=0.01",
+   "printed": "0.01267",
+   "closed_form": 0.012667666542139001,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.012668454358153412,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, cell distance at eps=0.005",
+   "printed": "0.00633",
+   "closed_form": 0.006334469699604267,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.006334863607589925,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, limit constant (4-1/50.5)/pi",
+   "printed": "1.267",
+   "closed_form": 1.2669363786721173,
+   "closed_form_rounds_to_printed": true,
+   "archived": 1.266972721517985,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch03 Sec. sec:ch3:bench, per atom 1.267/50",
+   "printed": "0.0253",
+   "closed_form": 0.025338727573442348,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.025339454430359697,
+   "archived_rounds_to_printed": true
+  },
+  {
+   "where": "ch15 Sec. cells, constant for N=50",
+   "printed": "1.26694",
+   "closed_form": 1.2669363786721173,
+   "closed_form_rounds_to_printed": true,
+   "archived": 1.266972721517985,
+   "archived_rounds_to_printed": false
+  },
+  {
+   "where": "ch15, first cell (0,3/2]",
+   "printed": "0.418",
+   "closed_form": 0.4181100155153422,
+   "closed_form_rounds_to_printed": true,
+   "archived": null,
+   "archived_rounds_to_printed": null
+  },
+  {
+   "where": "ch15 opening, constant",
+   "printed": "1.27",
+   "closed_form": 1.2669363786721173,
+   "closed_form_rounds_to_printed": true,
+   "archived": null,
+   "archived_rounds_to_printed": null
+  },
+  {
+   "where": "ch03 Exercise 5, mass defect coefficient",
+   "printed": "0.00630",
+   "closed_form": 0.0063031660630453595,
+   "closed_form_rounds_to_printed": true,
+   "archived": 0.006222792897858653,
+   "archived_rounds_to_printed": false
+  }
+ ],
+ "variants": {
+  "pair": {
+   "values": [
+    0.49688791074460603,
+    50.00311129348167,
+    0.1250434787554211,
+    50.00062227846784,
+    0.06313981574086894,
+    50.000311139542866,
+    0.012668454358139201,
+    50.00006222792833,
+    0.006334863607589925,
+    50.00003111396449
+   ],
+   "max_rel_vs_archived": 1.1217512660536922e-12,
+   "max_rel_vs_exact": 1.3012759971587192e-12,
+   "bitwise_equal_archived": 6,
+   "agree_1e9": 10
+  },
+  "diff/k_then_minus_k": {
+   "values": [
+    0.49688791074462346,
+    50.00311129348165,
+    0.12504347875544208,
+    50.000622278467816,
+    0.06313981574086616,
+    50.00031113954286,
+    0.012668454358124658,
+    50.000062227928346,
+    0.006334863607593589,
+    50.000031113964496
+   ],
+   "max_rel_vs_archived": 2.2697935774055178e-12,
+   "max_rel_vs_exact": 7.229311095326217e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "diff/sorted": {
+   "values": [
+    0.49688791074462346,
+    50.00311129348165,
+    0.12504347875544208,
+    50.000622278467816,
+    0.06313981574086616,
+    50.00031113954286,
+    0.012668454358124658,
+    50.000062227928346,
+    0.006334863607593589,
+    50.000031113964496
+   ],
+   "max_rel_vs_archived": 2.2697935774055178e-12,
+   "max_rel_vs_exact": 7.229311095326217e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "diff/interleaved": {
+   "values": [
+    0.49688791074462346,
+    50.00311129348165,
+    0.1250434787554412,
+    50.000622278467816,
+    0.06313981574087404,
+    50.00031113954286,
+    0.012668454358134094,
+    50.00006222792834,
+    0.006334863607593034,
+    50.000031113964496
+   ],
+   "max_rel_vs_archived": 1.5248806272917376e-12,
+   "max_rel_vs_exact": 8.105591228093032e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "atan2/k_then_minus_k": {
+   "values": [
+    0.4968879107446226,
+    50.00311129348166,
+    0.12504347875543298,
+    50.00062227846782,
+    0.0631398157408726,
+    50.00031113954286,
+    0.012668454358133106,
+    50.00006222792834,
+    0.00633486360759997,
+    50.00003111396449
+   ],
+   "max_rel_vs_archived": 1.6029321680205713e-12,
+   "max_rel_vs_exact": 4.972020076964734e-13,
+   "bitwise_equal_archived": 1,
+   "agree_1e9": 10
+  },
+  "atan2/sorted": {
+   "values": [
+    0.4968879107446225,
+    50.00311129348166,
+    0.12504347875543298,
+    50.00062227846782,
+    0.0631398157408726,
+    50.00031113954286,
+    0.012668454358133104,
+    50.00006222792834,
+    0.00633486360759997,
+    50.00003111396449
+   ],
+   "max_rel_vs_archived": 1.6030691005481657e-12,
+   "max_rel_vs_exact": 4.970650751688786e-13,
+   "bitwise_equal_archived": 1,
+   "agree_1e9": 10
+  },
+  "atan2/interleaved": {
+   "values": [
+    0.49688791074462046,
+    50.00311129348166,
+    0.12504347875543398,
+    50.00062227846782,
+    0.06313981574086462,
+    50.00031113954286,
+    0.012668454358127997,
+    50.000062227928346,
+    0.006334863607600525,
+    50.00003111396448
+   ],
+   "max_rel_vs_archived": 2.0061984617862114e-12,
+   "max_rel_vs_exact": 3.720083001136616e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "cum/k_then_minus_k": {
+   "values": [
+    0.49688791074481187,
+    50.003111293492125,
+    0.12504347879614364,
+    50.00062227847301,
+    0.06313981571513819,
+    50.00031113956627,
+    0.012668454379522104,
+    50.00006222789986,
+    0.0063348635772577135,
+    50.00003111396472
+   ],
+   "max_rel_vs_archived": 4.788139642422322e-09,
+   "max_rel_vs_exact": 4.78944091841325e-09,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 8
+  },
+  "cum/sorted": {
+   "values": [
+    0.4968879106706996,
+    50.003111293492125,
+    0.12504347883319844,
+    50.000622278435955,
+    0.06313981571513819,
+    50.00031113956627,
+    0.012668454379522104,
+    50.00006222789986,
+    0.0063348635772577135,
+    50.00003111396472
+   ],
+   "max_rel_vs_archived": 4.788139642422322e-09,
+   "max_rel_vs_exact": 4.78944091841325e-09,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 8
+  },
+  "cum/interleaved": {
+   "values": [
+    0.49688791074463445,
+    50.00311129348151,
+    0.12504347875540972,
+    50.000622278467695,
+    0.06313981574080937,
+    50.000311139542724,
+    0.012668454358112646,
+    50.00006222792831,
+    0.0063348636075611356,
+    50.000031113964546
+   ],
+   "max_rel_vs_archived": 4.544607838567804e-12,
+   "max_rel_vs_exact": 5.84588383572061e-12,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "cum0/k_then_minus_k": {
+   "values": [
+    0.49688791074461314,
+    50.003111293481666,
+    0.1250434787554353,
+    50.00062227846782,
+    0.06313981574088315,
+    50.00031113954285,
+    0.012668454358132096,
+    50.00006222792834,
+    0.006334863607604136,
+    50.000031113964475
+   ],
+   "max_rel_vs_archived": 2.2432771398859634e-12,
+   "max_rel_vs_exact": 9.420011427243252e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "cum0/sorted": {
+   "values": [
+    0.49688791074461314,
+    50.003111293481666,
+    0.1250434787554353,
+    50.00062227846782,
+    0.06313981574088315,
+    50.00031113954285,
+    0.012668454358132096,
+    50.00006222792834,
+    0.006334863607604136,
+    50.000031113964475
+   ],
+   "max_rel_vs_archived": 2.2432771398859634e-12,
+   "max_rel_vs_exact": 9.420011427243252e-13,
+   "bitwise_equal_archived": 0,
+   "agree_1e9": 10
+  },
+  "cum0/interleaved": {
+   "values": [
+    0.49688791074461314,
+    50.003111293481666,
+    0.1250434787554282,
+    50.00062227846783,
+    0.06313981574085473,
+    50.00031113954288,
+    0.01266845435812499,
+    50.000062227928346,
+    0.006334863607589925,
+    50.00003111396449
+   ],
+   "max_rel_vs_archived": 2.2435025321073843e-12,
+   "max_rel_vs_exact": 1.3012759971587192e-12,
+   "bitwise_equal_archived": 4,
+   "agree_1e9": 10
+  }
+ }
+}

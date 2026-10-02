@@ -1,0 +1,128 @@
+{
+ "rows": [
+  {
+   "N": 1,
+   "printed": "3.1900",
+   "alpha_hi": 3.1900499999989997,
+   "alpha_lo": 3.18995,
+   "positive_above": true,
+   "alpha_cells": 303,
+   "cells": 124279,
+   "min_lower_bound": 1.25602219291849e-08,
+   "at": [
+    3.1901929117233383,
+    3.190200568550863,
+    0.04130159245,
+    0.04132481685
+   ],
+   "negative_below": true,
+   "neg": {
+    "alpha": 3.18995,
+    "t": 0.04062,
+    "float_min": -8.73762699512339e-06,
+    "upper": "[-8.7376270e-6 +/- 4.90e-15]",
+    "negative": true
+   },
+   "failures": []
+  },
+  {
+   "N": 1000,
+   "printed": "1.5320",
+   "alpha_hi": 1.532049999999,
+   "alpha_lo": 1.53195,
+   "positive_above": true,
+   "alpha_cells": 557,
+   "cells": 601169,
+   "min_lower_bound": 3.91992926767214e-10,
+   "at": [
+    1.532054048454964,
+    1.5320543754344047,
+    1.653887098,
+    1.6548171
+   ],
+   "negative_below": true,
+   "neg": {
+    "alpha": 1.53195,
+    "t": 1.658,
+    "float_min": -4.17850089348382e-05,
+    "upper": "[-4.1785009e-5 +/- 6.53e-14]",
+    "negative": true
+   },
+   "failures": []
+  },
+  {
+   "N": 100000,
+   "printed": "1.3667",
+   "alpha_hi": 1.366749999999,
+   "alpha_lo": 1.36665,
+   "positive_above": true,
+   "alpha_cells": 772,
+   "cells": 533086,
+   "min_lower_bound": 2.44460107669166e-09,
+   "at": [
+    1.3683350157343885,
+    1.3683601277872144,
+    10.18151722,
+    10.22740902
+   ],
+   "negative_below": true,
+   "neg": {
+    "alpha": 1.36665,
+    "t": 4.15,
+    "float_min": -6.24474252391901e-06,
+    "upper": "[-6.2447425e-6 +/- 2.40e-14]",
+    "negative": true
+   },
+   "failures": []
+  },
+  {
+   "N": 10000000,
+   "printed": "1.2840",
+   "alpha_hi": 1.283999999999,
+   "alpha_lo": 1.28395,
+   "positive_above": true,
+   "alpha_cells": 1389,
+   "cells": 2026071,
+   "min_lower_bound": 6.13160875347531e-12,
+   "at": [
+    1.2840092965713534,
+    1.2840094766186707,
+    0.9305720409,
+    0.9347664681
+   ],
+   "negative_below": true,
+   "neg": {
+    "alpha": 1.28395,
+    "t": 7.518,
+    "float_min": -3.10144711785671e-05,
+    "upper": "[-3.1014471e-5 +/- 1.80e-13]",
+    "negative": true
+   },
+   "failures": []
+  }
+ ],
+ "b10": "[0.3911086620 +/- 4.30e-11]",
+ "b10_gt_1_9": true,
+ "thorin": {
+  "printed": "3.5748",
+  "alpha_hi": 3.574849999999,
+  "positive_above": true,
+  "cells": 811289,
+  "min_lower_bound": 8.82442051334873e-11,
+  "at": [
+   3.574925568843612,
+   3.5749285535608823,
+   3.463134766
+  ],
+  "negative_below": true,
+  "neg": {
+   "alpha": 3.5747500000000003,
+   "theta": 3.450549784946236,
+   "upper": "[-4.5625581e-6 +/- 2.71e-14]",
+   "negative": true
+  },
+  "failures": []
+ },
+ "all_ok": true,
+ "seconds": 1058.673968553543
+}

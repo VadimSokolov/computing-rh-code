@@ -1,0 +1,109 @@
+Bosch alpha= 0.4  q=1/beta= 0.6  threshold 1-alpha= 0.6  first violations (u=0.3,1,3,10): [None, None, None, None]
+Bosch alpha= 0.4  q=1/beta= 0.75  threshold 1-alpha= 0.6  first violations (u=0.3,1,3,10): [7, None, 8, 4]
+Bosch alpha= 0.4  q=1/beta= 0.9  threshold 1-alpha= 0.6  first violations (u=0.3,1,3,10): [5, None, 5, 3]
+Bosch alpha= 0.6  q=1/beta= 0.3  threshold 1-alpha= 0.4  first violations (u=0.3,1,3,10): [None, None, None, None]
+toy: delta=0.1, predicted p* = 1-2delta/pi = 0.936338
+  p= 0.85  first violations (u=50,150,200,400): [None, None, None, None]
+  p= 0.92  first violations (u=50,150,200,400): [None, None, None, None]
+  p= 0.95  first violations (u=50,150,200,400): [None, None, None, None]
+  p= 1.0  first violations (u=50,150,200,400): [29, None, None, None]
+ray monotonicity: min of Im(e^{i theta} psi(r e^{i theta})) over 885 points: 0.00037816 at (3000, 1)
+Bosch alpha=0.4000000000000000222044605 q=0.5999999999999999777955395: zeros of D in slit plane=False, min Im(-x h'/h)=8.79e-7 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+Bosch alpha=0.4000000000000000222044605 q=0.550000000000000044408921: zeros of D in slit plane=False, min Im(-x h'/h)=1.476e-6 at (r,theta/pi)=('1.0e+6', '0.005'), HCM predicted=True
+Bosch alpha=0.4000000000000000222044605 q=0.75: zeros of D in slit plane=True, min Im(-x h'/h)=-1.075e+16 at (r,theta/pi)=('1.0', '0.8'), HCM predicted=False
+Bosch alpha=0.5 q=0.5: zeros of D in slit plane=False, min Im(-x h'/h)=1.571e-8 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+Bosch alpha=0.5 q=0.5999999999999999777955395: zeros of D in slit plane=True, min Im(-x h'/h)=-191.0 at (r,theta/pi)=('1.0', '0.835'), HCM predicted=False
+Bosch alpha=0.5999999999999999777955395 q=0.2999999999999999888977698: zeros of D in slit plane=False, min Im(-x h'/h)=-0.01138 at (r,theta/pi)=('0.00178', '0.995'), HCM predicted=False
+Bosch alpha=0.2999999999999999888977698 q=0.699999999999999955591079: zeros of D in slit plane=False, min Im(-x h'/h)=5.709e-7 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+toy with gamma=14 e^{0.1 i} and 21: p* = 1 - 2 delta/pi = 0.936338
+  p=0.800000000000000044408921: poles in slit plane=False, min Im(-x h'/h)=1.955e-9 at ('1.0e-6', '0.005')
+  p=0.9000000000000000222044605: poles in slit plane=False, min Im(-x h'/h)=6.214e-10 at ('1.0e-6', '0.005')
+  p=0.9300000000000000488498131: poles in slit plane=False, min Im(-x h'/h)=4.384e-10 at ('1.0e-6', '0.005')
+  p=0.9399999999999999467092948: poles in slit plane=True, min Im(-x h'/h)=3.901e-10 at ('1.0e-6', '0.005')
+  p=0.9699999999999999733546474: poles in slit plane=True, min Im(-x h'/h)=2.744e-10 at ('1.0e-6', '0.005')
+  p=1.0: poles in slit plane=True, min Im(-x h'/h)=-2.082 at ('178.0', '0.965')
+p=0.5 tau=1.0  u_p from xi'/xi = 0.0036772509   Lamperti sum over 30 zeros = 0.0027385446
+p=0.5 tau=100.0  u_p from xi'/xi = 0.00036749844   Lamperti sum over 30 zeros = 0.00027362781
+p=0.5 tau=39916.2  u_p from xi'/xi = 1.5892445e-5   Lamperti sum over 30 zeros = 1.1194261e-5
+p=0.5 tau=10000.0  u_p from xi'/xi = 3.4888942e-5   Lamperti sum over 30 zeros = 2.5502014e-5
+p=0.9 tau=1.0  u_p from xi'/xi = 0.0020517052   Lamperti sum over 30 zeros = 0.0015295419
+p=0.9 tau=100.0  u_p from xi'/xi = 0.0016651787   Lamperti sum over 30 zeros = 0.001334689
+p=0.9 tau=359.91  u_p from xi'/xi = 0.003797116   Lamperti sum over 30 zeros = 0.003504334
+p=0.9 tau=10000.0  u_p from xi'/xi = 0.0011291144   Lamperti sum over 30 zeros = 0.0008618977
+p=0.5 s=1.0: log phi(s^p)=-0.02308645471, -int log(1+s/t)u_p = -0.02308645471 (7s)
+p=0.5 s=10.0: log phi(s^p)=-0.07288004392, -int log(1+s/t)u_p = -0.07288004392 (7s)
+p=0.9 s=1.0: log phi(s^p)=-0.02308645471, -int log(1+s/t)u_p = -0.02308645471 (7s)
+p=0.9 s=10.0: log phi(s^p)=-0.1823802136, -int log(1+s/t)u_p = -0.1823802136 (7s)
+p=0.5 tau=100.0: xi'/xi 0.000367498 | 30 zeros 0.000273628 | 100 zeros 0.000317988 | 200 zeros 0.000334699
+p=0.9 tau=359.91: xi'/xi 0.00379712 | 30 zeros 0.00350433 | 100 zeros 0.00364394 | 200 zeros 0.00369577
+positivity grid: 148 points, p in {0.5,0.9,0.99,0.999}, tau in [1e-4,1e8]: min u_p = 9.995e-8 at p=0.5 tau=1.0e+8
+t=0.05  series density 0.00034769345992343   (4/pi) eta(4it/pi)^3 0.00034769345992343
+t=0.3  series density 0.690050269211105   (4/pi) eta(4it/pi)^3 0.690050269211105
+t=1.0  series density 0.467927261554653   (4/pi) eta(4it/pi)^3 0.467927261554653
+t=3.0  series density 0.0633908642552182   (4/pi) eta(4it/pi)^3 0.0633908642552182
+check LT at s=2: int e^{-st} f = 0.214383752348, sech(pi sqrt2/2) = 0.214383752348
+p=0.5: prime region starts at |z|=0.70718; sufficient inequality holds for all |z|>3.9768  (tau_1 = 250.1), checked to |z|=6.68e+13
+p=0.9: prime region starts at |z|=3.1965; sufficient inequality holds for all |z|>10.707  (tau_1 = 194.17), checked to |z|=3.02e+14
+p=0.99: prime region starts at |z|=31.835; sufficient inequality holds for all |z|>67.284  (tau_1 = 4928.9), checked to |z|=3.01e+15
+p=0.999: prime region starts at |z|=318.34; sufficient inequality holds for all |z|>534.43  (tau_1 = 2.8923e+5), checked to |z|=3.01e+16
+asymptotic check p=0.9 |z|=1e8: Im[zG]/|z| = 8.299897931, 0.5[sin th log(|z|/2pi)+th cos th] = 8.299897931
+c_1..c_4 = ['10163.547', '-1177535.2', '19654411.0', '-1.2542839e+9']   (c_1/gamma_1^2 = 50.871036 , compare A_1 ~ 50.92)
+signs alternate for n<=200: True
+min gap of lambda_n=gamma_n^2 over n<200: 159.045 at n=4 (gamma gap 2.51019)
+log|c_n|/lambda_n at n=1,10,50,100,200: ['0.046181', '0.014407', '0.0052359', '0.0032204', '0.0019464']
+pi/(4 gamma_n) at same n: ['0.055565', '0.015779', '0.005488', '0.0033206', '0.0019814']
+t=0.01: residue series 0.0244251367484, Talbot inverse Laplace 0.0244251367484 (0s)
+t=0.003: residue series 0.000380809971558, Talbot inverse Laplace -1.10981287897e-18 (0s)
+Cauchy side: gaps (2k+1)^2-(2k-1)^2 = 8k >= 8; log|c_k|/lambda_k -> 0
+t=0.02: residue series (200 zeros, 90 digits) 80.10419773, Talbot 80.10419773
+t=0.005: residue series (200 zeros, 90 digits) 6.537917064e-24, Talbot 6.537917063e-24
+t=0.003: residue series (200 zeros, 90 digits) 3.08631168e-69, Talbot -1.190410575e-31
+p=0.5: rigorous bound positive for |z|>4.0694, tau_1=274.23 (strip exit 0.70718)
+p=0.9: rigorous bound positive for |z|>11.084, tau_1=209.66 (strip exit 3.1965)
+p=0.99: rigorous bound positive for |z|>69.648, tau_1=5285.1 (strip exit 31.835)
+p=0.999: rigorous bound positive for |z|>553.21, tau_1=3.0994e+5 (strip exit 318.34)
+p=0.9999: rigorous bound positive for |z|>4818.3, tau_1=2.3255e+7 (strip exit 3183.4)
+check -zeta'/zeta(sigma) < 1/(sigma-1) on sigma-1 in [1e-6,100]: True
+g(0) from quadrature: 1.8994210510239022 (first version: 1.89942105102)
+b_1,b_2,b_3 = ['359.52406', '-28007.158', '392917.58'] ; gamma_2-gamma_1 = 6.887314497 ; pi/(gamma_2-gamma_1) = 0.4561418903
+overlap y=1.0: integral g=(0.0002451578539951479+0j), series g=(0.00024515785399514155+0j)
+overlap y=(1.2+0.3j): integral g=(-7.32694751296874e-06+1.3749180252589496e-05j), series g=(-7.326947512957921e-06+1.3749180252827602e-05j)
+v=0.2281 (=0.50 v*): min over x in [0,6] of Im(-g'/g) = 4.0240e-16 at x=6.000; min |g| = 5.296e-35
+v=0.4105 (=0.90 v*): min over x in [0,6] of Im(-g'/g) = -7.1608e-16 at x=6.000; min |g| = 5.296e-35
+v=0.4516 (=0.99 v*): min over x in [0,6] of Im(-g'/g) = 0.0000e+00 at x=5.600; min |g| = 5.296e-35
+v=0.4607 (=1.01 v*): min over x in [0,6] of Im(-g'/g) = -3.6260e-05 at x=1.750; min |g| = 5.296e-35
+v=0.5018 (=1.10 v*): min over x in [0,6] of Im(-g'/g) = -2.0556e-02 at x=1.175; min |g| = 5.296e-35
+full strip scan 0<v<0.99 v*, 0<=x<=6 (4840 points): min Im(-g'/g) = -1.2990e-15 at (x,v)=(5.800,0.0394)
+max (log g)'' on [0,1]: -2.2266237529322552
+v=0.999 v*: min over x in [1.1,9.1] of Im(-g'/g) (40 digits, 120 zeros) = 1.01748e-27 at x=9.1
+v=1.001 v*: min over x in [1.1,9.1] of Im(-g'/g) (40 digits, 120 zeros) = -6.4965e-8 at x=2.3
+x=8,v=v*/2: Im(-g'/g)=6.3184353e-22, leading prediction 6.3184353e-22
+pair kernel: t=0  FT=1.0  q(t^2)=1.0
+pair kernel: t=3  FT=0.914506090391  q(t^2)=0.914506090391
+pair kernel: t=10  FT=0.439440954571  q(t^2)=0.439440954571
+first negative lobe starts at x=(pi-delta)/Im(gamma) = 4.4184  k there: -6.297e-28
+eps_off <= 1.982e-11, kappa=7.92e-9, A >= 0.9998995911
+log of single pair C(k^-) bound at a=T0,b=1/2: -1.88496e+13  (so B < exp(-9e12))
+freqs 1,2,3,... (logistic): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=3.1385, first failure at v=none below pi (1s)
+freqs 1,3,4,5,...: first gap 2, predicted strip pi/gap = 1.5708; Pick holds up to v=1.5692, first failure at v=1.6215 (1s)
+freqs 1,4,5,6,...: first gap 3, predicted strip pi/gap = 1.0472; Pick holds up to v=1.0462, first failure at v=1.0985 (1s)
+freqs 2,3,4,...: first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=3.1385, first failure at v=none below pi (2s)
+freqs 1,2,5,6,... (interior gap 3): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=2.0923, first failure at v=2.1446 (2s)
+freqs 1,2,3,6,7,... (interior gap 3): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=2.3538, first failure at v=2.4061 (3s)
+removed [2]: freqs [1, 3, 4, 5, 6, 7, 8]..., gaps [2, 1, 1, 1, 1, 1]...: first gap 2, max gap 2; threshold strip 1.57079; pi/threshold = 2.0; pi/first gap = 1.5708 (2s)
+removed [2, 3]: freqs [1, 4, 5, 6, 7, 8, 9]..., gaps [3, 1, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 1.0472 (0s)
+removed [2, 4]: freqs [1, 3, 5, 6, 7, 8, 9]..., gaps [2, 2, 1, 1, 1, 1]...: first gap 2, max gap 2; threshold strip 1.57079; pi/threshold = 2.0; pi/first gap = 1.5708 (2s)
+removed [2, 3, 6]: freqs [1, 4, 5, 7, 8, 9, 10]..., gaps [3, 1, 2, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 1.0472; pi/threshold = 2.99999; pi/first gap = 1.0472 (4s)
+removed [2, 3, 5, 6]: freqs [1, 4, 7, 8, 9, 10, 11]..., gaps [3, 3, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 1.0472 (0s)
+removed [2, 3, 4]: freqs [1, 5, 6, 7, 8, 9, 10]..., gaps [4, 1, 1, 1, 1, 1]...: first gap 4, max gap 4; threshold strip 0.785463; pi/threshold = 3.99967; pi/first gap = 0.7854 (3s)
+removed [3, 4]: freqs [1, 2, 5, 6, 7, 8, 9]..., gaps [1, 3, 1, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 3.1416 (0s)
+removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 3.1416 (0s)
+removed [2, 5]: freqs [1, 3, 4, 6, 7, 8, 9]..., gaps [2, 1, 2, 1, 1, 1]...: first gap 2, max gap 2; threshold strip 1.57079; pi/threshold = 2.0; pi/first gap = 1.5708 (3s)
+removed [3]: freqs [1, 2, 4, 5, 6, 7, 8]..., gaps [1, 2, 1, 1, 1, 1]...: first gap 1, max gap 2; threshold strip 2.47537; pi/threshold = 1.26914; pi/first gap = 3.1416 (2s)
+removed [2, 3]: freqs [1, 4, 5, 6, 7, 8, 9]..., gaps [3, 1, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 1.04721; pi/threshold = 2.99997; pi/first gap = 1.0472 (2s)
+removed [2, 3, 5, 6]: freqs [1, 4, 7, 8, 9, 10, 11]..., gaps [3, 3, 1, 1, 1, 1]...: first gap 3, max gap 3; threshold strip 1.0472; pi/threshold = 3.0; pi/first gap = 1.0472 (5s)
+removed [3, 4]: freqs [1, 2, 5, 6, 7, 8, 9]..., gaps [1, 3, 1, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.11821; pi/threshold = 1.48313; pi/first gap = 3.1416 (3s)
+removed [4, 5]: freqs [1, 2, 3, 6, 7, 8, 9]..., gaps [1, 1, 3, 1, 1, 1]...: first gap 1, max gap 3; threshold strip 2.38594; pi/threshold = 1.31671; pi/first gap = 3.1416 (3s)
+removed [3]: freqs [1, 2, 4, 5, 6, 7, 8]..., gaps [1, 2, 1, 1, 1, 1]...: first gap 1, max gap 2; threshold strip 2.47537; pi/threshold = 1.26914; pi/first gap = 3.1416 (2s)
+removed []: freqs [1, 2, 3, 4, 5, 6, 7]..., gaps [1, 1, 1, 1, 1, 1]...: first gap 1, max gap 1; threshold strip 3.14159; pi/threshold = 1.0; pi/first gap = 3.1416 (1s)
+first gap 6.8873145  largest later gap among n<1000: 5.41402 at n= 3

@@ -1,0 +1,170 @@
+# Reproducibility comparison: book data/*.json against a fresh run on Hopper
+
+## Script runs
+
+- analyse: {'rc': 0, 'seconds': 7.0}
+- arith: {'rc': 0, 'seconds': 31.9}
+- bosch_v7: {'rc': 0, 'seconds': 413.1}
+- certify_k9_k2: {'rc': 0, 'seconds': 8.5}
+- clockgrid: {'rc': 0, 'seconds': 52.9}
+- dbn: {'rc': 0, 'seconds': 13.2}
+- dbnplot: {'rc': 0, 'seconds': 2.8}
+- deconv: {'rc': 0, 'seconds': 50.2}
+- deconvplot: {'rc': 0, 'seconds': 8.7}
+- enclosures: {'rc': 0, 'seconds': 41.8}
+- hankel: {'rc': 0, 'seconds': 1.0}
+- harmonic_decay: {'rc': 0, 'seconds': 86.7}
+- hazard_spec: {'rc': 0, 'seconds': 3.6}
+- hcm: {'rc': 0, 'seconds': 1.7}
+- hcm_arb: {'rc': 0, 'seconds': 0.6}
+- hitting: {'rc': 0, 'seconds': 1607.7}
+- hitting2: {'rc': 0, 'seconds': 412.8}
+- idsd_check: {'rc': 0, 'seconds': 7.7}
+- kenttail: {'rc': 0, 'seconds': 13.8}
+- kenttail2: {'rc': 0, 'seconds': 114.7}
+- kmono: {'rc': 0, 'seconds': 14.0}
+- lchi12: {'rc': 0, 'seconds': 142.4}
+- lehmer: {'rc': 0, 'seconds': 20.4}
+- lehmer_dbn: {'rc': 0, 'seconds': 65.2}
+- lehmerflowplot: {'rc': 0, 'seconds': 52.9}
+- lfun: {'rc': 0, 'seconds': 81.3}
+- li: {'rc': 0, 'seconds': 6.3}
+- lplots: {'rc': 0, 'seconds': 54.3}
+- lsin2: {'rc': 0, 'seconds': 161.9}
+- mc: {'rc': 0, 'seconds': 10.6}
+- mc2: {'rc': 0, 'seconds': 20.0}
+- part1: {'rc': 0, 'seconds': 64.5}
+- part2_0.005: {'rc': 0, 'seconds': 223.5}
+- part2_0.01: {'rc': 0, 'seconds': 224.7}
+- part2_0.02: {'rc': 0, 'seconds': 133.8}
+- part2_0.05: {'rc': 0, 'seconds': 58.0}
+- part2_0.1: {'rc': 0, 'seconds': 22.9}
+- part2_0.25: {'rc': 0, 'seconds': 22.3}
+- part2_0.5: {'rc': 0, 'seconds': 7.6}
+- part2_1.0: {'rc': 0, 'seconds': 4.5}
+- perturb: {'rc': 0, 'seconds': 164.5}
+- plots: {'rc': 0, 'seconds': 4.0}
+- plots2: {'rc': 0, 'seconds': 5.1}
+- plots3: {'rc': 0, 'seconds': 5.1}
+- plots4: {'rc': 0, 'seconds': 2.7}
+- primeside: {'rc': 0, 'seconds': 12.6}
+- rsboundary: {'rc': 0, 'seconds': 30.4}
+- saddle: {'rc': 0, 'seconds': 1.2}
+- sawtooth_truncation: {'rc': 0, 'seconds': 139.7}
+- selberg: {'rc': 0, 'seconds': 25.5}
+- sensitivity: {'rc': 0, 'seconds': 2.6}
+- sinh_bench: {'rc': 0, 'seconds': 3.0}
+- sinh_bench_closed: {'rc': 0, 'seconds': 1.5}
+- spacing: {'rc': 0, 'seconds': 15.9}
+- spot_checks: {'rc': 0, 'seconds': 471.8}
+- tilted: {'rc': 0, 'seconds': 1.1}
+- ttest: {'rc': 0, 'seconds': 1.6}
+- ttest2_0.02: {'rc': 0, 'seconds': 2.4}
+- ttest2_0.10: {'rc': 0, 'seconds': 1.4}
+- turing1000: {'rc': 0, 'seconds': 144.3}
+- turing_ig: {'rc': 0, 'seconds': 31.7}
+- volterra: {'rc': 0, 'seconds': 43.4}
+- williams_mc: {'rc': 0, 'seconds': 102.7}
+- zeros: {'rc': 0, 'seconds': 76.5}
+- zeros_hp: {'rc': 0, 'seconds': 17.1}
+
+## Output comparison (relative tolerance 1e-9)
+
+- analysis.json: agrees (131 numbers, max rel diff 0.0)
+- arith.json: agrees (63 numbers, max rel diff 0.0)
+- clockgrid.json: agrees (441 numbers, max rel diff 0.0)
+- dbn.json: agrees (52 numbers, max rel diff 0.0)
+- deconv.json: 6 differences beyond 1e-9 among 66 numbers (max rel 0.501); first ones:
+    - /0.0/sec: book 5.13663625717163 | rerun 10.3041706085205  (rel 0.501)
+    - /0.005/sec: book 5.23865127563477 | rerun 7.40269231796265  (rel 0.292)
+    - /0.01/sec: book 4.78681468963623 | rerun 6.32109928131104  (rel 0.243)
+    - /0.02/sec: book 5.01646780967712 | rerun 6.38442540168762  (rel 0.214)
+    - /0.05/sec: book 3.71217322349548 | rerun 4.81255054473877  (rel 0.229)
+    - /0.1/sec: book 6.40021586418152 | rerun 6.44941663742065  (rel 0.00763)
+- extra.json: agrees (244 numbers, max rel diff 0.0)
+- hankel.json: agrees (18 numbers, max rel diff 0.0)
+- hazard_spec.json: agrees (3284 numbers, max rel diff 0.0)
+- hcm.json: agrees (324 numbers, max rel diff 0.0)
+- hcm_arb.json: agrees (386 numbers, max rel diff 0.0)
+- idsd_check.json: agrees (54 numbers, max rel diff 0.0)
+- kenttail.json: agrees (80 numbers, max rel diff 0.0)
+- kenttail2.json: agrees (146 numbers, max rel diff 0.0)
+- kmono.json: agrees (6 numbers, max rel diff 0.0)
+- lchi12.json: agrees (16089 numbers, max rel diff 0.0)
+- lehmer.json: agrees (261 numbers, max rel diff 0.0)
+- lehmer_dbn.json: agrees (6 numbers, max rel diff 0.0)
+- lfun.json: 6 differences beyond 1e-9 among 82 numbers (max rel 0.741); first ones:
+    - /zeta/node_time: book 0.0396513938903809 | rerun 0.0575325489044189  (rel 0.311)
+    - /zeta/per_point: book 0.00952935965374263 | rerun 0.0173688286482686  (rel 0.451)
+    - /chi12/node_time: book 0.0877945423126221 | rerun 0.115824937820435  (rel 0.242)
+    - /chi12/per_point: book 0.0127614218779285 | rerun 0.0293425516648726  (rel 0.565)
+    - /Delta/node_time: book 0.0509815216064453 | rerun 0.196643352508545  (rel 0.741)
+    - /Delta/per_point: book 0.0106720218754778 | rerun 0.0162750208016598  (rel 0.344)
+- li.json: agrees (100 numbers, max rel diff 0.0)
+- lrho.json: agrees (1580 numbers, max rel diff 0.0)
+- lsin2.json: agrees (3468 numbers, max rel diff 0.0)
+- mc.json: agrees (1203 numbers, max rel diff 0.0)
+- mc2.json: agrees (1609 numbers, max rel diff 9.31e-13)
+- part1.json: agrees (167 numbers, max rel diff 0.0)
+- perturb.json: agrees (831 numbers, max rel diff 0.0)
+- results_main.json: NOT REGENERATED
+- results_prime.json: agrees (162 numbers, max rel diff 7.33e-16)
+- results_sens.json: agrees (104 numbers, max rel diff 0.0)
+- rsboundary.json: agrees (10174 numbers, max rel diff 5.15e-14)
+- saddle.json: 1 differences beyond 1e-9 among 50 numbers (max rel 0.75); first ones:
+    - /elapsed_s: book 0.08 | rerun 0.02  (rel 0.75)
+- selberg.json: 31 differences beyond 1e-9 among 4020 numbers (max rel 2.05e-8); first ones:
+    - /curvez_300[25]: book 5.88075714097469e-8 | rerun 5.88075715207692e-8  (rel 1.89e-9)
+    - /curvez_300[45]: book 4.51288129088567e-8 | rerun 4.51288124647675e-8  (rel 9.84e-9)
+    - /curvez_300[66]: book 1.07263930376744e-7 | rerun 1.07263930265722e-7  (rel 1.04e-9)
+    - /curvez_300[180]: book 4.37855654650265e-8 | rerun 4.37855652429819e-8  (rel 5.07e-9)
+    - /curvez_300[191]: book 4.19709442756044e-8 | rerun 4.19709440535598e-8  (rel 5.29e-9)
+    - /curvez_300[199]: book 1.23278586228182e-8 | rerun 1.23278587338405e-8  (rel 9.01e-9)
+    - /curvez_300[225]: book 1.01345704273115e-7 | rerun 1.0134570405107e-7  (rel 2.19e-9)
+    - /curvez_300[386]: book 2.93531997597185e-8 | rerun 2.93531995376739e-8  (rel 7.56e-9)
+    - /curvez_300[439]: book 1.07613933097994e-7 | rerun 1.07613933209016e-7  (rel 1.03e-9)
+    - /curvez_3000[2]: book 7.12320344098405e-8 | rerun 7.12320341877959e-8  (rel 3.12e-9)
+    - /curvez_3000[13]: book 4.8081634715369e-8 | rerun 4.80816349374136e-8  (rel 4.62e-9)
+    - /curvez_3000[18]: book 6.86055517395978e-8 | rerun 6.86055516285755e-8  (rel 1.62e-9)
+- sens2.json: agrees (480 numbers, max rel diff 0.0)
+- sinh_bench.json: agrees (15 numbers, max rel diff 1.12e-12)
+- spacing.json: agrees (83 numbers, max rel diff 0.0)
+- turing1000.json: 2 differences beyond 1e-9 among 7 numbers (max rel 0.455); first ones:
+    - /sec: book 77.5163261890411 | rerun 142.256094694138  (rel 0.455)
+    - /mp_sec: book 0.0169193744659424 | rerun 0.0202939510345459  (rel 0.166)
+- turing_ig.json: agrees (55 numbers, max rel diff 0.0)
+- volterra.json: agrees (5805 numbers, max rel diff 2.25e-13)
+- williams_mc.json: agrees (40 numbers, max rel diff 0.0)
+- verif/certify_k9_k2.json: agrees (110 numbers, max rel diff 0.0)
+- verif/harmonic_decay.json: 8 differences beyond 1e-9 among 531 numbers (max rel 0.727); first ones:
+    - /main_windows_0.95V_1.05V/100/seconds: book 0.1 | rerun 0.3  (rel 0.667)
+    - /main_windows_0.95V_1.05V/300/seconds: book 0.2 | rerun 0.5  (rel 0.6)
+    - /main_windows_0.95V_1.05V/600/seconds: book 0.3 | rerun 1.1  (rel 0.727)
+    - /main_windows_0.95V_1.05V/1000/seconds: book 0.6 | rerun 1.8  (rel 0.667)
+    - /main_windows_0.95V_1.05V/2000/seconds: book 1.2 | rerun 3.4  (rel 0.647)
+    - /main_windows_0.95V_1.05V/5000/seconds: book 3.9 | rerun 10.3  (rel 0.621)
+    - /main_windows_0.95V_1.05V/10000/seconds: book 11.1 | rerun 22.7  (rel 0.511)
+    - /seconds_total: book 31.8 | rerun 65.1  (rel 0.512)
+- verif/sawtooth_truncation.json: 7 differences beyond 1e-9 among 158 numbers (max rel 0.75); first ones:
+    - /results/100/seconds: book 0.1 | rerun 0.4  (rel 0.75)
+    - /results/1000/seconds: book 0.7 | rerun 1.8  (rel 0.611)
+    - /results/10000/seconds: book 4.5 | rerun 15.6  (rel 0.712)
+    - /results/100000/seconds: book 33.7 | rerun 72.5  (rel 0.535)
+    - /software/host: book hop061.orc.gmu.edu | rerun hop068.orc.gmu.edu
+    - /seconds_theta: book 20.8 | rerun 47.5  (rel 0.562)
+    - /seconds_total: book 60.1 | rerun 138.1  (rel 0.565)
+- verif/enclosures_report.md: identical to the archived report
+- logs/spot_checks.out: identical to the archived report
+- logs/bosch_v7.out: DIFFERS from the archived report (see diff)
+
+## Note of 28 September 2026
+
+This is the run of Hopper job 1324655 in /scratch/vsokolov/rh_book_repro/rerun_0928b, made after every change recorded in compare_report.md, archive-changes.md and misc/gpt-review/fixes/, from an empty folder with the driver of 8f86d24. All 65 runs ended with return code 0. Reading of the differences above:
+
+- deconv.json, lfun.json, saddle.json, turing1000.json, verif/harmonic_decay.json and verif/sawtooth_truncation.json differ only in the running times they record, and the last also in the host name.
+- selberg.json: the same 31 of 4020 values as in the run of 25 September, at most 2.05e-8 relative (Appendix app:code:repro).
+- results_main.json has no script that writes it (Appendix app:code:repro).
+- logs/bosch_v7.out differs from the archived output in the lines that Appendix app:code:repro lists (output lines 37 to 39 and 109 come from code that is not in the archive, lines 93 to 102 from an earlier version of block 13) and in its timings.
+- ttest.py and ttest2.py ran with the command lines in their headers: ttest.py prints the nan that its header explains at the heights 200 to 2000, and ttest2.py prints the node counts and errors of Table tab:tilt (the same digits as the reconstruction run misc/repro/reconstruct/ttest2/out/earlier_guess_ttest2_1205029.log), with 7 ms per point for 2001 nodes and 39 to 40 ms for 8401 nodes, where the table has 7 and 28.
+
+A first run the same morning (job 1324114, rerun_0928) gave the same comparison, except that ttest.py and ttest2.py stopped for want of arguments and the output of spot_checks.py was looked for under the wrong name; 8f86d24 fixed both.

@@ -1,0 +1,92 @@
+job 1243307 on hop062.orc.gmu.edu: model name	: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz start Sat Sep 26 21:29:02 EDT 2026
+50
+{
+ "nzeros": 250,
+ "dps": 150,
+ "max |gamma_mpmath - gamma_arb|": "1.0167e-147",
+ "c_1..c_4": [
+  "10163.5474866",
+  "-1177535.15127",
+  "19654411.4928",
+  "-1254283892.63"
+ ],
+ "signs alternate": true,
+ "series": {
+  "t=0.02 N=200": {
+   "sum": "80.1041977272567",
+   "max_term": "186.934",
+   "max_term_n": 1,
+   "digits_cancelled": "0.368",
+   "last_term": "-1.262e-1232"
+  },
+  "t=0.02 N=220": {
+   "sum": "80.1041977272567",
+   "max_term": "186.934",
+   "max_term_n": 1,
+   "digits_cancelled": "0.368",
+   "last_term": "-6.996e-1443"
+  },
+  "t=0.02 N=250": {
+   "sum": "80.1041977272567",
+   "max_term": "186.934",
+   "max_term_n": 1,
+   "digits_cancelled": "0.368",
+   "last_term": "-5.5e-1768"
+  },
+  "t=0.005 N=200": {
+   "sum": "6.53791706419889e-24",
+   "max_term": "5.75238e+11",
+   "max_term_n": 20,
+   "digits_cancelled": "34.94",
+   "last_term": "-4.335e-209"
+  },
+  "t=0.005 N=220": {
+   "sum": "6.53791706419889e-24",
+   "max_term": "5.75238e+11",
+   "max_term_n": 20,
+   "digits_cancelled": "34.94",
+   "last_term": "-5.944e-254"
+  },
+  "t=0.005 N=250": {
+   "sum": "6.53791706419889e-24",
+   "max_term": "5.75238e+11",
+   "max_term_n": 20,
+   "digits_cancelled": "34.94",
+   "last_term": "-3.285e-324"
+  },
+  "t=0.003 N=200": {
+   "sum": "3.27130121622856e-72",
+   "max_term": "2.6942e+20",
+   "max_term_n": 40,
+   "digits_cancelled": "91.92",
+   "last_term": "-1.284e-72"
+  },
+  "t=0.003 N=220": {
+   "sum": "3.32007507752996e-72",
+   "max_term": "2.6942e+20",
+   "max_term_n": 40,
+   "digits_cancelled": "91.91",
+   "last_term": "-1.986e-95"
+  },
+  "t=0.003 N=250": {
+   "sum": "3.32007507752996e-72",
+   "max_term": "2.6942e+20",
+   "max_term_n": 40,
+   "digits_cancelled": "91.91",
+   "last_term": "-1.047e-131"
+  }
+ }
+}
+collect rc=0
+f369a406cba5c219b523dc47b4fa2916  src/verify_bosch_xi_v7_output.txt
+968787d3ded03bbb1f66878770eb1159  fixed/joined_output.txt
+968787d3ded03bbb1f66878770eb1159  equiv/joined_output.txt
+Traceback (most recent call last):
+  File "/scratch/vsokolov/rh_book_repro/agents/reconstruct_bosch_v7/src/compare_bosch_v7.py", line 171, in <module>
+    v=mp.mpf(grab(n,r"Talbot[a-z ]*? (-?[0-9.e+-]+)")); truth("app:bosch","t=0.003: the Talbot value is negative (line %d)"%n,"< 0",v<0,mp.nstr(v,5),"line %d"%n)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/vsokolov/rh_book_repro/agents/reconstruct_bosch_v7/src/compare_bosch_v7.py", line 65, in grab
+    m=re.search(pat,L(n)); assert m,(n,pat,L(n)); return m.group(k)
+                           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (56, 'Talbot[a-z ]*? (-?[0-9.e+-]+)', 't=0.003: residue series 0.000380809971558, Talbot inverse Laplace -1.10981287897e-18 (0s)')
+compare rc=1 end Sat Sep 26 21:29:07 EDT 2026

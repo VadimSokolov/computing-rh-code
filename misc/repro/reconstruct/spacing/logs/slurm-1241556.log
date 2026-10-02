@@ -1,0 +1,96 @@
+job 1241556 on hop059.orc.gmu.edu: model name	: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+7ad57c0957ef4851617c32735be6d001  /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+== spacing.py, ordinates computed by the script
+ordinates: computed with mpmath.zetazero at 30 digits and saved ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.0892529141072, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 58.3 s
+== spacing.py, zero lists of the earlier rerun
+ordinates: loaded from g_1_400.npy, g_401_1000.npy, g_1001_1700.npy ; gamma_1 = 14.134725141734695 , gamma_1700 = 2197.258747040206
+spacing.json: coef 5.4150940202 mean 0.99998322397 var 0.146254553301 min 0.0892529141072, 79 leaks
+Arb zeros: 1700 of 1700 identical in float64, max abs diff 0; Arb theta max abs diff 0
+smallest spacing 0.0892529141 between gamma_1496 = 1977.1739 and gamma_1497 = 1977.2714
+sum of leaks 0.3347237; kappa_cell from Xi'/Xi 5.4366510; -Xi'(200)/(pi Xi(200)) 0.3981063
+done in 12.2 s
+== zero lists: fresh against the earlier rerun
+g_1_400.npy identical
+g_401_1000.npy identical
+g_1001_1700.npy identical
+== extras and histogram: fresh against npy
+3c3
+<  "ordinates": "computed with mpmath.zetazero at 30 digits and saved",
+---
+>  "ordinates": "loaded from g_1_400.npy, g_401_1000.npy, g_1001_1700.npy",
+spacing_hist.json identical
+== comparison with the archived file
+fresh/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 5 identical in float64, 0 beyond relative 1e-9, max relative difference 2.55e-12
+    /min         archived 0.08925291410696445      new 0.08925291410719183      rel 2.55e-12
+    /leaks[68]   archived -0.0013524842029497902   new -0.0013524842029494898   rel 2.22e-13
+    /leaks[3]    archived -0.00445218961054228     new -0.0044521896105425285   rel 5.57e-14
+    /leaks[18]   archived 0.006386852730747091     new 0.006386852730746878     rel 3.33e-14
+    /leaks[36]   archived 0.007481620126582116     new 0.007481620126582363     rel 3.3e-14
+    /leaks[43]   archived -0.004235437794070488    new -0.004235437794070381    rel 2.52e-14
+npy/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 5 identical in float64, 0 beyond relative 1e-9, max relative difference 2.55e-12
+    /min         archived 0.08925291410696445      new 0.08925291410719183      rel 2.55e-12
+    /leaks[68]   archived -0.0013524842029497902   new -0.0013524842029494898   rel 2.22e-13
+    /leaks[3]    archived -0.00445218961054228     new -0.0044521896105425285   rel 5.57e-14
+    /leaks[18]   archived 0.006386852730747091     new 0.006386852730746878     rel 3.33e-14
+    /leaks[36]   archived 0.007481620126582116     new 0.007481620126582363     rel 3.3e-14
+    /leaks[43]   archived -0.004235437794070488    new -0.004235437794070381    rel 2.52e-14
+npy/spacing.json against fresh/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+== variants
+ordinates identical in float64 / max rel diff: {'dps20 vs dps30': (1700, 0.0), 'dps15 vs dps30': (1699, 1.354276643497723e-16)}
+
+ordinates dps30 (numbers identical to the archived ones, max relative difference)
+  spacings: theta30, float(theta/pi), np.diff                {'mean': (0, 1.1102416500720809e-16), 'var': (0, 9.4887902595705e-15), 'min': (0, 2.547521027382463e-12), 'var ddof=1': (0, 0.0005885815185307227)}
+  spacings: theta30, float(theta)/np.pi, np.diff             {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: theta30, exact differences                       {'mean': (0, 1.1102416500720809e-16), 'var': (0, 8.53991123361345e-15), 'min': (0, 1.7553079149257452e-12), 'var ddof=1': (0, 0.00058858151853186)}
+  spacings: theta15, float(theta/pi), np.diff                {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: asymptotic theta to 1/t^3, float64               {'mean': (0, 1.282329105833089e-13), 'var': (0, 1.4005454423124094e-13), 'min': (0, 5.095042054751946e-12), 'var ddof=1': (0, 0.0005885815186802796)}
+  spacings: asymptotic theta without 1/t terms               {'mean': (0, 2.744481598730584e-07), 'var': (0, 3.383226210187069e-07), 'min': (0, 1.8571428255175673e-09), 'var ddof=1': (0, 0.0005889196420308891)}
+  spacings: local unfolding by log(g_k/2pi)/2pi              {'mean': (0, 0.0006532694684419922), 'var': (0, 0.0013955333180764996), 'min': (0, 4.285083466400841e-06), 'var ddof=1': (0, 0.0008074270361672573)}
+  leaks: first order, differences of L(b), float64           {'leaks': (4, 2.220536115124104e-13), 'coef': (1, 0.0)}
+  leaks: first order, four terms per cell, float64           {'leaks': (1, 2.9484230438362654e-13), 'coef': (0, 4.920570629359536e-16)}
+  leaks: first order, 30 digits                              {'leaks': (3, 1.3118318123587324e-11), 'coef': (0, 1.3449559720249406e-14)}
+  leaks: finite eps=0.005, arctan masses, float64            {'leaks': (0, 8.103929289696049e-05), 'coef': (0, 2.4317844460034117e-06)}
+  leaks: finite eps=0.001, arctan masses, float64            {'leaks': (0, 3.241582512554519e-06), 'coef': (0, 9.72722461961981e-08)}
+  leaks: first order, last boundary at the midpoint 199.64   {'leaks': (4, 0.6216966419801211), 'coef': (0, 0.028755525931081095)}
+  leaks: first order, without the reflected ordinates        {'leaks': (0, 1.6143556245154165), 'coef': (0, 0.02784320153077772)}
+
+ordinates dps20 (numbers identical to the archived ones, max relative difference)
+  spacings: theta30, float(theta/pi), np.diff                {'mean': (0, 1.1102416500720809e-16), 'var': (0, 9.4887902595705e-15), 'min': (0, 2.547521027382463e-12), 'var ddof=1': (0, 0.0005885815185307227)}
+  spacings: theta30, float(theta)/np.pi, np.diff             {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: theta30, exact differences                       {'mean': (0, 1.1102416500720809e-16), 'var': (0, 8.53991123361345e-15), 'min': (0, 1.7553079149257452e-12), 'var ddof=1': (0, 0.00058858151853186)}
+  spacings: theta15, float(theta/pi), np.diff                {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: asymptotic theta to 1/t^3, float64               {'mean': (0, 1.282329105833089e-13), 'var': (0, 1.4005454423124094e-13), 'min': (0, 5.095042054751946e-12), 'var ddof=1': (0, 0.0005885815186802796)}
+  spacings: asymptotic theta without 1/t terms               {'mean': (0, 2.744481598730584e-07), 'var': (0, 3.383226210187069e-07), 'min': (0, 1.8571428255175673e-09), 'var ddof=1': (0, 0.0005889196420308891)}
+  spacings: local unfolding by log(g_k/2pi)/2pi              {'mean': (0, 0.0006532694684419922), 'var': (0, 0.0013955333180764996), 'min': (0, 4.285083466400841e-06), 'var ddof=1': (0, 0.0008074270361672573)}
+  leaks: first order, differences of L(b), float64           {'leaks': (4, 2.220536115124104e-13), 'coef': (1, 0.0)}
+  leaks: first order, four terms per cell, float64           {'leaks': (1, 2.9484230438362654e-13), 'coef': (0, 4.920570629359536e-16)}
+  leaks: first order, 30 digits                              {'leaks': (3, 1.3118318123587324e-11), 'coef': (0, 1.3449559720249406e-14)}
+  leaks: finite eps=0.005, arctan masses, float64            {'leaks': (0, 8.103929289696049e-05), 'coef': (0, 2.4317844460034117e-06)}
+  leaks: finite eps=0.001, arctan masses, float64            {'leaks': (0, 3.241582512554519e-06), 'coef': (0, 9.72722461961981e-08)}
+  leaks: first order, last boundary at the midpoint 199.64   {'leaks': (4, 0.6216966419801211), 'coef': (0, 0.028755525931081095)}
+  leaks: first order, without the reflected ordinates        {'leaks': (0, 1.6143556245154165), 'coef': (0, 0.02784320153077772)}
+
+ordinates dps15 (numbers identical to the archived ones, max relative difference)
+  spacings: theta30, float(theta/pi), np.diff                {'mean': (0, 1.1102416500720809e-16), 'var': (0, 9.4887902595705e-15), 'min': (0, 2.547521027382463e-12), 'var ddof=1': (0, 0.0005885815185307227)}
+  spacings: theta30, float(theta)/np.pi, np.diff             {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: theta30, exact differences                       {'mean': (0, 1.1102416500720809e-16), 'var': (0, 8.729687038804859e-15), 'min': (0, 1.7553079149257452e-12), 'var ddof=1': (0, 0.0005885815185316705)}
+  spacings: theta15, float(theta/pi), np.diff                {'mean': (1, 0.0), 'var': (1, 0.0), 'min': (1, 0.0), 'var ddof=1': (0, 0.0005885815185403899)}
+  spacings: asymptotic theta to 1/t^3, float64               {'mean': (0, 1.282329105833089e-13), 'var': (0, 1.3986476842604958e-13), 'min': (0, 5.095042054751946e-12), 'var ddof=1': (0, 0.0005885815186800901)}
+  spacings: asymptotic theta without 1/t terms               {'mean': (0, 2.744481598730584e-07), 'var': (0, 3.383226204493799e-07), 'min': (0, 1.8571428255175673e-09), 'var ddof=1': (0, 0.0005889196420303205)}
+  spacings: local unfolding by log(g_k/2pi)/2pi              {'mean': (0, 0.0006532694684419922), 'var': (0, 0.0013955333180768793), 'min': (0, 4.285083466400841e-06), 'var ddof=1': (0, 0.0008074270361674472)}
+  leaks: first order, differences of L(b), float64           {'leaks': (5, 2.220536115124104e-13), 'coef': (1, 0.0)}
+  leaks: first order, four terms per cell, float64           {'leaks': (1, 2.9484230438362654e-13), 'coef': (0, 4.920570629359536e-16)}
+  leaks: first order, 30 digits                              {'leaks': (3, 1.3118318123587324e-11), 'coef': (0, 1.3449559720249406e-14)}
+  leaks: finite eps=0.005, arctan masses, float64            {'leaks': (0, 8.103929289696049e-05), 'coef': (0, 2.4317844460034117e-06)}
+  leaks: finite eps=0.001, arctan masses, float64            {'leaks': (0, 3.241582512554519e-06), 'coef': (0, 9.72722461961981e-08)}
+  leaks: first order, last boundary at the midpoint 199.64   {'leaks': (5, 0.6216966419801211), 'coef': (0, 0.028755525931081095)}
+  leaks: first order, without the reflected ordinates        {'leaks': (0, 1.6143556245154165), 'coef': (0, 0.02784320153077772)}
+== end

@@ -1,0 +1,6 @@
+pair kernel: t=0  FT=1.0  q(t^2)=1.0
+pair kernel: t=3  FT=0.914506090391  q(t^2)=0.914506090391
+pair kernel: t=10  FT=0.439440954571  q(t^2)=0.439440954571
+first negative lobe starts at x=(pi-delta)/Im(gamma) = 4.4184  k there: -6.297e-28
+eps_off <= 1.982e-11, kappa=7.92e-9, A >= 0.9998995911
+log of single pair C(k^-) bound at a=T0,b=1/2: -1.88496e+13  (so B < exp(-9e12))

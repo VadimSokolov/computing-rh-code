@@ -1,0 +1,28 @@
+[hopper_run] job 1242010 on hop053.orc.gmu.edu
+198 recipes; best first: identical leaks of 79, max rel diff, coef identical
+61 2.21e-16 False | dps30 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+61 2.21e-16 False | dps30 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+61 2.21e-16 False | dps15 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+61 2.21e-16 False | dps15 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+53 2.22e-16 False | dps30 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+53 2.22e-16 False | dps30 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+53 2.22e-16 False | dps15 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+53 2.22e-16 False | dps15 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+36 2.60e-11 False | dps30 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+36 2.60e-11 False | dps15 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)/np.pi
+29 2.60e-11 False | dps30 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+29 2.60e-11 False | dps15 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L)*(1/np.pi)
+13 1.46e-14 False | dps30 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+13 1.46e-14 False | dps30 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+13 1.46e-14 False | dps30 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+13 1.46e-14 False | dps30 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+13 1.46e-14 False | dps15 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+13 1.46e-14 False | dps15 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+13 1.46e-14 False | dps15 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+13 1.46e-14 False | dps15 | rounded exact midpoints of part1 ref | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+ 8 2.60e-11 False | dps30 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+ 8 2.60e-11 False | dps30 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+ 8 2.60e-11 False | dps15 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | np.diff(-L/np.pi)
+ 8 2.60e-11 False | dps15 | longdouble midpoints of part1 ref, as analyse.py | np.sum(1/(c-g))+np.sum(1/(c+g)) | -np.diff(L/np.pi)
+ 7 2.11e-13 True  | dps30 | float64 midpoints (g_k+g_k+1)/2 | np.sum(1/(c-g)+1/(c+g)) | np.diff(-L/np.pi)
+boundaries differing between float64 midpoints and the analyse.py cells: {'dps30': 17, 'dps15': 17}

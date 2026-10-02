@@ -1,0 +1,33 @@
+{
+ "grid_tasks": 100,
+ "grid_points": 420000,
+ "b1": 0.023095708966121033,
+ "min_excess": 2.778956233236067e-09,
+ "min_excess_at": 0.005,
+ "points_with_v1_le_b1": 0,
+ "min_on_13p5_2000": 0.11325541637986725,
+ "min_on_13p5_2000_at": 17.495,
+ "reference_profile_min": {
+  "value": 0.11325637439875076,
+  "theta": 17.5
+ },
+ "zeros": 1850,
+ "largest_ordinate": 2357.6083159202476,
+ "max_gap_below_2000": 6.887314497036861,
+ "max_gap_between": [
+  14.134725141734695,
+  21.022039638771556
+ ],
+ "max_distance_to_nearest_zero": 3.4436572485184307,
+ "x_star": 4.625909980808719,
+ "range2_ok": true,
+ "max_abs_diff_mpmath_arb": 0.0,
+ "reference": {
+  "max_gap": 6.887314497036861,
+  "max_gap_between": [
+   14.134725141734695,
+   21.022039638771556
+  ],
+  "max_distance_to_nearest_zero": 3.4436572485184307
+ }
+}

@@ -1,0 +1,67 @@
+[hopper_run] job 1242241 on hop062.orc.gmu.edu
+sha256 bc79a1a4e9ea419840ac2dd73c8bdcd69c2f0ede46a1e7de18205ec9ba68a69c /scratch/vsokolov/rh_book_repro/book_data/sinh_bench.json
+sha256 42e4b1592625c81e0e457318420483da99d5f4b31e09bd2c5bbbbb6341632cf1 sinh_bench.json
+sha256 149bfb71bcd6b72d76d6862a74f1524e13412a2a7b239cb47ded49423f619d9c sinh_bench_closed.json
+(2) log Gamma formula against direct sums at K=300: max abs diff 3.444e-41 (3.5 s)
+(1,3,4) eps=0.5
+   celltv archived 0.49688791074460603  reconstructed 0.49688791074460603  exact(K=4e5) 0.49688791074462391339  closed(K=inf) 0.49684851994523369814
+          rel: arch/recon 0.00e+00  arch/exact 3.60e-14  recon/exact 3.60e-14  arch/closed 7.93e-05  K implied 400000.000 (1 ulp = 5.6e-07 in K)
+   mass   archived 50.003111293481673  reconstructed 50.003111293481673  exact(K=4e5) 50.003111293481655345  closed(K=inf) 50.003151480054766302
+          rel: arch/recon 0.00e+00  arch/exact 4.26e-16  recon/exact 4.26e-16  arch/closed 8.04e-07  K implied 400000.000 (1 ulp = 7.1e-05 in K)
+   mass defect/eps: archived 0.00622259  exact 0.00630296  first order 1/(50.5 pi) = 0.00630317
+(1,3,4) eps=0.1
+   celltv archived 0.12504347875542821  reconstructed 0.1250434787554211  exact(K=4e5) 0.12504347875543644571  closed(K=inf) 0.12503560059555839872
+          rel: arch/recon 5.68e-14  arch/exact 6.59e-14  recon/exact 1.23e-13  arch/closed 6.30e-05  K implied 400000.000 (1 ulp = 1.4e-06 in K)
+   mass   archived 50.00062227846783  reconstructed 50.000622278467837  exact(K=4e5) 50.000622278467821773  closed(K=inf) 50.000630315782443969
+          rel: arch/recon 1.42e-16  arch/exact 1.42e-16  recon/exact 2.84e-16  arch/closed 1.61e-07  K implied 400000.000 (1 ulp = 0.00035 in K)
+   mass defect/eps: archived 0.00622278  exact 0.00630316  first order 1/(50.5 pi) = 0.00630317
+(1,3,4) eps=0.05
+   celltv archived 0.063139815740868938  reconstructed 0.063139815740868938  exact(K=4e5) 0.063139815740876647194  closed(K=inf) 0.063135876660937623639
+          rel: arch/recon 0.00e+00  arch/exact 1.22e-13  recon/exact 1.22e-13  arch/closed 6.24e-05  K implied 400000.001 (1 ulp = 1.4e-06 in K)
+   mass   archived 50.000311139542866  reconstructed 50.000311139542866  exact(K=4e5) 50.000311139542858418  closed(K=inf) 50.000315158200169515
+          rel: arch/recon 0.00e+00  arch/exact 1.42e-16  recon/exact 1.42e-16  arch/closed 8.04e-08  K implied 400000.001 (1 ulp = 0.00071 in K)
+   mass defect/eps: archived 0.00622279  exact 0.00630316  first order 1/(50.5 pi) = 0.00630317
+(1,3,4) eps=0.01
+   celltv archived 0.012668454358153412  reconstructed 0.012668454358139201  exact(K=4e5) 0.012668454358126806961  closed(K=inf) 0.012667666542139002246
+          rel: arch/recon 1.12e-12  arch/exact 2.10e-12  recon/exact 9.78e-13  arch/closed 6.22e-05  K implied 399999.986 (1 ulp = 8.8e-07 in K)
+   mass   archived 50.000062227928318  reconstructed 50.000062227928332  exact(K=4e5) 50.000062227928344372  closed(K=inf) 50.000063031659806591
+          rel: arch/recon 2.84e-16  arch/exact 5.68e-16  recon/exact 2.84e-16  arch/closed 1.61e-08  K implied 399999.987 (1 ulp = 0.0035 in K)
+   mass defect/eps: archived 0.00622279  exact 0.00630317  first order 1/(50.5 pi) = 0.00630317
+(1,3,4) eps=0.005
+   celltv archived 0.006334863607589925  reconstructed 0.006334863607589925  exact(K=4e5) 0.0063348636075981686692  closed(K=inf) 0.0063344696996042663116
+          rel: arch/recon 0.00e+00  arch/exact 1.30e-12  recon/exact 1.30e-12  arch/closed 6.22e-05  K implied 400000.008 (1 ulp = 8.8e-07 in K)
+   mass   archived 50.000031113964489  reconstructed 50.000031113964489  exact(K=4e5) 50.000031113964481134  closed(K=inf) 50.000031515830212244
+          rel: arch/recon 0.00e+00  arch/exact 1.42e-16  recon/exact 1.42e-16  arch/closed 8.04e-09  K implied 400000.008 (1 ulp = 0.0071 in K)
+   mass defect/eps: archived 0.00622279  exact 0.00630317  first order 1/(50.5 pi) = 0.00630317
+archived vs exact truncated sums: max rel 2.10e-12; reconstructed vs exact: max rel 1.30e-12; K implied in [399999.986, 400000.008]
+compare archived vs reconstructed: {'numbers': 15, 'agree': 15, 'tol': 1e-09, 'bitwise_equal': 11, 'max_rel': 1.1217512660536922e-12, 'where': 'celltv at eps=0.01'}
+closed form file vs mpmath closed forms: max rel 2.74e-16
+compare archived vs closed forms: {'numbers': 15, 'agree': 5, 'tol': 1e-09, 'bitwise_equal': 5, 'max_rel': 7.927502062445016e-05, 'where': 'celltv at eps=0.5'}
+(6) printed values: printed | closed form | agrees | archived (truncated) data | agrees
+   ch03 Sec. sec:ch3:bench, mass defect coefficient to first order 0.00630   0.0063031661 True  - 
+   ch03 Sec. sec:ch3:bench, mass defect at eps=0.5                3.151e-3  0.0031514801 True  0.0031112935 False
+   ch03 Sec. sec:ch3:bench, cell distance at eps=0.5              0.4968    0.49684852 True  0.49688791 False
+   ch03 Sec. sec:ch3:bench, cell distance at eps=0.1              0.1250    0.1250356 True  0.12504348 True
+   ch03 Sec. sec:ch3:bench, cell distance at eps=0.05             0.0631    0.063135877 True  0.063139816 True
+   ch03 Sec. sec:ch3:bench, cell distance at eps=0.01             0.01267   0.012667667 True  0.012668454 True
+   ch03 Sec. sec:ch3:bench, cell distance at eps=0.005            0.00633   0.0063344697 True  0.0063348636 True
+   ch03 Sec. sec:ch3:bench, limit constant (4-1/50.5)/pi          1.267     1.2669364 True  1.2669727 True
+   ch03 Sec. sec:ch3:bench, per atom 1.267/50                     0.0253    0.025338728 True  0.025339454 True
+   ch15 Sec. cells, constant for N=50                             1.26694   1.2669364 True  1.2669727 False
+   ch15, first cell (0,3/2]                                       0.418     0.41811002 True  - 
+   ch15 opening, constant                                         1.27      1.2669364 True  - 
+   ch03 Exercise 5, mass defect coefficient                       0.00630   0.0063031661 True  0.0062227929 False
+(5) pair                   max rel vs archived 1.12e-12, vs exact 1.30e-12, within 1e-9 of archived 10 of 10, bitwise equal 6 of 10
+(5) diff/k_then_minus_k    max rel vs archived 2.27e-12, vs exact 7.23e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) diff/sorted            max rel vs archived 2.27e-12, vs exact 7.23e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) diff/interleaved       max rel vs archived 1.52e-12, vs exact 8.11e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) atan2/k_then_minus_k   max rel vs archived 1.60e-12, vs exact 4.97e-13, within 1e-9 of archived 10 of 10, bitwise equal 1 of 10
+(5) atan2/sorted           max rel vs archived 1.60e-12, vs exact 4.97e-13, within 1e-9 of archived 10 of 10, bitwise equal 1 of 10
+(5) atan2/interleaved      max rel vs archived 2.01e-12, vs exact 3.72e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) cum/k_then_minus_k     max rel vs archived 4.79e-09, vs exact 4.79e-09, within 1e-9 of archived  8 of 10, bitwise equal 0 of 10
+(5) cum/sorted             max rel vs archived 4.79e-09, vs exact 4.79e-09, within 1e-9 of archived  8 of 10, bitwise equal 0 of 10
+(5) cum/interleaved        max rel vs archived 4.54e-12, vs exact 5.85e-12, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) cum0/k_then_minus_k    max rel vs archived 2.24e-12, vs exact 9.42e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) cum0/sorted            max rel vs archived 2.24e-12, vs exact 9.42e-13, within 1e-9 of archived 10 of 10, bitwise equal 0 of 10
+(5) cum0/interleaved       max rel vs archived 2.24e-12, vs exact 1.30e-12, within 1e-9 of archived 10 of 10, bitwise equal 4 of 10
+(5) took 25.8 s

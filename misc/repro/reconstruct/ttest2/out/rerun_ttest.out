@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/scratch/vsokolov/rh_book_repro/run/ttest.py", line 8, in <module>
+    delta,prec,h,xmax = [float(a) for a in sys.argv[1:5]]
+    ^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 0)

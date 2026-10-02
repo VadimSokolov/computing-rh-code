@@ -1,0 +1,6 @@
+task 3 of job 1242945 on hop048.orc.gmu.edu: model name	: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz start Sat Sep 26 21:22:27 EDT 2026
+1a46313f69f10e5b14e45931cb213757  supp_line109.py
+rc=0 seconds=62
+first gap 6.8873145  largest later gap among n<1000: 5.41402 at n= 3
+(extra) first 1000 zeros: first gap 6.887314497, largest later gap 5.4140185 at n=3, next ones [(8, '4.67808'), (5, '4.65112')]; gamma_1000 = 1419.42248095
+end Sat Sep 26 21:23:29 EDT 2026

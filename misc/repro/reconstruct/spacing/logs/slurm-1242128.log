@@ -1,0 +1,17 @@
+[hopper_run] job 1242128 on hop062.orc.gmu.edu
+79 0.00e+00 (A0-A1)/pi+(C0-C1)/pi                coef identical: {'np.sum(np.abs)': True, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+79 0.00e+00 -(A1-A0)/pi-(C1-C0)/pi               coef identical: {'np.sum(np.abs)': True, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 -((A1+C1)-(A0+C0))/pi                coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 -((A1-A0)+(C1-C0))/pi                coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 ((A0+C0)-(A1+C1))/pi                 coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 -(np.diff(A)+np.diff(C))/pi          coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 np.diff(-A-C)/pi                     coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+61 2.21e-16 (np.diff(-A)+np.diff(-C))/pi         coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+57 3.41e-15 (((A0-A1)+C0)-C1)/pi                 coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+57 3.41e-15 (((A0+C0)-A1)-C1)/pi                 coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+56 4.53e-15 -(((A1-A0)+C1)-C0)/pi                coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+56 4.53e-15 -(((A1+C1)-A0)-C0)/pi                coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+53 2.22e-16 -((A1-A0)+(C1-C0))*(1/pi)            coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+53 2.22e-16 -(1/pi)*((A1+C1)-(A0+C0))            coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+13 1.46e-14 (A0+C0)/pi-(A1+C1)/pi                coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': True, 'math.fsum(abs)': False}
+ 9 1.08e-13 -(A1/pi+C1/pi)+(A0/pi+C0/pi)         coef identical: {'np.sum(np.abs)': False, 'sum(abs) sequential': False, 'math.fsum(abs)': False}

@@ -1,0 +1,27 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/reconstruct_riesz_explicit/compare: sbatch --wait, 1 cores, 1G, 10 min
+[hopper_run] job 1241595 on hop047.orc.gmu.edu
+== riesz_explicit_rerun.json against archived_basepoint_one_wiener.json: byte identical True (182 and 182 bytes)
+   keys equal: True
+   /maxdev    archived 3.110317191300598e-08    rerun 3.110317191300598e-08    rel diff 0.0
+   /signal    archived 0.002958743716352547     rerun 0.002958743716352547     rel diff 0.0
+   /amp1      archived 7.775062764452556e-05    rerun 7.775062764452556e-05    rel diff 0.0
+   /triv[0][0] archived 1                        rerun 1                        rel diff 0.0
+   /triv[0][1] archived -16.42119333144247       rerun -16.42119333144247       rel diff 0.0
+   /triv[1][0] archived 2                        rerun 2                        rel diff 0.0
+   /triv[1][1] archived 125.25345898121803       rerun 125.25345898121803       rel diff 0.0
+   /triv[2][0] archived 3                        rerun 3                        rel diff 0.0
+   /triv[2][1] archived -508.49533464380755      rerun -508.49533464380755      rel diff 0.0
+   9 numbers, 9 agree to 1e-9, 9 bit identical, worst rel diff 0.0 at /triv[2][1]
+== riesz_explicit_rerun.json against archived_riesz_program_data.json: byte identical True (182 and 182 bytes)
+   keys equal: True
+   /maxdev    archived 3.110317191300598e-08    rerun 3.110317191300598e-08    rel diff 0.0
+   /signal    archived 0.002958743716352547     rerun 0.002958743716352547     rel diff 0.0
+   /amp1      archived 7.775062764452556e-05    rerun 7.775062764452556e-05    rel diff 0.0
+   /triv[0][0] archived 1                        rerun 1                        rel diff 0.0
+   /triv[0][1] archived -16.42119333144247       rerun -16.42119333144247       rel diff 0.0
+   /triv[1][0] archived 2                        rerun 2                        rel diff 0.0
+   /triv[1][1] archived 125.25345898121803       rerun 125.25345898121803       rel diff 0.0
+   /triv[2][0] archived 3                        rerun 3                        rel diff 0.0
+   /triv[2][1] archived -508.49533464380755      rerun -508.49533464380755      rel diff 0.0
+   9 numbers, 9 agree to 1e-9, 9 bit identical, worst rel diff 0.0 at /triv[2][1]
+== the two archived copies are byte identical: True

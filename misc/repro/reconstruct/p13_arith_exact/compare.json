@@ -1,0 +1,519 @@
+{
+ "new_vs_archived": [
+  {
+   "t": 0.002,
+   "entry": "Pi",
+   "archived": "1.00050012502",
+   "new": "1.00050012502",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.002,
+   "entry": "A",
+   "archived": "0.782881080358",
+   "new": "0.782881080358",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.002,
+   "entry": "P",
+   "archived": "2.55816727252e-26",
+   "new": "2.55816727252e-26",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.002,
+   "entry": "Pi+A-P",
+   "archived": "1.78338120537913",
+   "new": "1.78338120537913",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.002,
+   "entry": "W zeros",
+   "archived": "1.78338120537913",
+   "new": "1.78338120537913",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.002,
+   "entry": "digits lost",
+   "archived": 3.8692826139538885e-17,
+   "new": 1.2459455408529708e-26,
+   "identical": false,
+   "abs_diff": "3.869e-17",
+   "rel_diff": "3.105e+9"
+  },
+  {
+   "t": 0.005,
+   "entry": "Pi",
+   "archived": "1.00125078158",
+   "new": "1.00125078158",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.005,
+   "entry": "A",
+   "archived": "-0.464058817412",
+   "new": "-0.464058817412",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.005,
+   "entry": "P",
+   "archived": "7.21632179165e-11",
+   "new": "7.21632179165e-11",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.005,
+   "entry": "Pi+A-P",
+   "archived": "0.537191964091041",
+   "new": "0.537191964091041",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.005,
+   "entry": "W zeros",
+   "archived": "0.537191964091041",
+   "new": "0.537191964091041",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.005,
+   "entry": "digits lost",
+   "archived": 0.43579988723717367,
+   "new": 0.43579988723717356,
+   "identical": false,
+   "abs_diff": "1.11e-16",
+   "rel_diff": "2.548e-16"
+  },
+  {
+   "t": 0.01,
+   "entry": "Pi",
+   "archived": "1.00250312761",
+   "new": "1.00250312761",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.01,
+   "entry": "A",
+   "archived": "-0.852796716856",
+   "new": "-0.852796716856",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.01,
+   "entry": "P",
+   "archived": "8.39949584346e-6",
+   "new": "8.39949584346e-6",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.01,
+   "entry": "Pi+A-P",
+   "archived": "0.14969801125378",
+   "new": "0.14969801125378",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.01,
+   "entry": "W zeros",
+   "archived": "0.14969801125378",
+   "new": "0.14969801125378",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.01,
+   "entry": "digits lost",
+   "archived": 1.0932000435883618,
+   "new": 1.0932000435883618,
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "Pi",
+   "archived": "1.00501252086",
+   "new": "1.00501252086",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "A",
+   "archived": "-0.984061166523",
+   "new": "-0.984061166523",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "P",
+   "archived": "0.00241006260475",
+   "new": "0.00241006260475",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "Pi+A-P",
+   "archived": "0.0185412917313195",
+   "new": "0.0185412917313195",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "W zeros",
+   "archived": "0.0185412917313195",
+   "new": "0.0185412917313195",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.02,
+   "entry": "digits lost",
+   "archived": 2.0310367798137863,
+   "new": 2.0310367798137863,
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.05,
+   "entry": "Pi",
+   "archived": "1.01257845154",
+   "new": "1.01257845154",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.05,
+   "entry": "A",
+   "archived": "-0.954618576026",
+   "new": "-0.954618576026",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.05,
+   "entry": "P",
+   "archived": "0.0579139971637",
+   "new": "0.0579139971637",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.05,
+   "entry": "Pi+A-P",
+   "archived": "4.58783504857374e-5",
+   "new": "4.58783504857357e-5",
+   "identical": false,
+   "abs_diff": "1.7e-18",
+   "rel_diff": "3.705e-14"
+  },
+  {
+   "t": 0.05,
+   "entry": "W zeros",
+   "archived": "4.58783504857357e-5",
+   "new": "4.58783504857357e-5",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.05,
+   "entry": "digits lost",
+   "archived": 4.64484104312571,
+   "new": 4.644841043125709,
+   "identical": false,
+   "abs_diff": "8.882e-16",
+   "rel_diff": "1.912e-16"
+  },
+  {
+   "t": 0.1,
+   "entry": "Pi",
+   "archived": "1.02531512052",
+   "new": "1.02531512052",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.1,
+   "entry": "A",
+   "archived": "-0.862509600916",
+   "new": "-0.862509600916",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.1,
+   "entry": "P",
+   "archived": "0.162805517504",
+   "new": "0.162805517504",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.1,
+   "entry": "Pi+A-P",
+   "archived": "2.10479979808094e-9",
+   "new": "2.10479979582235e-9",
+   "identical": false,
+   "abs_diff": "2.259e-18",
+   "rel_diff": "1.073e-9"
+  },
+  {
+   "t": 0.1,
+   "entry": "W zeros",
+   "archived": "2.10479979582234e-9",
+   "new": "2.10479979582235e-9",
+   "identical": false,
+   "abs_diff": "1.0e-23",
+   "rel_diff": "4.751e-15"
+  },
+  {
+   "t": 0.1,
+   "entry": "digits lost",
+   "archived": 8.988676564317203,
+   "new": 8.988676564317203,
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.15,
+   "entry": "Pi",
+   "archived": "1.03821199708",
+   "new": "1.03821199708",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.15,
+   "entry": "A",
+   "archived": "-0.797633505377",
+   "new": "-0.797633505377",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.15,
+   "entry": "P",
+   "archived": "0.240578491705",
+   "new": "0.240578491705",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.15,
+   "entry": "Pi+A-P",
+   "archived": "9.65652474566857e-14",
+   "new": "9.65642094572633e-14",
+   "identical": false,
+   "abs_diff": "1.038e-18",
+   "rel_diff": "1.075e-5"
+  },
+  {
+   "t": 0.15,
+   "entry": "W zeros",
+   "archived": "9.65642094572631e-14",
+   "new": "9.65642094572633e-14",
+   "identical": false,
+   "abs_diff": "2.0e-28",
+   "rel_diff": "2.071e-15"
+  },
+  {
+   "t": 0.15,
+   "entry": "digits lost",
+   "archived": 13.332499849332306,
+   "new": 13.332499849332306,
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.2,
+   "entry": "Pi",
+   "archived": "1.05127109638",
+   "new": "1.05127109638",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.2,
+   "entry": "A",
+   "archived": "-0.749753771569",
+   "new": "-0.749753771569",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.2,
+   "entry": "P",
+   "archived": "0.301517324807",
+   "new": "0.301517324807",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.2,
+   "entry": "Pi+A-P",
+   "archived": "4.59886382841584e-18",
+   "new": "4.43018218022364e-18",
+   "identical": false,
+   "abs_diff": "1.687e-19",
+   "rel_diff": "0.03808"
+  },
+  {
+   "t": 0.2,
+   "entry": "W zeros",
+   "archived": "4.43018218022361e-18",
+   "new": "4.43018218022364e-18",
+   "identical": false,
+   "abs_diff": "3.0e-32",
+   "rel_diff": "6.772e-15"
+  },
+  {
+   "t": 0.2,
+   "entry": "digits lost",
+   "archived": 17.676323133888445,
+   "new": 17.67632313388844,
+   "identical": false,
+   "abs_diff": "3.553e-15",
+   "rel_diff": "2.01e-16"
+  },
+  {
+   "t": 0.3,
+   "entry": "Pi",
+   "archived": "1.07788415088",
+   "new": "1.07788415088",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.3,
+   "entry": "A",
+   "archived": "-0.681851904552",
+   "new": "-0.681851904552",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.3,
+   "entry": "P",
+   "archived": "0.396032246333",
+   "new": "0.396032246333",
+   "identical": true,
+   "abs_diff": "0.0",
+   "rel_diff": "0.0"
+  },
+  {
+   "t": 0.3,
+   "entry": "Pi+A-P",
+   "archived": "-2.4445029734455e-19",
+   "new": "9.32464654810622e-27",
+   "identical": false,
+   "abs_diff": "2.445e-19",
+   "rel_diff": "2.622e+7"
+  },
+  {
+   "t": 0.3,
+   "entry": "W zeros",
+   "archived": "9.32464654810618e-27",
+   "new": "9.32464654810622e-27",
+   "identical": false,
+   "abs_diff": "4.0e-41",
+   "rel_diff": "4.29e-15"
+  },
+  {
+   "t": 0.3,
+   "entry": "digits lost",
+   "archived": 26.363969703000674,
+   "new": 26.36396970300067,
+   "identical": false,
+   "abs_diff": "3.553e-15",
+   "rel_diff": "1.348e-16"
+  }
+ ],
+ "controls": [
+  {
+   "dps": "40",
+   "t": 0.002,
+   "entry": "digits lost",
+   "dps60": 1.2459455408529708e-26,
+   "other": 1.245945540852971e-26,
+   "rel_diff": "1.152e-16"
+  },
+  {
+   "dps": "40",
+   "t": 0.3,
+   "entry": "Pi+A-P",
+   "dps60": "9.32464654810622e-27",
+   "other": "9.32464654810623e-27",
+   "rel_diff": "1.072e-15"
+  }
+ ],
+ "pixels": {
+  "heattrace.png vs heattrace_archived_json.png": {
+   "shape": [
+    700,
+    1900,
+    3
+   ],
+   "same_shape": true,
+   "differing_pixels": 0
+  }
+ }
+}

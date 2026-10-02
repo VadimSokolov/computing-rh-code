@@ -1,0 +1,21 @@
+[p13_arith_exact] job 1243971 on hop065.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+matplotlib 3.10.8 /scratch/vsokolov/rh_book_repro/agents/p13_arith_exact/mpl3108/matplotlib/__init__.py
+wrote heattrace_mpl3108.pdf from arith.json
+wrote heattrace_archived_json_mpl3108.pdf from arith_archived.json
+== archived json, 3.10.8, against fig/heattrace.pdf
+heattrace_archived_json_mpl3108.pdf: 46 streams, 20870 bytes; old_heattrace.pdf: 46 streams, 20870 bytes
+streams identical: True (46 of 46 pairs equal)
+files byte identical: True
+== new json, 3.10.8, against fig/heattrace.pdf
+heattrace_mpl3108.pdf: 46 streams, 20870 bytes; old_heattrace.pdf: 46 streams, 20870 bytes
+streams identical: True (46 of 46 pairs equal)
+files byte identical: True
+== new json against archived json, both 3.10.8
+heattrace_mpl3108.pdf: 46 streams, 20870 bytes; heattrace_archived_json_mpl3108.pdf: 46 streams, 20870 bytes
+streams identical: True (46 of 46 pairs equal)
+files byte identical: True
+== new json, 3.11.2 (job 1243544), against fig/heattrace.pdf
+heattrace.pdf: 50 streams, 22282 bytes; old_heattrace.pdf: 46 streams, 20870 bytes
+streams identical: False (0 of 46 pairs equal)
+  stream 0 differs (lengths 19737, 17170) from byte 100: b'4 0 l\n684 252 l\n0 252 l\nh\n\nf\n/A1 gs 0 G\n45.88 41.8 m\n336.791307 41.8 l\n336.79130' | b'4 0 l\n684 252 l\n0 252 l\nh\n\nf\n/A1 gs 0 G\n\n46.366214 41.96 m\n337.425586 41.96 l\n33'
+  stream 1 differs (lengths 678, 678) from byte 7: b'615 0 45 -15 571 561 d1\n481 322 m\n482 327 482 3' | b'615 0 46 -13 571 560 d1\n481 322 m\n481 327 482 3'

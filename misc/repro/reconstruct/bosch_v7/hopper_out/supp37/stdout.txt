@@ -1,0 +1,4 @@
+p=0.5 tau=100.0: xi'/xi 0.000367498 | 30 zeros 0.000273628 | 100 zeros 0.000317988 | 200 zeros 0.000334699
+p=0.9 tau=359.91: xi'/xi 0.00379712 | 30 zeros 0.00350433 | 100 zeros 0.00364394 | 200 zeros 0.00369577
+positivity grid: 148 points, p in {0.5,0.9,0.99,0.999}, tau in [1e-4,1e8]: min u_p = 9.995e-8 at p=0.5 tau=1.0e+8
+(not in the archived line) points with u_p <= 0: 0

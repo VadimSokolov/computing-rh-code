@@ -1,0 +1,12 @@
+p=0.5 tau=1.0  u_p from xi'/xi = 0.0036772509   Lamperti sum over 30 zeros = 0.0027385446
+p=0.5 tau=100.0  u_p from xi'/xi = 0.00036749844   Lamperti sum over 30 zeros = 0.00027362781
+p=0.5 tau=39916.2  u_p from xi'/xi = 1.5892445e-5   Lamperti sum over 30 zeros = 1.1194261e-5
+p=0.5 tau=10000.0  u_p from xi'/xi = 3.4888942e-5   Lamperti sum over 30 zeros = 2.5502014e-5
+p=0.9 tau=1.0  u_p from xi'/xi = 0.0020517052   Lamperti sum over 30 zeros = 0.0015295419
+p=0.9 tau=100.0  u_p from xi'/xi = 0.0016651787   Lamperti sum over 30 zeros = 0.001334689
+p=0.9 tau=359.91  u_p from xi'/xi = 0.003797116   Lamperti sum over 30 zeros = 0.003504334
+p=0.9 tau=10000.0  u_p from xi'/xi = 0.0011291144   Lamperti sum over 30 zeros = 0.0008618977
+p=0.5 s=1.0: log phi(s^p)=-0.02308645471, -int log(1+s/t)u_p = -0.02308645471 (7s)
+p=0.5 s=10.0: log phi(s^p)=-0.07288004392, -int log(1+s/t)u_p = -0.07288004392 (7s)
+p=0.9 s=1.0: log phi(s^p)=-0.02308645471, -int log(1+s/t)u_p = -0.02308645471 (7s)
+p=0.9 s=10.0: log phi(s^p)=-0.1823802136, -int log(1+s/t)u_p = -0.1823802136 (7s)

@@ -1,0 +1,42 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/part6_bp1_figures/compare4: sbatch --wait, 1 cores, 4G, 15 min
+[hopper_run] job 1243627 on hop064.orc.gmu.edu
+== old_bp1_wiener.pdf (old) against bp1_wiener.pdf (new): 2 and 2 panels
+ panel 1: old axes [51.03, 41.96, 342.58, 233.04], new axes [49.4, 42.12, 342.84, 234.48] (points)
+   vertical   grid lines: old 8, new 8, largest shift 7.02e-07 points
+   horizontal grid lines: old 6, new 6, largest shift 5.00e-07 points
+   curve #000000: old 1 paths 2 vertices, new 1 paths 2 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.0, '[1.0, 1.65]')] new [(1.0, '[1.0, 1.65]')]
+   curve #1b4f72: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #27ae60: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #c0392b: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #d68910: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   markers #1b4f72: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #27ae60: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #c0392b: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #d68910: old 6, new 6; old to new 0.000, new to old 0.000 points
+ panel 2: old axes [403.25, 41.96, 694.8, 233.04], new axes [401.36, 42.12, 694.8, 234.48] (points)
+   vertical   grid lines: old 8, new 8, largest shift 7.23e-07 points
+   horizontal grid lines: old 6, new 6, largest shift 4.84e-07 points
+   curve #000000: old 1 paths 2 vertices, new 1 paths 2 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.0, '[1.0, 1.65]')] new [(1.0, '[1.0, 1.65]')]
+   curve #1b4f72: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #27ae60: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #c0392b: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   curve #d68910: old 1 paths 6 vertices, new 1 paths 6 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.5, '[]')] new [(1.5, '[]')]
+   markers #1b4f72: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #27ae60: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #c0392b: old 6, new 6; old to new 0.000, new to old 0.000 points
+   markers #d68910: old 6, new 6; old to new 0.000, new to old 0.000 points
+ largest distance over all grid lines, curves and markers: 0.000 points
+== old_bp1_salem_riesz.pdf (old) against bp1_salem_riesz.pdf (new): 2 and 2 panels
+ panel 1: old axes [41.78, 45.27, 345.04, 232.75], new axes [41.56, 43.56, 344.52, 233.76] (points)
+   vertical   grid lines: old 7, new 7, largest shift 5.42e-07 points
+   horizontal grid lines: old 4, new 4, largest shift 3.95e-07 points
+   curve #1b4f72: old 1 paths 400 vertices, new 1 paths 399 vertices; old to new 0.087, new to old 0.043 points; width, dash old [(1.0, '[]')] new [(1.0, '[]')]
+   curve #27ae60: old 1 paths 455 vertices, new 1 paths 455 vertices; old to new 0.045, new to old 0.034 points; width, dash old [(1.0, '[]')] new [(1.0, '[]')]
+   curve #c0392b: old 1 paths 417 vertices, new 1 paths 420 vertices; old to new 0.043, new to old 0.104 points; width, dash old [(1.0, '[]')] new [(1.0, '[]')]
+   curve #d68910: old 1 paths 412 vertices, new 1 paths 412 vertices; old to new 0.000, new to old 0.000 points; width, dash old [(1.0, '[]')] new [(1.0, '[]')]
+ panel 2: old axes [405.95, 45.27, 709.2, 232.75], new axes [406.24, 43.56, 709.2, 233.76] (points)
+   vertical   grid lines: old 8, new 8, largest shift 7.29e-07 points
+   horizontal grid lines: old 7, new 7, largest shift 3.61e-07 points
+   curve #c0392b: old 1 paths 310 vertices, new 1 paths 313 vertices; old to new 0.033, new to old 0.142 points; width, dash old [(0.8, '[]')] new [(0.8, '[]')]
+   markers #1b4f72: old 36, new 36; old to new 0.000, new to old 0.000 points
+ largest distance over all grid lines, curves and markers: 0.142 points

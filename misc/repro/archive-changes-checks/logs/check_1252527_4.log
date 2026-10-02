@@ -1,0 +1,52 @@
+task 4 of job 1252527 on hop052.orc.gmu.edu:  Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz start Sun Sep 27 01:15:02 EDT 2026
+python 3.11.4 numpy 2.4.6 scipy 1.17.1 mpmath 1.3.0 flint 0.9.0 matplotlib 3.11.2
+6c3403ba556fa22119e33e0a33a9c79f  ttest.py
+7f07787049d04730f8f5d581b48da987  ttest2.py
+47e5ca73578193d1a1e8b936009e57b3  tilted.py
+# Command lines of Table tab:tilt (Chapter ch:polya), recovered in September 2026 (misc/repro/reconstruct/ttest2/REPORT.md).
+# Run beside tilted.py; the arguments are delta, the working precision in bits, the step h, the cut |x| <= xmax, and the heights:
+#   python3 ttest2.py 0.10 200 0.004 4 200 500 1000        (2001 nodes: the rows with delta = 0.10)
+#   python3 ttest2.py 0.02 220 0.001 4.2 1000 2000 5000    (8401 nodes: the rows with delta = 0.02)
+import time, mpmath as mp, sys
+# Command line, recovered in September 2026 (misc/repro/reconstruct/ttest2/REPORT.md). Run beside tilted.py; the arguments
+# are delta, the working precision in bits, the step h and the cut |x| <= xmax (the heights are fixed below):
+#   python3 ttest.py 0.1 200 0.004 4    (2001 nodes, Horner evaluator xi_pair; at the heights 200 to 2000 it prints nan,
+#                                        because the Horner ball of xi contains zero there)
+import time, mpmath as mp, sys
+== ttest2.py 0.10 200 0.004 4 200 500 1000
+nodes 2001
+200 err 1.64e-45 relrad 2.63e-52 sec 0.011
+500 err 9.83e-42 relrad 5.71e-39 sec 0.007
+1000 err 1.79e-20 relrad 1.27e-17 sec 0.007
+== ttest2.py 0.02 220 0.001 4.2 1000 2000 5000
+nodes 8401
+1000 err 5.14e-45 relrad 7.94e-56 sec 0.029
+2000 err 3.71e-45 relrad 7.15e-48 sec 0.03
+5000 err 2.89e-25 relrad 3.53e-22 sec 0.029
+== ttest.py 0.1 200 0.004 4 (Horner evaluator, heights fixed in the script)
+setup 0.09 nodes 2001
+14 2.02e-15 ball rad of ratio 4.87e-27 0.0014
+200 nan ball rad of ratio nan 0.0014
+500 nan ball rad of ratio nan 0.0014
+1000 nan ball rad of ratio nan 0.0014
+2000 nan ball rad of ratio nan 0.0014
+== done
+== ttest2.py 0.10 200 0.004 4 200 500 1000
+  same archived: nodes 2001                                                   new: nodes 2001
+  same archived: 200 err 1.64e-45 relrad 2.63e-52 sec 0.017                   new: 200 err 1.64e-45 relrad 2.63e-52 sec 0.011
+  same archived: 500 err 9.83e-42 relrad 5.71e-39 sec 0.007                   new: 500 err 9.83e-42 relrad 5.71e-39 sec 0.007
+  same archived: 1000 err 1.79e-20 relrad 1.27e-17 sec 0.007                  new: 1000 err 1.79e-20 relrad 1.27e-17 sec 0.007
+== ttest2.py 0.02 220 0.001 4.2 1000 2000 5000
+  same archived: nodes 8401                                                   new: nodes 8401
+  same archived: 1000 err 5.14e-45 relrad 7.94e-56 sec 0.03                   new: 1000 err 5.14e-45 relrad 7.94e-56 sec 0.029
+  same archived: 2000 err 3.71e-45 relrad 7.15e-48 sec 0.03                   new: 2000 err 3.71e-45 relrad 7.15e-48 sec 0.03
+  same archived: 5000 err 2.89e-25 relrad 3.53e-22 sec 0.03                   new: 5000 err 2.89e-25 relrad 3.53e-22 sec 0.029
+== ttest.py 0.1 200 0.004 4
+  same archived: setup 0.1 nodes 2001                                         new: setup 0.09 nodes 2001
+  same archived: 14 2.02e-15 ball rad of ratio 4.87e-27 0.0014                new: 14 2.02e-15 ball rad of ratio 4.87e-27 0.0014
+  same archived: 200 nan ball rad of ratio nan 0.0014                         new: 200 nan ball rad of ratio nan 0.0014
+  same archived: 500 nan ball rad of ratio nan 0.0014                         new: 500 nan ball rad of ratio nan 0.0014
+  same archived: 1000 nan ball rad of ratio nan 0.0014                        new: 1000 nan ball rad of ratio nan 0.0014
+  same archived: 2000 nan ball rad of ratio nan 0.0014                        new: 2000 nan ball rad of ratio nan 0.0014
+14 of 14 lines agree apart from the timings
+seconds=2 end Sun Sep 27 01:15:08 EDT 2026

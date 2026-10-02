@@ -1,0 +1,17 @@
+c_1..c_4 = ['10163.547', '-1177535.2', '19654411.0', '-1.2542839e+9']   (c_1/gamma_1^2 = 50.871036 , compare A_1 ~ 50.92)
+signs alternate for n<=200: True
+min gap of lambda_n=gamma_n^2 over n<200: 159.045 at n=4 (gamma gap 2.51019)
+log|c_n|/lambda_n at n=1,10,50,100,200: ['0.046181', '0.014407', '0.0052359', '0.0032204', '0.0019464']
+pi/(4 gamma_n) at same n: ['0.055565', '0.015779', '0.005488', '0.0033206', '0.0019814']
+t=0.01: residue series 0.0244251367484, Talbot inverse Laplace 0.0244251367484 (0s)
+t=0.003: residue series 0.000380809971558, Talbot inverse Laplace -1.10981287897e-18 (0s)
+Cauchy side: gaps (2k+1)^2-(2k-1)^2 = 8k >= 8; log|c_k|/lambda_k -> 0
+t=0.02: residue series (200 zeros, 90 digits) 80.10419773, Talbot 80.10419773
+t=0.005: residue series (200 zeros, 90 digits) 6.537917064e-24, Talbot 6.537917063e-24
+t=0.003: residue series (200 zeros, 90 digits) 3.08631168e-69, Talbot -1.190410575e-31
+p=0.5: rigorous bound positive for |z|>4.0694, tau_1=274.23 (strip exit 0.70718)
+p=0.9: rigorous bound positive for |z|>11.084, tau_1=209.66 (strip exit 3.1965)
+p=0.99: rigorous bound positive for |z|>69.648, tau_1=5285.1 (strip exit 31.835)
+p=0.999: rigorous bound positive for |z|>553.21, tau_1=3.0994e+5 (strip exit 318.34)
+p=0.9999: rigorous bound positive for |z|>4818.3, tau_1=2.3255e+7 (strip exit 3183.4)
+check -zeta'/zeta(sigma) < 1/(sigma-1) on sigma-1 in [1e-6,100]: True

@@ -1,0 +1,1784 @@
+[
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 61,
+  "max_rel": 2.2116473652521882e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 53,
+  "max_rel": 2.2163147617193597e-16,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 36,
+  "max_rel": 2.6024843596771836e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 36,
+  "max_rel": 2.6024843596771836e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 29,
+  "max_rel": 2.6024843596771836e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 29,
+  "max_rel": 2.6024843596771836e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 13,
+  "max_rel": 1.4599035196593493e-14,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 8,
+  "max_rel": 2.6027088182014562e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 8,
+  "max_rel": 2.6027088182014562e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 8,
+  "max_rel": 2.6027088182014562e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g))+np.sum(1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 8,
+  "max_rel": 2.6027088182014562e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 7,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 6,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 6,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 6,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 6,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 6,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 6,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 6,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 6,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 6,
+  "max_rel": 2.105100302641118e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 5,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 5,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 5,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 5,
+  "max_rel": 1.0453354130403724e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 5,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 5,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 5,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 5,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 5,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 4,
+  "max_rel": 8.337030901548982e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 4,
+  "max_rel": 8.337030901548982e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 4,
+  "max_rel": 8.337030901548982e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 4,
+  "max_rel": 8.337030901548982e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 1.0790041916812433e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.220536115124104e-13,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.614236366698021e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.614236366698021e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619126355976814e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(1/(c-g)+1/(c+g))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 1",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 4,
+  "max_rel": 2.619463043763223e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 8.320998149815235e-14,
+  "coef_identical": true
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 3,
+  "max_rel": 2.614236366698021e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 3,
+  "max_rel": 2.614236366698021e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 2.6150219715329746e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 2.6150219715329746e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 3,
+  "max_rel": 2.6150219715329746e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "math.fsum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 3,
+  "max_rel": 2.6150219715329746e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 3,
+  "max_rel": 2.6153426265676495e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "30 digits, float64 boundaries",
+  "final": "-(L_k-L_k-1)/pi at 30 digits",
+  "identical": 3,
+  "max_rel": 2.6153426265676495e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "longdouble np.sum",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 2,
+  "max_rel": 2.615326593815916e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 1.5795146353053897e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 1,
+  "max_rel": 1.5795146353053897e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.720757969217043e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7432038216442904e-13,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7036029248619327e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "float64 midpoints (g_k+g_k+1)/2",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "rounded exact midpoints of part1 ref",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.7044045624486198e-12,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5786648994635012e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5786648994635012e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5786648994635012e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5786648994635012e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5795146353053897e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "np.sum(2c/(c^2-g^2))",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 1.5795146353053897e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "np.diff(-L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L/np.pi)",
+  "identical": 0,
+  "max_rel": 2.6109175870891353e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps30",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "2D sum over axis 0",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)/np.pi",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ },
+ {
+  "zeros": "dps15",
+  "boundaries": "longdouble midpoints of part1 ref, as analyse.py",
+  "sum": "python sum, sequential",
+  "final": "-np.diff(L)*(1/np.pi)",
+  "identical": 0,
+  "max_rel": 2.61162302816542e-11,
+  "coef_identical": false
+ }
+]

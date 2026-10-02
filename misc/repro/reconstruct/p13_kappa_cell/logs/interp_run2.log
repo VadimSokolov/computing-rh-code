@@ -1,0 +1,12 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/interp2: sbatch --wait, 16 cores, 8G, 60 min
+[hopper_run] job 1243727 on hop047.orc.gmu.edu
+eps 1      step 0.12500: grid values err 7.1e-14, interpolation err at cells 1.1e-04; tv_cells interp 4.9945012562, archived 4.9945012562, exact 4.9919802751 (archived-exact +2.52e-03)
+eps 0.5    step 0.06250: grid values err 1.3e-13, interpolation err at cells 3.3e-05; tv_cells interp 2.6556972056, archived 2.6556972056, exact 2.6551923865 (archived-exact +5.05e-04)
+eps 0.25   step 0.03125: grid values err 3.4e-13, interpolation err at cells 3.8e-06; tv_cells interp 1.3510727112, archived 1.3510727112, exact 1.3510209154 (archived-exact +5.18e-05)
+eps 0.1    step 0.01250: grid values err 2.3e-13, interpolation err at cells 3.3e-07; tv_cells interp 0.5431424169, archived 0.5431424169, exact 0.5431392769 (archived-exact +3.14e-06)
+eps 0.05   step 0.00625: grid values err 3.3e-13, interpolation err at cells 2.9e-08; tv_cells interp 0.2717672865, archived 0.2717672865, exact 0.2717667347 (archived-exact +5.52e-07)
+eps 0.02   step 0.00250: grid values err 3.4e-13, interpolation err at cells 2.4e-09; tv_cells interp 0.1087288342, archived 0.1087288342, exact 0.1087288056 (archived-exact +2.87e-08)
+eps 0.01   step 0.00125: grid values err 5.0e-13, interpolation err at cells 1.6e-10; tv_cells interp 0.0543659865, archived 0.0543659865, exact 0.0543659829 (archived-exact +3.62e-09)
+eps 0.005  step 0.00125: grid values err 5.3e-13, interpolation err at cells 8.2e-11; tv_cells interp 0.0271831908, archived 0.0271831908, exact 0.0271831890 (archived-exact +1.81e-09)
+done in 4.2s
+exit 0 (attempt 1)

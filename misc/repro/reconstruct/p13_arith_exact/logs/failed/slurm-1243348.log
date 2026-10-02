@@ -1,0 +1,7 @@
+[p13_arith_exact] job 1243348 on hop064.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+computed 1700 zeros in 11.1 s
+Traceback (most recent call last):
+  File "/scratch/vsokolov/rh_book_repro/agents/p13_arith_exact/zeros_hp.py", line 23, in <module>
+    assert abs(arb(s) - z.imag) < arb('1e-69'), s
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 14.13472514173469379045725198356247027078425711569924317568556746014996

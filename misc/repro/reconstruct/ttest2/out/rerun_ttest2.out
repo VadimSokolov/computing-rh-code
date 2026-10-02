@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/scratch/vsokolov/rh_book_repro/run/ttest2.py", line 7, in <module>
+    delta,prec,h,xmax = float(sys.argv[1]),int(sys.argv[2]),float(sys.argv[3]),float(sys.argv[4])
+                              ~~~~~~~~^^^
+IndexError: list index out of range

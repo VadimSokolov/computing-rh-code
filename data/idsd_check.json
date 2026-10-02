@@ -1,0 +1,134 @@
+{
+ "m0": {
+  "holds": true,
+  "m0": "-5.37218341923",
+  "psi_quarter_minus_log_pi": "-5.37218341923"
+ },
+ "binet_pieces": {
+  "holds": true,
+  "note": "tail of the Binet integral and its middle piece, at y = r/2 = 10"
+ },
+ "binet_bound_r20": {
+  "holds": true,
+  "bound": "0.00281250010000"
+ },
+ "binet_spot_values": {
+  "holds": true,
+  "values": {
+   "20": {
+    "diff": "0.000104212299812",
+    "bound": "0.00281250010000",
+    "holds": true
+   },
+   "25": {
+    "diff": "6.66853491065e-5",
+    "bound": "0.00180000010000",
+    "holds": true
+   },
+   "30": {
+    "diff": "4.63053036335e-5",
+    "bound": "0.00125000010000",
+    "holds": true
+   },
+   "50": {
+    "diff": "1.66678335795e-5",
+    "bound": "0.000450000100000",
+    "holds": true
+   },
+   "100": {
+    "diff": "4.16673958718e-6",
+    "bound": "0.000112500100000",
+    "holds": true
+   },
+   "1000": {
+    "diff": "4.16666739583e-8",
+    "bound": "1.12510000000e-6",
+    "holds": true
+   },
+   "10000": {
+    "diff": "4.16666667396e-10",
+    "bound": "1.13500000000e-8",
+    "holds": true
+   }
+  }
+ },
+ "m20": {
+  "holds": true,
+  "m20": "1.15775099484"
+ },
+ "integral_0_20": {
+  "holds": true,
+  "bound": "135.723474757"
+ },
+ "alpha": {
+  "holds": true,
+  "alpha0": "-2.81963207942",
+  "alpha1": "-1.81963207942"
+ },
+ "E_at_tau": {
+  "holds": true,
+  "E0": "1.08812300269",
+  "E1": "0.0464049201077"
+ },
+ "ell_tau": {
+  "holds": true,
+  "ell": "4.95174377627"
+ },
+ "prime_constants": {
+  "holds": true,
+  "q_tau": "1732.86795140",
+  "kappa_over_tau": "1201.13253480"
+ },
+ "prime_ratio": {
+  "holds": true,
+  "R0": "1.60473391604e-521",
+  "R1": "3.20946783208e-521"
+ },
+ "polar_ratio": {
+  "holds": true,
+  "polar": "1.25332980384e-6"
+ },
+ "small_t_margins": {
+  "holds": true,
+  "K0": "3.90775508211",
+  "K1": "1.86603825286",
+  "note": "c0 >= s0 (ell - K0) and c1 >= s1 (ell - K1) on (0, tau]; ell >= ell(tau) there"
+ },
+ "tail": {
+  "holds": true,
+  "H0": "1.96734943664e-16",
+  "H1": "4.01493586991e-10",
+  "L0": "0.882496902585"
+ },
+ "zero_counts": {
+  "holds": true,
+  "N20_upper": "4.53800920354",
+  "N50_lower": "6.09142802530",
+  "N100_upper": "32.4546785841",
+  "N200_lower": "75.6253014216",
+  "N1000_upper": "652.437379140",
+  "note": "a zero in (20,50] and one in (100,200]; N(r) <= r^2 for r >= 1000 since the upper bound grows like r log r"
+ },
+ "crude_version": {
+  "holds": true,
+  "m60_lower": "1.17864337477",
+  "m60": "2.25645592118",
+  "A0_lower": "74.2023197883",
+  "A1_lower": "70443483.8522",
+  "P_upper": "1.69135763561e-52162",
+  "H0": "3.75727767510e-36",
+  "H1": "7.59044491908e-28"
+ },
+ "crosscheck_at_tau": {
+  "A": "42.404559795497",
+  "A_over_s0": "2.125849371",
+  "minusAprime_over_s1": "3.132107374",
+  "P": "1.0017e-1042",
+  "W": "43.4045722955752",
+  "W_over_s0": "2.175982563",
+  "minusWprime_over_s1": "3.13210612",
+  "ell_plus_alpha0": "2.132111697",
+  "note": "not part of the proof: quadrature in floating point"
+ },
+ "all_hold": true
+}

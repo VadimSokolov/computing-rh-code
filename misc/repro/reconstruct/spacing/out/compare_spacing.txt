@@ -1,0 +1,6 @@
+fresh/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+npy/spacing.json against /scratch/vsokolov/rh_book_repro/book_data/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0
+npy/spacing.json against fresh/spacing.json
+  83 numbers, 83 identical in float64, 0 beyond relative 1e-9, max relative difference 0.0

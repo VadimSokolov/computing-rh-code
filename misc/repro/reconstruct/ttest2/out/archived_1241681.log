@@ -1,0 +1,23 @@
+job 1241681 on hop071.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+python-flint 0.9.0 mpmath 1.3.0
+618846a60d61f76bb2ca6f46847b5c73  ttest.py
+f55ddcf6e0ce1559d9ad204c7108e8d0  ttest2.py
+47e5ca73578193d1a1e8b936009e57b3  tilted.py
+== ttest2.py 0.10 200 0.004 4 200 500 1000
+nodes 2001
+200 err 1.64e-45 relrad 2.63e-52 sec 0.017
+500 err 9.83e-42 relrad 5.71e-39 sec 0.007
+1000 err 1.79e-20 relrad 1.27e-17 sec 0.007
+== ttest2.py 0.02 220 0.001 4.2 1000 2000 5000
+nodes 8401
+1000 err 5.14e-45 relrad 7.94e-56 sec 0.03
+2000 err 3.71e-45 relrad 7.15e-48 sec 0.03
+5000 err 2.89e-25 relrad 3.53e-22 sec 0.03
+== ttest.py 0.1 200 0.004 4 (Horner evaluator, heights fixed in the script)
+setup 0.1 nodes 2001
+14 2.02e-15 ball rad of ratio 4.87e-27 0.0014
+200 nan ball rad of ratio nan 0.0014
+500 nan ball rad of ratio nan 0.0014
+1000 nan ball rad of ratio nan 0.0014
+2000 nan ball rad of ratio nan 0.0014
+== done

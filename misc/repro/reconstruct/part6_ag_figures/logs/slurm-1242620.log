@@ -1,0 +1,37 @@
+[hopper_run] job 1242620 on hop064.orc.gmu.edu
+== old_ag_almost.pdf.paths.json panel 0: xlim [0.4750, 1.0250] ylim [-0.0500, 1.0500] (tick fit residuals 7.9e-10, 8.9e-16; 0.00603 data units per point in y)
+   #d68910 lw 1.50 dash [[], 0]: 24 vertices, x [0.5000, 1.0000], y [0.0000, 1.0000], min at x = 1.0000, median step 0.0217
+   #c0392b lw 1.50 dash [[], 0]: 15 vertices, x [0.7007, 1.0000], y [0.0000, 0.6904], min at x = 1.0000, median step 0.0226
+   #808080 lw 1.50 dash [[1.5, 2.475], 0.0]: 3 vertices, x [0.5000, 1.0000], y [0.0000, 1.0000], min at x = 1.0000, median step 0.2500
+   #000000 lw 0.70 dash [[], 0]: 2 vertices, x [0.4750, 1.0250], y [1.0000, 1.0000], min at x = 0.4750, median step 0.5500
+== old_ag_almost.pdf.paths.json panel 1: xlim [283.2002, 300.8001] ylim [-1.2876, 3.5489] (tick fit residuals 2.9e-08, 1.1e-08; 0.02650 data units per point in y)
+   #808080 lw 0.80 dash [[], 0]: 322 vertices, x [284.0000, 300.0000], y [0.0692, 3.2987], min at x = 290.6800, median step 0.0450
+   #1b4f72 lw 1.00 dash [[], 0]: 327 vertices, x [284.0000, 300.0000], y [-1.0677, 3.3291], min at x = 292.4050, median step 0.0450
+   #000000 lw 0.50 dash [[0.5, 0.825], 0.0]: 2 vertices, x [292.4000, 292.4000], y [-1.2876, 3.5489], min at x = 292.4000, median step 0.0000
+   #000000 lw 0.60 dash [[], 0]: 2 vertices, x [283.2000, 300.8000], y [-0.0000, -0.0000], min at x = 283.2000, median step 17.6000
+== old_ag_almost.pdf.paths.json panel 2: xlim [283.1998, 300.7997] ylim [-5.7416, 2.2497] (tick fit residuals 2.4e-08, 2.6e-08; 0.04379 data units per point in y)
+   #808080 lw 0.80 dash [[], 0]: 276 vertices, x [284.0000, 300.0000], y [0.1361, 1.8113], min at x = 296.8100, median step 0.0550
+   #c0392b lw 1.00 dash [[], 0]: 286 vertices, x [284.0000, 300.0000], y [-5.3784, 1.8865], min at x = 292.4000, median step 0.0550
+   #000000 lw 0.50 dash [[0.5, 0.825], 0.0]: 2 vertices, x [292.4000, 292.4000], y [-5.7416, 2.2498], min at x = 292.4000, median step 0.0000
+   #000000 lw 0.60 dash [[], 0]: 2 vertices, x [283.2000, 300.8000], y [0.0000, 0.0000], min at x = 283.2000, median step 17.6000
+== old_ag_cancel.pdf.paths.json panel 0: xlim [0.4985, 0.9715] ylim [-0.7500, 15.7498] (tick fit residuals 7.3e-10, 2.8e-08; 0.09149 data units per point in y)
+   #c0392b lw 1.50 dash [[], 0]: 10 vertices, x [0.5200, 0.9500], y [-0.0000, 4.3606], min at x = 0.6000, median step 0.0500
+   #c0392b lw 0.60 dash [[0.6, 0.99], 0.0]: 2 vertices, x [0.6000, 0.6000], y [-0.7500, 15.7500], min at x = 0.6000, median step 0.0000
+   #d68910 lw 1.50 dash [[], 0]: 10 vertices, x [0.5200, 0.9500], y [-0.0000, 6.9484], min at x = 0.7500, median step 0.0500
+   #d68910 lw 0.60 dash [[0.6, 0.99], 0.0]: 2 vertices, x [0.7500, 0.7500], y [-0.7500, 15.7500], min at x = 0.7500, median step 0.0000
+   #1b4f72 lw 1.50 dash [[], 0]: 10 vertices, x [0.5200, 0.9500], y [-0.0000, 7.5535], min at x = 0.9000, median step 0.0500
+   #1b4f72 lw 0.60 dash [[0.6, 0.99], 0.0]: 2 vertices, x [0.9000, 0.9000], y [-0.7500, 15.7500], min at x = 0.9000, median step 0.0000
+   #808080 lw 0.70 dash [[2.59, 1.12], 0.0]: 2 vertices, x [0.4985, 0.9715], y [15.0000, 15.0000], min at x = 0.4985, median step 0.4730
+   markers #c0392b: (0.520, 1.624) (0.550, 4.361) (0.600, -0.000) (0.650, -0.000) (0.700, -0.000) (0.750, -0.000) (0.800, -0.000) (0.850, -0.000) (0.900, -0.000) (0.950, -0.000)
+   markers #d68910: (0.520, 0.404) (0.550, 1.036) (0.600, 2.278) (0.650, 4.032) (0.700, 6.948) (0.750, -0.000) (0.800, -0.000) (0.850, -0.000) (0.900, -0.000) (0.950, -0.000)
+   markers #1b4f72: (0.520, 0.133) (0.550, 0.340) (0.600, 0.725) (0.650, 1.219) (0.700, 1.923) (0.750, 3.020) (0.800, 4.801) (0.850, 7.554) (0.900, -0.000) (0.950, -0.000)
+== old_ag_cancel.pdf.paths.json panel 1: xlim [-4.3999, 4.3999] ylim [-2.0000, 3.9999] (tick fit residuals 7.1e-15, 1.2e-08; 0.03327 data units per point in y)
+   #808080 lw 1.00 dash [[], 0]: 175 vertices, x [-4.0000, 4.0000], y [0.0691, 3.2367], min at x = -3.1600, median step 0.0300
+   #c0392b lw 1.00 dash [[], 0]: 184 vertices, x [-4.0000, 4.0000], y [-1.2359, 3.2590], min at x = 0.0100, median step 0.0300
+   #1b4f72 lw 1.00 dash [[], 0]: 177 vertices, x [-4.0000, 4.0000], y [0.0723, 3.2563], min at x = 0.1600, median step 0.0300
+   #000000 lw 0.60 dash [[], 0]: 2 vertices, x [-4.4000, 4.4000], y [-0.0000, -0.0000], min at x = -4.4000, median step 8.8000
+== old_ag_cancel.pdf.paths.json panel 2: xlim [-4.4001, 4.4000] ylim [-2.0000, 3.9999] (tick fit residuals 1.4e-14, 1.2e-08; 0.03327 data units per point in y)
+   #808080 lw 1.00 dash [[], 0]: 331 vertices, x [-4.0000, 4.0000], y [0.3420, 3.7153], min at x = -4.0000, median step 0.0200
+   #c0392b lw 1.00 dash [[], 0]: 331 vertices, x [-4.0000, 4.0000], y [-1.6239, 3.7213], min at x = 0.0000, median step 0.0200
+   #1b4f72 lw 1.00 dash [[], 0]: 327 vertices, x [-4.0000, 4.0000], y [0.0247, 3.7211], min at x = 0.0500, median step 0.0200
+   #000000 lw 0.60 dash [[], 0]: 2 vertices, x [-4.4000, 4.4000], y [-0.0000, -0.0000], min at x = -4.4000, median step 8.8000

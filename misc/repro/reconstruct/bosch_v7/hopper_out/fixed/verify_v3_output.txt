@@ -1,0 +1,14 @@
+Bosch alpha=0.4000000000000000222044605 q=0.5999999999999999777955395: zeros of D in slit plane=False, min Im(-x h'/h)=8.79e-7 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+Bosch alpha=0.4000000000000000222044605 q=0.550000000000000044408921: zeros of D in slit plane=False, min Im(-x h'/h)=1.476e-6 at (r,theta/pi)=('1.0e+6', '0.005'), HCM predicted=True
+Bosch alpha=0.4000000000000000222044605 q=0.75: zeros of D in slit plane=True, min Im(-x h'/h)=-1.075e+16 at (r,theta/pi)=('1.0', '0.8'), HCM predicted=False
+Bosch alpha=0.5 q=0.5: zeros of D in slit plane=False, min Im(-x h'/h)=1.571e-8 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+Bosch alpha=0.5 q=0.5999999999999999777955395: zeros of D in slit plane=True, min Im(-x h'/h)=-191.0 at (r,theta/pi)=('1.0', '0.835'), HCM predicted=False
+Bosch alpha=0.5999999999999999777955395 q=0.2999999999999999888977698: zeros of D in slit plane=False, min Im(-x h'/h)=-0.01138 at (r,theta/pi)=('0.00178', '0.995'), HCM predicted=False
+Bosch alpha=0.2999999999999999888977698 q=0.699999999999999955591079: zeros of D in slit plane=False, min Im(-x h'/h)=5.709e-7 at (r,theta/pi)=('1.0e-6', '0.005'), HCM predicted=True
+toy with gamma=14 e^{0.1 i} and 21: p* = 1 - 2 delta/pi = 0.936338
+  p=0.800000000000000044408921: poles in slit plane=False, min Im(-x h'/h)=1.955e-9 at ('1.0e-6', '0.005')
+  p=0.9000000000000000222044605: poles in slit plane=False, min Im(-x h'/h)=6.214e-10 at ('1.0e-6', '0.005')
+  p=0.9300000000000000488498131: poles in slit plane=False, min Im(-x h'/h)=4.384e-10 at ('1.0e-6', '0.005')
+  p=0.9399999999999999467092948: poles in slit plane=True, min Im(-x h'/h)=3.901e-10 at ('1.0e-6', '0.005')
+  p=0.9699999999999999733546474: poles in slit plane=True, min Im(-x h'/h)=2.744e-10 at ('1.0e-6', '0.005')
+  p=1.0: poles in slit plane=True, min Im(-x h'/h)=-2.082 at ('178.0', '0.965')

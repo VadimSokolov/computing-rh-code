@@ -1,0 +1,264 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/reconstruct_riesz_explicit/explore1: sbatch --wait, 2 cores, 4G, 30 min
+[hopper_run] job 1241214 on hop062.orc.gmu.edu
+grid points in [1e3,1e10]: 36 first 1000.0 last 10000000000.0
+g[0] = np.float64(14.134725141734695)
+
+== triv ==
+triv k=1 gamma/(2 zeta') dps=15                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=15                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=15                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=15                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=15                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=15                              -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 gamma/(2 zeta') dps=17                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=17                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=17                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=17                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=17                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=17                              -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 gamma/(2 zeta') dps=20                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=20                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=20                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=20                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=20                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=20                              -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 gamma/(2 zeta') dps=25                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=25                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=25                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=25                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=25                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=25                              -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 gamma/(2 zeta') dps=30                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=30                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=30                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=30                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=30                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=30                              -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 gamma/(2 zeta') dps=50                                        -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 gamma/(2 zeta') dps=50                                        125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 gamma/(2 zeta') dps=50                                        -508.49533464380755      rel 0.000e+00 EXACT
+triv k=1 factorial/(2 float zeta') dps=50                              -16.42119333144247       rel 0.000e+00 EXACT
+triv k=2 factorial/(2 float zeta') dps=50                              125.25345898121803       rel 0.000e+00 EXACT
+triv k=3 factorial/(2 float zeta') dps=50                              -508.49533464380755      rel 0.000e+00 EXACT
+
+== amp1 ==
+amp1 float(abs(G/Z)) dps=15 npy                                        7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=15 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=15 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=15 npy                                      7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=15 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=15 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=15 npy                                7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=15 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=15 zetazero                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=15 zetazero                            7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=15 zetazero                            7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=15 zetazero                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=15 zetazero                              7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=15 zetazero                              7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=15 zetazero                           7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=15 zetazero                              7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=20 npy                                        7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=20 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=20 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=20 npy                                      7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=20 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=20 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=20 npy                                7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=20 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=20 zetazero                                   7.775062764452562e-05    rel 6.972e-16 
+amp1 2*abs(complex(G/(2Z))) dps=20 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(2*complex(G/(2Z))) dps=20 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(complex(G/Z)) dps=20 zetazero                                 7.775062764452562e-05    rel 6.972e-16 
+amp1 float(2*abs(G/(2Z))) dps=20 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 2*float(abs(G/(2Z))) dps=20 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 np.abs(np.complex128)*2 dps=20 zetazero                           7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G)/abs(Z)) dps=20 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G/Z)) dps=25 npy                                        7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=25 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=25 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=25 npy                                      7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=25 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=25 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=25 npy                                7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=25 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=25 zetazero                                   7.775062764452562e-05    rel 6.972e-16 
+amp1 2*abs(complex(G/(2Z))) dps=25 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(2*complex(G/(2Z))) dps=25 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(complex(G/Z)) dps=25 zetazero                                 7.775062764452562e-05    rel 6.972e-16 
+amp1 float(2*abs(G/(2Z))) dps=25 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 2*float(abs(G/(2Z))) dps=25 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 np.abs(np.complex128)*2 dps=25 zetazero                           7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G)/abs(Z)) dps=25 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G/Z)) dps=30 npy                                        7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=30 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=30 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=30 npy                                      7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=30 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=30 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=30 npy                                7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=30 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=30 zetazero                                   7.775062764452562e-05    rel 6.972e-16 
+amp1 2*abs(complex(G/(2Z))) dps=30 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(2*complex(G/(2Z))) dps=30 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(complex(G/Z)) dps=30 zetazero                                 7.775062764452562e-05    rel 6.972e-16 
+amp1 float(2*abs(G/(2Z))) dps=30 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 2*float(abs(G/(2Z))) dps=30 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 np.abs(np.complex128)*2 dps=30 zetazero                           7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G)/abs(Z)) dps=30 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G/Z)) dps=50 npy                                        7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*abs(complex(G/(2Z))) dps=50 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(2*complex(G/(2Z))) dps=50 npy                                 7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 abs(complex(G/Z)) dps=50 npy                                      7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(2*abs(G/(2Z))) dps=50 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 2*float(abs(G/(2Z))) dps=50 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 np.abs(np.complex128)*2 dps=50 npy                                7.775062764452558e-05    rel 1.743e-16 
+amp1 float(abs(G)/abs(Z)) dps=50 npy                                   7.775062764452556e-05    rel 0.000e+00 EXACT
+amp1 float(abs(G/Z)) dps=50 zetazero                                   7.775062764452562e-05    rel 6.972e-16 
+amp1 2*abs(complex(G/(2Z))) dps=50 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(2*complex(G/(2Z))) dps=50 zetazero                            7.775062764452562e-05    rel 6.972e-16 
+amp1 abs(complex(G/Z)) dps=50 zetazero                                 7.775062764452562e-05    rel 6.972e-16 
+amp1 float(2*abs(G/(2Z))) dps=50 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 2*float(abs(G/(2Z))) dps=50 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+amp1 np.abs(np.complex128)*2 dps=50 zetazero                           7.775062764452562e-05    rel 6.972e-16 
+amp1 float(abs(G)/abs(Z)) dps=50 zetazero                              7.775062764452562e-05    rel 6.972e-16 
+
+== maxdev and signal ==
+signal max|R/x^.25| on [1e3,1e10]                                      0.002958743716352547     rel 0.000e+00 EXACT
+signal max|R|/x^.25 on [1e3,1e10]                                      0.002958743716352547     rel 0.000e+00 EXACT
+maxdev A np.float64 x |R/x^.25-pred| dps=15 trivcomp                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=15 trivcomp             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=15 trivcomp                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=15 trivcomp                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=15 trivcomp           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=15 trivcomp                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=15 trivcomp                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=15 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=15 trivcomp                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=15 trivcomp                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=15 trivcomp                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=15 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=15 trivjson                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=15 trivjson             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=15 trivjson                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=15 trivjson                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=15 trivjson           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=15 trivjson                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=15 trivjson                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=15 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=15 trivjson                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=15 trivjson                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=15 trivjson                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=15 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=20 trivcomp                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=20 trivcomp             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=20 trivcomp                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=20 trivcomp                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=20 trivcomp           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=20 trivcomp                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=20 trivcomp                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=20 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=20 trivcomp                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=20 trivcomp                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=20 trivcomp                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=20 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=20 trivjson                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=20 trivjson             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=20 trivjson                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=20 trivjson                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=20 trivjson           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=20 trivjson                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=20 trivjson                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=20 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=20 trivjson                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=20 trivjson                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=20 trivjson                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=20 trivjson                               0.0029587439723876667    rel 8.654e-08 
+per point (dps 20, form A): x, R/x^.25, pred, dev
+  1.000000e+03 -2.958743716352547e-03 -2.958743972387666e-03 2.560351e-10
+  1.584893e+03 -1.579102972667146e-03 -1.579103008812871e-03 3.614572e-11
+  2.511886e+03 -9.688672932628240e-04 -9.688672984053796e-04 5.142556e-12
+  3.981072e+03 -4.773928841079026e-04 -4.773928848285774e-04 7.206748e-13
+  6.309573e+03 -3.252512061200342e-04 -3.252512061145805e-04 5.453700e-15
+  1.000000e+04 -1.385814637488991e-04 -1.385814635293623e-04 2.195368e-13
+  1.584893e+04 -1.089336686880368e-04 -1.089336690070100e-04 3.189731e-13
+  2.511886e+04 -4.387039605948137e-05 -4.387039600919745e-05 5.028391e-14
+  3.981072e+04 -2.883226472411274e-05 -2.883226515631534e-05 4.322026e-13
+  6.309573e+04 -2.569308452875373e-05 -2.569308422212482e-05 3.066289e-13
+  1.000000e+05  9.040840623278668e-06  9.040840974679318e-06 3.514006e-13
+  1.584893e+05 -3.164141948904263e-05 -3.164142129630401e-05 1.807261e-12
+  2.511886e+05  3.131197970878657e-05  3.131197732408690e-05 2.384700e-12
+  3.981072e+05 -4.385097811234872e-05 -4.385098008740249e-05 1.975054e-12
+  6.309573e+05  4.857039282829769e-05  4.857039111325038e-05 1.715047e-12
+  1.000000e+06 -5.612936932970023e-05 -5.612937504865040e-05 5.718950e-12
+  1.584893e+06  6.096516918920829e-05  6.096515922683068e-05 9.962378e-12
+  2.511886e+06 -6.679275128664387e-05 -6.679276090329430e-05 9.616650e-12
+  3.981072e+06  7.068269034162543e-05  7.068269617932946e-05 5.837704e-12
+  6.309573e+06 -7.363527631261317e-05 -7.363527195647960e-05 4.356134e-12
+  1.000000e+07  7.595426609126591e-05  7.595425684305230e-05 9.248214e-12
+  1.584893e+07 -7.767346824184912e-05 -7.767341018189810e-05 5.805995e-11
+  2.511886e+07  7.778671259984022e-05  7.778668716718183e-05 2.543266e-11
+  3.981072e+07 -7.681087830143590e-05 -7.681092261311428e-05 4.431168e-11
+  6.309573e+07  7.541408968879391e-05  7.541394770130661e-05 1.419875e-10
+  1.000000e+08 -7.307876526141399e-05 -7.307883434405951e-05 6.908265e-11
+  1.584893e+08  6.917203452192907e-05  6.917204797084248e-05 1.344891e-11
+  2.511886e+08 -6.459128419321459e-05 -6.459170752627539e-05 4.233331e-10
+  3.981072e+08  5.971353894170982e-05  5.971337721906676e-05 1.617226e-10
+  6.309573e+08 -5.376471551037280e-05 -5.376409291182811e-05 6.225985e-10
+  1.000000e+09  4.667510801476614e-05  4.667513262643975e-05 2.461167e-11
+  1.584893e+09 -3.939188263209411e-05 -3.939065059758310e-05 1.232035e-09
+  2.511886e+09  3.199681188581521e-05  3.200060748685333e-05 3.795601e-09
+  3.981072e+09 -2.365234041186412e-05 -2.364477310928605e-05 7.567303e-09
+  6.309573e+09  1.477120617655776e-05  1.478140281600631e-05 1.019664e-08
+  1.000000e+10 -6.340565244249523e-06 -6.309462072336517e-06 3.110317e-08
+argmax 10000000000.0
+maxdev A np.float64 x |R/x^.25-pred| dps=25 trivcomp                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=25 trivcomp             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=25 trivcomp                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=25 trivcomp                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=25 trivcomp           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=25 trivcomp                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=25 trivcomp                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=25 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=25 trivcomp                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=25 trivcomp                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=25 trivcomp                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=25 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=25 trivjson                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=25 trivjson             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=25 trivjson                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=25 trivjson                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=25 trivjson           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=25 trivjson                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=25 trivjson                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=25 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=25 trivjson                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=25 trivjson                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=25 trivjson                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=25 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=30 trivcomp                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=30 trivcomp             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=30 trivcomp                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=30 trivcomp                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=30 trivcomp           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=30 trivcomp                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=30 trivcomp                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=30 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=30 trivcomp                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=30 trivcomp                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=30 trivcomp                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=30 trivcomp                               0.0029587439723876667    rel 8.654e-08 
+maxdev A np.float64 x |R/x^.25-pred| dps=30 trivjson                   3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A np.float64 x |R-x^.25 pred|/x^.25 dps=30 trivjson             3.1103171913005474e-08   rel 1.638e-14 
+signal A np.float64 x max|pred| dps=30 trivjson                        0.0029587439723876663    rel 8.654e-08 
+maxdev A python float x |R/x^.25-pred| dps=30 trivjson                 3.110317191300598e-08    rel 0.000e+00 EXACT
+maxdev A python float x |R-x^.25 pred|/x^.25 dps=30 trivjson           3.1103171913005474e-08   rel 1.638e-14 
+signal A python float x max|pred| dps=30 trivjson                      0.0029587439723876663    rel 8.654e-08 
+maxdev B twisted style dps=30 trivjson                                 3.1103171913002734e-08   rel 1.045e-13 
+signal B max|pred|/x^.25 dps=30 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev B2 conj dps=30 trivjson                                         3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R-pred|/x^.25 dps=30 trivjson                                3.1103171913002734e-08   rel 1.045e-13 
+maxdev C |R/x^.25-pred/x^.25| dps=30 trivjson                          3.1103171913002595e-08   rel 1.089e-13 
+signal C max|pred|/x^.25 dps=30 trivjson                               0.0029587439723876667    rel 8.654e-08 
+maxdev D mp40 reference                                                3.110317191270105e-08    rel 9.804e-12 
+signal D max|pred| mp40                                                0.002958743972387666     rel 8.654e-08 

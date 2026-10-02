@@ -1,0 +1,36 @@
+import numpy as np, json, matplotlib
+matplotlib.use('Agg'); import matplotlib.pyplot as plt
+plt.rcParams.update({'font.size':10,'axes.grid':True,'grid.alpha':0.25,'axes.spines.top':False,'axes.spines.right':False})
+A=json.load(open('alpha1.json')); M=json.load(open('mc.json'))
+g=np.concatenate([np.load(f) for f in ['g_1_400.npy','g_401_1000.npy','g_1001_1700.npy']])
+th=np.array(A['grid']['th']); r=np.array(A['grid']['rho']); Mc=np.array(A['grid']['M'])
+fig,ax=plt.subplots(1,2,figsize=(9.8,3.6))
+ax[0].plot(th,r,color='#1b4f72',lw=1.4); ax[0].fill_between(th,0,r,color='#1b4f72',alpha=0.12)
+for z in g[g<100]: ax[0].axvline(z,color='#c0392b',lw=0.5,alpha=0.6)
+ax[0].set_xlabel(r'$\theta$'); ax[0].set_title(r'Thorin density $\rho_1(\theta)$ of $\xi(1)/\xi(1+\sqrt{s})$',fontsize=10)
+N=np.array([np.sum(g<t) for t in th])
+ax[1].plot(th,Mc,color='#1b4f72',lw=1.6,label=r'Thorin mass $\int_0^T\rho_1$')
+ax[1].step(th,N,color='#c0392b',lw=1,where='post',label='N(T)')
+ax[1].set_xlabel('T'); ax[1].legend(fontsize=8); ax[1].set_title('Cumulative mass against the zero count',fontsize=10)
+fig.tight_layout(); fig.savefig('fig_density.pdf'); plt.close()
+S=A['sin2']; fig,ax=plt.subplots(figsize=(6.3,3.4))
+for t,c in [(5.0,'#1b4f72'),(14.134725,'#c0392b'),(30.0,'#27ae60')]:
+    rr=[x for x in S if abs(x['theta']-t)<1e-6]
+    ax.loglog([x['X'] for x in rr],[abs(x['err']) for x in rr],'o-',color=c,label=r'$\theta=%.2f$'%t)
+X=np.logspace(3,7,20); ax.loglog(X,2*np.log(X)**2/np.sqrt(X),'--',color='gray',label=r'$2\log^2X/\sqrt{X}$')
+ax.set_xlabel('prime cutoff X'); ax.set_ylabel('error'); ax.legend(fontsize=8); ax.set_title('Sine squared lemma at the basepoint 1: primes minus Lebesgue',fontsize=10)
+fig.tight_layout(); fig.savefig('fig_sin2.pdf'); plt.close()
+Xs=np.load('X_sample.npy'); n=len(Xs)
+fig,ax=plt.subplots(1,2,figsize=(9.8,3.6))
+lt=[x for x in M['lt'] if x['exact']>1e-6]
+ax[0].errorbar([x['s'] for x in lt],[x['emp'] for x in lt],yerr=[3*x['se'] for x in lt],fmt='o',color='#1b4f72',label='Monte Carlo, $10^6$ draws')
+ss=np.logspace(-1,2.3,100)
+import mpmath as mp
+xi=lambda s: s*(s-1)/2*mp.pi**(-s/2)*mp.gamma(s/2)*mp.zeta(s)
+ax[0].semilogx(ss,[float(0.5/xi(1+mp.sqrt(s))) for s in ss],color='#c0392b',lw=1.4,label=r'$\xi(1)/\xi(1+\sqrt{s})$')
+ax[0].set_xlabel('s'); ax[0].legend(fontsize=8); ax[0].set_title(r'Laplace transform of $\widetilde{T}+H_{\widetilde{T}/\sqrt{2}}$',fontsize=10)
+SV=json.load(open('surv.json')); xs=np.array(SV['xs']); surv=np.array(SV['surv'])
+ax[1].semilogx(xs,surv*np.sqrt(xs),color='#1b4f72',lw=1.4,label=r'$\sqrt{x}\,P(X_1>x)$, Monte Carlo')
+ax[1].axhline(0.0230957/np.sqrt(np.pi),color='#c0392b',ls='--',label=r'$\sum_\rho\rho^{-1}/\sqrt{\pi}=0.01303$')
+ax[1].set_xlabel('x'); ax[1].legend(fontsize=8); ax[1].set_title('Stable one half tail',fontsize=10); ax[1].set_ylim(0,0.02); ax[1].set_xlim(1e-1,1e6)
+fig.tight_layout(); fig.savefig('fig_mc.pdf'); plt.close(); print('ok')

@@ -1,0 +1,33 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/p13_kappa_cell/summary: sbatch --wait, 1 cores, 2G, 10 min
+[hopper_run] job 1243806 on hop048.orc.gmu.edu
+kappa_cell (Arb, exact cells): [5.43665095945071355706096042488607789094969652 +/- 2.30e-45]
+  to 6 significant digits 5.43665, to 8 5.436651; float64 cells of analyse.py [5.43665095945089351824887480975 +/- 4.70e-30]; Polya route block of plots.py 5.436650959450781
+truncated (1700 zeros): spacing.json coef 5.415094020197392, high precision 5.4150940201973273685; kappa - kappa_1700 = 0.0215569392534 = 0.3965% of kappa, 0.3981% of kappa_1700
+kappa_1700 + smooth tail beyond T* = 2197.87959116032: 5.436650958194074172 (kappa minus it 1.2566e-9)
+exact minus truncated cell errors: min 3.746e-04, max 5.557e-03, mean 8.023e-04; (exact - truncated)/|C_k| from 3.1613e-04 to 3.1847e-04
+  (2/pi) sum_{j>1700} gamma_j^-2 by the smooth density: 3.1612e-04
+sum of cell errors: exact [0.398106328090789021693610995433 +/- 3.28e-32] = -l(200)/pi [0.398106328090789021693610995433 +/- 3.28e-32]; truncated 0.3347237; extra.json pred_coeff 0.39810632809078905
+range: exact -0.22427 (cell 72) to 0.25128 (cell 79); truncated -0.22465 (cell 72) to 0.25047 (cell 79)
+largest positive, exact: [[79, 0.251279422958027], [1, 0.196336086905212], [70, 0.1601434655471661]] ; truncated: [[79, 0.2504660086647337], [1, 0.19077907515091813], [70, 0.1593549025663556]]
+eps^2 coefficient of d_cell/eps: [-0.52673622683468814347 +/- 2.83e-21]
+  eps 1      exact d_cell 4.9919802751 slope 4.9919803 slope-kappa -4.447e-01 cells [0.80530, 1.21251] mass 79.36738 | archived 4.9945012562 slope 4.9945013 cells [0.80515, 1.21258]
+  eps 0.5    exact d_cell 2.6551923865 slope 5.3103848 slope-kappa -1.263e-01 cells [0.89217, 1.11965] mass 79.19417 | archived 2.6556972056 slope 5.3113944 cells [0.89214, 1.11965]
+  eps 0.25   exact d_cell 1.3510209154 slope 5.4040837 slope-kappa -3.257e-02 cells [0.94449, 1.06202] mass 79.09887 | archived 1.3510727112 slope 5.4042908 cells [0.94449, 1.06202]
+  eps 0.1    exact d_cell 0.5431392769 slope 5.4313928 slope-kappa -5.258e-03 cells [0.97761, 1.02508] mass 79.03977 | archived 0.5431424169 slope 5.4314242 cells [0.97761, 1.02508]
+  eps 0.05   exact d_cell 0.2717667347 slope 5.4353347 slope-kappa -1.316e-03 cells [0.98879, 1.01256] mass 79.01990 | archived 0.2717672865 slope 5.4353457 cells [0.98879, 1.01256]
+  eps 0.02   exact d_cell 0.1087288056 slope 5.4364403 slope-kappa -2.107e-04 cells [0.99551, 1.00503] mass 79.00796 | archived 0.1087288342 slope 5.4364417 cells [0.99551, 1.00503]
+  eps 0.01   exact d_cell 0.0543659829 slope 5.4365983 slope-kappa -5.267e-05 cells [0.99776, 1.00251] mass 79.00398 | archived 0.0543659865 slope 5.4365986 cells [0.99776, 1.00251]
+  eps 0.005  exact d_cell 0.0271831890 slope 5.4366378 slope-kappa -1.317e-05 cells [0.99888, 1.00126] mass 79.00199 | archived 0.0271831908 slope 5.4366382 cells [0.99888, 1.00126]
+  eps 0.002  exact d_cell 0.0108732977 slope 5.4366489 slope-kappa -2.107e-06 cells [0.99955, 1.00050] mass 79.00080
+  eps 0.001  exact d_cell 0.0054366504 slope 5.4366504 slope-kappa -5.267e-07 cells [0.99978, 1.00025] mass 79.00040
+Richardson of the archived slopes at 0.01 and 0.005: 5.436651321
+tab:tv cell TV: printed | archived analysis.json | exact | Hermite interpolation of the same grid
+  eps 1      4.995    | 4.995 | 4.992 | 4.992   (grid step 0.12500, linear interpolation error at the cells up to 1.1e-04)
+  eps 0.5    2.656    | 2.656 | 2.655 | 2.655   (grid step 0.06250, linear interpolation error at the cells up to 3.3e-05)
+  eps 0.25   1.351    | 1.351 | 1.351 | 1.351   (grid step 0.03125, linear interpolation error at the cells up to 3.8e-06)
+  eps 0.1    0.5431   | 0.5431 | 0.5431 | 0.5431   (grid step 0.01250, linear interpolation error at the cells up to 3.3e-07)
+  eps 0.05   0.2718   | 0.2718 | 0.2718 | 0.2718   (grid step 0.00625, linear interpolation error at the cells up to 2.9e-08)
+  eps 0.02   0.1087   | 0.1087 | 0.1087 | 0.1087   (grid step 0.00250, linear interpolation error at the cells up to 2.4e-09)
+  eps 0.01   0.05437  | 0.05437 | 0.05437 | 0.05437   (grid step 0.00125, linear interpolation error at the cells up to 1.6e-10)
+  eps 0.005  0.02718  | 0.02718 | 0.02718 | 0.02718   (grid step 0.00125, linear interpolation error at the cells up to 8.2e-11)
+exit 0 (attempt 1)

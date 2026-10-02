@@ -1,0 +1,1 @@
+first gap 6.8873145  largest later gap among n<1000: 5.41402 at n= 3

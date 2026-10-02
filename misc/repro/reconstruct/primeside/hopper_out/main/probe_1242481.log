@@ -1,0 +1,60 @@
+job 1242481 on hop062.orc.gmu.edu start Sat Sep 26 21:12:18 EDT 2026
+Model name:          Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+eps 0.5: archived tv/eps 1.7320e-09, sup 1.9915e-11
+   tail_Tstar_log         tv/eps 1.0517e-09  sup 9.0925e-12  mean D +9.066e-12
+   tail_Tstar_log48       tv/eps 1.0440e-09  sup 9.0262e-12  mean D +9.000e-12
+   tail_g1700_log         tv/eps 4.4271e-06  sup 3.8218e-08  mean D -3.816e-08
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 3.8218e-08  mean D -3.816e-08
+   tail_mid_log           tv/eps 6.6801e-07  sup 5.7668e-09  mean D +5.759e-09
+   tail_mid_log48         tv/eps 6.6800e-07  sup 5.7667e-09  mean D +5.759e-09
+   start T0 - T* giving the archived tv: +1.00e-04 (tv/eps there 1.7647e-09); minimum of tv over T0: 1.7926e-11 at T0 - T* = -1.50e-04
+eps 0.2: archived tv/eps 1.7314e-09, sup 7.9666e-12
+   tail_Tstar_log         tv/eps 1.0517e-09  sup 3.6529e-12  mean D +3.626e-12
+   tail_Tstar_log48       tv/eps 1.0440e-09  sup 3.6263e-12  mean D +3.600e-12
+   tail_g1700_log         tv/eps 4.4271e-06  sup 1.5287e-08  mean D -1.527e-08
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 1.5287e-08  mean D -1.527e-08
+   tail_mid_log           tv/eps 6.6801e-07  sup 2.3067e-09  mean D +2.303e-09
+   tail_mid_log48         tv/eps 6.6800e-07  sup 2.3067e-09  mean D +2.303e-09
+   start T0 - T* giving the archived tv: +1.00e-04 (tv/eps there 1.7647e-09); minimum of tv over T0: 1.7926e-11 at T0 - T* = -1.50e-04
+eps 0.1: archived tv/eps 1.7314e-09, sup 4.0234e-12
+   tail_Tstar_log         tv/eps 1.0517e-09  sup 1.8860e-12  mean D +1.813e-12
+   tail_Tstar_log48       tv/eps 1.0440e-09  sup 1.8727e-12  mean D +1.800e-12
+   tail_g1700_log         tv/eps 4.4271e-06  sup 7.6435e-09  mean D -7.633e-09
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 7.6436e-09  mean D -7.633e-09
+   tail_mid_log           tv/eps 6.6801e-07  sup 1.1534e-09  mean D +1.152e-09
+   tail_mid_log48         tv/eps 6.6800e-07  sup 1.1533e-09  mean D +1.152e-09
+   start T0 - T* giving the archived tv: +1.00e-04 (tv/eps there 1.7647e-09); minimum of tv over T0: 1.8200e-11 at T0 - T* = -1.50e-04
+eps 0.05: archived tv/eps 1.7307e-09, sup 2.3466e-12
+   tail_Tstar_log         tv/eps 1.0517e-09  sup 1.1918e-12  mean D +9.066e-13
+   tail_Tstar_log48       tv/eps 1.0440e-09  sup 1.1852e-12  mean D +9.000e-13
+   tail_g1700_log         tv/eps 4.4271e-06  sup 3.8218e-09  mean D -3.816e-09
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 3.8218e-09  mean D -3.816e-09
+   tail_mid_log           tv/eps 6.6801e-07  sup 5.7689e-10  mean D +5.759e-10
+   tail_mid_log48         tv/eps 6.6800e-07  sup 5.7688e-10  mean D +5.759e-10
+   start T0 - T* giving the archived tv: +1.00e-04 (tv/eps there 1.7647e-09); minimum of tv over T0: 2.2340e-11 at T0 - T* = -1.50e-04
+eps 0.02: archived tv/eps 1.7493e-09, sup 3.5580e-12
+   tail_Tstar_log         tv/eps 1.0669e-09  sup 2.1408e-12  mean D +3.626e-13
+   tail_Tstar_log48       tv/eps 1.0593e-09  sup 2.1381e-12  mean D +3.600e-13
+   tail_g1700_log         tv/eps 4.4271e-06  sup 1.5302e-09  mean D -1.527e-09
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 1.5302e-09  mean D -1.527e-09
+   tail_mid_log           tv/eps 6.6801e-07  sup 2.3234e-10  mean D +2.303e-10
+   tail_mid_log48         tv/eps 6.6800e-07  sup 2.3234e-10  mean D +2.303e-10
+   start T0 - T* giving the archived tv: +1.00e-04 (tv/eps there 1.7739e-09); minimum of tv over T0: 5.3949e-11 at T0 - T* = -1.50e-04
+eps 0.01: archived tv/eps 1.9043e-09, sup 1.3628e-11
+   tail_Tstar_log         tv/eps 1.1772e-09  sup 7.2899e-12  mean D +1.813e-13
+   tail_Tstar_log48       tv/eps 1.1697e-09  sup 7.2886e-12  mean D +1.800e-13
+   tail_g1700_log         tv/eps 4.4271e-06  sup 7.7107e-10  mean D -7.633e-10
+   tail_g1700_log48       tv/eps 4.4271e-06  sup 7.7107e-10  mean D -7.633e-10
+   tail_mid_log           tv/eps 6.6801e-07  sup 1.2230e-10  mean D +1.152e-10
+   tail_mid_log48         tv/eps 6.6800e-07  sup 1.2230e-10  mean D +1.152e-10
+   start T0 - T* giving the archived tv: -4.00e-04 (tv/eps there 1.9157e-09); minimum of tv over T0: 1.6708e-10 at T0 - T* = -1.50e-04
+probe rc=0
+== printed tables against the regenerated files
+== against results_prime.json
+== against extra.json
+116 printed numbers checked (each table against both files), 0 disagree after rounding
+== printed tables against the archived files
+== against results_prime.json
+== against extra.json
+116 printed numbers checked (each table against both files), 0 disagree after rounding
+end Sat Sep 26 21:12:24 EDT 2026

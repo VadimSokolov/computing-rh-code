@@ -1,0 +1,8 @@
+[p13_arith_exact] job 1243542 on hop066.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+computed 1700 zeros in 11.7 s
+max radius of the ordinates 1.92e-93
+gamma_1    = 14.13472514173469379045725198356247027078425711569924317568556746014996
+gamma_1700 = 2197.258747040205904491145550934801427764401705623499994244112139836936
+float64 lists: max |g - gamma| = 2.264e-13 at n = 1640 (gamma = 2132.799, ulp 4.547e-13); max error/ulp = 0.500; |g_1 - gamma_1| = 8.407e-16
+part1.json roots: 79 compared, max |difference| = 4.991e-43
+done in 11.7 s

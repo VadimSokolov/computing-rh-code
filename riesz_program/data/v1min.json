@@ -1,0 +1,152 @@
+{
+ "python_flint": "0.9.0",
+ "precision_bits": 128,
+ "slurm_job_id": "1313130",
+ "host": "hop054.orc.gmu.edu",
+ "b1": "[0.02309570896612103381431025 +/- 2.10e-27]",
+ "zeros": {
+  "zeros_used": 1800,
+  "first_ordinate": "[14.1347251417346937904572519836 +/- 3.76e-29]",
+  "second_ordinate": "[21.0220396387715549926284795939 +/- 3.10e-30]",
+  "largest_ordinate": "[2304.3051386703745336 +/- 2.89e-18]",
+  "max_gap_gamma2_minus_gamma1": "[6.88731449703686120217122761033 +/- 4.44e-30]",
+  "max_gap_between": [
+   "[14.134725141734693790 +/- 4.58e-19]",
+   "[21.022039638771554993 +/- 3.72e-19]"
+  ],
+  "largest_later_gap": "[5.41401854571382 +/- 4.45e-15]",
+  "largest_later_gap_between": [
+   "[25.0108575801457 +/- 1.13e-14]",
+   "[30.4248761258595 +/- 1.33e-14]"
+  ],
+  "max_distance_to_nearest_zero_on_13.5_2000": "[3.443657248518430601085614 +/- 1.95e-25]",
+  "x_star": "[4.6259099808087189605 +/- 4.49e-20]",
+  "range2_lower_bound_at_distance_3.4437": "[0.041291363647276193024 +/- 4.55e-22]",
+  "range2_lower_bound_at_half_the_first_gap": "[0.041292367714494264460 +/- 2.32e-22]"
+ },
+ "stirling_term_in_E": "0.2",
+ "range3": {
+  "Trudgian": {
+   "constants": [
+    "0.112",
+    "0.278",
+    "2.51"
+   ],
+   "n_2000": "[19.62773738948297589693299 +/- 2.36e-24]",
+   "n_2000_with_0.01_over_T": "[19.62792597509091634358311 +/- 1.72e-24]",
+   "n_2000_without_Stirling_term": "[19.62793590064922899866996 +/- 3.49e-25]",
+   "derivative_numerator_at_2000": "[4.47757092230511 +/- 4.77e-15]",
+   "zeros_in_window_at_least": 20,
+   "lower_bound_for_v1_beyond_2000": "20/452",
+   "lower_bound_value": "[0.0442477876106195 +/- 3.10e-17]"
+  },
+  "Backlund": {
+   "constants": [
+    "0.137",
+    "0.443",
+    "4.35"
+   ],
+   "n_2000": "[14.89766631585952309579023 +/- 4.40e-24]",
+   "n_2000_with_0.01_over_T": "[14.89785490146746354244035 +/- 3.24e-25]",
+   "n_2000_without_Stirling_term": "[14.89786482702577619752720 +/- 1.69e-24]",
+   "derivative_numerator_at_2000": "[4.38419766286432 +/- 4.51e-15]",
+   "zeros_in_window_at_least": 15,
+   "lower_bound_for_v1_beyond_2000": "15/452",
+   "lower_bound_value": "[0.0331858407079646 +/- 1.78e-18]"
+  }
+ },
+ "stirling_check": {
+  "error_times_T_bound_for_T_ge_14": "[0.006843482105 +/- 1.71e-13]",
+  "error_times_T_max_on_grid": "[0.006633432808 +/- 3.64e-13]",
+  "max_at_T": "14.00000000",
+  "one_over_48pi": "[0.006631455962 +/- 1.63e-13]",
+  "count_change_0.01_vs_0.2": "[0.0001885856079 +/- 4.05e-14]"
+ },
+ "E_T1circ": "[0.023077158647902301379 +/- 4.47e-22]",
+ "v1_second_derivative_at_0": "[0.00022231646290421184553 +/- 4.67e-24]",
+ "v1_at": {
+  "1": "[0.023207586893564481396 +/- 4.33e-22]",
+  "2": "[0.023552083549342169750 +/- 1.49e-22]",
+  "5": "[0.026406045286224198332 +/- 1.21e-22]",
+  "10": "[0.052680196158814835205 +/- 3.93e-22]",
+  "13.5": "[0.79714232486914296796 +/- 1.98e-21]",
+  "14.134725": "[2.0337726077487589428 +/- 4.62e-20]",
+  "17.6": "[0.11349102750853875192 +/- 1.71e-21]",
+  "100": "[0.72518948347453895360 +/- 3.79e-21]",
+  "1000": "[2.6764124560399486145 +/- 7.15e-21]",
+  "2000": "[3.2506926086145840889 +/- 2.68e-20]"
+ },
+ "v1_minus_b1_at": {
+  "1": "[0.00011187792744344758126 +/- 2.38e-24]",
+  "5": "[0.0033103363201031645176 +/- 3.08e-23]"
+ },
+ "profile_min_on_13.5_2000": {
+  "value": "[0.11325637439875075868 +/- 3.41e-21]",
+  "theta": "17.50",
+  "grid_points": 99326
+ },
+ "checks_of_the_proof": {
+  "gamma_1 > 14.134725, so every ordinate has |gamma| >= 14.134725": true,
+  "gamma_1 - 13.5 > 0.63": true,
+  "0.63 > 1/sqrt 3": true,
+  "every one of the 1800 zeros has real part exactly 1/2 (an exact ball)": true,
+  "the ordinates increase strictly (every gap > 0)": true,
+  "gamma_1800 > 2000": true,
+  "every later gap < gamma_2 - gamma_1": true,
+  "gamma_2 - gamma_1 < 6.8874": true,
+  "every gap / 2 < 3.4437": true,
+  "gamma_1 - 13.5 < 3.4437": true,
+  "x_star > 4.6259, so (1/2)/(1/4 + x^2) > b_1 for x < 4.6259": true,
+  "(1/2)/(1/4 + 3.4437^2) > 0.041": true,
+  "0.041 > b_1": true,
+  "Trudgian: n(2000) > 19.62": true,
+  "Trudgian: n(2000) > 19, so the window holds at least 20 zeros": true,
+  "Trudgian: H/pi - 0.224 - 0.556/log 2015 > 0, so n increases on [2000, oo)": true,
+  "Trudgian: E increases for T >= e (0.112 > 0.2/e)": true,
+  "Trudgian: 1 + H^2 = 226": true,
+  "Trudgian: 20/452 > 0.044": true,
+  "Trudgian: 0.044 > b_1": true,
+  "Backlund: n(2000) > 14.89": true,
+  "Backlund: n(2000) > 14, so the window holds at least 15 zeros": true,
+  "Backlund: H/pi - 0.274 - 0.886/log 2015 > 0, so n increases on [2000, oo)": true,
+  "Backlund: E increases for T >= e (0.137 > 0.2/e)": true,
+  "Backlund: 1 + H^2 = 226": true,
+  "Backlund: 15/452 > 0.033": true,
+  "Backlund: 0.033 > b_1": true,
+  "(1/48 + (1/24 + 4/45)/14^2)/pi < 0.01": true,
+  "2 (0.2 - 0.01)/2015 < 2e-4": true
+ },
+ "checks_of_quoted_numbers": {
+  "b_1 = -(1/2) log pi + (1/2) psi(3/2) + gamma_E (the two forms overlap)": true,
+  "0.02309570896605 < b_1 < 0.02309570896615 (b_1 = 0.0230957089661 in the text)": true,
+  "gamma_1 < 14.134726": true,
+  "2304.3 < gamma_1800 < 2304.4 (the zeros reach height 2304.3)": true,
+  "gamma_2 - gamma_1 > 6.8873": true,
+  "gamma_1 - 13.5 < (gamma_2 - gamma_1)/2, so the largest distance from [13.5, 2000] to an ordinate is half the first gap": true,
+  "T times the Stirling error / pi is below the bound at every grid point of [14, 1e9]": true,
+  "log xi(1) overlaps -log 2": true,
+  "(xi'/xi)(1) overlaps b_1": true,
+  "E T_1^circ overlaps (pi^2/8 - 1 - gamma_E^2 - 2 gamma_1)/2": true,
+  "0.02307715 < E T_1^circ < 0.02307725 (0.0230772 in the text)": true,
+  "v_1''(0) > 0": true,
+  "1.115e-4 < v_1(1) - b_1 < 1.125e-4 (1.12e-4 in the text)": true,
+  "3.305e-3 < v_1(5) - b_1 < 3.315e-3 (3.31e-3 in the text)": true,
+  "b_1 < v_1(0.25) < v_1(0.5) < ... < v_1(13.5)": true,
+  "every value of v_1 on the grid of step 0.02 of [13.5, 2000] exceeds b_1": true,
+  "0.113255 < min < 0.113265 on the grid, at theta = 17.50 (0.11326 at 17.5 in the text)": true
+ },
+ "for_v1_collect": "x_star, max_gap, max_gap_between, max_distance_to_nearest_zero and profile_min_on_13.5_T0 are midpoints, for misc/repro/v1_collect.py",
+ "x_star": 4.625909980808719,
+ "max_gap": 6.887314497036861,
+ "max_gap_between": [
+  14.134725141734695,
+  21.022039638771556
+ ],
+ "max_distance_to_nearest_zero": 3.4436572485184307,
+ "profile_min_on_13.5_T0": {
+  "value": 0.11325637439875076,
+  "theta": 17.5
+ },
+ "all_checks_pass": true,
+ "elapsed_s": 90.8
+}

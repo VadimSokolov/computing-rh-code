@@ -1,0 +1,123 @@
+{
+ "sums": {
+  "S2": "0.0231049931154",
+  "S4": "3.71725992853e-5",
+  "S2_above_last": "0.0004965625067",
+  "S4_above_last": "3.093338428e-11",
+  "zeros": 1700,
+  "last": "2197.258747"
+ },
+ "table": [
+  {
+   "theta": 1,
+   "zeros_below": 0,
+   "phi": "0.9771416746",
+   "psi": "0.9771779985",
+   "phi_prod": "0.9771416746",
+   "psi_prod": "0.9771779985",
+   "rel_diff": "1.3e-18"
+  },
+  {
+   "theta": 2,
+   "zeros_below": 0,
+   "phi": "0.9114482399",
+   "psi": "0.911990573",
+   "phi_prod": "0.9114482399",
+   "psi_prod": "0.911990573",
+   "rel_diff": "8.0e-17"
+  },
+  {
+   "theta": 5,
+   "zeros_below": 0,
+   "phi": "0.5542918531",
+   "psi": "0.5673946191",
+   "phi_prod": "0.5542918531",
+   "psi_prod": "0.5673946191",
+   "rel_diff": "2.0e-14"
+  },
+  {
+   "theta": 10,
+   "zeros_below": 0,
+   "phi": "0.07637550466",
+   "psi": "0.1152459487",
+   "phi_prod": "0.07637550466",
+   "psi_prod": "0.1152459487",
+   "rel_diff": "1.3e-12"
+  },
+  {
+   "theta": 15,
+   "zeros_below": 1,
+   "phi": "-0.001419570434",
+   "psi": "0.01031055489",
+   "phi_prod": "-0.001419570434",
+   "psi_prod": "0.01031055489",
+   "rel_diff": "1.4e-11"
+  },
+  {
+   "theta": 20,
+   "zeros_below": 1,
+   "phi": "-7.373545698e-5",
+   "psi": "0.0004850990529",
+   "phi_prod": "-7.373545699e-5",
+   "psi_prod": "0.0004850990529",
+   "rel_diff": "8.0e-11"
+  },
+  {
+   "theta": 25,
+   "zeros_below": 2,
+   "phi": "2.780928252e-8",
+   "psi": "1.359169173e-5",
+   "phi_prod": "2.780928252e-8",
+   "psi_prod": "1.359169174e-5",
+   "rel_diff": "3.1e-10"
+  },
+  {
+   "theta": 30,
+   "zeros_below": 3,
+   "phi": "-3.020719137e-8",
+   "psi": "2.472882498e-7",
+   "phi_prod": "-3.02071914e-8",
+   "psi_prod": "2.4728825e-7",
+   "rel_diff": "9.1e-10"
+  }
+ ],
+ "offline_factor": {
+  "check_at_gamma_one_delta_04": [
+   {
+    "x": "0.0",
+    "closed_form": "0.29",
+    "quadrature": "0.29"
+   },
+   {
+    "x": "2.0",
+    "closed_form": "0.09772941252",
+    "quadrature": "0.09772941252"
+   },
+   {
+    "x": "8.0",
+    "closed_form": "-0.0001113154699",
+    "quadrature": "-0.0001113154699"
+   },
+   {
+    "x": "7.85398",
+    "closed_form": "-0.0001125789291",
+    "quadrature": "-0.0001125789291"
+   }
+  ],
+  "least_at_gamma_one_delta_04": "-0.000112579",
+  "least_at_first_zero_delta_04": "-2.16702e-48",
+  "least_at_first_zero_delta_half": "-9.51921e-39"
+ },
+ "away": [
+  {
+   "alpha": 0.75,
+   "b_alpha": "0.011551335",
+   "reciprocal_at_theta_025": "1.001445"
+  },
+  {
+   "alpha": 1.0,
+   "b_alpha": "0.023095709",
+   "reciprocal_at_theta_025": "1.0043405"
+  }
+ ]
+}

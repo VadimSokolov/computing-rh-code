@@ -1,0 +1,27 @@
+[p13_arith_exact] job 1243544 on hop048.orc.gmu.edu, Model name: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz
+wrote heattrace.pdf from arith.json
+wrote heattrace.png from arith.json
+wrote heattrace_archived_json.pdf from arith_archived.json
+wrote heattrace_archived_json.png from arith_archived.json
+new (60 digits) against archived data/arith.json
+  t=0.002  digits lost  archived 3.8692826139538885e-17   new 1.2459455408529708e-26   |diff| 3.869e-17  rel 3.105e+9
+  t=0.005  digits lost  archived 0.43579988723717367      new 0.43579988723717356      |diff| 1.11e-16   rel 2.548e-16
+  t=0.05   Pi+A-P       archived 4.58783504857374e-5      new 4.58783504857357e-5      |diff| 1.7e-18    rel 3.705e-14
+  t=0.05   digits lost  archived 4.64484104312571         new 4.644841043125709        |diff| 8.882e-16  rel 1.912e-16
+  t=0.1    Pi+A-P       archived 2.10479979808094e-9      new 2.10479979582235e-9      |diff| 2.259e-18  rel 1.073e-9
+  t=0.1    W zeros      archived 2.10479979582234e-9      new 2.10479979582235e-9      |diff| 1.0e-23    rel 4.751e-15
+  t=0.15   Pi+A-P       archived 9.65652474566857e-14     new 9.65642094572633e-14     |diff| 1.038e-18  rel 1.075e-5
+  t=0.15   W zeros      archived 9.65642094572631e-14     new 9.65642094572633e-14     |diff| 2.0e-28    rel 2.071e-15
+  t=0.2    Pi+A-P       archived 4.59886382841584e-18     new 4.43018218022364e-18     |diff| 1.687e-19  rel 0.03808
+  t=0.2    W zeros      archived 4.43018218022361e-18     new 4.43018218022364e-18     |diff| 3.0e-32    rel 6.772e-15
+  t=0.2    digits lost  archived 17.676323133888445       new 17.67632313388844        |diff| 3.553e-15  rel 2.01e-16
+  t=0.3    Pi+A-P       archived -2.4445029734455e-19     new 9.32464654810622e-27     |diff| 2.445e-19  rel 2.622e+7
+  t=0.3    W zeros      archived 9.32464654810618e-27     new 9.32464654810622e-27     |diff| 4.0e-41    rel 4.29e-15
+  t=0.3    digits lost  archived 26.363969703000674       new 26.36396970300067        |diff| 3.553e-15  rel 1.348e-16
+  40 of 54 entries identical as stored
+runs at 40 and 80 digits against 60 digits (entries that differ as stored)
+  dps 40 t=0.002  digits lost  60: 1.2459455408529708e-26   40: 1.245945540852971e-26    rel 1.152e-16
+  dps 40 t=0.3    Pi+A-P       60: 9.32464654810622e-27     40: 9.32464654810623e-27     rel 1.072e-15
+  dps 40: 2 entries differ from dps 60
+  dps 80: 0 entries differ from dps 60
+pixels: {'heattrace.png vs heattrace_archived_json.png': {'shape': [700, 1900, 3], 'same_shape': True, 'differing_pixels': 0}}

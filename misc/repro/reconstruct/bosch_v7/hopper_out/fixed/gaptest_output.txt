@@ -1,0 +1,6 @@
+freqs 1,2,3,... (logistic): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=3.1385, first failure at v=none below pi (1s)
+freqs 1,3,4,5,...: first gap 2, predicted strip pi/gap = 1.5708; Pick holds up to v=1.5692, first failure at v=1.6215 (1s)
+freqs 1,4,5,6,...: first gap 3, predicted strip pi/gap = 1.0472; Pick holds up to v=1.0462, first failure at v=1.0985 (1s)
+freqs 2,3,4,...: first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=3.1385, first failure at v=none below pi (2s)
+freqs 1,2,5,6,... (interior gap 3): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=2.0923, first failure at v=2.1446 (2s)
+freqs 1,2,3,6,7,... (interior gap 3): first gap 1, predicted strip pi/gap = 3.1416; Pick holds up to v=2.3538, first failure at v=2.4061 (3s)

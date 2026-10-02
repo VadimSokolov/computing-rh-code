@@ -1,0 +1,4 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/fm-hermite-all: sbatch --wait, 32 cores, 16G, 120 min
+[hopper_run] job 1531454 on hop047.orc.gmu.edu
+K = 1..200: f_K certified positive on the grid for all K: True; smallest min Q 0.28921 at K = 200
+rc=0
