@@ -1,0 +1,27 @@
+{
+ "zeros_below_1015": {
+  "holds": true,
+  "zeros": 670,
+  "gamma_1": "14.1347251417",
+  "last_ordinate": "1025.70794437",
+  "largest_gap": "6.88731449704"
+ },
+ "trudgian_gap_above_1000": {
+  "holds": true,
+  "g_at_1000": "4.45889191081",
+  "TdE_bound": "0.152244621990",
+  "slope_of_main_term": "2.38732414638"
+ },
+ "domination_at_t_1.29_D_23": {
+  "holds": true,
+  "lhs": "101.265000000",
+  "rhs": "57.4592668092",
+  "margin": "43.8057331908"
+ },
+ "orders_at_every_t": {
+  "holds": true,
+  "K": "1.16099999998e+25"
+ },
+ "all_hold": true,
+ "seconds": 3.1
+}
