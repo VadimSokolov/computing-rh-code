@@ -1,3 +1,5 @@
+[hopper_run] /scratch/vsokolov/rh_book_repro/agents/valpha78: sbatch --wait, 1 cores, 16G, 60 min
+[hopper_run] job 2014067 on hop051.orc.gmu.edu
 {
  "prec_bits": 160,
  "cell": "1/256",

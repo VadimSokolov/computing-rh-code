@@ -46,7 +46,7 @@ task('gsmooth_arb', [PY, '-u', 'gsmooth_arb.py'], ['firstfail'])
 task('phasefree_arb', [PY, '-u', 'phasefree_arb.py'], ['firstfail'])
 for s in ['hankel', 'kenttail', 'kenttail2', 'kmono', 'perturb', 'selberg', 'spacing']:
     task(s, [PY, '-u', f'{s}.py'], ['zeros'])
-for s in ['hcm', 'idsd_check', 'idsd_height', 'lchi12', 'lehmer', 'lehmer_dbn', 'lfun', 'li', 'lsin2', 'primeside', 'saddle', 'sensitivity', 'sinh_bench', 'turing1000', 'williams_mc', 'tilted']:
+for s in ['dbn_delta', 'hcm', 'idsd_check', 'idsd_height', 'lchi12', 'lehmer', 'lehmer_dbn', 'lfun', 'li', 'lsin2', 'maxlaw', 'primeside', 'saddle', 'sensitivity', 'sinh_bench', 'turing1000', 'williams_mc', 'tilted']:
     task(s, [PY, '-u', f'{s}.py'])
 # ttest.py and ttest2.py take the command lines given in their headers (misc/repro/reconstruct/ttest2/)
 task('ttest', [PY, '-u', 'ttest.py', '0.1', '200', '0.004', '4'])

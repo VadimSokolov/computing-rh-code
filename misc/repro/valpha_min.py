@@ -1,5 +1,6 @@
 # Certificate for Proposition bp:prop:valpha: v_alpha(theta) > b_alpha = v_alpha(0) for every theta != 0 and every
-# basepoint alpha >= 1, with no hypothesis on the zeros.  Ball arithmetic (python-flint).
+# basepoint alpha >= 1, with no hypothesis on the zeros, and for every alpha > 7/8 if no zero has real part greater
+# than 7/8 (Part E).  Ball arithmetic (python-flint).
 #
 # v_alpha(theta) = Re(xi'/xi)(alpha + i theta) = sum_rho (alpha-beta)/((alpha-beta)^2 + (theta-gamma)^2), and
 # b_alpha' = sum_rho (gamma^2-(alpha-beta)^2)/((alpha-beta)^2+gamma^2)^2 > 0 for alpha < gamma_1, so b increases.
@@ -29,6 +30,12 @@
 #
 # Part D: b_alpha, the mean E T_alpha^circ = (log xi)''(alpha)/2 and the coefficient c(alpha) = -(xi'/xi)''(alpha)/2 of
 # theta^2 in v_alpha - b_alpha, from the Taylor series of log xi at alpha.
+#
+# Part E, 7/8 <= alpha <= 1, for the conditional part of the proposition: if no zero has real part greater than 7/8
+# (the half plane announced in October 2026), every zero has alpha - beta in (0, alpha) for alpha > 7/8, which is all
+# that Part A uses.  theta0(alpha) >= theta0(1) > 13.5, so convexity covers (0, theta0(alpha)], the zeros of v1min.py
+# cover [theta0(alpha), 2000] and the window count covers theta >= 2000; r, w and b increase on [7/8, 1] as on [1, 3]
+# (|alpha - beta| < 1 < gamma_1).  b(alpha) for alpha < 1 comes from the same formula, zeta having no zeros on (0, 1).
 #
 # Writes valpha_min.json.  Run on Hopper: bash misc/tools/hopper_run.sh -c 1 -t 60 -g valpha_min.json valpha_min.py
 import json, time
@@ -116,6 +123,20 @@ out['D'] = {}
 for a in ('1.25', '1.5', '1.75', '2', '3', '5', '7', '9'):
     cf = logxi_coeffs(arb(a))
     out['D'][a] = {'b': str(cf[1].real), 'mean_T_circ': str(cf[2].real), 'c': str((-3 * cf[3]).real)}
+
+# Part E
+grid = [arb(7) / 8 + arb(k) / H for k in range(0, H // 8 + 1)]   # 7/8 .. 1
+bv = [b(a) for a in grid[:-1]] + [b1()]
+mr = [lower(r(grid[k]) - bv[k + 1]) for k in range(H // 8)]
+mw = [lower(w(grid[k]) - bv[k + 1]) for k in range(H // 8)]
+mono = all(lower(bv[k + 1] - bv[k]) > 0 for k in range(H // 8))
+th1 = lower(G1 - 1 / SQ3 - arb('13.5'))
+out['E'] = {'range': ['7/8', 1], 'hypothesis': 'no zero with real part greater than 7/8',
+            'min_r_minus_b': min(mr), 'at_alpha_r': 0.875 + mr.index(min(mr)) / H,
+            'min_w_minus_b': min(mw), 'at_alpha_w': 0.875 + mw.index(min(mw)) / H,
+            'b_increasing_on_grid': mono, 'theta0_1_minus_13.5': th1,
+            'b_7/8': str(bv[0]), 'r_7/8': str(r(grid[0])), 'w_7/8': str(w(grid[0])),
+            'ok': min(mr) > 0 and min(mw) > 0 and mono and th1 > 0}
 
 out['theta0'] = {'alpha=1': float((G1 - 1 / SQ3).mid()), 'alpha=3': float((G1 - 3 / SQ3).mid()),
                  'alpha=7': float((G1 - 7 / SQ3).mid())}
