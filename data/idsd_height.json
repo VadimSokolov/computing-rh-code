@@ -47,10 +47,10 @@
  },
  "zero_counts": {
   "holds": true,
-  "N20_upper": "4.53800920354",
-  "N50_lower": "6.09142802530",
-  "N_over_r2_at_most": "0.0697175508066",
-  "note": "a zero in (20, 50]; for r >= 25 the bound is at most (r/2pi + 0.39) log r + 3.393 <= r^2/(2 pi e) + 0.39 r/e + 3.393, so N(r)/r^2 is at most N_over_r2_at_most, which decreases in r"
+  "N20_upper": "3.89516873020",
+  "N50_lower": "6.90568178985",
+  "N_over_r2_at_most": "0.0788514821726",
+  "note": "a zero in (20, 50]; for r >= 25, |N(r) - (r/2pi) log(r/(2 pi e))| <= 0.1038 log r + 0.2573 log log r + 9.3675 [HSW22, Corollary 1.2] gives N(r) <= (r/2pi + 0.3611) log r + 9.3675 <= r^2/(2 pi e) + 0.3611 r/e + 9.3675, so N(r)/r^2 is at most N_over_r2_at_most, which decreases in r"
  },
  "first_zero": {
   "holds": true,
@@ -94,5 +94,5 @@
   "note": "mpmath quadrature, not part of the certificate"
  },
  "all_hold": true,
- "seconds": 9.2
+ "seconds": 8.8
 }

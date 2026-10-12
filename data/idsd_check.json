@@ -102,11 +102,11 @@
  },
  "zero_counts": {
   "holds": true,
-  "N20_upper": "4.53800920354",
-  "N50_lower": "6.09142802530",
-  "N100_upper": "32.4546785841",
-  "N200_lower": "75.6253014216",
-  "N1000_upper": "652.437379140",
+  "N20_upper": "3.89516873020",
+  "N50_lower": "6.90568178985",
+  "N100_upper": "31.5192435873",
+  "N200_lower": "76.6764471899",
+  "N1000_upper": "651.132955313",
   "note": "a zero in (20,50] and one in (100,200]; N(r) <= r^2 for r >= 1000 since the upper bound grows like r log r"
  },
  "crude_version": {

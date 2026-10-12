@@ -243,15 +243,15 @@ if ex:
     truth("boschB:444","first 1000 zeros (not n<1000): same largest later gap","5.414 at n=3",re.search(r"largest later gap ([0-9.]+) at n=(\d+)",ex[0]).group(2)=="3",ex[0][9:120],"supp_line109.py extra line")
 with mp.workdps(30):
     h=mp.mpf(grab(68,r"gamma_2-gamma_1 = ([0-9.]+)"))
-    F=lambda T: T/(2*mp.pi)*mp.log(T/(2*mp.pi*mp.e)); E=lambda T: mp.mpf('0.112')*mp.log(T)+mp.mpf('0.278')*mp.log(mp.log(T))+mp.mpf('2.510')+mp.mpf('0.2')/T
-    Dt=lambda T: F(T+h)-F(T)-E(T)-E(T+h)
-    lo,hi=mp.mpf(2000),mp.mpf(10)**6
-    for _ in range(100):
-        m=(lo+hi)/2
-        if Dt(m)>0: hi=m
-        else: lo=m
-    rounds("boschB:444","Trudgian: every (T, T+6.8873] contains an ordinate for T >= this","1.34e4",hi,src="arithmetic")
-    truth("boschB:444","mean spacing 2 pi/log(T/2 pi) below 1.2 on [1419, 1.34e4]","< 1.2",2*mp.pi/mp.log(mp.mpf(1419)/(2*mp.pi))<mp.mpf('1.2'),mp.nstr(2*mp.pi/mp.log(mp.mpf(1419)/(2*mp.pi)),4),"arithmetic")
+    # October 2026: the sentence now uses the bound of Hasanalizade, Shen and Wong (HSW22: (1.7), (2.7) and Corollary 1.4) in
+    # place of Trudgian's 2014 bound, whose proof is incomplete (misc/reviews/nick-pakes/trudgian-fix.md, item 9); the two
+    # checks of the old sentence (the threshold 1.34e4 and the mean spacing on [1419, 1.34e4]) are replaced by these.
+    F=lambda T: T/(2*mp.pi)*mp.log(T/(2*mp.pi*mp.e)); X0=mp.mpf(30610046000)
+    E=lambda T: (mp.mpf('2.5167') if T<=X0 else mp.mpf('0.1095')*mp.log(T)+mp.mpf('0.2042')*mp.log(mp.log(T))+mp.mpf('3.0305'))+1/(50*T)
+    hh=mp.mpf('6.887'); Dt=lambda T: F(T+hh)-F(T)-E(T)-E(T+hh)
+    truth("boschB:444","6.887 is below the first gap gamma_2-gamma_1","6.887 < 6.8873",hh<h,mp.nstr(h,8),"line 68")
+    truth("boschB:444","HSW22: the lower bound for the number of ordinates in (T, T+6.887] exceeds 0.52 at T = 1000","> 0.52",Dt(mp.mpf(1000))>mp.mpf('0.52'),mp.nstr(Dt(mp.mpf(1000)),5),"arithmetic")
+    truth("boschB:444","HSW22: the bound exceeds 11 at T = X0 - 6.887 (it increases on [1000, X0 - 6.887] and beyond)","> 11",Dt(X0-hh)>11,mp.nstr(Dt(X0-hh),5),"arithmetic")
 # app:bosch: Table tab:app:bosch (block starts in the script, output lines per block)
 truth("app:bosch","block starts in the script: 1,51,87,117,149,183,200,220,241,295,319,344,389","as in Table tab:app:bosch",starts==[1,51,87,117,149,183,200,220,241,295,319,344,389],str(starts),"src/verify_bosch_xi_v7.py")
 truth("app:bosch","output lines per file of the fixed run: 10,14,12,10,17,14,6,6,6","1-10, 11-24, 25-36, 40-49, 50-66, 67-80, 81-86, 87-92, 103-108",[counts[f] for f in files]==[10,14,12,10,17,14,6,6,6],str([counts[f] for f in files]),"fixed/*_output.txt")

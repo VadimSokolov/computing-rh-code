@@ -1,0 +1,1985 @@
+{
+ "2 gamma_j for j = 12, 13, 14, 15 and 18, 19, 20, 21": [
+  "112.892495",
+  "118.694088",
+  "121.663557",
+  "130.225088",
+  "144.134315",
+  "151.409381",
+  "154.28968",
+  "158.67475"
+ ],
+ "order 10": {
+  "digits": 260,
+  "positive definite on the grid down to": "-4.0"
+ },
+ "order 20": {
+  "digits": 420,
+  "first failure on the grid": "-1.9",
+  "t*_N bracket (positive definite, not)": [
+   "-1.89918642",
+   "-1.899186516"
+  ],
+  "closest adjacent ordinates just above t*_N (indices from 1, values, gap)": [
+   7,
+   8,
+   "83.58107743",
+   "87.36139897",
+   "3.78"
+  ]
+ },
+ "order 30": {
+  "digits": 580,
+  "first failure on the grid": "-1.3",
+  "t*_N bracket (positive definite, not)": [
+   "-1.285306644",
+   "-1.28530674"
+  ],
+  "closest adjacent ordinates just above t*_N (indices from 1, values, gap)": [
+   9,
+   10,
+   "97.77689149",
+   "99.89147943",
+   "2.11"
+  ]
+ },
+ "order 40": {
+  "digits": 740,
+  "first failure on the grid": "-1.3",
+  "t*_N bracket (positive definite, not)": [
+   "-1.276078701",
+   "-1.276078796"
+  ],
+  "closest adjacent ordinates just above t*_N (indices from 1, values, gap)": [
+   13,
+   14,
+   "120.8402979",
+   "121.1113098",
+   "0.271"
+  ]
+ },
+ "order 50": {
+  "digits": 900,
+  "first failure on the grid": "-1.05",
+  "t*_N bracket (positive definite, not)": [
+   "-1.032504749",
+   "-1.032504845"
+  ],
+  "closest adjacent ordinates just above t*_N (indices from 1, values, gap)": [
+   24,
+   25,
+   "176.3944501",
+   "177.3283504",
+   "0.934"
+  ]
+ },
+ "order 30, step 1/550 and 650 digits: t*_30 bracket": [
+  "-1.285306594",
+  "-1.285306692"
+ ],
+ "(2) largest |z_j(0) - 2 gamma_j|, j <= 64": "2.97e-59",
+ "(2) collision 1": {
+  "pair (indices at t = 0)": [
+   34,
+   35
+  ],
+  "2 gamma at t = 0": [
+   "222.059071",
+   "223.749318"
+  ],
+  "double zero (z, t)": [
+   "223.275780186",
+   "-0.384561116628"
+  ],
+  "theta = z/2": "111.63789",
+  "H, H_z there": [
+   "1.1e-102",
+   "6.98e-102"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.35712"
+ },
+ "(2) collision 2": {
+  "pair (indices at t = 0)": [
+   53,
+   54
+  ],
+  "2 gamma at t = 0": [
+   "300.107041",
+   "301.850515"
+  ],
+  "double zero (z, t)": [
+   "301.321562238",
+   "-0.423054662346"
+  ],
+  "theta = z/2": "150.660781",
+  "H, H_z there": [
+   "5.77e-114",
+   "-1.9e-115"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.37996"
+ },
+ "(2) collision 3": {
+  "pair (indices at t = 0)": [
+   27,
+   28
+  ],
+  "2 gamma at t = 0": [
+   "189.302688",
+   "191.741268"
+  ],
+  "double zero (z, t)": [
+   "191.079671648",
+   "-0.881077121675"
+  ],
+  "theta = z/2": "95.5398358",
+  "H, H_z there": [
+   "-2.7e-98",
+   "1.0e-97"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.74333"
+ },
+ "(2) collision 4": {
+  "pair (indices at t = 0)": [
+   45,
+   46
+  ],
+  "2 gamma at t = 0": [
+   "266.995474",
+   "269.51302"
+  ],
+  "double zero (z, t)": [
+   "268.815745201",
+   "-0.96000112563"
+  ],
+  "theta = z/2": "134.407873",
+  "H, H_z there": [
+   "-2.45e-109",
+   "2.99e-109"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.79225"
+ },
+ "(2) collision 5": {
+  "pair (indices at t = 0)": [
+   57,
+   58
+  ],
+  "2 gamma at t = 0": [
+   "315.195184",
+   "317.699976"
+  ],
+  "double zero (z, t)": [
+   "316.996178346",
+   "-1.10042471564"
+  ],
+  "theta = z/2": "158.498089",
+  "H, H_z there": [
+   "-1.5e-114",
+   "2.79e-115"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.78425"
+ },
+ "(2) collision 6": {
+  "pair (indices at t = 0)": [
+   24,
+   25
+  ],
+  "2 gamma at t = 0": [
+   "174.850549",
+   "177.618222"
+  ],
+  "double zero (z, t)": [
+   "176.932627802",
+   "-1.14386621325"
+  ],
+  "theta = z/2": "88.4663139",
+  "H, H_z there": [
+   "-2.45e-98",
+   "-1.87e-98"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.9575"
+ },
+ "(2) collision 7": {
+  "pair (indices at t = 0)": [
+   40,
+   41
+  ],
+  "2 gamma at t = 0": [
+   "245.893659",
+   "248.513637"
+  ],
+  "double zero (z, t)": [
+   "247.605818367",
+   "-1.15193263199"
+  ],
+  "theta = z/2": "123.802909",
+  "H, H_z there": [
+   "-1.39e-113",
+   "1.24e-113"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.85804"
+ },
+ "(2) collision 8": {
+  "pair (indices at t = 0)": [
+   19,
+   20
+  ],
+  "2 gamma at t = 0": [
+   "151.409381",
+   "154.28968"
+  ],
+  "double zero (z, t)": [
+   "154.053285221",
+   "-1.27554395453"
+  ],
+  "theta = z/2": "77.0266426",
+  "H, H_z there": [
+   "-9.32e-86",
+   "-1.43e-85"
+  ],
+  "isolated pair estimate -D_0^2/8": "-1.037"
+ },
+ "(2) collision 9": {
+  "pair (indices at t = 0)": [
+   13,
+   14
+  ],
+  "2 gamma at t = 0": [
+   "118.694088",
+   "121.663557"
+  ],
+  "double zero (z, t)": [
+   "120.981443953",
+   "-1.28526992547"
+  ],
+  "theta = z/2": "60.490722",
+  "H, H_z there": [
+   "1.33e-86",
+   "-5.97e-87"
+  ],
+  "isolated pair estimate -D_0^2/8": "-1.1022"
+ },
+ "(2) collision 10": {
+  "pair (indices at t = 0)": [
+   51,
+   52
+  ],
+  "2 gamma at t = 0": [
+   "292.001965",
+   "294.845531"
+  ],
+  "double zero (z, t)": [
+   "294.59675364",
+   "-1.31896352266"
+  ],
+  "theta = z/2": "147.298377",
+  "H, H_z there": [
+   "-5.12e-114",
+   "-1.0e-114"
+  ],
+  "isolated pair estimate -D_0^2/8": "-1.0107"
+ },
+ "(2) collision 11": {
+  "pair (indices at t = 0)": [
+   48,
+   49
+  ],
+  "2 gamma at t = 0": [
+   "279.472418",
+   "282.247415"
+  ],
+  "double zero (z, t)": [
+   "281.75743123",
+   "-1.461139973"
+  ],
+  "theta = z/2": "140.878716",
+  "H, H_z there": [
+   "8.27e-114",
+   "4.42e-115"
+  ],
+  "isolated pair estimate -D_0^2/8": "-0.96258"
+ },
+ "(2) collision 12": {
+  "pair (indices at t = 0)": [
+   43,
+   44
+  ],
+  "2 gamma at t = 0": [
+   "259.157408",
+   "262.175377"
+  ],
+  "double zero (z, t)": [
+   "261.906249055",
+   "-1.6366763163"
+  ],
+  "theta = z/2": "130.953125",
+  "H, H_z there": [
+   "2.31e-106",
+   "2.16e-106"
+  ],
+  "isolated pair estimate -D_0^2/8": "-1.1385"
+ },
+ "(2) collision 13": {
+  "pair (indices at t = 0)": [
+   9,
+   10
+  ],
+  "2 gamma at t = 0": [
+   "96.0103018",
+   "99.547665"
+  ],
+  "double zero (z, t)": [
+   "99.3284693056",
+   "-1.87790907297"
+  ],
+  "theta = z/2": "49.6642347",
+  "H, H_z there": [
+   "-6.19e-83",
+   "-1.16e-83"
+  ],
+  "isolated pair estimate -D_0^2/8": "-1.5641"
+ },
+ "(2) summary": {
+  "steps": 117,
+  "final t": "-2.07791",
+  "tracked zeros left": 36,
+  "dropped at the top": [
+   {
+    "ids": [
+     63,
+     64
+    ],
+    "t": "-0.37040871"
+   }
+  ],
+  "collisions with both indices <= 58 (pair, z, theta, t)": [
+   [
+    [
+     34,
+     35
+    ],
+    "223.27578",
+    "111.63789",
+    "-0.384561117"
+   ],
+   [
+    [
+     53,
+     54
+    ],
+    "301.321562",
+    "150.66078",
+    "-0.423054662"
+   ],
+   [
+    [
+     27,
+     28
+    ],
+    "191.079672",
+    "95.539836",
+    "-0.881077122"
+   ],
+   [
+    [
+     45,
+     46
+    ],
+    "268.815745",
+    "134.40787",
+    "-0.960001126"
+   ],
+   [
+    [
+     57,
+     58
+    ],
+    "316.996178",
+    "158.49809",
+    "-1.10042472"
+   ],
+   [
+    [
+     24,
+     25
+    ],
+    "176.932628",
+    "88.466314",
+    "-1.14386621"
+   ],
+   [
+    [
+     40,
+     41
+    ],
+    "247.605818",
+    "123.80291",
+    "-1.15193263"
+   ],
+   [
+    [
+     19,
+     20
+    ],
+    "154.053285",
+    "77.026643",
+    "-1.27554395"
+   ],
+   [
+    [
+     13,
+     14
+    ],
+    "120.981444",
+    "60.490722",
+    "-1.28526993"
+   ],
+   [
+    [
+     51,
+     52
+    ],
+    "294.596754",
+    "147.29838",
+    "-1.31896352"
+   ],
+   [
+    [
+     48,
+     49
+    ],
+    "281.757431",
+    "140.87872",
+    "-1.46113997"
+   ],
+   [
+    [
+     43,
+     44
+    ],
+    "261.906249",
+    "130.95312",
+    "-1.63667632"
+   ],
+   [
+    [
+     9,
+     10
+    ],
+    "99.3284693",
+    "49.664235",
+    "-1.87790907"
+   ]
+  ]
+ },
+ "(3) order 20 at t = -1.89919642": {
+  "t*_N minus t": "1.0e-5",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.394783 + 1.0100509j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.277167 + 1.04835349j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.8434023 + 0.795969406j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.669974 + 0.751587564j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.619602 + 0.789614514j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.6896073 + 0.651850393j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.862877 + 0.717275079j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.3362139 + 0.591398891j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.677496 + 0.575376974j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     51,
+     52
+    ],
+    "collision t": "-1.3189635",
+    "theta = z/2 at t": "(147.55978 + 0.569578414j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     48,
+     49
+    ],
+    "collision t": "-1.46114",
+    "theta = z/2 at t": "(140.984433 + 0.514320167j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     43,
+     44
+    ],
+    "collision t": "-1.6366763",
+    "theta = z/2 at t": "(131.048873 + 0.37377175j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     9,
+     10
+    ],
+    "collision t": "-1.8779091",
+    "theta = z/2 at t": "(49.6731568 + 0.103277273j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 20 at t = -1.90918642": {
+  "t*_N minus t": "0.01",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.399881 + 1.01437622j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.281387 + 1.05335137j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.8462964 + 0.800776388j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.672706 + 0.756302832j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.62135 + 0.797307442j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.6925262 + 0.656656827j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.863525 + 0.724018216j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.3412521 + 0.596692143j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.6805098 + 0.580399479j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     51,
+     52
+    ],
+    "collision t": "-1.3189635",
+    "theta = z/2 at t": "(147.564293 + 0.575001535j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     48,
+     49
+    ],
+    "collision t": "-1.46114",
+    "theta = z/2 at t": "(140.98668 + 0.521431983j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     43,
+     44
+    ],
+    "collision t": "-1.6366763",
+    "theta = z/2 at t": "(131.052494 + 0.381273269j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     9,
+     10
+    ],
+    "collision t": "-1.8779091",
+    "theta = z/2 at t": "(49.6773449 + 0.125249041j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 30 at t = -1.285316644": {
+  "t*_N minus t": "1.0e-5",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.083805 + 0.733052676j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.018222 + 0.736321944j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6626409 + 0.468805333j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.499906 + 0.416556144j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.530464 + 0.316417215j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.5085383 + 0.268897503j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.817493 + 0.264207864j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0314156 + 0.0699624753j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.4907363 + 0.00483315601j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 30 at t = -1.295306644": {
+  "t*_N minus t": "0.01",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.088825 + 0.737834409j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.022417 + 0.741583773j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6656352 + 0.475066218j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.50271 + 0.423321845j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.532079 + 0.325609028j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.511513 + 0.278448267j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.818502 + 0.274413957j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0362974 + 0.0995779278j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.4938006 + 0.0708837537j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 40 at t = -1.276088701": {
+  "t*_N minus t": "1.0e-5",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.079168 + 0.728623502j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.014347 + 0.731451485j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6598732 + 0.462970384j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.497314 + 0.410230851j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.52896 + 0.307763652j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.5057897 + 0.259791047j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": false
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.816551 + 0.254486387j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0269086 + 0.0165045238j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 40 at t = -1.280674313": {
+  "t*_N minus t": "0.0046",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.081472 + 0.730825958j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.016272 + 0.733872968j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6612487 + 0.465876257j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.498602 + 0.413383368j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.529709 + 0.31208434j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.5071557 + 0.264352255j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": false
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.817021 + 0.259354666j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.029148 + 0.0506704402j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 50 at t = -1.032514749": {
+  "t*_N minus t": "1.0e-5",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(111.957266 + 0.606418175j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(150.912402 + 0.598218112j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.5862213 + 0.27945748j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.428512 + 0.191792859j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(3) order 50 at t = -1.042504749": {
+  "t*_N minus t": "0.01",
+  "positive definite": false,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(111.962247 + 0.611676643j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(150.91657 + 0.603911855j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.5892651 + 0.288825015j)",
+    "refined": true,
+    "positive definite without it": true,
+    "positive definite with it alone": false
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.43135 + 0.204781657j)",
+    "refined": true,
+    "positive definite without it": false,
+    "positive definite with it alone": true
+   }
+  ],
+  "positive definite without all of them": true
+ },
+ "(4) order 30 Hankel matrix positive definite between the two collisions": {
+  "-1.276": true,
+  "-1.278": true,
+  "-1.280": true,
+  "-1.282": true,
+  "-1.284": true,
+  "-1.2852": true
+ },
+ "(5) zeros of H_t from J_30": {
+  "0.2": {
+   "theta_n = z_n/2 for n = 1, 2, 3, 5, 10 (J_30)": [
+    "14.07680614",
+    "20.94669043",
+    "24.95220544",
+    "32.88800774",
+    "49.72988327"
+   ],
+   "z_n for n = 1, 2, 3, 5, 10 (J_30)": [
+    "28.15361229",
+    "41.89338086",
+    "49.90441087",
+    "65.77601548",
+    "99.45976654"
+   ],
+   "|J_30 - Newton| in theta, n = 1, ..., 13": [
+    "6.2e-87",
+    "1.0e-63",
+    "2.6e-53",
+    "1.9e-41",
+    "1.3e-36",
+    "4.5e-29",
+    "6.8e-24",
+    "9.6e-21",
+    "4.5e-15",
+    "5.3e-13",
+    "2.5e-10",
+    "2.3e-7",
+    "7.4e-5"
+   ]
+  },
+  "0": {
+   "theta_n = z_n/2 for n = 1, 2, 3, 5, 10 (J_30)": [
+    "14.13472514",
+    "21.02203964",
+    "25.01085758",
+    "32.93506159",
+    "49.77383248"
+   ],
+   "z_n for n = 1, 2, 3, 5, 10 (J_30)": [
+    "28.26945028",
+    "42.04407928",
+    "50.02171516",
+    "65.87012318",
+    "99.54766496"
+   ],
+   "|J_30 - Newton| in theta, n = 1, ..., 13": [
+    "8.6e-87",
+    "1.4e-63",
+    "2.9e-53",
+    "2.5e-41",
+    "1.3e-36",
+    "5.2e-29",
+    "7.9e-24",
+    "9.6e-21",
+    "5.7e-15",
+    "5.6e-13",
+    "2.6e-10",
+    "2.4e-7",
+    "8.8e-5"
+   ],
+   "|theta_n - gamma_n|, n = 1, ..., 13": [
+    "2.3e-79",
+    "1.4e-63",
+    "2.9e-53",
+    "2.5e-41",
+    "1.3e-36",
+    "5.2e-29",
+    "7.9e-24",
+    "9.6e-21",
+    "5.7e-15",
+    "5.6e-13",
+    "2.6e-10",
+    "2.4e-7",
+    "8.8e-5"
+   ]
+  },
+  "-0.4": {
+   "theta_n = z_n/2 for n = 1, 2, 3, 5, 10 (J_30)": [
+    "14.25082654",
+    "21.17364903",
+    "25.12773583",
+    "33.02594877",
+    "49.85213044"
+   ],
+   "z_n for n = 1, 2, 3, 5, 10 (J_30)": [
+    "28.50165308",
+    "42.34729806",
+    "50.25547167",
+    "66.05189754",
+    "99.70426088"
+   ],
+   "|J_30 - Newton| in theta, n = 1, ..., 13": [
+    "1.6e-86",
+    "2.5e-63",
+    "3.8e-53",
+    "4.3e-41",
+    "1.4e-36",
+    "6.8e-29",
+    "1.1e-23",
+    "9.8e-21",
+    "9.8e-15",
+    "6.1e-13",
+    "2.6e-10",
+    "2.7e-7",
+    "0.00014"
+   ]
+  },
+  "-1.0": {
+   "theta_n = z_n/2 for n = 1, 2, 3, 5, 10 (J_30)": [
+    "14.42562996",
+    "21.40341103",
+    "25.30188645",
+    "33.15277411",
+    "49.93349698"
+   ],
+   "z_n for n = 1, 2, 3, 5, 10 (J_30)": [
+    "28.85125992",
+    "42.80682205",
+    "50.6037729",
+    "66.30554822",
+    "99.86699396"
+   ],
+   "|J_30 - Newton| in theta, n = 1, ..., 13": [
+    "4.3e-86",
+    "5.9e-63",
+    "5.4e-53",
+    "1.1e-40",
+    "1.6e-36",
+    "1.0e-28",
+    "1.8e-23",
+    "9.7e-21",
+    "2.8e-14",
+    "7.5e-13",
+    "2.7e-10",
+    "3.1e-7",
+    "0.00052"
+   ]
+  }
+ },
+ "(6) n_fail(t) on t = 0, -0.01, ..., -1.30: plateaus (from, to, first failing order, None if none up to 50)": [
+  [
+   "0.0",
+   "-1.03",
+   null
+  ],
+  [
+   "-1.04",
+   "-1.14",
+   50
+  ],
+  [
+   "-1.15",
+   "-1.18",
+   46
+  ],
+  [
+   "-1.19",
+   "-1.27",
+   45
+  ],
+  [
+   "-1.28",
+   "-1.28",
+   39
+  ],
+  [
+   "-1.29",
+   "-1.29",
+   28
+  ],
+  [
+   "-1.3",
+   "-1.3",
+   27
+  ]
+ ],
+ "(6) at t = -1.09": {
+  "n_fail": 50,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(111.985952 + 0.636340724j)",
+    "refined": true,
+    "n_fail without it": 50,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(150.9364 + 0.630658119j)",
+    "refined": true,
+    "n_fail without it": 50,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.603709 + 0.330195616j)",
+    "refined": true,
+    "n_fail without it": null,
+    "n_fail with it alone": 50
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.444822 + 0.258271517j)",
+    "refined": true,
+    "n_fail without it": 50,
+    "n_fail with it alone": null
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "(6) at t = -1.16": {
+  "n_fail": 46,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.020954 + 0.671787442j)",
+    "refined": true,
+    "n_fail without it": 46,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(150.965676 + 0.669228801j)",
+    "refined": true,
+    "n_fail without it": 46,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6249155 + 0.384312771j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": 45
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.464622 + 0.322582655j)",
+    "refined": true,
+    "n_fail without it": 46,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.50904 + 0.174716467j)",
+    "refined": true,
+    "n_fail without it": 46,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.47114 + 0.0899291693j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": 44
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.80385 + 0.0635955916j)",
+    "refined": true,
+    "n_fail without it": 46,
+    "n_fail with it alone": null
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "(6) at t = -1.23": {
+  "n_fail": 45,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.056032 + 0.706317454j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(150.995007 + 0.706971744j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6460258 + 0.433010047j)",
+    "refined": true,
+    "n_fail without it": 44,
+    "n_fail with it alone": 45
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.484356 + 0.377418734j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.521275 + 0.261588495j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.4920492 + 0.208926925j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": 44
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.811697 + 0.200178221j)",
+    "refined": true,
+    "n_fail without it": 45,
+    "n_fail with it alone": null
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "(6) at t = -1.28": {
+  "n_fail": 39,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.081133 + 0.730502272j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": 50
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.015989 + 0.733517041j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6610465 + 0.465449739j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": 41
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.498413 + 0.412920955j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.529599 + 0.311451569j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.5069548 + 0.263686075j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": 40
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.816952 + 0.258643526j)",
+    "refined": true,
+    "n_fail without it": 39,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0288187 + 0.0472204231j)",
+    "refined": true,
+    "n_fail without it": 41,
+    "n_fail with it alone": 38
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "(6) at t = -1.29": {
+  "n_fail": 28,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.086158 + 0.735296065j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": 47
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.020189 + 0.738790095j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6640449 + 0.471747561j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": 39
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.50122 + 0.4197383j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.531222 + 0.320748193j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.509933 + 0.273412812j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": 37
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.817968 + 0.269031448j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0337039 + 0.085125928j)",
+    "refined": true,
+    "n_fail without it": 28,
+    "n_fail with it alone": 35
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.492173 + 0.0486456784j)",
+    "refined": true,
+    "n_fail without it": 35,
+    "n_fail with it alone": 28
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "(6) at t = -1.3": {
+  "n_fail": 27,
+  "complex pairs among the zeros that start below index 59": [
+   {
+    "pair": [
+     34,
+     35
+    ],
+    "collision t": "-0.38456112",
+    "theta = z/2 at t": "(112.091184 + 0.740076239j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": 47
+   },
+   {
+    "pair": [
+     53,
+     54
+    ],
+    "collision t": "-0.42305466",
+    "theta = z/2 at t": "(151.024389 + 0.744052015j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     27,
+     28
+    ],
+    "collision t": "-0.88107712",
+    "theta = z/2 at t": "(95.6670413 + 0.477988207j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": 39
+   },
+   {
+    "pair": [
+     45,
+     46
+    ],
+    "collision t": "-0.96000113",
+    "theta = z/2 at t": "(134.504026 + 0.426472129j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     57,
+     58
+    ],
+    "collision t": "-1.1004247",
+    "theta = z/2 at t": "(158.532833 + 0.329868772j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     24,
+     25
+    ],
+    "collision t": "-1.1438662",
+    "theta = z/2 at t": "(88.5129102 + 0.282833791j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": 37
+   },
+   {
+    "pair": [
+     40,
+     41
+    ],
+    "collision t": "-1.1519326",
+    "theta = z/2 at t": "(123.818972 + 0.279104957j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": null
+   },
+   {
+    "pair": [
+     19,
+     20
+    ],
+    "collision t": "-1.275544",
+    "theta = z/2 at t": "(77.0385918 + 0.110818637j)",
+    "refined": true,
+    "n_fail without it": 27,
+    "n_fail with it alone": 35
+   },
+   {
+    "pair": [
+     13,
+     14
+    ],
+    "collision t": "-1.2852699",
+    "theta = z/2 at t": "(60.49524 + 0.0858969303j)",
+    "refined": true,
+    "n_fail without it": 35,
+    "n_fail with it alone": 27
+   }
+  ],
+  "n_fail without all of them": null
+ },
+ "seconds": 1641.882954120636
+}

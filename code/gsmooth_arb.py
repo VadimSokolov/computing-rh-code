@@ -18,7 +18,7 @@
 #  (4) Zeros above H, wherever they lie: a quadruple 1/2 +- b +- i gamma (|b| < 1/2) gives
 #      2 exp(-2t((gamma-u)^2 - b^2)) cos(4 t b (gamma - u)), which is negative only if gamma - u > pi/(4t). So for
 #      u <= g+8 their sum is at least -e^{t/2} sum exp(-2t(gamma-u)^2) over gamma > u + X, X = max(H - u, pi/(4t)),
-#      and partial summation against N(s) <= s^2 (s >= 100, from Trudgian's bound) gives at most
+#      and partial summation against N(s) <= s^2 (s >= 100, from [HSW22, Corollary 1.2], as in firstfail_arb.py) gives at most
 #      e^{t/2} (1 + u/X)^2 (1 + 2tX^2) e^{-2tX^2}/(2t) <= e^{t1/2} (1 + u/X)^2 (4/pi^2) w0 (1 + w0) e^{-w0},
 #      w0 = pi (H - u)/2, for every t <= t1. Hence G(u, t) >= c m0 - far > 0 for |u - g| <= 8 and 0 < t <= t1. This
 #      bounds only how far these zeros can lower G: their positive part is unbounded as t -> 0. The record gives c m0
@@ -60,9 +60,10 @@ H = arb(3)*arb(10)**12
 W = 40
 
 
-def N_upper(T):   # Trudgian: N(T) <= (T/2pi) log(T/(2 pi e)) + 7/8 + 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, T >= e
-    return (T/(2*PI)*(T/(2*PI*arb(1).exp())).log() + arb(7)/8 + arb('0.112')*T.log()
-            + arb('0.278')*T.log().log() + arb('2.510') + arb('0.2')/T)
+def N_upper(T):   # N(T) <= (T/2pi) log(T/(2 pi e)) + 7/8 + 2.5167 + 1/(50T), e <= T <= 30 610 046 000 [HSW22, (1.7) and (2.7)];
+    # the first version used Trudgian's bound 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, whose proof is incomplete [BMOR21]
+    assert T <= arb(30610046000)
+    return T/(2*PI)*(T/(2*PI*arb(1).exp())).log() + arb(7)/8 + arb('2.5167') + 1/(50*T)
 
 
 def fl(x):

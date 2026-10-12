@@ -6,11 +6,16 @@
 # factor of the weight v^{2k} e^{-t v^2}, which peaks at v = u. The proof uses three numerical facts.
 #  1. Every interval [u, u + 15] with 0 <= u <= H - 23 contains the ordinate of a zero. For u <= 1000 this follows from the
 #     zeros below height 1015, computed by Arb (acb.zeta_zeros: isolated, counted by Turing's method, refined in ball
-#     arithmetic): gamma_1 < 15 and consecutive ordinates differ by less than 7. For u >= 1000 it follows from Trudgian's
-#     bound |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= E(T) = 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, T >= e, which
-#     gives N(u + 15) - N(u) >= g(u) = (15/2pi) log(u/2pi) - E(u) - E(u + 15), since the main term has derivative
-#     (1/2pi) log(T/2pi), increasing in T. For u >= 1000, E'(T) <= (0.112 + 0.278/log T)/T < 0.153/T while the first term
-#     of g has derivative 2.387/u, so g increases there and g(1000) > 4 gives N(u + 15) - N(u) > 4.
+#     arithmetic): gamma_1 < 15 and consecutive ordinates differ by less than 7. For u >= 1000 it follows from the explicit
+#     Riemann von Mangoldt formula of Hasanalizade, Shen and Wong [HSW22, (1.7), (2.7) and Corollary 1.4],
+#     |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= E(T) for T >= e, with E(T) = 2.5167 + 1/(50T) for T <= X0 = 30 610 046 000
+#     and E(T) = 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) < 0.3 log T for T > X0. (The first version used
+#     Trudgian's bound 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, whose published proof is incomplete [BMOR21, HSW22].)
+#     It gives N(u + 15) - N(u) >= g(u) = (15/2pi) log(u/2pi) - E(u) - E(u + 15), since the main term has derivative
+#     (1/2pi) log(T/2pi), increasing in T. While u + 15 <= X0, E decreases, so g increases, and g(1000) > 4 gives
+#     N(u + 15) - N(u) > 4. For u + 15 > X0, E(u) and E(u + 15) are below 0.3 log(u + 15), so g(u) exceeds
+#     (15/2pi) log(u/2pi) - 0.6 log(u + 15), which increases (15/2pi > 0.6) and is above 38 at u = X0 - 15. That E(T) < 0.3 log T
+#     for T > X0 follows from its value at X0 and from 0.3 - 0.1095 - 0.2042/log X0 > 0, which makes the difference increase.
 #  2. t(D^2 - 2*15^2 - 1/2) > log(H^2 + 1/t + H/(tD)) at t = 1.29 and D = 23. The left side increases and the right side
 #     decreases in t and in D, so the inequality holds for every t >= 1.29 and every D >= 23; with D = H - u it says that
 #     the zero in [u, u + 15], which contributes at least f(u) e^{-450t}, outweighs the zeros above H, which contribute at
@@ -41,7 +46,7 @@ def check(name, cond, **vals):
 
 H, h, D, t1, U = arb(3) * arb(10) ** 12, arb(15), arb(23), arb('1.29'), arb(1000)
 
-# 1. Gaps: the zeros below height 1015, and Trudgian's bound above u = 1000
+# 1. Gaps: the zeros below height 1015, and the explicit Riemann von Mangoldt formula above u = 1000
 n = 670
 Z = acb.zeta_zeros(1, n)
 half = arb(1) / 2
@@ -53,14 +58,25 @@ check('zeros_below_1015', G[0] < h and G[-1] > U + h and all(g < 7 for g in gaps
       zeros=n, gamma_1=G[0], last_ordinate=G[-1], largest_gap=gmax)
 
 
-def E(T):  # Trudgian's error term for N(T), T >= e
-    return arb('0.112') * T.log() + arb('0.278') * T.log().log() + arb('2.510') + arb('0.2') / T
+X0 = arb(30610046000)  # |S(T)| <= 2.5167 for 0 <= T <= X0 [HSW22, (1.7)]
+
+
+def E(T):  # the error term for N(T), T >= e [HSW22, (1.7), (2.7) and Corollary 1.4]
+    T = arb(T)
+    if T <= X0:
+        return arb('2.5167') + 1 / (50 * T)
+    assert T > X0
+    return arb('0.1095') * T.log() + arb('0.2042') * T.log().log() + arb('3.0305') + 1 / (50 * T)
 
 
 g1000 = h / (2 * pi) * (U / (2 * pi)).log() - E(U) - E(U + h)
-dE = arb('0.112') + arb('0.278') / U.log()  # T E'(T) is below this for T >= 1000
-check('trudgian_gap_above_1000', g1000 > 4 and dE < arb('0.153') and 2 * arb('0.153') < h / (2 * pi),
-      g_at_1000=g1000, TdE_bound=dE, slope_of_main_term=h / (2 * pi))
+EX0 = arb('0.1095') * X0.log() + arb('0.2042') * X0.log().log() + arb('3.0305') + 1 / (50 * X0)
+slope = arb('0.3') - arb('0.1095') - arb('0.2042') / X0.log()  # T (0.3 log T - E(T))' exceeds this for T >= X0
+gX = h / (2 * pi) * ((X0 - h) / (2 * pi)).log() - arb('0.6') * X0.log()  # the lower bound for g at u = X0 - 15
+check('count_gap_above_1000', g1000 > 4 and EX0 < arb('0.3') * X0.log() and slope > 0 and
+      arb('2.5167') + 1 / (50 * U) < arb('0.3') * X0.log() and h / (2 * pi) > arb('0.6') and gX > 38,
+      g_at_1000=g1000, E_at_X0=EX0, three_tenths_log_X0=arb('0.3') * X0.log(), slope_factor=slope,
+      g_lower_at_X0_minus_15=gX, slope_of_main_term=h / (2 * pi))
 
 # 2. The zeros above H against the zero in [u, u + 15], at t = 1.29 and D = H - u = 23, with the two numbers the proof
 # prints: t(D^2 - 450.5) >= 1.29 * 78.5 > 101, and log(H^2 + 1 + H/23) < 57.5, which bounds the right side for t >= 1.29

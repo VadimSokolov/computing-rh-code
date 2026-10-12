@@ -204,18 +204,28 @@ def H(k, t, R):
     return arb(2) ** k * (t / 4).exp() * G / t ** (k + 1)
 
 
-def N_bounds(T):  # Trudgian's bound: |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= 0.112 log T + 0.278 log log T + 2.510 + 0.2/T
+X0 = arb(30610046000)  # |S(T)| <= 2.5167 for 0 <= T <= X0 [HSW22, (1.7)]
+
+
+def N_bounds(T):  # |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= E(T), T >= e, with E(T) = 2.5167 + 1/(50T) for T <= X0 and
+    # 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) beyond [HSW22, (1.7), (2.7) and Corollary 1.4]; the first version used
+    # Trudgian's 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, whose published proof is incomplete [BMOR21, HSW22]
     T = arb(T)
     main = T / (2 * pi) * (T / (2 * pi)).log() - T / (2 * pi) + arb(7) / 8
-    err = arb('0.112') * T.log() + arb('0.278') * T.log().log() + arb('2.510') + arb('0.2') / T
+    if T <= X0:
+        err = arb('2.5167') + 1 / (50 * T)
+    else:
+        assert T > X0
+        err = arb('0.1095') * T.log() + arb('0.2042') * T.log().log() + arb('3.0305') + 1 / (50 * T)
     return main - err, main + err
 
 
 e1 = arb(1).exp()
-ratio25 = 1 / (2 * pi * e1) + arb('0.39') / (e1 * 25) + arb('3.393') / 625
+ratio25 = 1 / (2 * pi * e1) + arb('0.3611') / (e1 * 25) + arb('9.3675') / 625
 check('zero_counts', N_bounds(20)[1] < 5 and N_bounds(50)[0] > 6 and ratio25 < 1, N20_upper=N_bounds(20)[1],
       N50_lower=N_bounds(50)[0], N_over_r2_at_most=ratio25,
-      note='a zero in (20, 50]; for r >= 25 the bound is at most (r/2pi + 0.39) log r + 3.393 <= r^2/(2 pi e) + 0.39 r/e + 3.393, '
+      note='a zero in (20, 50]; for r >= 25, |N(r) - (r/2pi) log(r/(2 pi e))| <= 0.1038 log r + 0.2573 log log r + 9.3675 '
+           '[HSW22, Corollary 1.2] gives N(r) <= (r/2pi + 0.3611) log r + 9.3675 <= r^2/(2 pi e) + 0.3611 r/e + 9.3675, '
            'so N(r)/r^2 is at most N_over_r2_at_most, which decreases in r')
 
 

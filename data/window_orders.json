@@ -6,10 +6,13 @@
   "last_ordinate": "1025.70794437",
   "largest_gap": "6.88731449704"
  },
- "trudgian_gap_above_1000": {
+ "count_gap_above_1000": {
   "holds": true,
-  "g_at_1000": "4.45889191081",
-  "TdE_bound": "0.152244621990",
+  "g_at_1000": "7.07000297164",
+  "E_at_X0": "6.32451820887",
+  "three_tenths_log_X0": "7.24337822780",
+  "slope_factor": "0.182042620298",
+  "g_lower_at_X0_minus_15": "38.7666077265",
   "slope_of_main_term": "2.38732414638"
  },
  "domination_at_t_1.29_D_23": {
@@ -23,5 +26,5 @@
   "K": "1.16099999998e+25"
  },
  "all_hold": true,
- "seconds": 3.1
+ "seconds": 2.3
 }

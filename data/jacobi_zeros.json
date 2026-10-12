@@ -1,0 +1,191 @@
+{
+ "M_0 = Xi(0) against xi(1/2) = -(1/8) pi^(-1/4) Gamma(1/4) zeta(1/2)": [
+  "0.497120778188314109912773739685",
+  "0.497120778188314109912773739685",
+  "3.57e-1001"
+ ],
+ "m_0, ..., m_3 (= p_1, ..., p_4)": [
+  "0.023104993115419",
+  "3.71725992852697e-5",
+  "1.44173931400973e-7",
+  "6.63031680252991e-10"
+ ],
+ "order 10": {
+  "ordinates within 1e-6": 2,
+  "errors": {
+   "gamma_1": "4.4e-18",
+   "gamma_2": "1.3e-9",
+   "gamma_3": "4.2e-6",
+   "gamma_5": "0.23",
+   "gamma_10": "3.2e+2"
+  },
+  "log10 det H_N": "-298.994",
+  "least diagonal entry of L": "4.523e-31",
+  "last diagonal entry of L, squared (det H_N / det H_{N-1})": "2.046e-61",
+  "recovered ordinates beyond the count, first three": [
+   "25.01086176",
+   "30.44269445",
+   "33.16278426"
+  ]
+ },
+ "order 20": {
+  "ordinates within 1e-6": 7,
+  "errors": {
+   "gamma_1": "1.6e-49",
+   "gamma_2": "1.6e-33",
+   "gamma_5": "3.1e-15",
+   "gamma_7": "3.1e-7",
+   "gamma_8": "1.5e-5",
+   "gamma_10": "0.13",
+   "gamma_15": "20.0",
+   "gamma_20": "9.2e+2"
+  },
+  "log10 det H_N": "-1325.02",
+  "least diagonal entry of L": "1.073e-69",
+  "last diagonal entry of L, squared (det H_N / det H_{N-1})": "1.152e-138",
+  "recovered ordinates beyond the count, first three": [
+   "43.32708874",
+   "48.02072036",
+   "49.90321452"
+  ]
+ },
+ "order 30": {
+  "ordinates within 1e-6": 12,
+  "errors": {
+   "gamma_1": "8.6e-87",
+   "gamma_2": "1.4e-63",
+   "gamma_5": "1.3e-36",
+   "gamma_10": "5.6e-13",
+   "gamma_12": "2.4e-7",
+   "gamma_13": "8.8e-5",
+   "gamma_15": "0.038",
+   "gamma_20": "8.7"
+  },
+  "log10 det H_N": "-3157.6",
+  "least diagonal entry of L": "3.166e-111",
+  "last diagonal entry of L, squared (det H_N / det H_{N-1})": "1.003e-221",
+  "recovered ordinates beyond the count, first three": [
+   "59.34713234",
+   "60.83232407",
+   "65.15025808"
+  ]
+ },
+ "order 40": {
+  "ordinates within 1e-6": 17,
+  "errors": {
+   "gamma_1": "6.1e-128",
+   "gamma_2": "1.2e-97",
+   "gamma_5": "2.5e-62",
+   "gamma_10": "4.0e-30",
+   "gamma_15": "7.0e-12",
+   "gamma_17": "5.4e-8",
+   "gamma_18": "2.2e-6",
+   "gamma_20": "0.01"
+  },
+  "log10 det H_N": "-5842.86",
+  "least diagonal entry of L": "1.131e-154",
+  "last diagonal entry of L, squared (det H_N / det H_{N-1})": "1.28e-308",
+  "recovered ordinates beyond the count, first three": [
+   "72.0671599",
+   "75.70588639",
+   "77.15503531"
+  ]
+ },
+ "order 50": {
+  "ordinates within 1e-6": 22,
+  "errors": {
+   "gamma_1": "5.3e-172",
+   "gamma_2": "1.1e-134",
+   "gamma_5": "3.6e-91",
+   "gamma_10": "6.8e-51",
+   "gamma_15": "1.5e-26",
+   "gamma_20": "2.0e-12",
+   "gamma_22": "5.4e-8",
+   "gamma_23": "1.7e-6"
+  },
+  "log10 det H_N": "-9414.73",
+  "least diagonal entry of L": "1.18e-199",
+  "last diagonal entry of L, squared (det H_N / det H_{N-1})": "1.393e-398",
+  "recovered ordinates beyond the count, first three": [
+   "84.73549473",
+   "87.4254193",
+   "88.8097337"
+  ],
+  "alpha_1, ..., alpha_5 (Jacobi diagonal)": [
+   "0.001609",
+   "0.003501",
+   "0.001798",
+   "0.001217",
+   "0.001073"
+  ],
+  "beta_1, ..., beta_5 (Jacobi off diagonal)": [
+   "0.001911",
+   "0.001149",
+   "0.0006973",
+   "0.0005545",
+   "0.0004977"
+  ],
+  "max |J_ij| off the three diagonals": "1.3e-836"
+ },
+ "precision for order 10": {
+  "least digits D": 60,
+  "error of gamma_1 at D": "4.36e-18",
+  "counts at D - 30, ..., D + 20": [
+   0,
+   0,
+   0,
+   2,
+   2,
+   2
+  ]
+ },
+ "precision for order 20": {
+  "least digits D": 140,
+  "error of gamma_1 at D": "1.58e-49",
+  "counts at D - 30, ..., D + 20": [
+   0,
+   0,
+   0,
+   7,
+   7,
+   7
+  ]
+ },
+ "precision for order 30": {
+  "least digits D": 230,
+  "error of gamma_1 at D": "8.57e-87",
+  "counts at D - 30, ..., D + 20": [
+   0,
+   0,
+   0,
+   12,
+   12,
+   12
+  ]
+ },
+ "precision for order 40": {
+  "least digits D": 310,
+  "error of gamma_1 at D": "6.09e-128",
+  "counts at D - 30, ..., D + 20": [
+   0,
+   0,
+   0,
+   17,
+   17,
+   17
+  ]
+ },
+ "precision for order 50": {
+  "least digits D": 400,
+  "error of gamma_1 at D": "5.34e-172",
+  "counts at D - 30, ..., D + 20": [
+   0,
+   0,
+   0,
+   22,
+   22,
+   22
+  ]
+ },
+ "seconds": 39.82580327987671
+}

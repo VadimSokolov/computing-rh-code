@@ -26,13 +26,16 @@ E3  E(0.004) <= 0.00105399390764, so E(0.004) < 0.0011: CERTIFIED  [Theorem rz:t
 E3  |F(x1)|/(4 sqrt(pi x1)) >= 0.247654596403, so |F(x1)|/(4 sqrt(pi x1)) > 0.247: CERTIFIED  [Theorem rz:thm:id]
 E3  E(x1) <= 0.00105399390764 < 0.247654596403 <= |F(x1)|/(4 sqrt(pi x1)): CERTIFIED  [Theorem rz:thm:id, the inequality the proof uses]
 E3  (50+j)^2 - 1/4 >= 2499.75 > 125 = 1/(2 x1) for every j >= 0, so sqrt(x) E(x) decreases on [x1, inf) (exact rational arithmetic): CERTIFIED  [Theorem rz:thm:id]
-E3  at t = 50: main term increment plus errors in [7.0032129, 7.0032130], 2 log 51 in [7.8636512, 7.8636513]
-E3  2 log 51 - (bound for N(51) - N(50)) >= 0.860438315092, so 2 log 51 - (bound for N(51) - N(50)) > 0.86: CERTIFIED  [Theorem rz:thm:id ('about 7.0 at t=50 against 2 log 51 = 7.86')]
-E3  2 - 1/(2 pi) - 0.224 - 0.556/log 51 >= 1.47543492026, so 2 - 1/(2 pi) - 0.224 - 0.556/log 51 > 0: CERTIFIED  [Theorem rz:thm:id ('the gap widens'): the derivative of the gap is this over t+1 plus 0.4/t^2]
-E3  the bound at t = 50 <= 7.00321295036, so the bound at t = 50 < 7.05: CERTIFIED  [Theorem rz:thm:id ('about 7.0')]
-E3  the bound at t = 50 >= 7.00321295035, so the bound at t = 50 > 6.95: CERTIFIED  [Theorem rz:thm:id ('about 7.0')]
+E3  at t = 50: main term increment plus errors in [5.3674544, 5.3674545], 2 log 51 in [7.8636512, 7.8636513]
+E3  the bound at t = 50 <= 5.36745442178, so the bound at t = 50 < 5.37: CERTIFIED  [Theorem rz:thm:id ('less than 5.37')]
+E3  2 log 51 - (bound for N(51) - N(50)) >= 2.49619684367, so 2 log 51 - (bound for N(51) - N(50)) > 2.49: CERTIFIED  [Theorem rz:thm:id ('less than 5.37 at t=50 against 2 log 51 = 7.86')]
 E3  2 log 51 >= 7.86365126544, so 2 log 51 > 7.855: CERTIFIED  [Theorem rz:thm:id ('7.86')]
 E3  2 log 51 <= 7.86365126545, so 2 log 51 < 7.865: CERTIFIED  [Theorem rz:thm:id ('7.86')]
+E3  2 - 1/(2 pi) >= 1.84084505690, so 2 - 1/(2 pi) > 0: CERTIFIED  [Theorem rz:thm:id ('the gap widens'): while t+1 <= X0 the derivative of the gap exceeds this over t+1]
+E3  0.3 log X0 - (second form of E at X0) >= 0.918860018931, so 0.3 log X0 - (second form of E at X0) > 0.9: CERTIFIED  [Theorem rz:thm:id ('E(T) < 0.3 log T for T > X0', at X0)]
+E3  0.3 - 0.1095 - 0.2042/log X0 >= 0.182042620297, so 0.3 - 0.1095 - 0.2042/log X0 > 0: CERTIFIED  [Theorem rz:thm:id ('E(T) < 0.3 log T for T > X0'): the difference increases beyond X0]
+E3  0.3 log X0 - (2.5167 + 1/(50*50)) >= 4.72627822780, so 0.3 log X0 - (2.5167 + 1/(50*50)) > 0: CERTIFIED  [Theorem rz:thm:id: E(t) < 0.3 log(t+1) also when t <= X0 < t+1]
+E3  2 - 1/(2 pi) - 0.6 >= 1.24084505690, so 2 - 1/(2 pi) - 0.6 > 0: CERTIFIED  [Theorem rz:thm:id ('1/(2 pi) + 0.6 < 2')]
 
 E4  terms m > 40 contribute at most 1.12796E-17
 E4  C0 sum at y = 0.05 <= 0.549924871856, so C0 sum at y = 0.05 < 0.54993: CERTIFIED  [Theorem rz:thm:nmono ('C_0=0.54993 bounds ...')]
@@ -78,5 +81,5 @@ F   Table value F(0.003) = 0.0366850 lies in the enclosure (exact rational arith
 F   -W_0(x1) = |F(x1)|/(4 sqrt(pi x1)) >= 0.254264536878, so -W_0(x1) = |F(x1)|/(4 sqrt(pi x1)) > 0.25: CERTIFIED  [the remark after Theorem rz:thm:id ('-W_0(x_1) already exceeds 0.25')]
 F   with E1's grid alone, -W_0(x1) >= 0.24765459 only, which does not reach 0.25
 
-48 checks, 48 certified, 0 failed
+51 checks, 51 certified, 0 failed
 ```

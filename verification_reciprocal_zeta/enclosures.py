@@ -25,7 +25,7 @@ Revised in September 2026. The changes from the first version of this program:
      exponent 0.908 in place of 1.6015 - log 2, which the text does not use, would give more
      than 0.786 at n = 1. The first version compared a sharper quantity (the computed C_0 and
      the exponent (log 2)^2/0.3) with 1.
-  5. Added: the other numerical steps of the same proofs (Trudgian's gap, the monotonicity
+  5. Added: the other numerical steps of the same proofs (the zero count gap, the monotonicity
      conditions, the constants 2.6 and 0.27 and the large y bounds of Theorem rz:thm:nmono,
      and the uniform bound for the zeros above T_0 at large y), and two sided Darboux
      enclosures of F on a finer grid, for the remark after Theorem rz:thm:id and for Table
@@ -299,24 +299,37 @@ check("E3", "|F(x1)|/(4 sqrt(pi x1))", rhs3, ">", "0.247", "Theorem rz:thm:id")
 check_between("E3", "E(x1)", E3, "|F(x1)|/(4 sqrt(pi x1))", rhs3, "Theorem rz:thm:id, the inequality the proof uses")
 check_exact("E3", "(50+j)^2 - 1/4 >= 2499.75 > 125 = 1/(2 x1) for every j >= 0, so sqrt(x) E(x) decreases on [x1, inf)",
             Fraction("2499.75") > 1 / (2 * Fraction(4, 1000)), "Theorem rz:thm:id")
-# Trudgian: N(t+1) - N(t) <= main + errors <= 2 log(t+1) for t >= 50
+# N(t+1) - N(t) <= main + errors <= 2 log(t+1) for t >= 50, from the explicit Riemann von Mangoldt formula
+# |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= E(T) of [HSW22, (1.7), (2.7) and Corollary 1.4]: E(T) = 2.5167 + 1/(50T) for
+# T <= X0 = 30 610 046 000 and E(T) = 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) < 0.3 log T beyond. (Revised in
+# October 2026: the first version used Trudgian's bound 0.112 log T + 0.278 log log T + 2.51 + 0.2/T, whose published proof is
+# incomplete [BMOR21, HSW22].) While t + 1 <= X0 the main term increment is at most (1/2pi) log((t+1)/2pi) and the errors add
+# at most 2(2.5167) + 1/(50t) + 1/(50(t+1)); for t + 1 > X0 they add at most 0.6 log(t+1).
 t50 = iv.mpf(50)
+X0 = iv.mpf(30610046000)
 M50 = iv.log((t50 + 1) / (2 * iv.pi)) / (2 * iv.pi)
-R50 = 2 * (iv.mpf(112) / 1000 * iv.log(t50 + 1) + iv.mpf(278) / 1000 * iv.log(iv.log(t50 + 1))
-           + iv.mpf(251) / 100 + iv.mpf(2) / 10 / t50)
-keep("Trudgian_bound_at_50", M50 + R50, "(1/2pi) log(51/2pi) + 2(0.112 log 51 + 0.278 log log 51 + 2.51 + 0.2/50)")
+R50 = 2 * iv.mpf(25167) / 10000 + 1 / (50 * t50) + 1 / (50 * (t50 + 1))
+keep("count_bound_at_50", M50 + R50, "(1/2pi) log(51/2pi) + 2(2.5167) + 1/(50*50) + 1/(50*51)")
 keep("two_log_51", 2 * iv.log(t50 + 1), "2 log 51")
 out("E3  at t = 50: main term increment plus errors in %s, 2 log 51 in %s"
     % (enc(M50 + R50, 8), enc(2 * iv.log(t50 + 1), 8)))
-check("E3", "2 log 51 - (bound for N(51) - N(50))", 2 * iv.log(t50 + 1) - M50 - R50, ">", "0.86",
-      "Theorem rz:thm:id ('about 7.0 at t=50 against 2 log 51 = 7.86')")
-check("E3", "2 - 1/(2 pi) - 0.224 - 0.556/log 51", 2 - 1 / (2 * iv.pi) - iv.mpf(224) / 1000
-      - iv.mpf(556) / 1000 / iv.log(t50 + 1), ">", "0",
-      "Theorem rz:thm:id ('the gap widens'): the derivative of the gap is this over t+1 plus 0.4/t^2")
-check("E3", "the bound at t = 50", M50 + R50, "<", "7.05", "Theorem rz:thm:id ('about 7.0')")
-check("E3", "the bound at t = 50", M50 + R50, ">", "6.95", "Theorem rz:thm:id ('about 7.0')")
+check("E3", "the bound at t = 50", M50 + R50, "<", "5.37", "Theorem rz:thm:id ('less than 5.37')")
+check("E3", "2 log 51 - (bound for N(51) - N(50))", 2 * iv.log(t50 + 1) - M50 - R50, ">", "2.49",
+      "Theorem rz:thm:id ('less than 5.37 at t=50 against 2 log 51 = 7.86')")
 check("E3", "2 log 51", 2 * iv.log(t50 + 1), ">", "7.855", "Theorem rz:thm:id ('7.86')")
 check("E3", "2 log 51", 2 * iv.log(t50 + 1), "<", "7.865", "Theorem rz:thm:id ('7.86')")
+check("E3", "2 - 1/(2 pi)", 2 - 1 / (2 * iv.pi), ">", "0",
+      "Theorem rz:thm:id ('the gap widens'): while t+1 <= X0 the derivative of the gap exceeds this over t+1")
+EX0 = (iv.mpf(1095) / 10000 * iv.log(X0) + iv.mpf(2042) / 10000 * iv.log(iv.log(X0)) + iv.mpf(30305) / 10000
+       + 1 / (50 * X0))
+keep("second_form_of_E_at_X0", EX0, "0.1095 log X0 + 0.2042 log log X0 + 3.0305 + 1/(50 X0)")
+check("E3", "0.3 log X0 - (second form of E at X0)", 3 * iv.log(X0) / 10 - EX0, ">", "0.9",
+      "Theorem rz:thm:id ('E(T) < 0.3 log T for T > X0', at X0)")
+check("E3", "0.3 - 0.1095 - 0.2042/log X0", iv.mpf(3) / 10 - iv.mpf(1095) / 10000 - iv.mpf(2042) / 10000 / iv.log(X0), ">", "0",
+      "Theorem rz:thm:id ('E(T) < 0.3 log T for T > X0'): the difference increases beyond X0")
+check("E3", "0.3 log X0 - (2.5167 + 1/(50*50))", 3 * iv.log(X0) / 10 - iv.mpf(25167) / 10000 - 1 / (50 * t50), ">", "0",
+      "Theorem rz:thm:id: E(t) < 0.3 log(t+1) also when t <= X0 < t+1")
+check("E3", "2 - 1/(2 pi) - 0.6", 2 - 1 / (2 * iv.pi) - iv.mpf(6) / 10, ">", "0", "Theorem rz:thm:id ('1/(2 pi) + 0.6 < 2')")
 out()
 
 # E4 and the constants of Theorem rz:thm:nmono ----------------------------------------------------

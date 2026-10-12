@@ -1,0 +1,38 @@
+{
+ "chi4": {
+  "q": 4,
+  "h": 15,
+  "V": "0.156029649890",
+  "H_0 = 10^8/q": "25000000.0000",
+  "theta_0 = H_0 - (1+sqrt2)/2": "24999998.7929",
+  "hypotheses T >= 5/7 and l > 1.567 at theta_0 - h": true,
+  "l at theta_0 - h": "16.58280311",
+  "log(q(theta_0-h)/(2 pi))": "16.58280303",
+  "E(theta_0+h)": "9.004275009",
+  "(h/pi) log(q(theta_0-h)/(2 pi))": "79.17705217",
+  "low(theta_0)": "70.17277716",
+  "alpha_top^2": "1.457106781",
+  "need V(alpha_top^2 + h^2)": "35.33402309",
+  "low(theta_0) > need": true,
+  "h/pi - 0.22737 - 2/(1+l) at theta_0 + h": "4.4335308",
+  "monotone": true
+ },
+ "chi12": {
+  "q": 12,
+  "h": 10,
+  "V": "0.332923608212",
+  "H_0 = 10^8/q": "8333333.33333",
+  "theta_0 = H_0 - (1+sqrt2)/2": "8333332.12623",
+  "hypotheses T >= 5/7 and l > 1.567 at theta_0 - h": true,
+  "l at theta_0 - h": "16.58280257",
+  "log(q(theta_0-h)/(2 pi))": "16.58280233",
+  "E(theta_0+h)": "9.004275235",
+  "(h/pi) log(q(theta_0-h)/(2 pi))": "52.78469923",
+  "low(theta_0)": "43.78042400",
+  "alpha_top^2": "1.457106781",
+  "need V(alpha_top^2 + h^2)": "33.77746607",
+  "low(theta_0) > need": true,
+  "h/pi - 0.22737 - 2/(1+l) at theta_0 + h": "2.8419814",
+  "monotone": true
+ }
+}

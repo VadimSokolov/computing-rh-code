@@ -23,10 +23,18 @@ def check(name, cond, **vals):
 def m(r):  # m(r) = Re psi(1/4 + i r/2) - log pi, the function of the archimedean term
     return acb(arb(1) / 4, arb(r) / 2).digamma().real - pi.log()
 
-def N_bounds(T):  # Trudgian's bound: |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, T >= e
+X0 = arb(30610046000)  # |S(T)| <= 2.5167 for 0 <= T <= X0 [HSW22, (1.7)]
+
+def N_bounds(T):  # |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= E(T), T >= e, with E(T) = 2.5167 + 1/(50T) for T <= X0 and
+    # 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) beyond [HSW22, (1.7), (2.7) and Corollary 1.4]; the first version used
+    # Trudgian's 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, whose published proof is incomplete [BMOR21, HSW22]
     T = arb(T)
     main = T / (2 * pi) * (T / (2 * pi)).log() - T / (2 * pi) + arb(7) / 8
-    err = arb('0.112') * T.log() + arb('0.278') * T.log().log() + arb('2.510') + arb('0.2') / T
+    if T <= X0:
+        err = arb('2.5167') + 1 / (50 * T)
+    else:
+        assert T > X0
+        err = arb('0.1095') * T.log() + arb('0.2042') * T.log().log() + arb('3.0305') + 1 / (50 * T)
     return main - err, main + err
 
 # Small t: the archimedean term

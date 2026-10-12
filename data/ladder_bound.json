@@ -1,0 +1,49 @@
+{
+ "(1) constants": {
+  "gamma_1": "[14.134725141734693790 +/- 4.58e-19]",
+  "gamma_1^2": "[199.790454832387 +/- 1.41e-13]",
+  "gamma_1^2 > 199.79": true,
+  "pi/2 - 1 > 0.57": true,
+  "100^2 (gamma_1^2 - 99.9) >= 24.975": true,
+  "100^2/2 >= 1/4 + gamma_1^2": true
+ },
+ "(2) N(T+1) - N(T) < 2 log T for T >= 100": {
+  "margin at T = 100": "[3.73532083789 +/- 2.12e-12]",
+  "margin at T = 100 positive": true,
+  "derivative constant": "[1.84084505691 +/- 1.90e-12]",
+  "derivative constant positive": true,
+  "second form of R at X0": "[6.32451820887 +/- 1.85e-12]",
+  "below 0.3 log X0": true,
+  "0.3 - 0.1095 - 0.2042/log X0 positive": true,
+  "2 log X0 - (1/(2 pi) + 0.6) log(X0 + 1)": "[29.9597002309 +/- 2.92e-11]",
+  "beyond X0 positive": true,
+  "margin at T = 1e3, 1e6, 1e12 (for comparison)": [
+   "[7.9750948 +/- 4.86e-8]",
+   "[20.691321 +/- 4.20e-7]",
+   "[37.689288 +/- 4.93e-7]"
+  ]
+ },
+ "(3) S_k(H)": {
+  "k = 0, H = 100": {
+   "log10 of the bound for S_k(H)": "[-10.587264 +/- 2.97e-7]",
+   "c": "[0.28500000 +/- 3e-13]",
+   "c > 0": true,
+   "k <= H/8": true,
+   "S_k(H) < 10^-10.5": true
+  },
+  "k = 1, H = 100": {
+   "log10 of the bound for S_k(H)": "[-8.5446817 +/- 3.19e-8]",
+   "c": "[0.26500000 +/- 3e-13]",
+   "c > 0": true,
+   "k <= H/8": true,
+   "S_k(H) < 10^-8.5": true
+  },
+  "k = 10000000000, H = 3000000000000": {
+   "log10 of the bound for S_k(H)": "[-1.4177501e+11 +/- 1.82e+3]",
+   "c": "[0.27833333 +/- 3.34e-9]",
+   "c > 0": true,
+   "k <= H/8": true,
+   "S_k(H) < 10^-1.4e11": true
+  }
+ }
+}

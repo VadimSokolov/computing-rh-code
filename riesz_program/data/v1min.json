@@ -1,8 +1,8 @@
 {
  "python_flint": "0.9.0",
  "precision_bits": 128,
- "slurm_job_id": "1313130",
- "host": "hop054.orc.gmu.edu",
+ "slurm_job_id": "2229637",
+ "host": "hop049.orc.gmu.edu",
  "b1": "[0.02309570896612103381431025 +/- 2.10e-27]",
  "zeros": {
   "zeros_used": 1800,
@@ -24,21 +24,18 @@
   "range2_lower_bound_at_distance_3.4437": "[0.041291363647276193024 +/- 4.55e-22]",
   "range2_lower_bound_at_half_the_first_gap": "[0.041292367714494264460 +/- 2.32e-22]"
  },
- "stirling_term_in_E": "0.2",
+ "stirling_term_in_E": "1/50",
  "range3": {
-  "Trudgian": {
-   "constants": [
-    "0.112",
-    "0.278",
-    "2.51"
-   ],
-   "n_2000": "[19.62773738948297589693299 +/- 2.36e-24]",
-   "n_2000_with_0.01_over_T": "[19.62792597509091634358311 +/- 1.72e-24]",
-   "n_2000_without_Stirling_term": "[19.62793590064922899866996 +/- 3.49e-25]",
-   "derivative_numerator_at_2000": "[4.47757092230511 +/- 4.77e-15]",
-   "zeros_in_window_at_least": 20,
-   "lower_bound_for_v1_beyond_2000": "20/452",
-   "lower_bound_value": "[0.0442477876106195 +/- 3.10e-17]"
+  "HSW22": {
+   "E": "2.5167 + 1/(50T) for T <= X0 = 30610046000; 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) beyond",
+   "n_2000": "[22.44705452889713991337838 +/- 4.67e-25]",
+   "n_2000_with_0.01_over_T": "[22.44706452945967155578326 +/- 4.81e-24]",
+   "second_form_of_E_at_X0": "[6.32451820887185 +/- 3.85e-15]",
+   "three_tenths_log_X0": "[7.24337822780384 +/- 2.03e-15]",
+   "lower_bound_at_theta_plus_H_eq_X0": "[92.0199719062039 +/- 2.66e-14]",
+   "zeros_in_window_at_least": 23,
+   "lower_bound_for_v1_beyond_2000": "23/452",
+   "lower_bound_value": "[0.0508849557522124 +/- 1.07e-17]"
   },
   "Backlund": {
    "constants": [
@@ -47,20 +44,18 @@
     "4.35"
    ],
    "n_2000": "[14.89766631585952309579023 +/- 4.40e-24]",
-   "n_2000_with_0.01_over_T": "[14.89785490146746354244035 +/- 3.24e-25]",
-   "n_2000_without_Stirling_term": "[14.89786482702577619752720 +/- 1.69e-24]",
    "derivative_numerator_at_2000": "[4.38419766286432 +/- 4.51e-15]",
    "zeros_in_window_at_least": 15,
-   "lower_bound_for_v1_beyond_2000": "15/452",
-   "lower_bound_value": "[0.0331858407079646 +/- 1.78e-18]"
-  }
+   "lower_bound_for_v1_beyond_2000": "15/452"
+  },
+  "Trudgian_2014_not_used": "the first version used 0.112 log T + 0.278 log log T + 2.510 + 0.2/T (n(2000) > 19.62, at least 20 zeros), whose published proof is incomplete [BMOR21, HSW22]"
  },
  "stirling_check": {
   "error_times_T_bound_for_T_ge_14": "[0.006843482105 +/- 1.71e-13]",
   "error_times_T_max_on_grid": "[0.006633432808 +/- 3.64e-13]",
   "max_at_T": "14.00000000",
   "one_over_48pi": "[0.006631455962 +/- 1.63e-13]",
-  "count_change_0.01_vs_0.2": "[0.0001885856079 +/- 4.05e-14]"
+  "count_change_0.01_vs_1_over_50": "[1.000056253e-5 +/- 1.65e-15]"
  },
  "E_T1circ": "[0.023077158647902301379 +/- 4.47e-22]",
  "v1_second_derivative_at_0": "[0.00022231646290421184553 +/- 4.67e-24]",
@@ -99,22 +94,24 @@
   "x_star > 4.6259, so (1/2)/(1/4 + x^2) > b_1 for x < 4.6259": true,
   "(1/2)/(1/4 + 3.4437^2) > 0.041": true,
   "0.041 > b_1": true,
-  "Trudgian: n(2000) > 19.62": true,
-  "Trudgian: n(2000) > 19, so the window holds at least 20 zeros": true,
-  "Trudgian: H/pi - 0.224 - 0.556/log 2015 > 0, so n increases on [2000, oo)": true,
-  "Trudgian: E increases for T >= e (0.112 > 0.2/e)": true,
-  "Trudgian: 1 + H^2 = 226": true,
-  "Trudgian: 20/452 > 0.044": true,
-  "Trudgian: 0.044 > b_1": true,
+  "HSW22: n(2000) > 22.44": true,
+  "HSW22: n(2000) > 22, so the window holds at least 23 zeros while theta + H <= X0, where n increases": true,
+  "HSW22: the second form of E at X0 is below 0.3 log X0": true,
+  "HSW22: 0.3 - 0.1095 - 0.2042/log X0 > 0, so E(T) < 0.3 log T for every T > X0": true,
+  "HSW22: 2.5167 + 1/(50 * 1985) < 0.3 log X0, which bounds E(theta - H) when theta - H <= X0 < theta + H": true,
+  "HSW22: (H/pi) log((theta - H)/(2 pi)) - 0.6 log(theta + H) > 90 at theta + H = X0": true,
+  "HSW22: H/pi > 0.6, so that this lower bound increases with theta": true,
+  "1 + H^2 = 226": true,
+  "23/452 > 0.05": true,
+  "0.05 > b_1": true,
   "Backlund: n(2000) > 14.89": true,
   "Backlund: n(2000) > 14, so the window holds at least 15 zeros": true,
   "Backlund: H/pi - 0.274 - 0.886/log 2015 > 0, so n increases on [2000, oo)": true,
-  "Backlund: E increases for T >= e (0.137 > 0.2/e)": true,
-  "Backlund: 1 + H^2 = 226": true,
-  "Backlund: 15/452 > 0.033": true,
-  "Backlund: 0.033 > b_1": true,
+  "Backlund: E increases for T >= 200 (0.137 > 0.2/200)": true,
+  "Backlund: 15/452 > 0.033 > b_1": true,
   "(1/48 + (1/24 + 4/45)/14^2)/pi < 0.01": true,
-  "2 (0.2 - 0.01)/2015 < 2e-4": true
+  "(1/50 - 0.01)(1/1985 + 1/2015) < 2e-5, and the difference decreases with theta": true,
+  "the two values of n(2000) differ by that amount": true
  },
  "checks_of_quoted_numbers": {
   "b_1 = -(1/2) log pi + (1/2) psi(3/2) + gamma_E (the two forms overlap)": true,
@@ -148,5 +145,5 @@
   "theta": 17.5
  },
  "all_checks_pass": true,
- "elapsed_s": 90.8
+ "elapsed_s": 70.8
 }

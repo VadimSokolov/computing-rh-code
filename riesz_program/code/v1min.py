@@ -13,14 +13,21 @@
 #                 is exactly 1/2 (an exact ball), gamma_1800 > 2000, and consecutive ordinates differ by at most
 #                 gamma_2 - gamma_1 < 6.8874, so every theta lies within 3.4437 of an ordinate, and a zero on the line at
 #                 distance x < 4.6259 contributes (1/2)/(1/4 + x^2) > b_1, more than 0.041 at x = 3.4437;
-#   [2000, oo)    Trudgian's explicit Riemann von Mangoldt formula, with the Stirling term 0.2/T that the proof displays,
-#                 gives at least n(theta) zeros in the window (theta - H, theta + H], H = 15; n increases and
-#                 n(2000) > 19.62, so the window holds at least 20 zeros; the reflection rho -> 1 - conj(rho) permutes
-#                 them, so their widths 1 - beta add up to half their number, and each of their terms in v_1 exceeds
-#                 (1 - beta)/(1 + H^2); hence v_1(theta) > 20/452 > 0.044 > b_1 wherever the zeros lie. With Backlund's
-#                 constants in place of Trudgian's, n(2000) > 14.89 and 15/452 > 0.033 > b_1.
-# The script also checks the remark on the Stirling term (its error is below 0.01/T for T >= 14 and would move the counts
-# by less than 2e-4), and it computes the numbers quoted after the proof: E T_1^circ = (1/2)(log xi)''(1), v_1''(0),
+#   [2000, oo)    the explicit Riemann von Mangoldt formula of Hasanalizade, Shen and Wong [HSW22, (1.7), (2.7) and
+#                 Corollary 1.4], |N(T) - (T/2 pi) log(T/(2 pi e)) - 7/8| <= E(T) for T >= e, with E(T) = 2.5167 + 1/(50T)
+#                 for T <= X0 = 30 610 046 000 and E(T) = 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) < 0.3 log T
+#                 beyond, gives at least n(theta) = (H/pi) log((theta - H)/(2 pi)) - E(theta - H) - E(theta + H) zeros in
+#                 the window (theta - H, theta + H], H = 15. While theta + H <= X0, n increases (E decreases there) and
+#                 n(2000) > 22.44; for theta + H > X0, n(theta) > (H/pi) log((theta - H)/(2 pi)) - 0.6 log(theta + H) > 90.
+#                 So the window holds at least 23 zeros; the reflection rho -> 1 - conj(rho) permutes them, so their
+#                 widths 1 - beta add up to half their number, and each of their terms in v_1 exceeds (1 - beta)/(1 + H^2);
+#                 hence v_1(theta) > 23/452 > 0.05 > b_1 wherever the zeros lie. Backlund's classical bound
+#                 E(T) = 0.137 log T + 0.443 log log T + 4.35 + 0.2/T (T >= 200), which increases, gives instead
+#                 n(theta) = (H/pi) log((theta - H)/(2 pi)) - 2 E(theta + H), n(2000) > 14.89 and 15/452 > 0.033 > b_1.
+#                 (The first version used Trudgian's bound 0.112 log T + 0.278 log log T + 2.510 + 0.2/T, with
+#                 n(2000) > 19.62 and 20/452 > 0.044; its published proof is incomplete [BMOR21, HSW22].)
+# The script also checks the remark on the Stirling term (its error is below 0.01/T for T >= 14, against 1/(50T) in E, and
+# would move the counts by less than 2e-5), and it computes the numbers quoted after the proof: E T_1^circ = (1/2)(log xi)''(1), v_1''(0),
 # values of v_1, the increase of v_1 on a grid of (0, 13.5], and the smallest value of v_1 on the grid of step 0.02 of
 # [13.5, 2000]. These are checks of quoted numbers, not steps of the proof.
 # Run from riesz_program/code (after riesz_program/setup.sh): python3 v1min.py. It writes v1min.json, which is
@@ -113,39 +120,70 @@ out['zeros'] = {
 
 # Range 3, [2000, oo): the window count and the reflection
 H = arb(15)
+X0 = arb(30610046000)                     # |S(T)| <= 2.5167 for 0 <= T <= X0 [HSW22, (1.7)]
 
 
-def n_of(theta, a, b, c, st):
-    """The lower bound n(theta) = (H/pi) log((theta - H)/(2 pi)) - 2 E(theta + H) for the zeros in (theta - H, theta + H],
-    with E(T) = a log T + b log log T + c + st/T."""
+def E_hsw(T, st=None):
+    """The bound E(T) for |N(T) - (T/2 pi) log(T/(2 pi e)) - 7/8| of [HSW22, (1.7), (2.7) and Corollary 1.4], T >= e, with
+    the Stirling term st/T: st = 1/50 from (2.7) by default, st = 0.01 for the sharper bound of the remark below."""
+    T = arb(T)
+    c = arb(1) / 50 if st is None else arb(st)
+    if T <= X0:
+        return arb('2.5167') + c / T
+    assert T > X0
+    return arb('0.1095') * T.log() + arb('0.2042') * T.log().log() + arb('3.0305') + c / T
+
+
+def n_hsw(theta, st=None):
+    """n(theta) = (H/pi) log((theta - H)/(2 pi)) - E(theta - H) - E(theta + H), a lower bound for the number of zeros
+    with ordinate in (theta - H, theta + H], counted with multiplicity."""
+    theta = arb(theta)
+    return H / pi * ((theta - H) / (2 * pi)).log() - E_hsw(theta - H, st) - E_hsw(theta + H, st)
+
+
+def n_backlund(theta):
+    """With Backlund's E(T) = 0.137 log T + 0.443 log log T + 4.35 + 0.2/T (T >= 200), which increases,
+    n(theta) = (H/pi) log((theta - H)/(2 pi)) - 2 E(theta + H)."""
     theta = arb(theta)
     T = theta + H
-    E = arb(a) * T.log() + arb(b) * T.log().log() + arb(c) + arb(st) / T
+    E = arb('0.137') * T.log() + arb('0.443') * T.log().log() + arb('4.35') + arb('0.2') / T
     return H / pi * ((theta - H) / (2 * pi)).log() - 2 * E
 
 
-out['stirling_term_in_E'] = '0.2'
-range3 = {}
-for name, (a, b, c, a2, b2, lower, zeros, bound) in {
-        'Trudgian': ('0.112', '0.278', '2.51', '0.224', '0.556', '19.62', 20, '0.044'),
-        'Backlund': ('0.137', '0.443', '4.35', '0.274', '0.886', '14.89', 15, '0.033')}.items():
-    assert arb(a2).overlaps(2 * arb(a)) and arb(b2).overlaps(2 * arb(b))       # the doubled constants of the text
-    n2000 = n_of(2000, a, b, c, '0.2')
-    # n'(theta) > (H/pi - 2a - 2b/log(theta + H))/(theta + H), and the numerator increases with theta
-    deriv = H / pi - arb(a2) - arb(b2) / arb(2015).log()
-    tail = arb(zeros) / (2 * (1 + H * H))                         # zeros/452
-    check(proof, '%s: n(2000) > %s' % (name, lower), n2000 > arb(lower))
-    check(proof, '%s: n(2000) > %d, so the window holds at least %d zeros' % (name, zeros - 1, zeros), n2000 > zeros - 1)
-    check(proof, '%s: H/pi - %s - %s/log 2015 > 0, so n increases on [2000, oo)' % (name, a2, b2), deriv > 0)
-    check(proof, '%s: E increases for T >= e (%s > 0.2/e)' % (name, a), arb(a) > arb('0.2') / arb(1).exp())
-    check(proof, '%s: 1 + H^2 = 226' % name, 1 + H * H == 226)
-    check(proof, '%s: %d/452 > %s' % (name, zeros, bound), tail > arb(bound))
-    check(proof, '%s: %s > b_1' % (name, bound), arb(bound) > b1)
-    range3[name] = {'constants': [a, b, c], 'n_2000': s(n2000, 25), 'n_2000_with_0.01_over_T': s(n_of(2000, a, b, c, '0.01'), 25),
-                    'n_2000_without_Stirling_term': s(n_of(2000, a, b, c, '0'), 25),
-                    'derivative_numerator_at_2000': s(deriv, 15), 'zeros_in_window_at_least': zeros,
-                    'lower_bound_for_v1_beyond_2000': '%d/452' % zeros, 'lower_bound_value': s(tail, 15)}
-out['range3'] = range3
+out['stirling_term_in_E'] = '1/50'
+n2000 = n_hsw(2000)
+EX0 = arb('0.1095') * X0.log() + arb('0.2042') * X0.log().log() + arb('3.0305') + 1 / (50 * X0)
+slope = arb('0.3') - arb('0.1095') - arb('0.2042') / X0.log()
+nX0 = H / pi * ((X0 - 2 * H) / (2 * pi)).log() - arb('0.6') * X0.log()   # the lower bound at theta + H = X0
+tail = arb(23) / (2 * (1 + H * H))                                         # 23/452
+check(proof, 'HSW22: n(2000) > 22.44', n2000 > arb('22.44'))
+check(proof, 'HSW22: n(2000) > 22, so the window holds at least 23 zeros while theta + H <= X0, where n increases', n2000 > 22)
+check(proof, 'HSW22: the second form of E at X0 is below 0.3 log X0', EX0 < arb('0.3') * X0.log())
+check(proof, 'HSW22: 0.3 - 0.1095 - 0.2042/log X0 > 0, so E(T) < 0.3 log T for every T > X0', slope > 0)
+check(proof, 'HSW22: 2.5167 + 1/(50 * 1985) < 0.3 log X0, which bounds E(theta - H) when theta - H <= X0 < theta + H',
+      arb('2.5167') + arb(1) / (50 * 1985) < arb('0.3') * X0.log())
+check(proof, 'HSW22: (H/pi) log((theta - H)/(2 pi)) - 0.6 log(theta + H) > 90 at theta + H = X0', nX0 > 90)
+check(proof, 'HSW22: H/pi > 0.6, so that this lower bound increases with theta', H / pi > arb('0.6'))
+check(proof, '1 + H^2 = 226', 1 + H * H == 226)
+check(proof, '23/452 > 0.05', tail > arb('0.05'))
+check(proof, '0.05 > b_1', arb('0.05') > b1)
+nB = n_backlund(2000)
+derivB = H / pi - arb('0.274') - arb('0.886') / arb(2015).log()
+check(proof, 'Backlund: n(2000) > 14.89', nB > arb('14.89'))
+check(proof, 'Backlund: n(2000) > 14, so the window holds at least 15 zeros', nB > 14)
+check(proof, 'Backlund: H/pi - 0.274 - 0.886/log 2015 > 0, so n increases on [2000, oo)', derivB > 0)
+check(proof, 'Backlund: E increases for T >= 200 (0.137 > 0.2/200)', arb('0.137') > arb('0.2') / 200)
+check(proof, 'Backlund: 15/452 > 0.033 > b_1', arb(15) / 452 > arb('0.033') and arb('0.033') > b1)
+out['range3'] = {
+    'HSW22': {'E': '2.5167 + 1/(50T) for T <= X0 = 30610046000; 0.1095 log T + 0.2042 log log T + 3.0305 + 1/(50T) beyond',
+              'n_2000': s(n2000, 25), 'n_2000_with_0.01_over_T': s(n_hsw(2000, '0.01'), 25),
+              'second_form_of_E_at_X0': s(EX0, 15), 'three_tenths_log_X0': s(arb('0.3') * X0.log(), 15),
+              'lower_bound_at_theta_plus_H_eq_X0': s(nX0, 15), 'zeros_in_window_at_least': 23,
+              'lower_bound_for_v1_beyond_2000': '23/452', 'lower_bound_value': s(tail, 15)},
+    'Backlund': {'constants': ['0.137', '0.443', '4.35'], 'n_2000': s(nB, 25), 'derivative_numerator_at_2000': s(derivB, 15),
+                 'zeros_in_window_at_least': 15, 'lower_bound_for_v1_beyond_2000': '15/452'},
+    'Trudgian_2014_not_used': 'the first version used 0.112 log T + 0.278 log log T + 2.510 + 0.2/T (n(2000) > 19.62, '
+                              'at least 20 zeros), whose published proof is incomplete [BMOR21, HSW22]'}
 
 # The remark on the Stirling term: the error of Stirling's formula in the smooth part theta(T)/pi + 1 of N(T), where
 # theta(T) = Im log Gamma(1/4 + iT/2) - (T/2) log pi, is below 0.01/T for T >= 14. With z = 1/4 + iT/2, the bound
@@ -155,8 +193,9 @@ out['range3'] = range3
 # T = 14, divided by pi, bounds T times the error for every T >= 14. The grid evaluation only illustrates the bound.
 stir_bound = (arb(1) / 48 + (arb(1) / 24 + arb(4) / 45) / 196) / pi
 check(proof, '(1/48 + (1/24 + 4/45)/14^2)/pi < 0.01', stir_bound < arb('0.01'))
-change = 2 * (arb('0.2') - arb('0.01')) / 2015                 # n with 0.01/T minus n with 0.2/T is 0.38/(theta + H)
-check(proof, '2 (0.2 - 0.01)/2015 < 2e-4', change < arb('0.0002'))
+change = (arb(1) / 50 - arb('0.01')) * (arb(1) / 1985 + arb(1) / 2015)   # n with 0.01/T minus n with 1/(50T), at theta = 2000
+check(proof, '(1/50 - 0.01)(1/1985 + 1/2015) < 2e-5, and the difference decreases with theta', change < arb('0.00002'))
+check(proof, 'the two values of n(2000) differ by that amount', (n_hsw(2000, '0.01') - n2000 - change).contains(0))
 
 
 def stirling_error(T):
@@ -172,7 +211,7 @@ iw = max(range(len(errs)), key=lambda i: errs[i].upper())
 check(quoted, 'T times the Stirling error / pi is below the bound at every grid point of [14, 1e9]', all(e < stir_bound for e in errs))
 ctx.prec = 128
 out['stirling_check'] = {'error_times_T_bound_for_T_ge_14': s(stir_bound, 10), 'error_times_T_max_on_grid': s(errs[iw], 10),
-                         'max_at_T': s(grid[iw], 10), 'one_over_48pi': s(1 / (48 * pi), 10), 'count_change_0.01_vs_0.2': s(change, 10)}
+                         'max_at_T': s(grid[iw], 10), 'one_over_48pi': s(1 / (48 * pi), 10), 'count_change_0.01_vs_1_over_50': s(change, 10)}
 
 # The paragraph after the proof: E T_1^circ = (1/2)(log xi)''(1) = -(1/2) sum rho^-2 and v_1''(0) = -(log xi)'''(1),
 # Taylor coefficients at x = 0 of log xi(1 + x) = log xi(-x) = log(1 + x) + (x/2) log pi + log Gamma(1 - x/2) + log(-zeta(-x)),

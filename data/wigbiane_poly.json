@@ -1,0 +1,105 @@
+{
+ "polynomials": 2400,
+ "failures": [
+  {
+   "family": "uniform",
+   "n": 12,
+   "seed": 7561,
+   "failed": "double zero at s = 0.000512227"
+  },
+  {
+   "family": "lehmer",
+   "n": 12,
+   "seed": 8742,
+   "failed": "double zero at s = 0.000343037"
+  }
+ ],
+ "first collisions": 2398,
+ "least s1 L(0) (critical point form, needs >= 1)": 1.0000136476671397,
+ "least s1 m(0) (Biane form, needs >= 1)": 1.0000054606534752,
+ "quartiles of s1 L(0)": [
+  1.0126362932076995,
+  1.061146399831335,
+  1.179844161970246
+ ],
+ "quartiles of s1 m(0)": [
+  1.0077813605417492,
+  1.039225042568318,
+  1.1216258195370166
+ ],
+ "first collisions with m(0) > 6 rho (deadline defined)": 2308,
+ "largest s1/s* (deadline, needs <= 1)": 0.9999999999849224,
+ "least s1/s* (how tight the deadline is at worst)": 0.18581565947269926,
+ "largest L(s) over its Riccati bound before s1, double precision": 1.0,
+ "largest m(s) over its Biane bound before s1, double precision": 1.0000190580684296,
+ "states within 10^-4 of a bound rechecked at 40 digits (at most 20 per polynomial and kind)": 27617,
+ "largest ratios at 40 digits at the rechecked states (L, m; both need <= 1)": [
+  0.9999998812876261,
+  0.9999999192777054
+ ],
+ "polynomial with the largest double precision m ratio, and its ratio at 40 digits": {
+  "family": "gauss",
+  "n": 12,
+  "seed": 8166,
+  "double": 1.0000190580684296,
+  "40 digits": 0.9999997856321143,
+  "s1 m(0)": 1.000548068817051
+ },
+ "by family": {
+  "uniform": {
+   "count": 599,
+   "least s1 L(0)": 1.000023308625057,
+   "least s1 m(0)": 1.0000084391223154,
+   "median s1 m(0)": 1.0207301819628052
+  },
+  "gauss": {
+   "count": 600,
+   "least s1 L(0)": 1.0000464307453345,
+   "least s1 m(0)": 1.0000107893344568,
+   "median s1 m(0)": 1.0271074393835304
+  },
+  "lehmer": {
+   "count": 599,
+   "least s1 L(0)": 1.0000136476671397,
+   "least s1 m(0)": 1.0000054606534752,
+   "median s1 m(0)": 1.015257095261334
+  },
+  "lattice": {
+   "count": 600,
+   "least s1 L(0)": 1.0049532261945966,
+   "least s1 m(0)": 1.0024993199470011,
+   "median s1 m(0)": 1.1191905516543934
+  }
+ },
+ "later collisions of pairs adjacent at s = 0": 4574,
+ "later collisions with at least one conjugate pair present": 4574,
+ "least s_c (1 + eta_bar) m(0) (local bound, needs >= 1)": 1.0000325666664738,
+ "least s_c (1 + max(eta_dir_bar, 0)) m(0) (direct form, needs >= 1)": 1.0000325666664722,
+ "least s_c m(0) among later collisions, and how many are below 1": [
+  1.0000325666664722,
+  0
+ ],
+ "later collisions with eta_dir <= 0 at every step (then s_c m(0) >= 1 follows)": 3768,
+ "largest eta_bar and eta_dir_bar": [
+  1019754289.7928425,
+  3.1898352899563984
+ ],
+ "median eta_bar and eta_dir_bar": [
+  0.002739277994556858,
+  -1.356981615136109e-06
+ ],
+ "later: deadline defined (W form, kappa form)": [
+  3322,
+  3345
+ ],
+ "largest s_c/s* (W form; kappa form; both need <= 1)": [
+  0.9999999996901217,
+  0.9999999996928768
+ ],
+ "largest relative errors of dL/ds and dm/ds at s = 0": [
+  9.467370026961871e-19,
+  1.1172980082470426e-18
+ ],
+ "total steps": 1588789,
+ "seconds": 124.6488196849823
+}

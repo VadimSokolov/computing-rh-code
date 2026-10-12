@@ -1,0 +1,383 @@
+{
+ "series minus direct sum at h = 1, 2, 2.5": {
+  "0.5": [
+   "-3.44e-41",
+   "2.87e-41",
+   "2.3e-41"
+  ],
+  "2.0": [
+   "-3.25e-41",
+   "-2.94e-41",
+   "-2.87e-42"
+  ],
+  "2.5": [
+   "6.5e-41",
+   "-4.64e-41",
+   "1.04e-41"
+  ],
+  "8.0": [
+   "-1.23e-40",
+   "9.96e-41",
+   "-8.98e-42"
+  ]
+ },
+ "closed forms of R_1 and R_2 at h = 1.3 against the sums": [
+  "0.0",
+  "1.2e-41"
+ ],
+ "-2 g_nu'(t) - 2 nu (1 - R_nu(t))/t^2 at t = 0.7, 3": {
+  "0.5": [
+   "1.15e-41",
+   "0.0"
+  ],
+  "2.0": [
+   "1.79e-43",
+   "-2.87e-42"
+  ],
+  "3.0": [
+   "4.48e-44",
+   "-8.97e-42"
+  ]
+ },
+ "(g(t) - 1/2 + t^3/360)/t^5 at t = 0.01, 0.001": [
+  "0.00013227464",
+  "0.00013227513"
+ ],
+ "Gamma(2) mixing density: mass - 1; int v^(1/2) f_2 - (-2 Gamma(5/2) zeta(1/2)); -2 Gamma(5/2) zeta(1/2)": [
+  "1.14e-33",
+  "-5.6e-22",
+  "3.88261645924"
+ ],
+ "Gamma(2): min of f_2 on the grid t = 0.01 j, j = 1, ..., 4000": "1.66665e-6",
+ "shapes": [
+  {
+   "nu": "0.25",
+   "-zeta(-nu)": "0.320451",
+   "min q_nu": "0.0054279",
+   "at h": "60.0",
+   "min (1 - R_nu)": "3.53537e-6",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "0.00267949"
+  },
+  {
+   "nu": "0.5",
+   "-zeta(-nu)": "0.207886",
+   "min q_nu": "0.00190686",
+   "at h": "60.0",
+   "min (1 - R_nu)": "2.34572e-7",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "0.000670416"
+  },
+  {
+   "nu": "0.75",
+   "-zeta(-nu)": "0.133643",
+   "min q_nu": "0.000710527",
+   "at h": "60.0",
+   "min (1 - R_nu)": "1.45411e-8",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "0.000156775"
+  },
+  {
+   "nu": "1.0",
+   "-zeta(-nu)": "0.0833333",
+   "min q_nu": "0.000277778",
+   "at h": "60.0",
+   "min (1 - R_nu)": "8.33333e-10",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "3.39105e-5"
+  },
+  {
+   "nu": "1.25",
+   "-zeta(-nu)": "0.0489089",
+   "min q_nu": "0.000113081",
+   "at h": "60.0",
+   "min (1 - R_nu)": "4.3168e-11",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "6.63574e-6"
+  },
+  {
+   "nu": "1.5",
+   "-zeta(-nu)": "0.0254852",
+   "min q_nu": "4.76714e-5",
+   "at h": "60.0",
+   "min (1 - R_nu)": "1.9172e-12",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "1.11547e-6"
+  },
+  {
+   "nu": "1.75",
+   "-zeta(-nu)": "0.00990138",
+   "min q_nu": "2.07237e-5",
+   "at h": "60.0",
+   "min (1 - R_nu)": "6.15677e-14",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "1.36586e-7"
+  },
+  {
+   "nu": "1.9",
+   "-zeta(-nu)": "0.00338796",
+   "min q_nu": "1.27404e-5",
+   "at h": "60.0",
+   "min (1 - R_nu)": "4.6583e-15",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "2.3663e-8"
+  },
+  {
+   "nu": "1.99",
+   "-zeta(-nu)": "0.000307787",
+   "min q_nu": "9.55782e-6",
+   "at h": "60.0",
+   "min (1 - R_nu)": "1.70766e-16",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "2.05433e-9"
+  },
+  {
+   "nu": "2.0",
+   "-zeta(-nu)": "0.0",
+   "min q_nu": "8.33333e-7",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "4.16667e-19",
+   "at h ": "0.0001",
+   "grid points with 1 - R_nu < 0": 0,
+   "negative on [h_min, h_max] of the grid": null,
+   "maximal runs of negative grid points [first, last]": [],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "6.89958e-10"
+  },
+  {
+   "nu": "2.01",
+   "-zeta(-nu)": "-0.00030121",
+   "min q_nu": "-0.000300382",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "-7.30997e-10",
+   "at h ": "0.027308",
+   "grid points with 1 - R_nu < 0": 233,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "0.03617"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "0.03617"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-7.30982e-10"
+  },
+  {
+   "nu": "2.1",
+   "-zeta(-nu)": "-0.0027295",
+   "min q_nu": "-0.00272873",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "-4.94102e-6",
+   "at h ": "0.26499",
+   "grid points with 1 - R_nu < 0": 322,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "0.3466"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "0.3466"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-4.93746e-6"
+  },
+  {
+   "nu": "2.5",
+   "-zeta(-nu)": "-0.00851693",
+   "min q_nu": "-0.00851648",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "-0.00107632",
+   "at h ": "1.187",
+   "grid points with 1 - R_nu < 0": 380,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "1.512"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "1.512"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.00107516"
+  },
+  {
+   "nu": "3.0",
+   "-zeta(-nu)": "-0.00833333",
+   "min q_nu": "-0.00833333",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "-0.00723036",
+   "at h ": "2.1438",
+   "grid points with 1 - R_nu < 0": 403,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "2.716"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "2.716"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.00722797"
+  },
+  {
+   "nu": "3.5",
+   "-zeta(-nu)": "-0.00444101",
+   "min q_nu": "-0.00591362",
+   "at h": "0.91546",
+   "min (1 - R_nu)": "-0.019006",
+   "at h ": "2.9745",
+   "grid points with 1 - R_nu < 0": 417,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "3.723"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "3.723"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.0189877"
+  },
+  {
+   "nu": "4.0",
+   "-zeta(-nu)": "0.0",
+   "min q_nu": "-0.00408273",
+   "at h": "1.6998",
+   "min (1 - R_nu)": "-0.0352488",
+   "at h ": "3.7262",
+   "grid points with 1 - R_nu < 0": 430,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "4.659"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "4.659"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.0352486"
+  },
+  {
+   "nu": "5.0",
+   "-zeta(-nu)": "0.00396825",
+   "min q_nu": "-0.00186822",
+   "at h": "3.0416",
+   "min (1 - R_nu)": "-0.0767129",
+   "at h ": "5.0837",
+   "grid points with 1 - R_nu < 0": 70,
+   "negative on [h_min, h_max] of the grid": [
+    "1.716",
+    "6.386"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "1.716",
+     "6.386"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.0767111"
+  },
+  {
+   "nu": "6.0",
+   "-zeta(-nu)": "0.0",
+   "min q_nu": "-0.000833721",
+   "at h": "4.2092",
+   "min (1 - R_nu)": "-0.125189",
+   "at h ": "6.323",
+   "grid points with 1 - R_nu < 0": 69,
+   "negative on [h_min, h_max] of the grid": [
+    "3.076",
+    "7.969"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "3.076",
+     "7.969"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.125186"
+  },
+  {
+   "nu": "7.0",
+   "-zeta(-nu)": "-0.00416667",
+   "min q_nu": "-0.00416667",
+   "at h": "0.0001",
+   "min (1 - R_nu)": "-0.177147",
+   "at h ": "7.4915",
+   "grid points with 1 - R_nu < 0": 445,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "9.409"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "1.234"
+    ],
+    [
+     "4.227",
+     "9.409"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.177117"
+  },
+  {
+   "nu": "8.0",
+   "-zeta(-nu)": "0.0",
+   "min q_nu": "-0.00467468",
+   "at h": "0.99566",
+   "min (1 - R_nu)": "-0.230636",
+   "at h ": "8.6139",
+   "grid points with 1 - R_nu < 0": 474,
+   "negative on [h_min, h_max] of the grid": [
+    "0.0001",
+    "10.85"
+   ],
+   "maximal runs of negative grid points [first, last]": [
+    [
+     "0.0001",
+     "2.269"
+    ],
+    [
+     "5.307",
+     "10.85"
+    ]
+   ],
+   "min (1 - R_nu) on the note's range [0.02, 15]": "-0.230636"
+  }
+ ],
+ "seconds": 21.999528408050537
+}

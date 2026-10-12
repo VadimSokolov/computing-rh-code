@@ -1,0 +1,479 @@
+{
+ "density": {
+  "f(2) = F(2) (log F)'(2)": "0.0005258403269535804167116872",
+  "2 pi F(2)(1 - E_2(2i))": "0.0005258403269535804167116872",
+  "functional equation at y = 1/2, right side": "0.0005258403269535804167116872",
+  "integral of the density": "1.0"
+ },
+ "mixed_poisson": {
+  "1": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.03744128126851554173877032",
+   "(2 pi)^-k (k-1)! P_k": "0.005958964989578237853835564",
+   "Hecke xi(k - 11/2)": "0.005958964989578237853835564"
+  },
+  "2": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.1463745420912659894130009",
+   "(2 pi)^-k (k-1)! P_k": "0.003707710464948065294503214",
+   "Hecke xi(k - 11/2)": "0.003707710464948065294503214"
+  },
+  "3": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.3152415658809930842869379",
+   "(2 pi)^-k (k-1)! P_k": "0.002541756054196643430247145",
+   "Hecke xi(k - 11/2)": "0.002541756054196643430247145"
+  },
+  "4": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.501617647510902215168743",
+   "(2 pi)^-k (k-1)! P_k": "0.001931099200493784007553757",
+   "Hecke xi(k - 11/2)": "0.001931099200493784007553757"
+  },
+  "5": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.6667091884340036438261302",
+   "(2 pi)^-k (k-1)! P_k": "0.001633986034840699348016022",
+   "Hecke xi(k - 11/2)": "0.001633986034840699348016022"
+  },
+  "6": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.7921228386460305693559449",
+   "(2 pi)^-k (k-1)! P_k": "0.001544879360395027206043006",
+   "Hecke xi(k - 11/2)": "0.001544879360395027206043006"
+  },
+  "7": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.8773541253886609164532184",
+   "(2 pi)^-k (k-1)! P_k": "0.001633986034840699348016022",
+   "Hecke xi(k - 11/2)": "0.001633986034840699348016022"
+  },
+  "8": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.9307070302981260942029327",
+   "(2 pi)^-k (k-1)! P_k": "0.001931099200493784007553757",
+   "Hecke xi(k - 11/2)": "0.001931099200493784007553757"
+  },
+  "9": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.9621264596944258632663168",
+   "(2 pi)^-k (k-1)! P_k": "0.002541756054196643430247145",
+   "Hecke xi(k - 11/2)": "0.002541756054196643430247145"
+  },
+  "10": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.979809088251220515857621",
+   "(2 pi)^-k (k-1)! P_k": "0.003707710464948065294503214",
+   "Hecke xi(k - 11/2)": "0.003707710464948065294503214"
+  },
+  "11": {
+   "P(N(2 pi M*) <= k-1) = L(k - 11/2, Delta)": "0.9894329131003375995553678",
+   "(2 pi)^-k (k-1)! P_k": "0.005958964989578237853835564",
+   "Hecke xi(k - 11/2)": "0.005958964989578237853835564"
+  }
+ },
+ "functional_equation_identities": {
+  "1 vs 11": "-8.9683e-44",
+  "2 vs 10": "-4.4842e-44",
+  "3 vs 9": "-4.4842e-44",
+  "4 vs 8": "-2.2421e-44",
+  "5 vs 7": "0.0"
+ },
+ "E exp(-2 pi M*)": {
+  "psi*(2 pi) by quadrature 2 pi int e^{-2 pi y} F(y) dy": "0.03744128126851554173877032",
+  "P_1": "0.03744128126851554173877032",
+  "L(-9/2, Delta) from Hecke, 2 pi xi(-9/2)": "0.03744128126851554173877032"
+ },
+ "gamma_mixture_s0": {
+  "E F(G_{11/2}/2 pi)": "0.7347229296103482203473167",
+  "L(0, Delta) from Hecke": "0.7347229296103482203473167",
+  "E Q(11/2, 2 pi M*)": "0.7347229296103482203473167"
+ },
+ "L(17/2, Delta)": {
+  "E Q(14, 2 pi M*)": "0.998583063162746176491917667197",
+  "Hecke, xi(17/2) (2 pi)^14/13!": "0.998583063162746176491917667197",
+  "sum tau(n) n^-14, n <= 400 (tail below 1e-19)": "0.998583063162746176491986727472"
+ },
+ "L(29/2, Delta)": {
+  "E Q(20, 2 pi M*)": "0.999977182799369841174879",
+  "sum tau(n) n^-20, n <= 400": "0.999977182799369841174879"
+ },
+ "riemann_formula": {
+  "2.0": {
+   "formula": "0.5235987755982988730771072",
+   "pi^{-s/2} Gamma(s/2) zeta(s)": "0.5235987755982988730771072"
+  },
+  "(0.5 + 5.0j)": {
+   "formula": "(-0.02182574236389736176071622 + 0.0j)",
+   "pi^{-s/2} Gamma(s/2) zeta(s)": "(-0.02182574236389736176071622 + 1.629434299062333515380378e-43j)"
+  }
+ },
+ "eta": {
+  "L(0.6+5i, chi_12) = E Q(s/2, pi M_1/12)": "(1.693043013247184540089297 + 0.612780768358276412906458j)",
+  "mpmath dirichlet": "(1.693043013247184540089297 + 0.612780768358276412906458j)",
+  "xi(0.6+5i, chi_12)": "(-0.1107052435394796028556899 - 0.004587625789061214292120374j)",
+  "A(s) + A(1-s), A by quadrature of eta": "(-0.1107052435394796028556899 - 0.004587625789061214292120374j)",
+  "A(s) + A(1-s), A from the law of max(M_1, 1)": "(-0.1107052435394796028556899 - 0.004587625789061214292120374j)",
+  "L(1/2, chi_12) = P(12 G_{1/4} > pi M_1) = E Q(1/4, pi M_1/12)": "0.4985570024578154361567566",
+  "L(1/2, chi_12), mpmath": "0.4985570024578154361567566",
+  "E exp(-pi M_1/12) = L(2, chi_12), quadrature": "0.9497031262940093952634985",
+  "pi^2/(6 sqrt 3)": "0.9497031262940093952634985",
+  "L(2, chi_12), mpmath": "0.9497031262940093952634985"
+ },
+ "E11": {
+  "a_2..a_13": [
+   -2,
+   -1,
+   2,
+   1,
+   2,
+   -2,
+   0,
+   -2,
+   -2,
+   1,
+   -2,
+   4
+  ],
+  "Fricke check at y = 0.2: product / (f(i/2.2)/(11 * 0.04)) - 1": "0.0",
+  "L(1, E) = E exp(-2 pi M_11)": "0.2538418608559106843377589",
+  "L(1, E), series 2 sum a_n e^{-2 pi n/sqrt 11}/n": "0.2538418608559106843377589"
+ },
+ "theta4": {
+  "product / theta series - 1 at y = 0.3, 0.7": [
+   "-2.2959e-41",
+   "-5.7397e-41"
+  ],
+  "E exp(-3 M_4), quadrature": "0.285645278943791835550816",
+  "sqrt(3 pi)/sinh sqrt(3 pi)": "0.285645278943791835550816",
+  "E K, quadrature of 1 - theta_4": "0.8687311606361591418301349",
+  "sqrt(pi/2) log 2": "0.8687311606361591418301546",
+  "moments": {
+   "3.0": {
+    "E[(2K^2)^{s/2}]/(2 Gamma(1+s/2))": "0.9015426773696957140498036",
+    "(1 - 2^{1-s}) zeta(s)": "0.9015426773696957140498036"
+   },
+   "(0.5 + 5.0j)": {
+    "E[(2K^2)^{s/2}]/(2 Gamma(1+s/2))": "(1.746703512574577404092393 + 0.2246478682849698584955574j)",
+    "(1 - 2^{1-s}) zeta(s)": "(1.746703512574577404092393 + 0.2246478682849698584955574j)"
+   }
+  }
+ },
+ "M1": {
+  "p_k": {
+   "1": "0.628571428571429",
+   "2": "0.562937062937063",
+   "3": "0.541795665634675",
+   "10": "0.512503473186996"
+  },
+  "-psi_1'/psi_1 at 2, closed form": "0.1679684078785622248364174",
+  "sum over the Thorin atoms": "0.1679684078785622248364174",
+  "int N_1(z)(2+z)^-2 dz": "0.16796840787856111963",
+  "Laplace exponent at 2, closed form": "0.3649226484325533952834828",
+  "Laplace exponent at 2, int (1 - e^{-2x}) nu_1(x) dx": "0.3649226484325533952834815",
+  "2x(nu_1(x) - x^{-3/2}/(2 sqrt 3)) at small x (tends to -1)": {
+   "0.01": "-0.982243778722",
+   "0.0001": "-0.998462300463",
+   "1.0e-6": "-0.999848588234"
+  },
+  "x nu_1(x) e^{2 pi x} at large x (tends to 1)": {
+   "2.0": "0.996851072589",
+   "5.0": "0.999999442033",
+   "10.0": "1.0"
+  },
+  "k_1(x): theta form and series": {
+   "0.05": [
+    "0.81459262398718791726",
+    "0.81459262398718791726"
+   ],
+   "0.3": [
+    "0.11096058669357698259",
+    "0.11096058669357698259"
+   ],
+   "1.0": [
+    "0.0017660799453680796413",
+    "0.0017660799453680796413"
+   ],
+   "2.0": [
+    "3.4763609682733613923e-6",
+    "3.4763609682733613923e-6"
+   ]
+  }
+ },
+ "psi_star_large_theta": {
+  "10": {
+   "-log psi*": "4.92026789916364",
+   "2 sqrt(2 pi theta)": "15.853309190424",
+   "psi*/asymptote": "690.4286586"
+  },
+  "100": {
+   "-log psi*": "28.8593274158193",
+   "2 sqrt(2 pi theta)": "50.13256549262",
+   "psi*/asymptote": "12.01736399"
+  },
+  "1000": {
+   "-log psi*": "124.508620418058",
+   "2 sqrt(2 pi theta)": "158.53309190424",
+   "psi*/asymptote": "2.331307296"
+  },
+  "10000": {
+   "-log psi*": "453.481961427686",
+   "2 sqrt(2 pi theta)": "501.3256549262",
+   "psi*/asymptote": "1.315865156"
+  },
+  "100000": {
+   "-log psi*": "1523.28040353442",
+   "2 sqrt(2 pi theta)": "1585.3309190424",
+   "psi*/asymptote": "1.094348863"
+  }
+ },
+ "tilted_cumulants_M_star": {
+  "0.5": [
+   "0.58835756",
+   "0.034643562",
+   "0.0078102335",
+   "0.0031044483",
+   "0.0017460949",
+   "0.0012588445",
+   "0.0011015742",
+   "0.0011307236"
+  ],
+  "2.0": [
+   "0.54373542",
+   "0.025648645",
+   "0.0045869921",
+   "0.0014573612",
+   "0.00066047688",
+   "0.00038594329",
+   "0.0002747987",
+   "0.00023007976"
+  ],
+  "8.0": [
+   "0.44097741",
+   "0.011767108",
+   "0.00114372",
+   "0.00019812484",
+   "4.9538527e-5",
+   "1.6164934e-5",
+   "6.4923205e-6",
+   "3.0899635e-6"
+  ],
+  "30.0": [
+   "0.30804878",
+   "0.0033290942",
+   "0.00012275479",
+   "7.9256282e-6",
+   "7.3554651e-7",
+   "8.9222527e-8",
+   "1.3376902e-8",
+   "2.3893535e-9"
+  ]
+ },
+ "finite_maxima_summary": {
+  "2": {
+   "families": 300,
+   "root finding failed": 0,
+   "with nonreal zeros": 0,
+   "max nonreal zeros": 0,
+   "min over families of min Re z / min pole": 1.0029342723004695,
+   "min over families of min k(x) e^{x min pole}": 0.7500000081218258,
+   "families with k < 0 somewhere on the grid": 0,
+   "largest relative residual": 9.540207693968579e-42
+  },
+  "3": {
+   "families": 300,
+   "root finding failed": 0,
+   "with nonreal zeros": 140,
+   "max nonreal zeros": 2,
+   "min over families of min Re z / min pole": 1.0018095435176708,
+   "min over families of min k(x) e^{x min pole}": 0.6258276785123682,
+   "families with k < 0 somewhere on the grid": 0,
+   "largest relative residual": 7.830193341978072e-42
+  },
+  "4": {
+   "families": 300,
+   "root finding failed": 0,
+   "with nonreal zeros": 222,
+   "max nonreal zeros": 8,
+   "min over families of min Re z / min pole": 1.0056392554886087,
+   "min over families of min k(x) e^{x min pole}": 0.5878557361369006,
+   "families with k < 0 somewhere on the grid": 0,
+   "largest relative residual": 6.08569857242773e-42
+  },
+  "5": {
+   "families": 300,
+   "root finding failed": 0,
+   "with nonreal zeros": 266,
+   "max nonreal zeros": 22,
+   "min over families of min Re z / min pole": 1.0002666894222505,
+   "min over families of min k(x) e^{x min pole}": 0.5301771613314885,
+   "families with k < 0 somewhere on the grid": 0,
+   "largest relative residual": 3.792369548832731e-42
+  },
+  "6": {
+   "families": 40,
+   "root finding failed": 0,
+   "with nonreal zeros": 40,
+   "max nonreal zeros": 52,
+   "min over families of min Re z / min pole": 1.0067770413530328,
+   "min over families of min k(x) e^{x min pole}": 0.5449813363165252,
+   "families with k < 0 somewhere on the grid": 0,
+   "largest relative residual": 2.5332089180905762e-42
+  }
+ },
+ "finite_maxima_special": {
+  "1,2": {
+   "n": 2,
+   "poles": 3,
+   "zeros": 1,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.5,
+   "min of k(x) e^{x min pole} on the grid": 0.7854477386478173,
+   "k(0+) = poles - zeros": 2,
+   "largest relative residual of the roots": 0.0
+  },
+  "1,2,3": {
+   "n": 3,
+   "poles": 5,
+   "zeros": 2,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4724747683480532,
+   "min of k(x) e^{x min pole} on the grid": 0.7390522943682315,
+   "k(0+) = poles - zeros": 3,
+   "largest relative residual of the roots": 4.619861400184229e-42
+  },
+  "1,2,3,4": {
+   "n": 4,
+   "poles": 6,
+   "zeros": 2,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4644660940672625,
+   "min of k(x) e^{x min pole} on the grid": 0.7277828586859983,
+   "k(0+) = poles - zeros": 4,
+   "largest relative residual of the roots": 5.574151048708904e-42
+  },
+  "1,2,3,4,5": {
+   "n": 5,
+   "poles": 11,
+   "zeros": 6,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4613616097642999,
+   "min of k(x) e^{x min pole} on the grid": 0.7248934717337446,
+   "k(0+) = poles - zeros": 5,
+   "largest relative residual of the roots": 3.217843971900829e-42
+  },
+  "1,1,1": {
+   "n": 3,
+   "poles": 3,
+   "zeros": 0,
+   "nonreal zeros": 0,
+   "min Re z / min pole": Infinity,
+   "min of k(x) e^{x min pole} on the grid": 1.0,
+   "k(0+) = poles - zeros": 3,
+   "largest relative residual of the roots": 0.0
+  },
+  "1,10,100": {
+   "n": 3,
+   "poles": 7,
+   "zeros": 4,
+   "nonreal zeros": 2,
+   "min Re z / min pole": 5.499384343577378,
+   "min of k(x) e^{x min pole} on the grid": 0.8573848116625155,
+   "k(0+) = poles - zeros": 3,
+   "largest relative residual of the roots": 1.8272154289591725e-42
+  },
+  "1,1.01,1.02,5": {
+   "n": 4,
+   "poles": 15,
+   "zeros": 11,
+   "nonreal zeros": 2,
+   "min Re z / min pole": 1.0042427079051766,
+   "min of k(x) e^{x min pole} on the grid": 0.7440006654135998,
+   "k(0+) = poles - zeros": 4,
+   "largest relative residual of the roots": 3.501026107045847e-42
+  }
+ },
+ "truncations": {
+  "eta, N = 4": {
+   "n": 4,
+   "poles": 6,
+   "zeros": 2,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4644660940672625,
+   "min of k(x) e^{x min pole} on the grid": 0.7277828586859983,
+   "k(0+) = poles - zeros": 4,
+   "largest relative residual of the roots": 5.574151048708904e-42
+  },
+  "eta, N = 5": {
+   "n": 5,
+   "poles": 11,
+   "zeros": 6,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4613616097642999,
+   "min of k(x) e^{x min pole} on the grid": 0.7248934717337446,
+   "k(0+) = poles - zeros": 5,
+   "largest relative residual of the roots": 3.217843971900829e-42
+  },
+  "eta, N = 6": {
+   "n": 6,
+   "poles": 13,
+   "zeros": 7,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4599602088725459,
+   "min of k(x) e^{x min pole} on the grid": 0.7238952023824562,
+   "k(0+) = poles - zeros": 6,
+   "largest relative residual of the roots": 4.0551279278613374e-42
+  },
+  "eta, N = 7": {
+   "n": 7,
+   "poles": 17,
+   "zeros": 10,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4592618413955933,
+   "min of k(x) e^{x min pole} on the grid": 0.7234338861743059,
+   "k(0+) = poles - zeros": 7,
+   "largest relative residual of the roots": 3.244091602627116e-42
+  },
+  "eta, N = 8": {
+   "n": 8,
+   "poles": 24,
+   "zeros": 16,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4588882591387904,
+   "min of k(x) e^{x min pole} on the grid": 0.7231814677077462,
+   "k(0+) = poles - zeros": 8,
+   "largest relative residual of the roots": 2.3853401654289688e-42
+  },
+  "eta, N = 9": {
+   "n": 9,
+   "poles": 31,
+   "zeros": 22,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4586773447356383,
+   "min of k(x) e^{x min pole} on the grid": 0.7230332100186793,
+   "k(0+) = poles - zeros": 9,
+   "largest relative residual of the roots": 1.561701700981741e-42
+  },
+  "eta, N = 10": {
+   "n": 10,
+   "poles": 35,
+   "zeros": 25,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 1.4585530708316947,
+   "min of k(x) e^{x min pole} on the grid": 0.7229432926215105,
+   "k(0+) = poles - zeros": 10,
+   "largest relative residual of the roots": 2.0368647379944186e-42
+  },
+  "Delta, N = 2": {
+   "n": 48,
+   "poles": 72,
+   "zeros": 24,
+   "nonreal zeros": 0,
+   "min Re z / min pole": 5.03261280667747,
+   "min of k(x) e^{x min pole} on the grid": 1.0,
+   "k(0+) = poles - zeros": 48,
+   "largest relative residual of the roots": 1.8360677976906936e-42
+  },
+  "Delta, N = 3": {
+   "n": 72,
+   "poles": 144,
+   "zeros": 72,
+   "nonreal zeros": 52,
+   "min Re z / min pole": 5.588855457835952,
+   "min of k(x) e^{x min pole} on the grid": 1.0,
+   "k(0+) = poles - zeros": 72,
+   "largest relative residual of the roots": 1.6524918892626572e-42
+  }
+ },
+ "seconds": 1017.9129893779755
+}

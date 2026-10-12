@@ -1,0 +1,81 @@
+{
+ "smallest normalised gap: function, lambda, real zeros in (0,90), density at the midpoint, density at the lower end": [
+  [
+   "P",
+   "0.0",
+   24,
+   1.0019,
+   0.9677
+  ],
+  [
+   "P",
+   "-10.0",
+   22,
+   1.0195,
+   1.0141
+  ],
+  [
+   "P",
+   "-30.0",
+   18,
+   1.0589,
+   1.0529
+  ],
+  [
+   "P",
+   "-60.0",
+   13,
+   1.1211,
+   1.1146
+  ],
+  [
+   "X",
+   "0.0",
+   25,
+   0.5336,
+   0.5306
+  ],
+  [
+   "X",
+   "-10.0",
+   7,
+   0.4896,
+   0.4756
+  ],
+  [
+   "X",
+   "-30.0",
+   3,
+   7.5211,
+   5.6135
+  ],
+  [
+   "X",
+   "-60.0",
+   2,
+   8.873,
+   7.3585
+  ]
+ ],
+ "mean speed of the real zeros in (0,90) over -0.5 <= lambda <= 0: (zero at -0.5 minus zero at 0)/0.5": {
+  "P": {
+   "zeros": 24,
+   "min": 0.3949,
+   "zero with min": 89.705,
+   "max": 0.399,
+   "zero with max": 19.538,
+   "mean": 0.3961,
+   "first zero": 0.399
+  },
+  "X": {
+   "zeros": 25,
+   "min": 0.004,
+   "zero with min": 88.809,
+   "max": 0.735,
+   "zero with max": 75.705,
+   "mean": 0.3647,
+   "first zero": 0.2904
+  },
+  "pi/8": 0.3927
+ }
+}

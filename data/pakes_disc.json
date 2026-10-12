@@ -1,0 +1,228 @@
+{
+ "sympy": {
+  "Im 1/(s-c) + (y-c2)/|s-c|^2": "0",
+  "Im 1/(s-conj c) + (y+c2)/|s-conj c|^2": "0",
+  "(y-c2)(d+(y+c2)^2) + (y+c2)(d+(y-c2)^2) - 2y(d+y^2-c2^2)": "0",
+  "Im pair - (-2y((x-c1)^2+y^2-c2^2)/(|s-c|^2 |s-conj c|^2))": "0",
+  "-(a - ib)^2 - c": "0",
+  "-(a + ib)^2 - conj c": "0",
+  "R - (2b^2 - (a-b)^2)": "0",
+  "R + (a-b)^2": "2*b**2",
+  "dR/db": "2*a + 2*b",
+  "dR/da": "-2*a + 2*b",
+  "R(a=T0, b=1/2)": "-T0**2 + T0 + 1/4",
+  "R(a=T0, b=1/2) + (T0-1/2)^2": "1/2",
+  "4b^2(b^2-x+e) - e^2 - (8b^4 - 4b^2 x - (e-2b^2)^2)": "0",
+  "8b^4 - 4b^2 x - (1/2 - x - (1-4b^2)(1/2+2b^2-x))": "0",
+  "1/2 - Re c - (Im c)^2 - (a^2(1-4b^2) + 1/2 - b^2)": "0",
+  "pair at real x - 2(x-Re c)/((x-Re c)^2+(Im c)^2)": "0",
+  "envelope: e = 2b^2 gives a^2 = b^2 - x + e =": "3*b**2 - x",
+  "limit b->1/2 of 8b^4 - 4b^2 x": "1/2 - x",
+  "1/2 - (-T0^2 + T0 + 1/4), factored": "(2*T0 - 1)**2/4"
+ },
+ "lemma": {
+  "double": {
+   "tests": 200000,
+   "skipped within 1e-9 of the circle": 0,
+   "disagreements": 0
+  },
+  "50 digits, relative distance 1e-30 to 1e-3 from the circle": {
+   "tests": 20000,
+   "disagreements": 0
+  }
+ },
+ "discs": [
+  {
+   "T0": "2.0",
+   "points": 40000,
+   "max of x - (-T0^2 + T0 + 1/4)": "-1.3215e-21",
+   "max of y^2 - (1/2 - x)": "-1.08815e-7"
+  },
+  {
+   "T0": "100.0",
+   "points": 40000,
+   "max of x - (-T0^2 + T0 + 1/4)": "-1.10937e-18",
+   "max of y^2 - (1/2 - x)": "-0.00141155"
+  },
+  {
+   "T0": "1.0e+6",
+   "points": 40000,
+   "max of x - (-T0^2 + T0 + 1/4)": "-2.261e-15",
+   "max of y^2 - (1/2 - x)": "-2506.77"
+  },
+  {
+   "T0": "3.0e+12",
+   "points": 40000,
+   "max of x - (-T0^2 + T0 + 1/4)": "-1.26021e-6",
+   "max of y^2 - (1/2 - x)": "-2.16592e+18"
+  }
+ ],
+ "sharp": [
+  {
+   "T0": "2.0",
+   "right end minus rightmost point, b = 1/2 - 1e-20, a = T0 + 1e-20": "8.0e-20",
+   "x": "-144.0",
+   "a - T0 for a^2 = 3b^2 - x": "10.0312",
+   "sup y^2 minus (8b^4 - 4b^2 x)": "0.0",
+   "relative gap (1/2 - x - sup y^2)/(1/2 - x)": "4.01384e-12"
+  },
+  {
+   "T0": "100.0",
+   "right end minus rightmost point, b = 1/2 - 1e-20, a = T0 + 1e-20": "4.0e-18",
+   "x": "-12100.0",
+   "a - T0 for a^2 = 3b^2 - x": "10.0034",
+   "sup y^2 minus (8b^4 - 4b^2 x)": "0.0",
+   "relative gap (1/2 - x - sup y^2)/(1/2 - x)": "4.00017e-12"
+  },
+  {
+   "T0": "1.0e+6",
+   "right end minus rightmost point, b = 1/2 - 1e-20, a = T0 + 1e-20": "4.0e-14",
+   "x": "-1000020000100.0",
+   "a - T0 for a^2 = 3b^2 - x": "10.0",
+   "sup y^2 minus (8b^4 - 4b^2 x)": "-8.55285e-50",
+   "relative gap (1/2 - x - sup y^2)/(1/2 - x)": "4.0e-12"
+  },
+  {
+   "T0": "3.0e+12",
+   "right end minus rightmost point, b = 1/2 - 1e-20, a = T0 + 1e-20": "1.2e-7",
+   "x": "-9.00000000006e+24",
+   "a - T0 for a^2 = 3b^2 - x": "10.0",
+   "sup y^2 minus (8b^4 - 4b^2 x)": "-7.52316e-37",
+   "relative gap (1/2 - x - sup y^2)/(1/2 - x)": "4.0e-12"
+  }
+ ],
+ "angle": {
+  "T0": "3e12",
+  "tip x0 = -T0^2 + T0 + 1/4": "-8.999999999997e+24",
+  "height at the tip": "2999999999999.5",
+  "height minus (T0 - 1/2)": "0.0",
+  "angle at the tip": "3.33333333333389e-13",
+  "1/T0, the opening of the sector of Corollary bs:cor:uncond": "3.33333333333333e-13",
+  "T0 * angle at the tip - 1": "1.66667e-13",
+  "along the sliver": [
+   {
+    "x": "-9.0e+24",
+    "angle": "3.33333e-13",
+    "angle * |x|^(1/2)": "1.0"
+   },
+   {
+    "x": "-9.0e+25",
+    "angle": "1.05409e-13",
+    "angle * |x|^(1/2)": "1.0"
+   },
+   {
+    "x": "-1.0e+26",
+    "angle": "1.0e-13",
+    "angle * |x|^(1/2)": "1.0"
+   },
+   {
+    "x": "-1.0e+28",
+    "angle": "1.0e-14",
+    "angle * |x|^(1/2)": "1.0"
+   },
+   {
+    "x": "-1.0e+30",
+    "angle": "1.0e-15",
+    "angle * |x|^(1/2)": "1.0"
+   }
+  ]
+ },
+ "right_end": [
+  {
+   "T0": "100.0",
+   "s": "-9899.850000000000000004 + 0.001i",
+   "rightmost point of D_gamma": "-9899.750000000000000004",
+   "-(T0 - 1/2)^2": "-9900.25",
+   "x + (T0 - 1/2)^2": "0.4",
+   "s in D_gamma": true,
+   "s in {x < -(T0-1/2)^2, y^2 < 1/2 - x}": false,
+   "s in E_T0": true,
+   "Im of the pair at s": "1.0015e-10"
+  },
+  {
+   "T0": "3.0e+12",
+   "s": "-8999999999996999999999999.85 + 0.001i",
+   "rightmost point of D_gamma": "-8999999999996999999999999.75",
+   "-(T0 - 1/2)^2": "-8999999999997000000000000.25",
+   "x + (T0 - 1/2)^2": "0.39999988",
+   "s in D_gamma": true,
+   "s in {x < -(T0-1/2)^2, y^2 < 1/2 - x}": false,
+   "s in E_T0": true,
+   "Im of the pair at s": "3.7037e-42"
+  }
+ ],
+ "toy": {
+  "zeros on the line": 200,
+  "largest ordinate": "396.3818542",
+  "pair": "60 +- 0.3i",
+  "pole c in the upper half plane": "-3599.91 + 36.0i",
+  "disc centre": "-3599.91",
+  "disc radius": "36.0",
+  "grid": "x = centre + r(i + 0.23)/40, i = -60..60; y = r(j + 0.37)/40, j = 1..60",
+  "grid points": 7260,
+  "grid points in D_gamma": 2443,
+  "points with Im psi > 0": 1773,
+  "all of them in D_gamma": true,
+  "largest |z - centre|/r among them": "0.992897",
+  "max Im psi on the half circle of radius 1.0001 r (199 points)": "-0.000187977",
+  "toy T0, right end of its sliver": [
+   "59.0",
+   "-3421.75"
+  ],
+  "max Im psi just outside the toy sliver (151 points)": "-0.000229924",
+  "psi on (0, infinity)": {
+   "1.0e-6": "0.021599657",
+   "1.0": "0.021562478",
+   "100.0": "0.018861791",
+   "1.0e+4": "0.0051284617",
+   "1.0e+8": "2.0187295e-6"
+  }
+ },
+ "r_off": {
+  "T0": "3e12",
+  "main term (log(T0/2pi) + 1)/(2pi T0) of Sigma_0": "1.4797e-12",
+  "Sigma_0 < 1.48e-12 (Theorem ag:thm:explicit), so 2 Sigma_0 <": "2.96e-12",
+  "T0^2/2": "4.5e+24",
+  "|right end of E_T0| = T0^2 - T0 - 1/4": "8.999999999997e+24",
+  "the disc |u| <= T0^2/2 misses E_T0": true
+ },
+ "figure": {
+  "left": {
+   "T0": 2,
+   "right end": -1.75,
+   "discs (a, b)": [
+    [
+     2.02,
+     0.49
+    ],
+    [
+     2.6,
+     0.49
+    ],
+    [
+     3.3,
+     0.49
+    ],
+    [
+     4.2,
+     0.49
+    ],
+    [
+     5.2,
+     0.49
+    ],
+    [
+     3.0,
+     0.2
+    ]
+   ]
+  },
+  "right": {
+   "grid": "481 x 300, x in [-3648, -3552], y in [0.05, 45], double precision",
+   "points with Im psi > 0": 49157,
+   "points in D_gamma": 67773,
+   "points with Im psi > 0 outside D_gamma": 0
+  }
+ },
+ "seconds": 36.9
+}

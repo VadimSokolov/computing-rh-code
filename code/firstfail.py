@@ -43,9 +43,9 @@ def pair_index(lo, hi):   # closest pair of consecutive zeros with both ordinate
     return int(np.argmin(np.where((G[:-1] >= lo) & (G[1:] <= hi), d, 1e9)))
 
 
-def N_upper(T):   # Trudgian: N(T) <= (T/2pi) log(T/(2 pi e)) + 7/8 + 0.112 log T + 0.278 log log T + 2.510 + 0.2/T
-    return (T / (2 * np.pi) * np.log(T / (2 * np.pi * np.e)) + 0.875 + 0.112 * np.log(T) + 0.278 * np.log(np.log(T))
-            + 2.51 + 0.2 / T)
+def N_upper(T):   # N(T) <= (T/2pi) log(T/(2 pi e)) + 7/8 + 2.5167 + 1/(50T) for e <= T <= 30 610 046 000 [HSW22, (1.7) and (2.7)]
+    assert np.all(T <= 30610046000.0)
+    return T / (2 * np.pi) * np.log(T / (2 * np.pi * np.e)) + 0.875 + 2.5167 + 1 / (50 * T)
 
 
 class Case:

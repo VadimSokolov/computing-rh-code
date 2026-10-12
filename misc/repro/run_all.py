@@ -38,7 +38,7 @@ task('dbn', [PY, '-u', 'dbn.py'], ['part1'])
 task('dbnplot', [PY, '-u', 'dbnplot.py'], ['dbn'])
 task('zeros_hp', [PY, '-u', 'zeros_hp.py'], ['zeros', 'part1'])
 task('arith', [PY, '-u', 'arith.py'], ['zeros_hp'])
-for s in ['cm_orders', 'firstfail', 'gaussweil', 'phasefree', 'vdpair']:
+for s in ['bdlp_ladder', 'branch_coeffs', 'cm_orders', 'firstfail', 'gaussweil', 'heat_ladder', 'pakes_disc', 'pakes_sizebias', 'phasefree', 'vdpair', 'wigfree_upsilon']:
     task(s, [PY, '-u', f'{s}.py'], ['zeros_hp'])
 task('firstfail_arb', [PY, '-u', 'firstfail_arb.py'], ['firstfail'])
 # ball arithmetic certificates that read firstfail.json and compute their zeros with Arb
@@ -46,8 +46,15 @@ task('gsmooth_arb', [PY, '-u', 'gsmooth_arb.py'], ['firstfail'])
 task('phasefree_arb', [PY, '-u', 'phasefree_arb.py'], ['firstfail'])
 for s in ['hankel', 'kenttail', 'kenttail2', 'kmono', 'perturb', 'selberg', 'spacing']:
     task(s, [PY, '-u', f'{s}.py'], ['zeros'])
-for s in ['dbn_delta', 'hcm', 'idsd_check', 'idsd_height', 'lchi12', 'lehmer', 'lehmer_dbn', 'lfun', 'li', 'lsin2', 'maxlaw', 'primeside', 'saddle', 'sensitivity', 'sinh_bench', 'turing1000', 'williams_mc', 'tilted']:
+for s in ['biane_clock', 'biane_flow', 'biane_polya', 'biane_traces', 'dbeta_minimum', 'dbeta_thorin', 'dbeta_window', 'dbeta_zeros', 'dbn_collisions', 'dbn_delta', 'dbn_hankel_long', 'hcm', 'idsd_check', 'idsd_height', 'jacobi_dbn', 'jacobi_zeros', 'ladder_bound', 'lchi12', 'lehmer', 'lehmer_dbn', 'lfun', 'li', 'lsin2', 'maxexp_checks', 'maxexp_flow', 'maxexp_hb', 'maxexp_psizeros', 'maxlaw', 'pakes_lambert', 'primeside', 'saddle', 'sensitivity', 'sinh_bench', 'sqfree_atoms', 'sqfree_constants', 'sqfree_gammanu', 'sqfree_quadratic', 'sqfree_sieve', 'sqfree_smooth', 'turing1000', 'wigbiane_ineq', 'wigbiane_poly', 'wigfree_gamma2', 'wigfree_heat', 'wigfree_jacobi', 'williams_mc', 'tilted']:
     task(s, [PY, '-u', f'{s}.py'])
+# sqfree_sieve.py needs about 8 GB of memory
+# wigbiane_flow.py reads dbn_collisions.json
+task('wigbiane_flow', [PY, '-u', 'wigbiane_flow.py'], ['dbn_collisions'])
+# pakes_filter.py takes about 15 minutes on 32 cores; pakes_filter_cert.py (python-flint) and pakes_characters.py a few minutes
+task('pakes_filter', [PY, '-u', 'pakes_filter.py', '32'])
+task('pakes_filter_cert', [PY, '-u', 'pakes_filter_cert.py', '16'])
+task('pakes_characters', [PY, '-u', 'pakes_characters.py', '8'])
 # ttest.py and ttest2.py take the command lines given in their headers (misc/repro/reconstruct/ttest2/)
 task('ttest', [PY, '-u', 'ttest.py', '0.1', '200', '0.004', '4'])
 task('ttest2_0.10', [PY, '-u', 'ttest2.py', '0.10', '200', '0.004', '4', '200', '500', '1000'])
@@ -55,6 +62,12 @@ task('ttest2_0.02', [PY, '-u', 'ttest2.py', '0.02', '220', '0.001', '4.2', '1000
 task('sinh_bench_closed', [PY, '-u', 'sinh_bench.py', 'closed'])
 task('hcm_arb', [PY, '-u', 'hcm_arb.py'], ['hcm'])
 task('lplots', [PY, '-u', 'lplots.py'], ['lsin2', 'lfun'])
+task('maxexp_figs', [PY, '-u', 'maxexp_figs.py'], ['maxexp_psizeros', 'maxexp_flow'])
+task('wigfree_plots', [PY, '-u', 'wigfree_plots.py'], ['wigfree_jacobi', 'wigfree_upsilon', 'wigfree_heat'])
+# biane_figs.py reads biane_polya.json, biane_flow.json, biane_clock.json and biane_traces.json; biane_flow.py takes about 22 minutes
+task('biane_figs', [PY, '-u', 'biane_figs.py'], ['biane_polya', 'biane_flow', 'biane_clock', 'biane_traces'])
+# dbeta_figs.py reads dbeta_zeros.json
+task('dbeta_figs', [PY, '-u', 'dbeta_figs.py'], ['dbeta_zeros'])
 task('plots', [PY, '-u', 'plots.py'], ['analyse', 'hcm', 'primeside'])
 task('plots2', [PY, '-u', 'plots2.py'], ['hazard_spec', 'clockgrid', 'rsboundary', 'mc'])
 task('threezones', [PY, '-u', 'threezones.py'], ['volterra', 'rsboundary', 'mc2'])

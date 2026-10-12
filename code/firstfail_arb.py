@@ -17,9 +17,12 @@
 #         H may lie off the line, but |a| <= gamma^2 + 1/4 and Re a >= gamma^2 - 1/4, so its term is at most e^{t/2} times
 #         the weight at gamma^2 + 1/4, and all of them together at most e^{t/2} x0^k e^{-x0 t} e^{-lam (H^2 - x0)} (H^2 + 1/lam).
 # The certificate is the ball inequality near + quad + below + above < 0, with below and above upper bounds.
-# N(T) is bounded by Trudgian's |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <= 0.112 log T + 0.278 log log T + 2.510 + 0.2/T
-# (T >= e) [Trudgian14]. For s >= 100 it gives N(s) <= s^2: log s <= s/20 and log log s <= log s there, so the bound is at
-# most s^2/(40 pi) + 0.02 s + 3.4. zeros_1700.txt (zeros_hp.py) holds all zeros up to 2197.26, simple and on the line.
+# N(T) is bounded by the explicit Riemann von Mangoldt formula of [HSW22]: |N(T) - (T/2pi) log(T/(2 pi e)) - 7/8| <=
+# 2.5167 + 1/(50T) for e <= T <= 30 610 046 000 ((1.7) and (2.7) there), which bounds N(g - 40), and
+# |N(T) - (T/2pi) log(T/(2 pi e))| <= 0.1038 log T + 0.2573 log log T + 9.3675 for T >= e (Corollary 1.2 there). For s >= 100
+# the latter gives N(s) <= s^2: log s <= s/20 and log log s <= log s there, so the bound is at most s^2/(40 pi) + 0.019 s + 9.4.
+# (The first version used Trudgian's bound 0.112 log T + 0.278 log log T + 2.510 + 0.2/T [Trudgian14], whose published proof
+# is incomplete [BMOR21, HSW22].) zeros_1700.txt (zeros_hp.py) holds all zeros up to 2197.26, simple and on the line.
 # Run from the folder of zeros_1700.txt and firstfail.json; writes firstfail_arb.json. Under a minute on one core.
 import json
 
@@ -34,9 +37,9 @@ W = 40
 pi = arb.pi()
 
 
-def N_upper(T):   # Trudgian's upper bound for N(T), T >= e
-    return (T / (2 * pi) * (T / (2 * pi * arb(1).exp())).log() + arb(7) / 8 + arb('0.112') * T.log()
-            + arb('0.278') * T.log().log() + arb('2.510') + arb('0.2') / T)
+def N_upper(T):   # upper bound for N(T), e <= T <= 30 610 046 000 [HSW22, (1.7) and (2.7)]
+    assert T <= arb(30610046000)
+    return T / (2 * pi) * (T / (2 * pi * arb(1).exp())).log() + arb(7) / 8 + arb('2.5167') + 1 / (50 * T)
 
 
 def certify(i, delta, k, t):

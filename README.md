@@ -6,7 +6,7 @@ The scripts and data files behind the tables, figures and certificates of the bo
 
 | Folder | Contents |
 |---|---|
-| `code/` | The scripts of Chapters 1 to 5, 8 and 12, among them the two Pólya evaluators `polya_flint.py` and `tilted.py` that Appendix A prints. |
+| `code/` | The scripts of Chapters 1 to 5, 8 and 12 and of Sections 9.1.6, 10.1.5, 10.3, 11.2, 11.4 and 11.5, among them the two Pólya evaluators `polya_flint.py` and `tilted.py` that Appendix A prints. |
 | `data/` | The data files those scripts write, and `zeros_1700.txt`, the first 1700 ordinates of the zeros to seventy digits. |
 | `verification_reciprocal_zeta/` | Chapters 6 and 7: interval enclosures, certificates and spot checks; `torus/` holds the branch and bound behind the torus bounds, with its own README. |
 | `code_bosch/` | The verification script of Section 4.3; `bosch_hcm_xi/` holds an identical copy beside the authors' notes. |
