@@ -1,3 +1,7 @@
+# Moved
+
+From version 1.0.0 of the book (October 2026), these scripts and data files are published with the book's source in https://github.com/VadimSokolov/computing_rh, where they are kept up to date; `misc/repro/` of this repository is `repro/` there. This repository is no longer updated: its last state is commit 38c22b9 of 11 October 2026. It stays online because the first printing of the paperback, of 7 October 2026, names it on its copyright page and back cover.
+
 # Computing the Riemann Hypothesis: code and data
 
 The scripts and data files behind the tables, figures and certificates of the book *Computing the Riemann Hypothesis: Thorin Measures, Pólya Densities and Hitting Times* by Nicholas G. Polson and Vadim Sokolov (2026). Appendix A of the book, "Code and reproducibility", names every script, the data file it writes and the tables and figures it produces, and says which computations have no script. The folders here are the ones the appendix names.
